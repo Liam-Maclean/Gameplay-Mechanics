@@ -42,10 +42,61 @@ void APlayerShip::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	FRotator newTurnAngle = GetActorRotation();
 	FVector newActorPosition = GetActorLocation();
-	newTurnAngle.Yaw += turningSpeed;
+
+
+	//if the turning speed is to the right
+	if (turningSpeed > 0.0f)
+	{
+		//add the turning speed angle
+		newTurnAngle.Yaw += turningSpeed;
+
+		//if the "roll" of the ship is not at it's max angle
+		if (newTurnAngle.Roll < maxTurningAngle)
+		{
+			//start turning right
+			newTurnAngle.Roll += turningSpeed;
+		}
+	}
+	//if the turning speed is to the left 
+	else if (turningSpeed < 0.0f)
+	{
+		//add the turning speed angle
+		newTurnAngle.Yaw += turningSpeed;
+
+		//if the "roll" of the ship is not at it's negative max angle
+		if (newTurnAngle.Roll > (maxTurningAngle*-1))
+		{
+			//start turning left
+			newTurnAngle.Roll += turningSpeed;
+		}
+	}
+	
+	//if the turn speed hasn't changed
+	if (turningSpeed == 0.0f)
+	{
+		//if the roll angle is less than neutral
+		if (newTurnAngle.Roll < 0.0f)
+		{
+			//add untill neutral (0 degrees)
+			newTurnAngle.Roll += 2.0f;
+		}
+		//if roll angle is more than neutral
+		if (newTurnAngle.Roll > 0.0f)
+		{
+			//remove untill neutral (0 degrees)
+			newTurnAngle.Roll -= 2.0f;
+		}
+	}
+
+
+	//move the actor forward using the actors' forward vector and multiplying by speed
 	newActorPosition += (GetActorForwardVector() * newForwardVelocity);
+
+	//set the actors rotation and position
 	SetActorRotation(newTurnAngle);
 	SetActorRelativeLocation(newActorPosition);
+
+
 
 
 	//if the velocity is small enough for the player not to notice

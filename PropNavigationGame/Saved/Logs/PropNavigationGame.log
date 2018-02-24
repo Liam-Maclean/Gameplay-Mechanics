@@ -1294,3 +1294,456 @@ LogInit: Object subsystem initialized
 [2018.02.24-15.01.16:570][164]LogSavePackage: Save=155.70ms
 [2018.02.24-15.01.16:570][164]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_BuiltDataE7390A65479B1F98C8237AADE47EC22A.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
 [2018.02.24-15.01.16:589][164]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.24-15.12.59:047][361]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/1503395/Downloads/pedkzlpvxb-LowPolySpaceShip/SpaceShip.fbx)
+[2018.02.24-15.12.59:069][361]LogFbx: ItemName: Model, ItemCount : 11
+[2018.02.24-15.12.59:069][361]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.02.24-15.12.59:069][361]LogFbx: ItemName: Material, ItemCount : 3
+[2018.02.24-15.12.59:069][361]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.02.24-15.12.59:069][361]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.24-15.12.59:078][361]LogFbx: Loading FBX Scene from ../../../../../../Users/1503395/Downloads/pedkzlpvxb-LowPolySpaceShip/SpaceShip.fbx
+[2018.02.24-15.12.59:108][361]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.24-15.13.04:885][361]LogFbx: Loading FBX Scene from ../../../../../../Users/1503395/Downloads/pedkzlpvxb-LowPolySpaceShip/SpaceShip.fbx
+[2018.02.24-15.13.04:912][361]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.24-15.13.04:913][361]LogFbx: =================================================
+[2018.02.24-15.13.04:913][361]LogFbx: Dumping Node START [Cube] 
+[2018.02.24-15.13.04:913][361]LogFbx: 	Total Deformer Count 448075408.
+[2018.02.24-15.13.04:913][361]LogFbx: 	Attribute () Type (4).
+[2018.02.24-15.13.04:913][361]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2018.02.24-15.13.04:913][361]LogFbx: Dumping Node END [Cube]
+[2018.02.24-15.13.04:913][361]LogFbx: =================================================
+[2018.02.24-15.13.04:913][361]LogFbx: Dumping Node START [Cube] 
+[2018.02.24-15.13.04:913][361]LogFbx: 	Total Deformer Count 448075216.
+[2018.02.24-15.13.04:913][361]LogFbx: 	Attribute () Type (4).
+[2018.02.24-15.13.04:913][361]LogFbx: 		[Node Attribute Child 1] Cube (Type Mesh).
+[2018.02.24-15.13.04:913][361]LogFbx: Dumping Node END [Cube]
+[2018.02.24-15.13.04:917][361]LogLinker: Can't find file '/Game/StarterContent/Base'
+[2018.02.24-15.13.04:918][361]LogLinker: Can't find file '/Game/StarterContent/Base'
+[2018.02.24-15.13.04:918][361]LogMaterial: Warning: Material /Game/StarterContent/Base.Base needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.24-15.13.04:919][361]LogMaterial: Missing cached shader map for material Base, compiling. 
+[2018.02.24-15.13.04:975][361]LogMaterial: Missing cached shader map for material Base, compiling. 
+[2018.02.24-15.13.05:013][361]LogLinker: Can't find file '/Game/StarterContent/Black'
+[2018.02.24-15.13.05:013][361]LogLinker: Can't find file '/Game/StarterContent/Black'
+[2018.02.24-15.13.05:014][361]LogMaterial: Warning: Material /Game/StarterContent/Black.Black needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.24-15.13.05:017][361]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.24-15.13.05:074][361]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.24-15.13.05:114][361]LogFbx: Triangulating skeletal mesh Cube
+[2018.02.24-15.13.05:145][361]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.02.24-15.13.05:151][361]LogSkeletalMesh: Section 0: 103 vertices, 1 active bones
+[2018.02.24-15.13.05:151][361]LogSkeletalMesh: Section 1: 11 vertices, 1 active bones
+[2018.02.24-15.13.05:151][361]LogSkeletalMesh: Section 0: Material=0, 196 triangles
+[2018.02.24-15.13.05:152][361]LogSkeletalMesh: Section 1: Material=1, 12 triangles
+[2018.02.24-15.13.05:155][361]LogLinker: Can't find file '/Game/StarterContent/SpaceShip_Skeleton'
+[2018.02.24-15.13.05:155][361]LogLinker: Can't find file '/Game/StarterContent/SpaceShip_Skeleton'
+[2018.02.24-15.13.05:165][361]LogLinker: Can't find file '/Game/StarterContent/SpaceShip_PhysicsAsset'
+[2018.02.24-15.13.05:166][361]LogLinker: Can't find file '/Game/StarterContent/SpaceShip_PhysicsAsset'
+[2018.02.24-15.13.05:178][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.02.24-15.13.05:185][361]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.02.24-15.13.05:185][361]FBXImport: Warning: Mesh 'Cube' has no UV set. Creating a default set. 
+[2018.02.24-15.13.17:294][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.009
+[2018.02.24-15.13.17:295][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/SpaceShip] ([1] browsable assets)...
+[2018.02.24-15.13.17:306][443]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/StarterContent/SpaceShip.SpaceShip]
+[2018.02.24-15.13.17:306][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/SpaceShip]
+[2018.02.24-15.13.17:306][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/SpaceShip" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.02.24-15.13.17:364][443]LogSavePackage: Save=48.35ms
+[2018.02.24-15.13.17:364][443]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShip_Auto3A74688F7461953A4C170C2BE00F1BC4D.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_Auto3.uasset'
+[2018.02.24-15.13.17:377][443]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_Auto3.uasset
+[2018.02.24-15.13.17:382][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Base] ([1] browsable assets)...
+[2018.02.24-15.13.17:392][443]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Base.Base]
+[2018.02.24-15.13.17:392][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Base]
+[2018.02.24-15.13.17:393][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Base" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Base_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.02.24-15.13.17:431][443]LogSavePackage: Save=25.93ms
+[2018.02.24-15.13.17:431][443]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Base_Auto31D83D38F4E6B9C82BB71BE97AD65F959.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Base_Auto3.uasset'
+[2018.02.24-15.13.17:446][443]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Base_Auto3.uasset
+[2018.02.24-15.13.17:451][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Black] ([1] browsable assets)...
+[2018.02.24-15.13.17:460][443]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Black.Black]
+[2018.02.24-15.13.17:460][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Black]
+[2018.02.24-15.13.17:460][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Black" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Black_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.02.24-15.13.17:492][443]LogSavePackage: Save=22.72ms
+[2018.02.24-15.13.17:492][443]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Black_Auto346D41FDC4340AC2FA2393E8DE5F6DCD9.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Black_Auto3.uasset'
+[2018.02.24-15.13.17:501][443]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Black_Auto3.uasset
+[2018.02.24-15.13.17:505][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/SpaceShip_Skeleton] ([1] browsable assets)...
+[2018.02.24-15.13.17:505][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/SpaceShip_Skeleton]
+[2018.02.24-15.13.17:523][443]LogSavePackage: Save=9.44ms
+[2018.02.24-15.13.17:523][443]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShip_Skeleton_Auto3FA8CDEE645F6DAE2E401978248311055.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_Skeleton_Auto3.uasset'
+[2018.02.24-15.13.17:541][443]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_Skeleton_Auto3.uasset
+[2018.02.24-15.13.17:545][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StarterContent/SpaceShip_PhysicsAsset] ([1] browsable assets)...
+[2018.02.24-15.13.17:545][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/SpaceShip_PhysicsAsset]
+[2018.02.24-15.13.17:572][443]LogSavePackage: Save=17.94ms
+[2018.02.24-15.13.17:572][443]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShip_PhysicsAsset_Auto3E80867F641943C3F036748BC0D2E4E43.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_PhysicsAsset_Auto3.uasset'
+[2018.02.24-15.13.17:588][443]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/SpaceShip_PhysicsAsset_Auto3.uasset
+[2018.02.24-15.13.17:588][443]LogFileHelpers: Auto-saving content packages took 0.293
+[2018.02.24-15.15.01:772][432]Cmd: DELETE
+[2018.02.24-15.15.01:772][432]Cmd: ACTOR DELETE
+[2018.02.24-15.15.01:772][432]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2018.02.24-15.15.01:780][432]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.24-15.16.15:831][191]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.17:669][407]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.19:517][619]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.21:960][906]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.23:194][ 51]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.26:963][493]LogActorComponent: ~FComponentReregisterContext: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_7.SkeletalMesh) Component already registered.
+[2018.02.24-15.16.29:166][755]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.16.29:176][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.16.29:176][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.16.29:176][755]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:16:29)
+[2018.02.24-15.16.29:176][755]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.16.29:184][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007239s)
+[2018.02.24-15.16.29:184][755]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.16.29:185][755]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2018.02.24-15.16.29:185][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008331s)
+[2018.02.24-15.16.29:223][755]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.16.29:265][755]LogInit: FAudioDevice initialized.
+[2018.02.24-15.16.29:301][755]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.16.29:302][755]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.16.29
+[2018.02.24-15.16.29:303][755]LogWorld: Bringing up level for play took: 0.001302
+[2018.02.24-15.16.29:303][755]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.919
+[2018.02.24-15.16.29:304][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.16.40:307][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.16.40:357][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.18.46:969][275]Candidate modules for hot reload:
+[2018.02.24-15.18.46:969][275]  PropNavigationGame
+[2018.02.24-15.18.46:969][275]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 8303 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.18.46:971][275]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.19.07:162][496]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:19:07
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.19.07:163][496]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.6561569 seconds
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-8303.dll
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-8303.lib
+[2018.02.24-15.19.07:163][496]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8303.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8303.exp
+[2018.02.24-15.19.07:163][496]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8303.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8303.suppressed.exp
+[2018.02.24-15.19.07:163][496]CompilerResultsLog: Total build time: 19.98 seconds (Local executor: 2.61 seconds)
+[2018.02.24-15.19.07:163][496]LogMainFrame: MainFrame: Module compiling took 20.197 seconds
+[2018.02.24-15.19.07:495][496]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.19.07:496][496]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.19.07:531][496]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.19.07:531][496]Display: HotReload took 20.6s.
+[2018.02.24-15.19.08:849][641]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.19.08:861][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.19.08:862][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.19.08:862][641]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:19:08)
+[2018.02.24-15.19.08:862][641]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.19.08:870][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008154s)
+[2018.02.24-15.19.08:871][641]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.19.08:871][641]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.02.24-15.19.08:871][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009249s)
+[2018.02.24-15.19.08:910][641]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.19.08:953][641]LogInit: FAudioDevice initialized.
+[2018.02.24-15.19.08:987][641]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.19.08:990][641]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.19.08
+[2018.02.24-15.19.08:990][641]LogWorld: Bringing up level for play took: 0.001119
+[2018.02.24-15.19.08:991][641]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.61
+[2018.02.24-15.19.08:991][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.19.18:828][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.19.18:874][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.19.53:451][304]Candidate modules for hot reload:
+[2018.02.24-15.19.53:451][304]  PropNavigationGame
+[2018.02.24-15.19.53:452][304]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 1083 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.19.53:453][304]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.20.00:822][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.20.00:833][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.00:833][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.20.00:833][ 96]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:20:00)
+[2018.02.24-15.20.00:834][ 96]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.20.00:841][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007189s)
+[2018.02.24-15.20.00:841][ 96]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.20.00:842][ 96]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2018.02.24-15.20.00:842][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008166s)
+[2018.02.24-15.20.00:882][ 96]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.20.00:928][ 96]LogInit: FAudioDevice initialized.
+[2018.02.24-15.20.00:962][ 96]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.20.00:964][ 96]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.20.00
+[2018.02.24-15.20.00:965][ 96]LogWorld: Bringing up level for play took: 0.001620
+[2018.02.24-15.20.00:966][ 96]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.586
+[2018.02.24-15.20.00:966][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.03:374][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.03:423][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:20:13
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.20.13:276][463]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.5663431 seconds
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-1083.dll
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-1083.lib
+[2018.02.24-15.20.13:276][463]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1083.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1083.exp
+[2018.02.24-15.20.13:276][463]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1083.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1083.suppressed.exp
+[2018.02.24-15.20.13:276][463]CompilerResultsLog: Total build time: 19.61 seconds (Local executor: 2.56 seconds)
+[2018.02.24-15.20.13:277][463]LogMainFrame: MainFrame: Module compiling took 19.828 seconds
+[2018.02.24-15.20.13:481][463]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.20.13:482][463]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.20.13:508][463]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.20.13:508][463]Display: HotReload took 20.1s.
+[2018.02.24-15.20.15:089][614]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.20.15:099][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.15:099][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.20.15:099][614]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:20:15)
+[2018.02.24-15.20.15:099][614]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.20.15:105][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005726s)
+[2018.02.24-15.20.15:106][614]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.20.15:106][614]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2018.02.24-15.20.15:106][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006703s)
+[2018.02.24-15.20.15:143][614]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.20.15:183][614]LogInit: FAudioDevice initialized.
+[2018.02.24-15.20.15:212][614]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.20.15:214][614]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.20.15
+[2018.02.24-15.20.15:214][614]LogWorld: Bringing up level for play took: 0.001557
+[2018.02.24-15.20.15:216][614]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.836
+[2018.02.24-15.20.15:216][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.28:398][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.20.28:450][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.23.55:639][949]LogSavePackage: Save=431.79ms
+[2018.02.24-15.23.55:640][949]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_Auto4EB6A087A483122A10B692A96283F454B.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2018.02.24-15.23.55:648][949]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2018.02.24-15.23.55:656][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.538
+[2018.02.24-15.23.55:656][949]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.538
+[2018.02.24-15.30.43:539][327]Candidate modules for hot reload:
+[2018.02.24-15.30.43:539][327]  PropNavigationGame
+[2018.02.24-15.30.43:540][327]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 3270 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.30.43:541][327]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.31.00:730][664]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:31:00
+[2018.02.24-15.31.00:730][664]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.31.00:730][664]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.31.00:731][664]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.9781096 seconds
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: [3/4] Link UE4Editor-PropNavigationGame-3270.dll
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: [4/4] Link UE4Editor-PropNavigationGame-3270.lib
+[2018.02.24-15.31.00:731][664]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3270.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3270.exp
+[2018.02.24-15.31.00:731][664]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3270.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3270.suppressed.exp
+[2018.02.24-15.31.00:731][664]CompilerResultsLog: Total build time: 16.95 seconds (Local executor: 2.45 seconds)
+[2018.02.24-15.31.00:731][664]LogMainFrame: MainFrame: Module compiling took 17.195 seconds
+[2018.02.24-15.31.00:938][664]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.02.24-15.31.00:942][664]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.02.24-15.31.01:103][664]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0042 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.31.01:105][664]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.31.01:118][664]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.31.01:118][664]Display: HotReload took 17.6s.
+[2018.02.24-15.32.39:928][113]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.32.39:940][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.32.39:940][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.32.39:940][113]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:32:39)
+[2018.02.24-15.32.39:940][113]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.32.39:948][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007379s)
+[2018.02.24-15.32.39:948][113]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.32.39:949][113]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2018.02.24-15.32.39:949][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008800s)
+[2018.02.24-15.32.39:989][113]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.32.40:031][113]LogInit: FAudioDevice initialized.
+[2018.02.24-15.32.40:062][113]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.32.40:064][113]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.32.40
+[2018.02.24-15.32.40:065][113]LogWorld: Bringing up level for play took: 0.001528
+[2018.02.24-15.32.40:065][113]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.297
+[2018.02.24-15.32.40:066][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.32.51:689][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.32.51:732][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.33.04:956][816]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.33.04:968][816]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.33.04:968][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.33.04:968][816]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:33:04)
+[2018.02.24-15.33.04:968][816]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.33.04:975][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007318s)
+[2018.02.24-15.33.04:976][816]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.33.04:976][816]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2018.02.24-15.33.04:976][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008346s)
+[2018.02.24-15.33.05:011][816]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.33.05:052][816]LogInit: FAudioDevice initialized.
+[2018.02.24-15.33.05:083][816]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.33.05:085][816]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.33.05
+[2018.02.24-15.33.05:085][816]LogWorld: Bringing up level for play took: 0.001419
+[2018.02.24-15.33.05:086][816]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.724
+[2018.02.24-15.33.05:086][816]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.33.17:912][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.33.17:971][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.34.13:404][853]Candidate modules for hot reload:
+[2018.02.24-15.34.13:404][853]  PropNavigationGame
+[2018.02.24-15.34.13:404][853]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 7444 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.34.13:406][853]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:34:32
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.481249 seconds
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-7444.dll
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-7444.lib
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-7444.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-7444.exp
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-7444.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-7444.suppressed.exp
+[2018.02.24-15.34.32:771][ 25]CompilerResultsLog: Total build time: 19.15 seconds (Local executor: 2.56 seconds)
+[2018.02.24-15.34.32:771][ 25]LogMainFrame: MainFrame: Module compiling took 19.371 seconds
+[2018.02.24-15.34.32:999][ 25]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0131 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.34.33:000][ 25]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.34.33:037][ 25]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.34.33:038][ 25]Display: HotReload took 19.6s.
+[2018.02.24-15.34.34:973][250]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.34.34:985][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.34.34:985][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.34.34:985][250]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:34:34)
+[2018.02.24-15.34.34:985][250]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.34.34:992][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006702s)
+[2018.02.24-15.34.34:993][250]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.34.34:993][250]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2018.02.24-15.34.34:993][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007838s)
+[2018.02.24-15.34.35:032][250]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.34.35:071][250]LogInit: FAudioDevice initialized.
+[2018.02.24-15.34.35:103][250]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.34.35:106][250]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.34.35
+[2018.02.24-15.34.35:106][250]LogWorld: Bringing up level for play took: 0.001407
+[2018.02.24-15.34.35:107][250]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.747
+[2018.02.24-15.34.35:107][250]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.34.42:433][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.34.42:506][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.35.19:715][504]Candidate modules for hot reload:
+[2018.02.24-15.35.19:715][504]  PropNavigationGame
+[2018.02.24-15.35.19:716][504]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 855 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.35.19:717][504]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:35:38
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.35.38:161][598]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.7317108 seconds
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-855.dll
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-855.lib
+[2018.02.24-15.35.38:161][598]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-855.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-855.exp
+[2018.02.24-15.35.38:161][598]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-855.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-855.suppressed.exp
+[2018.02.24-15.35.38:161][598]CompilerResultsLog: Total build time: 18.25 seconds (Local executor: 2.56 seconds)
+[2018.02.24-15.35.38:161][598]LogMainFrame: MainFrame: Module compiling took 18.450 seconds
+[2018.02.24-15.35.38:410][598]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0131 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.35.38:411][598]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.35.38:464][598]LogContentBrowser: Native class hierarchy populated in 0.0325 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.35.38:464][598]Display: HotReload took 18.8s.
+[2018.02.24-15.35.39:334][695]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.35.39:344][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.35.39:344][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.35.39:344][695]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:35:39)
+[2018.02.24-15.35.39:344][695]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.35.39:350][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006154s)
+[2018.02.24-15.35.39:351][695]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.35.39:351][695]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2018.02.24-15.35.39:352][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007232s)
+[2018.02.24-15.35.39:386][695]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.35.39:427][695]LogInit: FAudioDevice initialized.
+[2018.02.24-15.35.39:457][695]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.35.39:459][695]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.35.39
+[2018.02.24-15.35.39:459][695]LogWorld: Bringing up level for play took: 0.001270
+[2018.02.24-15.35.39:460][695]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.101
+[2018.02.24-15.35.39:460][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.35.56:213][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.35.56:259][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.36.01:649][279]LogSavePackage: Save=414.31ms
+[2018.02.24-15.36.01:649][279]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default1E8E738347BF826E2DB8DEABFEAB6CD7.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.02.24-15.36.01:677][279]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.02.24-15.36.02:070][279]LogSavePackage: Save=247.97ms
+[2018.02.24-15.36.02:070][279]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_BuiltDataAD6DCCF446D9B381E44E7DB26AF579B2.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.02.24-15.36.02:083][279]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.24-15.41.07:859][914]LogSavePackage: Save=371.37ms
+[2018.02.24-15.41.07:859][914]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default1138DB9441645DE3A7CE528E949F2A03.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.02.24-15.41.07:869][914]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.02.24-15.41.08:123][914]LogSavePackage: Save=168.92ms
+[2018.02.24-15.41.08:123][914]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_BuiltData6657B57F45A1FCF6266E2AAAAAF3285C.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.02.24-15.41.08:137][914]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.24-15.41.11:173][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/SpaceShip" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip.uasset" SILENT=true
+[2018.02.24-15.41.11:231][223]LogSavePackage: Save=47.55ms
+[2018.02.24-15.41.11:231][223]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShipCE54866048FBADD33ED8E19A82921F6D.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip.uasset'
+[2018.02.24-15.41.11:257][223]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip.uasset
+[2018.02.24-15.41.11:290][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Base" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Base.uasset" SILENT=true
+[2018.02.24-15.41.11:326][223]LogSavePackage: Save=26.13ms
+[2018.02.24-15.41.11:326][223]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/BaseC329507642C8DEDDCD534E9CF1655813.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Base.uasset'
+[2018.02.24-15.41.11:346][223]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Base.uasset
+[2018.02.24-15.41.11:381][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Black" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Black.uasset" SILENT=true
+[2018.02.24-15.41.11:420][223]LogSavePackage: Save=29.89ms
+[2018.02.24-15.41.11:420][223]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/BlackF75A19E74B3AEA7EAC6061906ECB24AC.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Black.uasset'
+[2018.02.24-15.41.11:443][223]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Black.uasset
+[2018.02.24-15.41.11:449][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/SpaceShip_Skeleton" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_Skeleton.uasset" SILENT=true
+[2018.02.24-15.41.11:482][223]LogSavePackage: Save=18.25ms
+[2018.02.24-15.41.11:482][223]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShip_Skeleton91AAE2F04F92B7DD5F0B3DBABEAF3C89.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_Skeleton.uasset'
+[2018.02.24-15.41.11:505][223]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_Skeleton.uasset
+[2018.02.24-15.41.11:513][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/SpaceShip_PhysicsAsset" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_PhysicsAsset.uasset" SILENT=true
+[2018.02.24-15.41.11:552][223]LogSavePackage: Save=24.39ms
+[2018.02.24-15.41.11:552][223]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceShip_PhysicsAsset04431C7148B509229A84EBAA1D1014BC.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_PhysicsAsset.uasset'
+[2018.02.24-15.41.11:576][223]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/SpaceShip_PhysicsAsset.uasset
+[2018.02.24-15.41.45:788][338]Candidate modules for hot reload:
+[2018.02.24-15.41.45:788][338]  PropNavigationGame
+[2018.02.24-15.41.45:788][338]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 7536 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.41.45:790][338]Warning: Starting HotReload took 33.2s.
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:41:58
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.41.58:818][378]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(33)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(36)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(39)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.41.58:818][378]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'PropNavigationGameEditor' (platform: Win64, module info: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.02.24-15.41.58:818][378]LogMainFrame: MainFrame: Module compiling took 13.038 seconds
+[2018.02.24-15.41.58:818][378]Warning: HotReload failed, recompile failed
+[2018.02.24-15.43.25:602][ 19]Candidate modules for hot reload:
+[2018.02.24-15.43.25:602][ 19]  PropNavigationGame
+[2018.02.24-15.43.25:603][ 19]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 2079 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.43.25:605][ 19]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:43:40
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.43.40:389][707]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(33)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(36)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Error: M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h(39)  : LogCompile: Error: Unknown variable specifier 'Catergory'
+[2018.02.24-15.43.40:389][707]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'PropNavigationGameEditor' (platform: Win64, module info: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2018.02.24-15.43.40:389][707]LogMainFrame: MainFrame: Module compiling took 14.793 seconds
+[2018.02.24-15.43.40:389][707]Warning: HotReload failed, recompile failed
+[2018.02.24-15.43.57:313][706]Candidate modules for hot reload:
+[2018.02.24-15.43.57:314][706]  PropNavigationGame
+[2018.02.24-15.43.57:314][706]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 8702 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-15.43.57:315][706]Warning: Starting HotReload took  0.0s.
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: New page: Compilation - 24 Feb 2018 15:44:14
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-15.44.14:466][924]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.5761946 seconds
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: [4/5] Link UE4Editor-PropNavigationGame-8702.dll
+[2018.02.24-15.44.14:466][924]CompilerResultsLog: [5/5] Link UE4Editor-PropNavigationGame-8702.lib
+[2018.02.24-15.44.14:466][924]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8702.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8702.exp
+[2018.02.24-15.44.14:466][924]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8702.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8702.suppressed.exp
+[2018.02.24-15.44.14:467][924]CompilerResultsLog: Total build time: 16.93 seconds (Local executor: 2.77 seconds)
+[2018.02.24-15.44.14:467][924]LogMainFrame: MainFrame: Module compiling took 17.157 seconds
+[2018.02.24-15.44.14:953][924]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.02.24-15.44.14:955][924]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.02.24-15.44.15:136][924]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0089 seconds. Added 1 classes and 2 folders.
+[2018.02.24-15.44.15:139][924]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-15.44.15:161][924]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-15.44.15:161][924]Display: HotReload took 17.9s.
+[2018.02.24-15.45.01:201][439]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-15.45.01:212][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.45.01:212][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-15.45.01:212][439]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 15:45:01)
+[2018.02.24-15.45.01:212][439]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-15.45.01:219][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006704s)
+[2018.02.24-15.45.01:220][439]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-15.45.01:220][439]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.02.24-15.45.01:220][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007839s)
+[2018.02.24-15.45.01:259][439]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-15.45.01:303][439]LogInit: FAudioDevice initialized.
+[2018.02.24-15.45.01:337][439]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-15.45.01:340][439]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-15.45.01
+[2018.02.24-15.45.01:340][439]LogWorld: Bringing up level for play took: 0.001374
+[2018.02.24-15.45.01:341][439]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.995
+[2018.02.24-15.45.01:341][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.45.32:155][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.45.32:235][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-15.51.39:597][424]LogSavePackage: Save=476.05ms
+[2018.02.24-15.51.39:597][424]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_Auto5C51FDEED4CDF9C130BAC52B0D446592D.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap'
+[2018.02.24-15.51.39:610][424]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap
+[2018.02.24-15.51.39:614][424]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.581
+[2018.02.24-15.51.39:614][424]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.581

@@ -46,6 +46,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UProperty* NewProp_springArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("springArm"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(springArm, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USpringArmComponent_NoRegister());
 				UProperty* NewProp_maxTurningSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningSpeed, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForwardSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForwardSpeed, APlayerShip), 0x0010000000000001);
+				UProperty* NewProp_maxTurningAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningAngle, APlayerShip), 0x0010000000000001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<APlayerShip> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -60,17 +61,19 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				MetaData->SetValue(NewProp_springArm, TEXT("Category"), TEXT("PlayerShip"));
 				MetaData->SetValue(NewProp_springArm, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_springArm, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
-				MetaData->SetValue(NewProp_maxTurningSpeed, TEXT("Category"), TEXT("PlayerShip"));
+				MetaData->SetValue(NewProp_maxTurningSpeed, TEXT("Category"), TEXT("Movement|Rotation and turning"));
 				MetaData->SetValue(NewProp_maxTurningSpeed, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
-				MetaData->SetValue(NewProp_maxForwardSpeed, TEXT("Category"), TEXT("PlayerShip"));
+				MetaData->SetValue(NewProp_maxForwardSpeed, TEXT("Category"), TEXT("Movement|Acceleration and deceleration"));
 				MetaData->SetValue(NewProp_maxForwardSpeed, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+				MetaData->SetValue(NewProp_maxTurningAngle, TEXT("Category"), TEXT("Movement|Rotation and turning"));
+				MetaData->SetValue(NewProp_maxTurningAngle, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 2875684818);
+	IMPLEMENT_CLASS(APlayerShip, 414161076);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

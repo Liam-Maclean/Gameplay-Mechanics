@@ -30,10 +30,13 @@ public:
 	void ImpulseForwardBack(float axis);
 	void TurnRightLeft(float axis);
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
+	float maxTurningAngle = 40.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement|Acceleration and deceleration")
 	float maxForwardSpeed;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
 	float maxTurningSpeed;
 
 	float newForwardVelocity;

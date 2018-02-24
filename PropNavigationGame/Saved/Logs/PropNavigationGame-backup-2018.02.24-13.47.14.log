@@ -1,0 +1,1006 @@
+﻿Log file open, 02/24/18 13:06:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(860837701) SRandInit(860837701).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202646
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.24-13.06.23:037][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.24-13.06.23:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.24-13.06.23:065][  0]LogInit: Computer: MC11594
+[2018.02.24-13.06.23:065][  0]LogInit: User: 1503395
+[2018.02.24-13.06.23:065][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.24-13.06.23:065][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2018.02.24-13.06.23:066][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.02.24-13.06.23:066][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.24-13.06.23:066][  0]LogMemory: Process Physical Memory: 278.03 MB used, 278.03 MB peak
+[2018.02.24-13.06.23:066][  0]LogMemory: Process Virtual Memory: 274.06 MB used, 274.06 MB peak
+[2018.02.24-13.06.23:066][  0]LogMemory: Physical Memory: 4189.67 MB used,  28518.62 MB free, 32708.29 MB total
+[2018.02.24-13.06.23:066][  0]LogMemory: Virtual Memory: 701.63 MB used,  28518.62 MB free, 134217728.00 MB total
+[2018.02.24-13.06.23:447][  0]LogInit: Using OS detected language (en-US).
+[2018.02.24-13.06.23:447][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.24-13.06.23:474][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.24-13.06.25:582][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.24-13.06.25:624][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.02.24-13.06.25:624][  0]LogD3D11RHI:       8088/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.24-13.06.25:643][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.24-13.06.25:643][  0]LogD3D11RHI:       0/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.24-13.06.25:643][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.24-13.06.25:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.24-13.06.25:647][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.24-13.06.25:647][  0]LogWindows: EnumDisplayDevices:
+[2018.02.24-13.06.25:647][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.02.24-13.06.25:647][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.24-13.06.25:647][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.24-13.06.25:648][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.02.24-13.06.25:648][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.24-13.06.25:648][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.02.24-13.06.25:648][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.24-13.06.25:648][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.24-13.06.25:648][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.24-13.06.25:668][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.24-13.06.25:685][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.24-13.06.25:728][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/7860/).
+[2018.02.24-13.06.25:728][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/F99222D84133065FCFF83FA38C354455/'.
+[2018.02.24-13.06.25:728][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.24-13.06.28:063][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.24-13.06.28:135][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.24-13.06.28:210][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.24-13.06.28:285][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.24-13.06.28:362][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.24-13.06.28:436][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.24-13.06.28:519][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.24-13.06.28:603][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.24-13.06.28:671][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.24-13.06.28:748][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.24-13.06.28:823][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.24-13.06.28:898][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.24-13.06.28:986][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.24-13.06.29:068][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.24-13.06.29:142][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.24-13.06.29:293][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.24-13.06.29:293][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.24-13.06.29:363][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.24-13.06.29:524][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.24-13.06.29:569][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.24-13.06.29:647][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.24-13.06.29:731][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.24-13.06.29:811][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.24-13.06.29:890][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.24-13.06.29:890][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.24-13.06.30:861][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.24-13.06.30:919][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.24-13.06.30:919][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.24-13.06.30:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file M:/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.24-13.06.30:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.24-13.06.30:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file M:/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.24-13.06.30:921][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.24-13.06.30:935][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.24-13.06.30:947][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.24-13.06.30:956][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.24-13.06.30:956][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.24-13.06.30:964][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.24-13.06.30:964][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.24-13.06.32:160][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2018.02.24-13.06.32:331][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.24-13.06.32:908][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.24-13.06.32:980][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.24-13.06.32:980][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.24-13.06.32:980][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.24-13.06.32:980][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.24-13.06.32:980][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.24-13.06.32:981][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.24-13.06.33:431][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.02.24-13.06.33:848][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.149699 seconds
+[2018.02.24-13.06.33:855][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.24-13.06.33:855][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.02.24-13.06.33:855][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.24-13.06.34:024][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.24-13.06.38:965][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.24-13.06.39:036][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.24-13.06.39:037][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.06.40:201][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.24-13.06.41:087][  0]SourceControl: Source control is disabled
+[2018.02.24-13.06.41:087][  0]SourceControl: Source control is disabled
+[2018.02.24-13.06.41:234][  0]SourceControl: Source control is disabled
+[2018.02.24-13.06.41:336][  0]SourceControl: Source control is disabled
+[2018.02.24-13.06.42:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.24-13.06.43:092][  0]LogOcInput: OculusInput pre-init called
+[2018.02.24-13.06.43:581][  0]LogEngine: Initializing Engine...
+[2018.02.24-13.06.43:584][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.24-13.06.43:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.24-13.06.43:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.24-13.06.44:019][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.24-13.06.44:026][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-13.06.44:085][  0]LogInit: FAudioDevice initialized.
+[2018.02.24-13.06.44:174][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.24-13.06.44:184][  0]LogInit: Texture streaming: Enabled
+[2018.02.24-13.06.44:387][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.24-13.06.44:841][  0]LogInit: Transaction tracking system initialized
+[2018.02.24-13.06.45:449][  0]BlueprintLog: New page: Editor Load
+[2018.02.24-13.06.47:259][  0]LocalizationService: Localization service is disabled
+[2018.02.24-13.06.48:615][  0]LogConsoleResponse: Display: 
+[2018.02.24-13.06.48:828][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.01s
+[2018.02.24-13.06.48:828][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.24-13.06.48:828][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.24-13.06.48:828][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.24-13.06.50:736][  0]SourceControl: Source control is disabled
+[2018.02.24-13.06.50:741][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/StarterContent.upack)
+[2018.02.24-13.06.50:747][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.02.24-13.06.50:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.02.24-13.06.50:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.02.24-13.06.50:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.02.24-13.06.50:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.02.24-13.06.50:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.02.24-13.06.50:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.02.24-13.06.50:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.02.24-13.06.50:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.02.24-13.06.50:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.02.24-13.06.50:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.02.24-13.06.50:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.02.24-13.06.50:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.02.24-13.06.50:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.02.24-13.06.50:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.02.24-13.06.50:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.02.24-13.06.50:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.02.24-13.06.50:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.02.24-13.06.50:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Fire01.uasset"
+[2018.02.24-13.06.50:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.02.24-13.06.51:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.02.24-13.06.51:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.02.24-13.06.51:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Light01.uasset"
+[2018.02.24-13.06.51:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.02.24-13.06.51:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Light02.uasset"
+[2018.02.24-13.06.51:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.02.24-13.06.51:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.02.24-13.06.51:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.02.24-13.06.51:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.02.24-13.06.51:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.02.24-13.06.51:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.02.24-13.06.51:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.02.24-13.06.51:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.02.24-13.06.51:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.02.24-13.06.51:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Steam01.uasset"
+[2018.02.24-13.06.51:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.02.24-13.06.51:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.02.24-13.06.51:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.02.24-13.06.51:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.02.24-13.06.51:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.02.24-13.06.51:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.02.24-13.06.51:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.02.24-13.06.51:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.02.24-13.06.51:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.02.24-13.06.51:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.02.24-13.06.51:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.02.24-13.06.51:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.02.24-13.06.51:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.02.24-13.06.51:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.02.24-13.06.51:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.02.24-13.06.51:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.02.24-13.06.51:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.02.24-13.06.52:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.02.24-13.06.52:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.02.24-13.06.52:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.02.24-13.06.52:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.02.24-13.06.52:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.02.24-13.06.52:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/StarterMap.umap"
+[2018.02.24-13.06.53:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.02.24-13.06.53:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.02.24-13.06.53:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.02.24-13.06.53:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.02.24-13.06.53:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.02.24-13.06.53:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.02.24-13.06.53:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.02.24-13.06.53:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.02.24-13.06.53:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.02.24-13.06.53:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.02.24-13.06.53:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.02.24-13.06.53:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.02.24-13.06.53:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.02.24-13.06.53:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.02.24-13.06.53:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.02.24-13.06.53:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.02.24-13.06.53:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.02.24-13.06.53:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.02.24-13.06.53:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.02.24-13.06.53:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.02.24-13.06.53:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.02.24-13.06.53:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.02.24-13.06.53:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.02.24-13.06.53:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.02.24-13.06.53:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.02.24-13.06.53:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.02.24-13.06.53:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.02.24-13.06.53:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.02.24-13.06.53:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.02.24-13.06.53:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.02.24-13.06.53:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.02.24-13.06.53:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.02.24-13.06.53:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.02.24-13.06.53:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.02.24-13.06.53:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.02.24-13.06.53:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.02.24-13.06.53:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.02.24-13.06.53:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.02.24-13.06.53:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.02.24-13.06.53:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.02.24-13.06.53:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.02.24-13.06.53:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.02.24-13.06.53:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.02.24-13.06.53:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.02.24-13.06.53:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.02.24-13.06.53:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.02.24-13.06.53:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.02.24-13.06.53:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.02.24-13.06.53:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.02.24-13.06.53:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.02.24-13.06.53:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.02.24-13.06.53:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.02.24-13.06.53:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.02.24-13.06.53:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.02.24-13.06.53:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.02.24-13.06.53:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.02.24-13.06.53:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.02.24-13.06.53:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.02.24-13.06.53:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.02.24-13.06.53:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.02.24-13.06.53:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.02.24-13.06.53:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.02.24-13.06.53:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.02.24-13.06.53:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.02.24-13.06.53:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.02.24-13.06.53:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Door.uasset"
+[2018.02.24-13.06.54:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.02.24-13.06.54:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.02.24-13.06.54:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.02.24-13.06.54:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.02.24-13.06.54:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.02.24-13.06.54:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.02.24-13.06.54:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.02.24-13.06.54:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.02.24-13.06.54:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.02.24-13.06.54:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.02.24-13.06.54:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.02.24-13.06.54:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.02.24-13.06.54:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.02.24-13.06.54:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.02.24-13.06.54:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.02.24-13.06.54:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.02.24-13.06.54:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.02.24-13.06.54:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.02.24-13.06.54:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.02.24-13.06.54:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.02.24-13.06.54:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.02.24-13.06.54:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.02.24-13.06.54:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.02.24-13.06.54:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.02.24-13.06.54:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.02.24-13.06.54:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.02.24-13.06.54:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.02.24-13.06.54:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.02.24-13.06.54:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.02.24-13.06.54:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.02.24-13.06.54:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.02.24-13.06.54:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.02.24-13.06.54:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.02.24-13.06.54:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.02.24-13.06.54:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.02.24-13.06.54:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.02.24-13.06.54:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.02.24-13.06.54:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.02.24-13.06.54:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.02.24-13.06.54:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.02.24-13.06.54:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.02.24-13.06.54:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.02.24-13.06.54:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.02.24-13.06.54:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.02.24-13.06.54:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.02.24-13.06.54:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.02.24-13.06.55:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.02.24-13.06.55:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.02.24-13.06.55:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.02.24-13.06.55:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.02.24-13.06.55:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.02.24-13.06.55:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.02.24-13.06.55:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.02.24-13.06.56:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.02.24-13.06.56:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.02.24-13.06.56:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.02.24-13.06.56:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.02.24-13.06.56:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.02.24-13.06.56:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.02.24-13.06.56:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.02.24-13.06.56:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.02.24-13.06.56:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.02.24-13.06.56:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.02.24-13.06.56:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.02.24-13.06.56:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.02.24-13.06.57:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.02.24-13.06.57:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.02.24-13.06.57:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.02.24-13.06.57:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.02.24-13.06.57:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.02.24-13.06.57:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.02.24-13.06.57:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.02.24-13.06.57:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.02.24-13.06.58:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.02.24-13.06.58:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.02.24-13.06.58:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.02.24-13.06.58:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.02.24-13.06.58:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.02.24-13.06.58:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.02.24-13.06.58:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.02.24-13.06.59:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.02.24-13.06.59:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.02.24-13.06.59:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.02.24-13.06.59:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.02.24-13.06.59:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.02.24-13.06.59:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.02.24-13.06.59:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.02.24-13.06.59:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.02.24-13.06.59:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.02.24-13.06.59:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.02.24-13.06.59:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.02.24-13.06.59:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.02.24-13.06.59:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.02.24-13.06.59:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.02.24-13.06.59:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.02.24-13.06.59:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.02.24-13.07.00:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.02.24-13.07.00:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.02.24-13.07.00:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.02.24-13.07.00:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.02.24-13.07.00:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.02.24-13.07.00:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.02.24-13.07.00:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.02.24-13.07.00:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.02.24-13.07.01:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.02.24-13.07.01:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.02.24-13.07.01:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.02.24-13.07.01:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.02.24-13.07.01:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.02.24-13.07.01:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.02.24-13.07.01:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.02.24-13.07.01:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.02.24-13.07.01:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.02.24-13.07.02:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.02.24-13.07.02:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.02.24-13.07.02:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.02.24-13.07.02:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.02.24-13.07.02:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.02.24-13.07.02:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.02.24-13.07.02:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.02.24-13.07.02:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.02.24-13.07.02:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.02.24-13.07.02:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.02.24-13.07.03:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.02.24-13.07.03:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.02.24-13.07.03:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.02.24-13.07.03:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.02.24-13.07.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.02.24-13.07.03:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.02.24-13.07.03:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.02.24-13.07.03:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.02.24-13.07.03:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.02.24-13.07.03:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.02.24-13.07.03:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.02.24-13.07.03:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.02.24-13.07.03:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.02.24-13.07.03:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.02.24-13.07.03:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.02.24-13.07.03:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.02.24-13.07.03:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.02.24-13.07.03:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.02.24-13.07.03:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.02.24-13.07.03:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.02.24-13.07.03:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.02.24-13.07.04:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.02.24-13.07.04:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.02.24-13.07.04:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.02.24-13.07.04:324][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.02.24-13.07.04:404][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2018.02.24-13.07.04:484][  0]LogSavePackage: Save=61.48ms
+[2018.02.24-13.07.04:484][  0]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Floor_400x400618F80C6418D59C9674AA4A2B31772C4.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.02.24-13.07.04:516][  0]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2018.02.24-13.07.04:516][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.02.24-13.07.04:521][  0]Cmd: MAP LOAD FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.24-13.07.04:524][  0]LightingResults: New page: Lighting Build
+[2018.02.24-13.07.04:642][  0]MapCheck: New page: Map Check
+[2018.02.24-13.07.04:642][  0]LightingResults: New page: Lighting Build
+[2018.02.24-13.07.05:574][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-13.07.05:585][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.24-13.07.05:597][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.24-13.07.05:677][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.436ms to complete.
+[2018.02.24-13.07.05:677][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.157
+[2018.02.24-13.07.05:911][  0]LogCollectionManager: Loaded 0 collections in 0.006263 seconds
+[2018.02.24-13.07.06:052][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.02.24-13.07.06:052][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.02.24-13.07.06:052][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.02.24-13.07.06:052][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.02.24-13.07.06:061][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2386 classes and 500 folders.
+[2018.02.24-13.07.06:188][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.02.24-13.07.06:408][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.02.24-13.07.06:481][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.24-13.07.06:517][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.24-13.07.06:519][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.24-13.07.06:528][  0]LogSlate: Took 0.003019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.24-13.07.06:592][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.02.24-13.07.06:624][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.24-13.07.06:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.24-13.07.06:815][  0]LogLoad: (Engine Initialization) Total time: 47.08 seconds
+[2018.02.24-13.07.06:815][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.24-13.07.06:816][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.24-13.07.07:182][  0]LogAssetRegistry: Asset discovery search completed in 35.0438 seconds
+[2018.02.24-13.07.07:183][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.24-13.07.07:183][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2018.02.24-13.07.07:183][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:184][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.02.24-13.07.07:184][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:184][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:184][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:187][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.24-13.07.07:495][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:496][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.02.24-13.07.07:496][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:496][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.02.24-13.07.07:496][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.24-13.07.07:497][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.02.24-13.12.06:901][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2018.02.24-13.12.14:102][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.02.24-13.12.15:235][ 89]Cmd: DELETE
+[2018.02.24-13.12.15:235][ 89]Cmd: ACTOR DELETE
+[2018.02.24-13.12.15:250][ 89]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.24-13.12.15:260][ 89]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.24-13.12.15:504][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2018.02.24-13.12.15:647][131]Cmd: DELETE
+[2018.02.24-13.12.15:647][131]Cmd: ACTOR DELETE
+[2018.02.24-13.12.15:647][131]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.24-13.12.15:656][131]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.24-13.12.16:008][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2018.02.24-13.12.16:102][180]Cmd: DELETE
+[2018.02.24-13.12.16:102][180]Cmd: ACTOR DELETE
+[2018.02.24-13.12.16:102][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.24-13.12.16:110][180]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.24-13.12.16:837][267]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.24-13.12.17:284][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2018.02.24-13.12.17:384][323]Cmd: DELETE
+[2018.02.24-13.12.17:384][323]Cmd: ACTOR DELETE
+[2018.02.24-13.12.17:385][323]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.24-13.12.17:392][323]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.24-13.14.10:614][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.24-13.15.09:629][733]LogSlate: Took 0.009438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.24-13.15.11:946][  9]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-13.15.12:895][  9]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.12:896][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-13.15.12:901][  9]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 13:15:12)
+[2018.02.24-13.15.12:901][  9]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-13.15.12:941][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040226s)
+[2018.02.24-13.15.12:945][  9]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-13.15.12:946][  9]LogPlayLevel: PIE: World Init took: (0.004432s)
+[2018.02.24-13.15.12:946][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.045501s)
+[2018.02.24-13.15.12:973][  9]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-13.15.13:027][  9]LogInit: FAudioDevice initialized.
+[2018.02.24-13.15.13:085][  9]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-13.15.13:092][  9]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-13.15.13
+[2018.02.24-13.15.13:095][  9]LogWorld: Bringing up level for play took: 0.004728
+[2018.02.24-13.15.13:215][  9]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.02.24-13.15.13:217][  9]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.667
+[2018.02.24-13.15.13:218][  9]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.16:636][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.16:672][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.18:172][587]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.24-13.15.18:710][648]LogEditorViewport: Clicking on Actor (LMB): Pawn (Pawn)
+[2018.02.24-13.15.32:979][336]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.24-13.15.41:931][340]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-13.15.41:940][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.41:940][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-13.15.41:940][340]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 13:15:41)
+[2018.02.24-13.15.41:940][340]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-13.15.41:946][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006412s)
+[2018.02.24-13.15.41:947][340]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-13.15.41:947][340]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2018.02.24-13.15.41:947][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007429s)
+[2018.02.24-13.15.41:957][340]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-13.15.41:995][340]LogInit: FAudioDevice initialized.
+[2018.02.24-13.15.42:032][340]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-13.15.42:036][340]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-13.15.42
+[2018.02.24-13.15.42:037][340]LogWorld: Bringing up level for play took: 0.002561
+[2018.02.24-13.15.42:039][340]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.511
+[2018.02.24-13.15.42:039][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.49:001][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.49:035][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.15.55:159][885]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.24-13.15.55:898][970]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.24-13.16.27:244][713]LogEditorViewport: Clicking on Actor (LMB): Pawn (Pawn)
+[2018.02.24-13.17.15:045][758]Cmd: DELETE
+[2018.02.24-13.17.15:045][758]Cmd: ACTOR DELETE
+[2018.02.24-13.17.15:046][758]LogEditorActor: Deleted Actor: Pawn
+[2018.02.24-13.17.15:054][758]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.24-13.17.17:073][991]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.24-13.17.17:123][991]LogSlate: Took 0.009405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.24-13.17.19:336][177]LogSavePackage: Save=550.66ms
+[2018.02.24-13.17.19:336][177]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_Auto170F11BF2484222BA1F6588A0B95E1BA8.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2018.02.24-13.17.19:346][177]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2018.02.24-13.17.19:356][177]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.643
+[2018.02.24-13.17.19:356][177]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.643
+[2018.02.24-13.17.34:487][972]Running C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" -game -rocket -progress
+[2018.02.24-13.17.34:991][972]Discovering modules, targets and source code for project...
+[2018.02.24-13.17.37:812][972]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.24-13.17.40:438][972]LogHotReload: Recompiling module PropNavigationGame...
+[2018.02.24-13.17.40:447][972]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.02.24-13.17.40:481][972]Candidate modules for hot reload:
+[2018.02.24-13.17.40:481][972]  PropNavigationGame
+[2018.02.24-13.17.40:481][972]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -Module PropNavigationGame Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.18.37:109][972]Performing full C++ include scan (hot reloading a new target)
+Compiling game modules for hot reload
+Parsing headers for PropNavigationGameEditor
+  Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for PropNavigationGameEditor in 7.5773988 seconds
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+PropNavigationGame.cpp
+PropNavigationGame.init.gen.cpp
+PlayerShip.cpp
+PlayerShip.gen.cpp
+[8/9] Link UE4Editor-PropNavigationGame.dll
+[9/9] Link UE4Editor-PropNavigationGame.lib
+   Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.exp
+   Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.exp
+Total build time: 56.19 seconds (Local executor: 13.12 seconds)
+
+[2018.02.24-13.18.37:109][972]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:18:37
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-13.18.37:110][972]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.5773988 seconds
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: [2/9] Resource ModuleVersionResource.rc.inl
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: [3/9] Resource PCLaunch.rc
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: SharedPCH.Engine.cpp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: PropNavigationGame.cpp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: [8/9] Link UE4Editor-PropNavigationGame.dll
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: [9/9] Link UE4Editor-PropNavigationGame.lib
+[2018.02.24-13.18.37:110][972]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.exp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.exp
+[2018.02.24-13.18.37:110][972]CompilerResultsLog: Total build time: 56.19 seconds (Local executor: 13.12 seconds)
+[2018.02.24-13.18.37:110][972]LogMainFrame: MainFrame: Module compiling took 56.664 seconds
+[2018.02.24-13.18.37:110][972]Reloading module PropNavigationGame after successful compile.
+[2018.02.24-13.18.37:326][972]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2018.02.24-13.18.37:338][972]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-13.18.42:498][304]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.42:513][305]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.42:846][306]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.43:179][307]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.43:513][308]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.43:846][309]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.44:180][310]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.44:512][311]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.44:845][312]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.45:179][313]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.54:938][314]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.54:977][315]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.55:287][316]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.55:620][317]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.55:953][318]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.56:286][319]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.56:620][320]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.56:954][321]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.57:289][322]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.57:625][323]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.57:953][324]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.58:291][325]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.58:623][326]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.18.58:958][327]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2018.02.24-13.19.01:156][328]LogVSAccessor: Warning: Couldn't goto line number '0' in 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h'
+[2018.02.24-13.19.01:243][328]LogVSAccessor: Warning: Couldn't goto line number '0' in 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.cpp'
+[2018.02.24-13.32.04:453][932]Candidate modules for hot reload:
+[2018.02.24-13.32.04:453][932]  PropNavigationGame
+[2018.02.24-13.32.04:454][932]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 5637 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.32.04:455][932]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:32:23
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.1077794 seconds
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: [3/4] Link UE4Editor-PropNavigationGame-5637.dll
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: [4/4] Link UE4Editor-PropNavigationGame-5637.lib
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5637.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5637.exp
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5637.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5637.suppressed.exp
+[2018.02.24-13.32.23:471][ 37]CompilerResultsLog: Total build time: 18.80 seconds (Local executor: 2.56 seconds)
+[2018.02.24-13.32.23:471][ 37]LogMainFrame: MainFrame: Module compiling took 19.021 seconds
+[2018.02.24-13.32.23:627][ 37]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.02.24-13.32.23:630][ 37]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.02.24-13.32.23:677][ 37]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0040 seconds. Added 1 classes and 2 folders.
+[2018.02.24-13.32.23:679][ 37]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.02.24-13.32.23:692][ 37]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2389 classes and 506 folders.
+[2018.02.24-13.32.23:692][ 37]Display: HotReload took 19.2s.
+[2018.02.24-13.32.44:683][323]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.24-13.33.13:432][394]LogEditor: Attempting to add actor of class 'PlayerShip' to level at -70.00,680.00,-170.00
+[2018.02.24-13.33.13:432][394]LogActor: Warning: PlayerShip /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.02.24-13.33.14:938][568]LogEditor: Attempting to add actor of class 'PlayerShip' to level at 40.00,370.00,130.00
+[2018.02.24-13.33.14:938][568]LogActor: Warning: PlayerShip /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.PlayerShip_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.02.24-13.33.26:004][866]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.24-13.33.26:019][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.33.26:019][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.24-13.33.26:020][866]PIE: New page: PIE session: Minimal_Default (24 Feb 2018 13:33:26)
+[2018.02.24-13.33.26:020][866]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2018.02.24-13.33.26:027][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007573s)
+[2018.02.24-13.33.26:028][866]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.02.24-13.33.26:028][866]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2018.02.24-13.33.26:028][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008634s)
+[2018.02.24-13.33.26:063][866]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.24-13.33.26:109][866]LogInit: FAudioDevice initialized.
+[2018.02.24-13.33.26:142][866]LogLoad: Game class is 'GameModeBase'
+[2018.02.24-13.33.26:143][866]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2018.02.24-13.33.26
+[2018.02.24-13.33.26:144][866]LogWorld: Bringing up level for play took: 0.001526
+[2018.02.24-13.33.26:145][866]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.361
+[2018.02.24-13.33.26:146][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.33.28:702][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.33.28:748][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2018.02.24-13.33.32:100][504]LogSavePackage: Save=401.72ms
+[2018.02.24-13.33.32:101][504]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_DefaultF2D823F74F94EEA1D34D848014BB5962.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.02.24-13.33.32:126][504]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.02.24-13.33.32:376][504]LogSavePackage: Save=185.54ms
+[2018.02.24-13.33.32:376][504]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_BuiltData17FFE3114C944B8A63B71CAA4C1C479C.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.02.24-13.33.32:388][504]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.24-13.33.41:682][370]LogSavePackage: Save=521.43ms
+[2018.02.24-13.33.41:682][370]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_DefaultD399E39C4C275FEE7A3E77A26AD2728C.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2018.02.24-13.33.41:690][370]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2018.02.24-13.33.41:949][370]LogSavePackage: Save=227.86ms
+[2018.02.24-13.33.41:949][370]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Minimal_Default_BuiltData2CA7E9BF453157AF9BB4A5BC211DCFF5.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2018.02.24-13.33.41:958][370]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2018.02.24-13.38.26:153][986]Candidate modules for hot reload:
+[2018.02.24-13.38.26:153][986]  PropNavigationGame
+[2018.02.24-13.38.26:154][986]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 2581 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.38.26:155][986]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.38.45:638][218]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:38:45
+[2018.02.24-13.38.45:638][218]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.38.45:638][218]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-13.38.45:638][218]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-13.38.45:638][218]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.7345451 seconds
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(19) : error C2039: 'SetworldRotation': is not a member of 'USpringArmComponent'
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h(19): note: see declaration of 'USpringArmComponent'
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(17) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-2581.dll
+[2018.02.24-13.38.45:639][218]CompilerResultsLog: Total build time: 19.27 seconds (Local executor: 0.00 seconds)
+[2018.02.24-13.38.45:639][218]LogMainFrame: MainFrame: Module compiling took 19.489 seconds
+[2018.02.24-13.38.45:639][218]Warning: HotReload failed, recompile failed
+[2018.02.24-13.40.15:359][957]Candidate modules for hot reload:
+[2018.02.24-13.40.15:359][957]  PropNavigationGame
+[2018.02.24-13.40.15:360][957]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 8186 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.40.15:361][957]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:40:23
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(19) : error C2039: 'SetworldRotation': is not a member of 'USpringArmComponent'
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h(19): note: see declaration of 'USpringArmComponent'
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(17) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-8186.dll
+[2018.02.24-13.40.23:137][863]CompilerResultsLog: Total build time: 7.57 seconds (Local executor: 0.00 seconds)
+[2018.02.24-13.40.23:137][863]LogMainFrame: MainFrame: Module compiling took 7.782 seconds
+[2018.02.24-13.40.23:137][863]Warning: HotReload failed, recompile failed
+[2018.02.24-13.41.32:351][926]Candidate modules for hot reload:
+[2018.02.24-13.41.32:351][926]  PropNavigationGame
+[2018.02.24-13.41.32:352][926]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 7266 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.41.32:353][926]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.41.48:376][227]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:41:48
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-13.41.48:377][227]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.4515705 seconds
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(17) : error C2660: 'USceneComponent::AttachToComponent': function does not take 1 arguments
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : error C2664: 'bool USceneComponent::AttachToComponent(USceneComponent *,const FAttachmentTransformRules &,FName)': cannot convert argument 2 from 'const FName' to 'const FAttachmentTransformRules &'
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : note: Reason: cannot convert from 'const FName' to 'const FAttachmentTransformRules'
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-7266.dll
+[2018.02.24-13.41.48:377][227]CompilerResultsLog: Total build time: 15.65 seconds (Local executor: 0.00 seconds)
+[2018.02.24-13.41.48:377][227]LogMainFrame: MainFrame: Module compiling took 16.029 seconds
+[2018.02.24-13.41.48:377][227]Warning: HotReload failed, recompile failed
+[2018.02.24-13.42.26:840][543]Candidate modules for hot reload:
+[2018.02.24-13.42.26:840][543]  PropNavigationGame
+[2018.02.24-13.42.26:842][543]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 3585 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.42.26:843][543]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:42:34
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(17) : error C2660: 'USceneComponent::AttachToComponent': function does not take 1 arguments
+[2018.02.24-13.42.34:607][447]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : error C2664: 'bool USceneComponent::AttachToComponent(USceneComponent *,const FAttachmentTransformRules &,FName)': cannot convert argument 2 from 'const FName' to 'const FAttachmentTransformRules &'
+[2018.02.24-13.42.34:608][447]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : note: Reason: cannot convert from 'const FName' to 'const FAttachmentTransformRules'
+[2018.02.24-13.42.34:608][447]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(21) : note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2018.02.24-13.42.34:608][447]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-3585.dll
+[2018.02.24-13.42.34:608][447]CompilerResultsLog: Total build time: 7.55 seconds (Local executor: 0.00 seconds)
+[2018.02.24-13.42.34:608][447]LogMainFrame: MainFrame: Module compiling took 7.772 seconds
+[2018.02.24-13.42.34:608][447]Warning: HotReload failed, recompile failed
+[2018.02.24-13.46.15:424][639]Candidate modules for hot reload:
+[2018.02.24-13.46.15:424][639]  PropNavigationGame
+[2018.02.24-13.46.15:424][639]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 4272 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.02.24-13.46.15:425][639]Warning: Starting HotReload took  0.0s.
+[2018.02.24-13.46.33:449][708]CompilerResultsLog: New page: Compilation - 24 Feb 2018 13:46:33
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: Compiling game modules for hot reload
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.02.24-13.46.33:450][708]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.582978 seconds
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: PlayerShip.cpp
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-4272.dll
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-4272.lib
+[2018.02.24-13.46.33:450][708]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-4272.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-4272.exp
+[2018.02.24-13.46.33:450][708]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-4272.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-4272.suppressed.exp
+[2018.02.24-13.46.33:450][708]CompilerResultsLog: Total build time: 17.81 seconds (Local executor: 2.36 seconds)
+[2018.02.24-13.46.33:450][708]LogMainFrame: MainFrame: Module compiling took 18.028 seconds
+[2018.02.24-13.46.34:153][708]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.464 s
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: === Handled ensure: ===
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: 
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: Stack: 
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CFC35F6
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CD4C2C2
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CD64736
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000079C52438
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-PropNavigationGame-4272.dll!APlayerShip::APlayerShip() [m:\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:18]
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B0946E
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B09EFE
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067AF6FBA
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B01502
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B0B94B
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B0BD45
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B044C6
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007E1031F5
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007E3F20B8
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007E3D6C7A
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007E18C157
+[2018.02.24-13.46.34:153][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CBE8210
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CE368C0
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007CE35BD3
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B0275E
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067AFFD54
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B00720
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x0000000067B12C1B
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000778CAE4E
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000007815B0E6
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor.exe!0x0000000042AB534A
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor.exe!0x0000000042AC3970
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor.exe!0x0000000042AC39EA
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor.exe!0x0000000042AD02D9
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: UE4Editor.exe!0x0000000042AD1C47
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: KERNEL32.DLL!0x00000000AC731FE4
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: ntdll.dll!0x00000000AF2BEF91
+[2018.02.24-13.46.34:154][708]LogOutputDevice: Error: 
+[2018.02.24-13.46.34:163][708]LogStats:                SubmitErrorReport -  0.000 s
+[2018.02.24-13.46.35:832][708]LogStats:                    SendNewReport -  1.669 s
+[2018.02.24-13.46.35:833][708]LogStats:             FDebug::EnsureFailed -  2.143 s
+[2018.02.24-13.46.35:834][708]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.02.24-13.46.37:389][708]LogWindows: Error: === Critical error: ===
+[2018.02.24-13.46.37:389][708]LogWindows: Error: 
+[2018.02.24-13.46.37:389][708]LogWindows: Error: Unhandled Exception: EXCEPTION_STACK_OVERFLOW
+[2018.02.24-13.46.37:390][708]LogWindows: Error: 
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C91BEE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:390][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:391][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C92836
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x00000000796D24A1
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C917BE
+[2018.02.24-13.46.37:392][708]LogWindows: Error: UE4Editor-Engine.dll!0x0000000079C7CE01
+[2018.02.24-13.46.37:392][708]LogWindows: Error: 
+[2018.02.24-13.46.37:409][708]LogExit: Executing StaticShutdownAfterError
+[2018.02.24-13.46.37:413][708]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.02.24-13.46.37:413][708]Log file closed, 02/24/18 13:46:37

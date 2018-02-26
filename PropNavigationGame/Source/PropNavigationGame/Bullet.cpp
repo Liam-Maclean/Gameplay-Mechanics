@@ -2,25 +2,28 @@
 
 #include "Bullet.h"
 #include "Components/SphereComponent.h"
-
+#include "Components/StaticMeshComponent.h"
+#include "ConstructorHelpers.h"
 // Sets default values
 ABullet::ABullet()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	UStaticMeshComponent* staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 
-	USphereComponent* sphereMesh = CreateDefaultSubobject<USphereComponent>(TEXT("Mesh"));
-	RootComponent = sphereMesh;
-	sphereMesh->InitSphereRadius(5.0f);
+	//Mesh
+	static ConstructorHelpers::FObjectFinder<UStaticMesh>SphereMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));
+	if (SphereMesh.Object)
+		staticMesh->SetStaticMesh(SphereMesh.Object);
+	RootComponent = staticMesh;
+
+	staticMesh->SetWorldScale3D(FVector(0.10, 0.10, 0.10));
 }
 
 // Called when the game starts or when spawned
 void ABullet::BeginPlay()
 {
 	Super::BeginPlay();
-
-
-	
 }
 
 // Called every frame

@@ -12,6 +12,8 @@ APlayerShip::APlayerShip()
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArm"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
+
 
 	//set root component
 	RootComponent = mesh;
@@ -33,6 +35,7 @@ APlayerShip::APlayerShip()
 void APlayerShip::BeginPlay()
 {
 	Super::BeginPlay();
+	firingComponent->InitialiseComponent();
 	
 }
 
@@ -42,6 +45,12 @@ void APlayerShip::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	FRotator newTurnAngle = GetActorRotation();
 	FVector newActorPosition = GetActorLocation();
+
+	if (timeBetweenShots < 0.5f)
+	{
+		timeBetweenShots += DeltaTime;
+	}
+
 
 
 	//if the turning speed is to the right
@@ -128,6 +137,7 @@ void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	//bind functions to input keys for movement
 	PlayerInputComponent->BindAxis("ImpulseMove", this, &APlayerShip::ImpulseForwardBack);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerShip::TurnRightLeft);
+	PlayerInputComponent->BindAction("FireMissile", IE_Pressed, this, &APlayerShip::FireMissile);
 }
 
 void APlayerShip::ImpulseForwardBack(float axis)
@@ -154,6 +164,14 @@ void APlayerShip::TurnRightLeft(float axis)
 	//{
 	//	turningSpeed = maxTurningSpeed;
 	//}
+}
+
+void APlayerShip::FireMissile()
+{
+	if (timeBetweenShots >= 0.5f)
+	{
+		firingComponent->FireMissile();
+	}
 }
 
 

@@ -4086,6 +4086,10 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeSteamVRController_init();
     extern void EmptyLinkFunctionForGeneratedCodeSteamVRControllerLibrary();
     EmptyLinkFunctionForGeneratedCodeSteamVRControllerLibrary();
+    extern void EmptyLinkFunctionForGeneratedCodeBullet();
+    EmptyLinkFunctionForGeneratedCodeBullet();
+    extern void EmptyLinkFunctionForGeneratedCodeFiringComponent();
+    EmptyLinkFunctionForGeneratedCodeFiringComponent();
     extern void EmptyLinkFunctionForGeneratedCodePlayerShip();
     EmptyLinkFunctionForGeneratedCodePlayerShip();
     extern void EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();

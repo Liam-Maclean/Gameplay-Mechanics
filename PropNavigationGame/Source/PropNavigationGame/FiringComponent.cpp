@@ -27,15 +27,25 @@ void UFiringComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-
 	TArray<USkeletalMeshComponent*> mesh;
-	GetOwner()->GetComponents(mesh);
+	GetOwner()->GetComponents(mesh, true);
 	
 	if (mesh.Num() > 0)
 	{
 		skele_mesh = mesh[0];
-	
-		spawningLocation = skele_mesh->GetSocketLocation("ShootingSocketRight");
+		names = skele_mesh->GetAllSocketNames();
+		
+		for (int i = 0; i < names.Num; i++)
+		{
+			FString name = names[i].ToString();
+			if (name.Contains("FiringSocket"))
+			{
+			}
+			else
+			{
+				names.RemoveAt(i);
+			}
+		}
 	}
 }
 
@@ -52,12 +62,14 @@ void UFiringComponent::FireMissile()
 {
 	if (skele_mesh)
 	{
-
 		FRotator spawnRotation;
-		skele_mesh->GetSocketWorldLocationAndRotation("RightFiringSocket", spawningLocation, spawnRotation);
-	
-		UWorld* const world = GetWorld();
-		ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);
+
+		for (int i = 0; i < names.Num(); i++)
+		{
+			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, spawnRotation);
+			UWorld* const world = GetWorld();
+			ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);
+		}
 	}
 }
 

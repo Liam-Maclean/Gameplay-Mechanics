@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PropNavigationGame-2863.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PropNavigationGame-3136.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PropNavigationGame-2863.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-PropNavigationGame-3136.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PropNavigationGame-2863.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-PropNavigationGame-3136.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

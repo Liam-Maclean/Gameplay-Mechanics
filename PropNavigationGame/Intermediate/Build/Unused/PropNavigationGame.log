@@ -1,4 +1,22 @@
-﻿  Compiling game modules for hot reload
-  Target is up to date
-  Deploying PropNavigationGameEditor Win64 Development...
-  Total build time: 5.53 seconds (NoActionsToExecute executor: 0.00 seconds)
+﻿  Performing full C++ include scan (building a new target)
+  Creating makefile for PropNavigationGame (game project files are newer)
+  Parsing headers for PropNavigationGame
+    Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PropNavigationGame in 5.9150002 seconds
+  Performing 12 actions (4 in parallel)
+  PCH.UELinkerFixups.cpp
+  SharedPCH.Engine.cpp
+  UELinkerFixups.cpp
+  PlayerShip.cpp
+  Bullet.cpp
+  PropNavigationGame.cpp
+  FiringComponent.cpp
+  Bullet.gen.cpp
+  FiringComponent.gen.cpp
+  PlayerShip.gen.cpp
+  PropNavigationGame.init.gen.cpp
+  [12/12] Link PropNavigationGame.exe
+     Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\PropNavigationGame.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\PropNavigationGame.exp
+  Deploying PropNavigationGame Win64 Development...
+  Prepping UE4 for deployment to Win64
+  Total build time: 63.69 seconds (Local executor: 40.31 seconds)

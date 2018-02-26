@@ -4,6 +4,7 @@
 #include "CoreMinimal.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "FiringComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerShip.generated.h"
 
@@ -29,6 +30,10 @@ public:
 
 	void ImpulseForwardBack(float axis);
 	void TurnRightLeft(float axis);
+	void FireMissile();
+	
+	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
+	float timeBetweenShots = 0.5f;
 
 	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
 	float maxTurningAngle = 40.0f;
@@ -47,6 +52,8 @@ public:
 	
 	UCameraComponent* camera;
 
+
+	UFiringComponent* firingComponent;
 
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* mesh;

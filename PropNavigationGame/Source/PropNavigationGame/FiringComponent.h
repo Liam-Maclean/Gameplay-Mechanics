@@ -6,8 +6,8 @@
 #include "Components/ActorComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "FiringComponent.generated.h"
-
-
+#include <Vector.h>
+using namespace std;
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROPNAVIGATIONGAME_API UFiringComponent : public UActorComponent
 {
@@ -29,12 +29,10 @@ public:
 	void FireMissile();
 
 
-
+	TArray<FName> names;
+	FRotator spawnRotation;
 	FVector spawningLocation;
-	USkeletalMeshSocket* sockets;
-	USkeletalMeshComponent*skele_mesh;
-
-
-	void FireProjectile();
+	TArray<USkeletalMeshSocket*> sockets;
+	USkeletalMeshComponent* skele_mesh;
 	
 };

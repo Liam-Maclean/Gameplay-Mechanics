@@ -1,46 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\PropNavigationGame.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{F6F7A514-38B6-4490-903B-5AE02538D495}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\PropNavigationGame.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\PropNavigationGameEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{796ABF1D-C5D3-40F1-8F81-7D51C4642E11}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\PropNavigationGame">
-			<UniqueIdentifier>{8753997C-2C42-4CD7-8254-67681C65D50F}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\PropNavigationGame\PlayerShip.cpp">
-			<Filter>Source\PropNavigationGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PropNavigationGame\PlayerShip.h">
-			<Filter>Source\PropNavigationGame</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\PropNavigationGame\PropNavigationGame.Build.cs">
-			<Filter>Source\PropNavigationGame</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\PropNavigationGame\PropNavigationGame.cpp">
-			<Filter>Source\PropNavigationGame</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\PropNavigationGame\PropNavigationGame.h">
-			<Filter>Source\PropNavigationGame</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\PropNavigationGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7709BCB0-7A95-4DC8-ABE1-69D9AE535C94}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PropNavigationGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PropNavigationGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{74ACB79F-5C6E-41A1-B21A-04023BF888E0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PropNavigationGame">
+      <UniqueIdentifier>{49CC7025-7598-4657-8B81-F2C6806EE78C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PropNavigationGame\PlayerShip.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\PlayerShip.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PropNavigationGame\PropNavigationGame.Build.cs">
+      <Filter>Source\PropNavigationGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PropNavigationGame\PropNavigationGame.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\PropNavigationGame.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PropNavigationGame\ShootingComponent.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\ShootingComponent.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PropNavigationGame\Bullet.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PropNavigationGame\Bullet.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

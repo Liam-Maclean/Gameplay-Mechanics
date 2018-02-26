@@ -1,20 +1,15 @@
-﻿  Performing full C++ include scan (building a new target)
-  Creating makefile for PropNavigationGame (.uproject file is newer)
-  Parsing headers for PropNavigationGame
-    Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PropNavigationGame in 5.7274371 seconds
-  Performing 10 actions (4 in parallel)
-  PCH.UELinkerFixups.cpp
-  SharedPCH.Engine.cpp
-  UELinkerFixups.cpp
-  ShootingComponent.cpp
-  PlayerShip.gen.cpp
-  PropNavigationGame.cpp
-  PlayerShip.cpp
-  ShootingComponent.gen.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.vcxproj]
+  Compiling game modules for hot reload
+  Parsing headers for PropNavigationGameEditor
+    Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PropNavigationGameEditor in 7.8873724 seconds
+  Performing 5 actions (4 in parallel)
   PropNavigationGame.init.gen.cpp
-  [10/10] Link PropNavigationGame.exe
-     Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\PropNavigationGame.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\PropNavigationGame.exp
-  Deploying PropNavigationGame Win64 Development...
-  Prepping UE4 for deployment to Win64
-  Total build time: 65.36 seconds (Local executor: 43.06 seconds)
+  PlayerShip.cpp
+  PlayerShip.gen.cpp
+  [4/5] Link UE4Editor-PropNavigationGame-8811.dll
+  [5/5] Link UE4Editor-PropNavigationGame-8811.lib
+     Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8811.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8811.exp
+     Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8811.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-8811.suppressed.exp
+  Deploying PropNavigationGameEditor Win64 Development...
+  Total build time: 17.05 seconds (Local executor: 2.36 seconds)

@@ -4090,8 +4090,6 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodePlayerShip();
     extern void EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();
     EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();
-    extern void EmptyLinkFunctionForGeneratedCodeShootingComponent();
-    EmptyLinkFunctionForGeneratedCodeShootingComponent();
     extern void EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     extern void EmptyLinkFunctionForGeneratedCodeWidgetSnapshotMessages();

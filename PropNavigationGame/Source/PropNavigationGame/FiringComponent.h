@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Engine/SkeletalMeshSocket.h"
 #include "FiringComponent.generated.h"
 
 
@@ -24,12 +25,16 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	void InitialiseComponent();
 	void FireMissile();
 
 
-	//FVector spawningLocation;
-	//USkeletalMeshSocket* sockets;
-	//
-	//void FireProjectile();
+
+	FVector spawningLocation;
+	USkeletalMeshSocket* sockets;
+	USkeletalMeshComponent*skele_mesh;
+
+
+	void FireProjectile();
 	
 };

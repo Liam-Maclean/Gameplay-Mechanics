@@ -23,6 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void DurationCountdown(float DeltaTime);
+	bool DurationEnded();
+	int durationInSeconds = 300.0f;
 	UPROPERTY(EditAnywhere)
 	float speed = 5.0f;
 	

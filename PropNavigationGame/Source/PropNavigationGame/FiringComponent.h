@@ -5,8 +5,8 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
+#include "Rotator.h"
 #include "FiringComponent.generated.h"
-#include <Vector.h>
 using namespace std;
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROPNAVIGATIONGAME_API UFiringComponent : public UActorComponent
@@ -27,8 +27,6 @@ public:
 
 	void InitialiseComponent();
 	void FireMissile();
-
-
 	TArray<FName> names;
 	FRotator spawnRotation;
 	FVector spawningLocation;

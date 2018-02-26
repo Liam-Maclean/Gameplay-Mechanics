@@ -35,7 +35,7 @@ void UFiringComponent::BeginPlay()
 		skele_mesh = mesh[0];
 		names = skele_mesh->GetAllSocketNames();
 		
-		for (int i = 0; i < names.Num; i++)
+		for (int i = 0; i < names.Num(); i++)
 		{
 			FString name = names[i].ToString();
 			if (name.Contains("FiringSocket"))

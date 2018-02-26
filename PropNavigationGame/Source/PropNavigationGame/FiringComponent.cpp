@@ -62,8 +62,6 @@ void UFiringComponent::FireMissile()
 {
 	if (skele_mesh)
 	{
-		FRotator spawnRotation;
-
 		for (int i = 0; i < names.Num(); i++)
 		{
 			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, spawnRotation);

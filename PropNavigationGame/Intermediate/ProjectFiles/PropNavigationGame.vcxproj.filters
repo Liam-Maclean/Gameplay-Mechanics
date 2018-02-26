@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PropNavigationGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{F6F7A514-38B6-4490-903B-5AE02538D495}</UniqueIdentifier>
+			<UniqueIdentifier>{E50D4A41-737B-4841-BC6B-E3AD5265F569}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PropNavigationGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{796ABF1D-C5D3-40F1-8F81-7D51C4642E11}</UniqueIdentifier>
+			<UniqueIdentifier>{3561A761-E875-42D5-A0BA-05F2B131A491}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -24,9 +24,18 @@
 		<None Include="..\..\Config\DefaultGame.ini">
 			<Filter>Config</Filter>
 		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
 		<Filter Include="Source\PropNavigationGame">
-			<UniqueIdentifier>{8753997C-2C42-4CD7-8254-67681C65D50F}</UniqueIdentifier>
+			<UniqueIdentifier>{974C0B6C-D85D-442F-8BD3-0C52E316BD3C}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\PropNavigationGame\FiringComponent.cpp">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PropNavigationGame\FiringComponent.h">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\PropNavigationGame\PlayerShip.cpp">
 			<Filter>Source\PropNavigationGame</Filter>
 		</ClCompile >

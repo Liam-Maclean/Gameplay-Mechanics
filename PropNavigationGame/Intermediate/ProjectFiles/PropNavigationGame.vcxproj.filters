@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PropNavigationGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E50D4A41-737B-4841-BC6B-E3AD5265F569}</UniqueIdentifier>
+      <UniqueIdentifier>{04DC1A20-EE0F-49AC-A19C-5E54EB7E6050}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PropNavigationGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3561A761-E875-42D5-A0BA-05F2B131A491}</UniqueIdentifier>
+      <UniqueIdentifier>{02F41C6E-0467-48DE-9B7C-330CF25A5B8A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,24 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PropNavigationGame">
-      <UniqueIdentifier>{974C0B6C-D85D-442F-8BD3-0C52E316BD3C}</UniqueIdentifier>
+      <UniqueIdentifier>{0AA8D135-A76E-4050-806E-E57BC2C13DDB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PropNavigationGame\Bullet.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\Bullet.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\PropNavigationGame\FiringComponent.cpp">
       <Filter>Source\PropNavigationGame</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\PropNavigationGame\FiringComponent.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PropNavigationGame\HomingRocket.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\HomingRocket.h">
       <Filter>Source\PropNavigationGame</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\PropNavigationGame\PlayerShip.cpp">
@@ -50,14 +62,20 @@
     <ClInclude Include="..\..\Source\PropNavigationGame\PropNavigationGame.h">
       <Filter>Source\PropNavigationGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PropNavigationGame\Bullet.h">
+    <ClCompile Include="..\..\Source\PropNavigationGame\ShieldComponent.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PropNavigationGame\ShieldComponent.h">
       <Filter>Source\PropNavigationGame</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\PropNavigationGame\Bullet.cpp">
+    <ClInclude Include="..\..\Source\PropNavigationGame\HealthComponent.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PropNavigationGame\HealthComponent.cpp">
       <Filter>Source\PropNavigationGame</Filter>
     </ClCompile>
   </ItemGroup>

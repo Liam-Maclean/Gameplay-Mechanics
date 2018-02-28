@@ -26,7 +26,9 @@ public:
 	void DurationCountdown(float DeltaTime);
 	bool DurationEnded();
 	int durationInSeconds = 300.0f;
+
+
 	UPROPERTY(EditAnywhere)
-	float speed = 5.0f;
+	float speed = 20.0f;
 	
 };

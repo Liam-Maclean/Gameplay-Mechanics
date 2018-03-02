@@ -20,7 +20,7 @@ APlayerShip::APlayerShip()
 
 	//set up spring arm attachment for camera
 	springArm->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
-	springArm->TargetArmLength = 350.0f;
+	springArm->TargetArmLength = 400.0f;
 	springArm->SetWorldRotation(FRotator(-20.0f, 0.0f, 0.0f));
 
 	//attach camera to spring arm
@@ -45,6 +45,14 @@ void APlayerShip::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	FRotator newTurnAngle = GetActorRotation();
 	FVector newActorPosition = GetActorLocation();
+
+	FRotator newYaw = GetActorRotation();
+	FRotator newPitch = springArm->GetComponentRotation();
+
+	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
+	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
+	
+	springArm->SetWorldRotation(newPitch);
 
 	if (timeBetweenShots < 0.5f)
 	{
@@ -138,6 +146,8 @@ void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("ImpulseMove", this, &APlayerShip::ImpulseForwardBack);
 	PlayerInputComponent->BindAxis("Turn", this, &APlayerShip::TurnRightLeft);
 	PlayerInputComponent->BindAction("FireMissile", IE_Pressed, this, &APlayerShip::FireMissile);
+	PlayerInputComponent->BindAxis("MousePitch", this, &APlayerShip::MousePitch);
+	PlayerInputComponent->BindAxis("MouseYaw", this, &APlayerShip::MouseYaw);
 }
 
 void APlayerShip::ImpulseForwardBack(float axis)
@@ -154,6 +164,17 @@ void APlayerShip::ImpulseForwardBack(float axis)
 		}
 	}
 }
+
+void APlayerShip::MousePitch(float axis)
+{
+	mouseInput.Y = axis;
+}
+
+void APlayerShip::MouseYaw(float axis)
+{
+	mouseInput.X = axis;
+}
+
 
 void APlayerShip::TurnRightLeft(float axis)
 {

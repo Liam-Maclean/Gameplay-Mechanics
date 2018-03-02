@@ -30,8 +30,12 @@ public:
 
 	void ImpulseForwardBack(float axis);
 	void TurnRightLeft(float axis);
+	void MousePitch(float axis);
+	void MouseYaw(float axis);
 	void FireMissile();
 	
+
+
 	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
 	float timeBetweenShots = 0.5f;
 
@@ -46,6 +50,9 @@ public:
 
 	float newForwardVelocity;
 	float turningSpeed;
+
+	FVector2D mouseInput;
+
 
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* springArm;

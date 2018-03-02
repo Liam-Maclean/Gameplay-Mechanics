@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PropNavigationGame-2710.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\Bullet.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\FiringComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\HealthComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\HomingRocket.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PlayerShip.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PropNavigationGame.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\ShieldComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\Bullet.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\FiringComponent.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\HealthComponent.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\HomingRocket.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PlayerShip.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PropNavigationGame.init.gen.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\ShieldComponent.gen.cpp.obj"
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PCLaunch.rc.res"
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-2710.lib"

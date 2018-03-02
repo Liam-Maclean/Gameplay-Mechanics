@@ -5,15 +5,22 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "Particles/ParticleSystemComponent.h"
 #include "ConstructorHelpers.h"
-
+#include "Kismet/GameplayStatics.h"
 // Sets default values for this component's properties
 UPhaserComponent::UPhaserComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
 
+	
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
+	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
+	phaserEffect->SetTemplate(PS.Object);
+	phaserEffect->SetBeamSourcePoint(1, FVector(100,100,100), 0);
+	phaserEffect->SetBeamTargetPoint(1, FVector(0,0,0), 0);
+	phaserEffect->ToggleActive();
+	//phaserEffect->Activate(true);
 	// ...
 }
 
@@ -51,15 +58,9 @@ void UPhaserComponent::BeginPlay()
 	{
 		for (int i = 0; i < names.Num(); i++)
 		{
-			FVector ParticleSystemSource;
-			ParticleSystemSource = skele_mesh->GetSocketLocation(names[i]);
-			
-			static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
-			phaserEffect->SetTemplate(PS.Object);
-			phaserEffect->SetBeamSourcePoint(2, ParticleSystemSource, 1);
-			phaserEffect->SetBeamTargetPoint(2, FVector(0,0,0), 1);
-			phaserEffect->Activate(true);
-			UWorld* const world = GetWorld();
+			//FVector ParticleSystemSource;
+	
+			//UWorld* const world = GetWorld();
 			//ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);
 		}
 	}

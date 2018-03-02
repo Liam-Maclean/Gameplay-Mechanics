@@ -12,7 +12,7 @@ UPhaserComponent::UPhaserComponent()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
+	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
 
 	// ...
 }
@@ -53,12 +53,11 @@ void UPhaserComponent::BeginPlay()
 		{
 			FVector ParticleSystemSource;
 			ParticleSystemSource = skele_mesh->GetSocketLocation(names[i]);
-
+			
 			static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
-			phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
 			phaserEffect->SetTemplate(PS.Object);
-			phaserEffect->SetBeamSourcePoint(2, ParticleSystemSource, 2);
-			phaserEffect->SetBeamTargetPoint(2, FVector(0,0,0), 2);
+			phaserEffect->SetBeamSourcePoint(2, ParticleSystemSource, 1);
+			phaserEffect->SetBeamTargetPoint(2, FVector(0,0,0), 1);
 			phaserEffect->Activate(true);
 			UWorld* const world = GetWorld();
 			//ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);

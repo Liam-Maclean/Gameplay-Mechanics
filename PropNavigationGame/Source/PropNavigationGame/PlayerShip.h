@@ -5,6 +5,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "FiringComponent.h"
+#include "PhaserComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerShip.generated.h"
 
@@ -59,7 +60,7 @@ public:
 	
 	UCameraComponent* camera;
 
-
+	UPhaserComponent* phaserComponent;
 	UFiringComponent* firingComponent;
 
 	UPROPERTY(EditAnywhere)

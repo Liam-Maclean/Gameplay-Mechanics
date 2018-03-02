@@ -38,7 +38,7 @@ void UFiringComponent::BeginPlay()
 		for (int i = 0; i < names.Num(); i++)
 		{
 			FString name = names[i].ToString();
-			if (name.Contains("FiringSocket"))
+			if (name.Contains("Firing"))
 			{
 			}
 			else

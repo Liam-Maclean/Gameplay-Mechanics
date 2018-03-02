@@ -73,9 +73,15 @@
     <ClInclude Include="..\..\Source\PropNavigationGame\HealthComponent.h">
       <Filter>Source\PropNavigationGame</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PropNavigationGame\PhaserComponent.h">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PropNavigationGame\HealthComponent.cpp">
+      <Filter>Source\PropNavigationGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PropNavigationGame\PhaserComponent.cpp">
       <Filter>Source\PropNavigationGame</Filter>
     </ClCompile>
   </ItemGroup>

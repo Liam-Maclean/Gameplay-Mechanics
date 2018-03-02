@@ -421,7 +421,9 @@
     <ClCompile Include="..\..\Source\PropNavigationGame\HomingRocket.cpp" />
     <ClInclude Include="..\..\Source\PropNavigationGame\HealthComponent.h" />
     <ClInclude Include="..\..\Source\PropNavigationGame\HomingRocket.h" />
+    <ClCompile Include="..\..\Source\PropNavigationGame\PhaserComponent.cpp" />
     <ClCompile Include="..\..\Source\PropNavigationGame\PlayerShip.cpp" />
+    <ClInclude Include="..\..\Source\PropNavigationGame\PhaserComponent.h" />
     <ClInclude Include="..\..\Source\PropNavigationGame\PlayerShip.h" />
     <None Include="..\..\Source\PropNavigationGame\PropNavigationGame.Build.cs" />
     <ClCompile Include="..\..\Source\PropNavigationGame\PropNavigationGame.cpp" />

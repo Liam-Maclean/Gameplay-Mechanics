@@ -4090,10 +4090,18 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeBullet();
     extern void EmptyLinkFunctionForGeneratedCodeFiringComponent();
     EmptyLinkFunctionForGeneratedCodeFiringComponent();
+    extern void EmptyLinkFunctionForGeneratedCodeHealthComponent();
+    EmptyLinkFunctionForGeneratedCodeHealthComponent();
+    extern void EmptyLinkFunctionForGeneratedCodeHomingRocket();
+    EmptyLinkFunctionForGeneratedCodeHomingRocket();
+    extern void EmptyLinkFunctionForGeneratedCodePhaserComponent();
+    EmptyLinkFunctionForGeneratedCodePhaserComponent();
     extern void EmptyLinkFunctionForGeneratedCodePlayerShip();
     EmptyLinkFunctionForGeneratedCodePlayerShip();
     extern void EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();
     EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();
+    extern void EmptyLinkFunctionForGeneratedCodeShieldComponent();
+    EmptyLinkFunctionForGeneratedCodeShieldComponent();
     extern void EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     extern void EmptyLinkFunctionForGeneratedCodeWidgetSnapshotMessages();

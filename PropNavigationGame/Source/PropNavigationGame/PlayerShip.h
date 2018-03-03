@@ -54,6 +54,7 @@ public:
 
 	FVector2D mouseInput;
 
+	USceneComponent* sceneRoot;
 
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* springArm;

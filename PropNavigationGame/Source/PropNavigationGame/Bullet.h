@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/SphereComponent.h"
 #include "Bullet.generated.h"
 
 UCLASS()
@@ -27,6 +28,11 @@ public:
 	bool DurationEnded();
 	int durationInSeconds = 300.0f;
 
+	UPROPERTY(EditAnywhere)
+		USphereComponent* sphereMesh;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* staticMesh;
 
 	UPROPERTY(EditAnywhere)
 	float speed = 20.0f;

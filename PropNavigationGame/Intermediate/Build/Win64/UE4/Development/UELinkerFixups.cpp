@@ -4088,6 +4088,8 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodeSteamVRControllerLibrary();
     extern void EmptyLinkFunctionForGeneratedCodeBullet();
     EmptyLinkFunctionForGeneratedCodeBullet();
+    extern void EmptyLinkFunctionForGeneratedCodeEnemyShip();
+    EmptyLinkFunctionForGeneratedCodeEnemyShip();
     extern void EmptyLinkFunctionForGeneratedCodeFiringComponent();
     EmptyLinkFunctionForGeneratedCodeFiringComponent();
     extern void EmptyLinkFunctionForGeneratedCodeHealthComponent();

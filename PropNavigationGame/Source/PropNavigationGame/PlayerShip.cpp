@@ -2,6 +2,7 @@
 
 #include "PlayerShip.h"
 #include "Components/inputComponent.h"
+#include "Components/StaticMeshComponent.h"
 // Sets default values
 APlayerShip::APlayerShip()
 {
@@ -10,13 +11,14 @@ APlayerShip::APlayerShip()
 
 	//initialise components in hierarchy
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArm"));
+	sceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Scene Root"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
 
 	//set root component
-	RootComponent = mesh;
+	RootComponent = sceneRoot;
 
 	//set up spring arm attachment for camera
 	springArm->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
@@ -25,6 +27,7 @@ APlayerShip::APlayerShip()
 
 	//attach camera to spring arm
 	camera->AttachToComponent(springArm, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+
 
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -43,8 +46,8 @@ void APlayerShip::BeginPlay()
 void APlayerShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	FRotator newTurnAngle = GetActorRotation();
-	FVector newActorPosition = GetActorLocation();
+	FRotator newTurnAngle = mesh->GetComponentRotation();
+	FVector newActorPosition = mesh->GetComponentLocation();
 
 	FRotator newYaw = GetActorRotation();
 	FRotator newPitch = springArm->GetComponentRotation();
@@ -52,6 +55,7 @@ void APlayerShip::Tick(float DeltaTime)
 	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
 	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
 	
+	newPitch.Roll = 0.0f;
 	springArm->SetWorldRotation(newPitch);
 
 	if (timeBetweenShots < 0.5f)
@@ -109,8 +113,10 @@ void APlayerShip::Tick(float DeltaTime)
 	//move the actor forward using the actors' forward vector and multiplying by speed
 	newActorPosition += (GetActorForwardVector() * newForwardVelocity);
 
+
+	
 	//set the actors rotation and position
-	SetActorRotation(newTurnAngle);
+	mesh->SetWorldRotation(newTurnAngle);
 	SetActorRelativeLocation(newActorPosition);
 
 

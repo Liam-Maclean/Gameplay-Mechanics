@@ -1,16 +1,7 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.vcxproj]
-  Compiling game modules for hot reload
-  Parsing headers for PropNavigationGameEditor
-    Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PropNavigationGameEditor in 7.5797145 seconds
-  Performing 4 actions (4 in parallel)
-  PhaserComponent.gen.cpp
-  PhaserComponent.cpp
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PhaserComponent.cpp(64): error C2146: syntax error: missing ';' before identifier 'UWorld'
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PhaserComponent.cpp(89): error C2065: 'ABullet': undeclared identifier
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PhaserComponent.cpp(89): error C2065: 'bullet': undeclared identifier
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PhaserComponent.cpp(89): error C2653: 'ABullet': is not a class or namespace name
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PhaserComponent.cpp(89): error C2065: 'spawnRotation': undeclared identifier
-ERROR : UBT error : Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-3689.dll
-  Total build time: 16.58 seconds (Local executor: 0.00 seconds)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" PropNavigationGameEditor Win64 Development "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.
+EXEC : error : System.ArgumentNullException: Value cannot be null.
+  Parameter name: source
+     at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+     at UnrealBuildTool.ExternalExecution.ExecuteHeaderToolIfNecessary(BuildConfiguration BuildConfiguration, UEBuildTarget Target, CppCompileEnvironment GlobalCompileEnvironment, List`1 UObjectModules, FileReference ModuleInfoFileName, ECompilationResult& UHTResult)
+     at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" PropNavigationGame Win64 Development "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

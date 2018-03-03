@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeBullet() {}
 	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_ABullet();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PropNavigationGame();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
 	void ABullet::StaticRegisterNativesABullet()
 	{
@@ -41,6 +43,8 @@ void EmptyLinkFunctionForGeneratedCodeBullet() {}
 
 
 				UProperty* NewProp_speed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("speed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(speed, ABullet), 0x0010000000000001);
+				UProperty* NewProp_staticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("staticMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(staticMesh, ABullet), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+				UProperty* NewProp_sphereMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("sphereMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(sphereMesh, ABullet), 0x0010000000080009, Z_Construct_UClass_USphereComponent_NoRegister());
 				static TCppClassTypeInfo<TCppClassTypeTraits<ABullet> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -50,13 +54,19 @@ void EmptyLinkFunctionForGeneratedCodeBullet() {}
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
 				MetaData->SetValue(NewProp_speed, TEXT("Category"), TEXT("Bullet"));
 				MetaData->SetValue(NewProp_speed, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_staticMesh, TEXT("Category"), TEXT("Bullet"));
+				MetaData->SetValue(NewProp_staticMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_staticMesh, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
+				MetaData->SetValue(NewProp_sphereMesh, TEXT("Category"), TEXT("Bullet"));
+				MetaData->SetValue(NewProp_sphereMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_sphereMesh, TEXT("ModuleRelativePath"), TEXT("Bullet.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABullet, 2431083284);
+	IMPLEMENT_CLASS(ABullet, 3018611182);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABullet(Z_Construct_UClass_ABullet, &ABullet::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("ABullet"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABullet);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

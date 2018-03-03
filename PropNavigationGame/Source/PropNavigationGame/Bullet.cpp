@@ -10,13 +10,20 @@ ABullet::ABullet()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	UStaticMeshComponent* staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
-
+	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
+	sphereMesh = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Mesh"));
 	//Mesh
+
+	sphereMesh->InitSphereRadius(1.0f);
+	sphereMesh->SetCollisionProfileName("Trigger");
+
+	RootComponent = sphereMesh;
+
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>SphereMesh(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere'"));
 	if (SphereMesh.Object)
 		staticMesh->SetStaticMesh(SphereMesh.Object);
-	RootComponent = staticMesh;
+	
+	staticMesh->AttachTo(RootComponent);
 	staticMesh->SetWorldScale3D(FVector(0.10, 0.10, 0.10));
 }
 

@@ -22,7 +22,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void Seek();
+	TArray<AActor*> FoundActors;
 
-	
-	
+	float PreviousLos, LoS;
+	float LoSRate;
+
+	float NavigationalConstant = 3.0f;
+	FVector Target;
 };

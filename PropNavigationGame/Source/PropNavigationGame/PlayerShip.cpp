@@ -16,18 +16,22 @@ APlayerShip::APlayerShip()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
+	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
 
 	//set root component
-	RootComponent = sceneRoot;
+	RootComponent =  mesh;
 
 	//set up spring arm attachment for camera
-	springArm->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	springArm->AttachToComponent(skeleMesh, FAttachmentTransformRules::KeepWorldTransform);
 	springArm->TargetArmLength = 400.0f;
 	springArm->SetWorldRotation(FRotator(-20.0f, 0.0f, 0.0f));
 
+	FRotator StartRotation = FRotator(0, 0, -180.0f);
+	skeleMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	skeleMesh->SetRelativeRotation(StartRotation);
+
 	//attach camera to spring arm
 	camera->AttachToComponent(springArm, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
-
 
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -46,17 +50,8 @@ void APlayerShip::BeginPlay()
 void APlayerShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	FRotator newTurnAngle = mesh->GetComponentRotation();
-	FVector newActorPosition = mesh->GetComponentLocation();
-
-	FRotator newYaw = GetActorRotation();
-	FRotator newPitch = springArm->GetComponentRotation();
-
-	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
-	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
-	
-	newPitch.Roll = 0.0f;
-	springArm->SetWorldRotation(newPitch);
+	FRotator newTurnAngle = skeleMesh->GetComponentRotation();
+	FVector newActorPosition = skeleMesh->GetComponentLocation();
 
 	if (timeBetweenShots < 0.5f)
 	{
@@ -71,12 +66,14 @@ void APlayerShip::Tick(float DeltaTime)
 		//add the turning speed angle
 		newTurnAngle.Yaw += turningSpeed;
 
-		//if the "roll" of the ship is not at it's max angle
-		if (newTurnAngle.Roll < maxTurningAngle)
+
+		//if the "roll" of the ship is not at it's negative max angle
+		if (newTurnAngle.Roll >(maxTurningAngle*-1))
 		{
-			//start turning right
-			newTurnAngle.Roll += turningSpeed;
+			//start turning left
+			newTurnAngle.Roll -= turningSpeed;
 		}
+		
 	}
 	//if the turning speed is to the left 
 	else if (turningSpeed < 0.0f)
@@ -84,11 +81,12 @@ void APlayerShip::Tick(float DeltaTime)
 		//add the turning speed angle
 		newTurnAngle.Yaw += turningSpeed;
 
-		//if the "roll" of the ship is not at it's negative max angle
-		if (newTurnAngle.Roll > (maxTurningAngle*-1))
+
+		//if the "roll" of the ship is not at it's max angle
+		if (newTurnAngle.Roll < maxTurningAngle)
 		{
-			//start turning left
-			newTurnAngle.Roll += turningSpeed;
+			//start turning right
+			newTurnAngle.Roll -= turningSpeed;
 		}
 	}
 	
@@ -111,14 +109,15 @@ void APlayerShip::Tick(float DeltaTime)
 
 
 	//move the actor forward using the actors' forward vector and multiplying by speed
-	newActorPosition += (GetActorForwardVector() * newForwardVelocity);
+	newActorPosition += (-skeleMesh->GetForwardVector() * newForwardVelocity);
 
 
 	
 	//set the actors rotation and position
-	mesh->SetWorldRotation(newTurnAngle);
-	SetActorRelativeLocation(newActorPosition);
+	skeleMesh->SetWorldRotation(newTurnAngle);
+	skeleMesh->SetWorldLocation(newActorPosition);
 
+	//SetActorLocation(newActorPosition);
 
 
 
@@ -140,6 +139,13 @@ void APlayerShip::Tick(float DeltaTime)
 		//Decrease innertia
 		newForwardVelocity += 0.01f;
 	}
+
+	FRotator newPitch = springArm->GetComponentRotation();
+	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
+	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
+	newPitch.Roll = 0.0f;
+	springArm->SetWorldRotation(newPitch);
+
 
 }
 

@@ -5,6 +5,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "FiringComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "PhaserComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerShip.generated.h"
@@ -51,7 +52,7 @@ public:
 
 	float newForwardVelocity;
 	float turningSpeed;
-
+	
 	FVector2D mouseInput;
 
 	USceneComponent* sceneRoot;
@@ -59,11 +60,17 @@ public:
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* springArm;
 	
+
+
 	UCameraComponent* camera;
 
 	UPhaserComponent* phaserComponent;
+
 	UFiringComponent* firingComponent;
 
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* mesh;
+	USkeletalMeshComponent* skeleMesh;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* mesh;
 };

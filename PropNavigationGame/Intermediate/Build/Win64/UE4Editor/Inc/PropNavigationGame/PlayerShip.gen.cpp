@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_PropNavigationGame();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void APlayerShip::StaticRegisterNativesAPlayerShip()
@@ -43,6 +44,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 
 
 				UProperty* NewProp_mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("mesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(mesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
+				UProperty* NewProp_skeleMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("skeleMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(skeleMesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
 				UProperty* NewProp_springArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("springArm"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(springArm, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USpringArmComponent_NoRegister());
 				UProperty* NewProp_maxTurningSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningSpeed, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForwardSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForwardSpeed, APlayerShip), 0x0010000000000001);
@@ -59,6 +61,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				MetaData->SetValue(NewProp_mesh, TEXT("Category"), TEXT("PlayerShip"));
 				MetaData->SetValue(NewProp_mesh, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_mesh, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("Category"), TEXT("PlayerShip"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
 				MetaData->SetValue(NewProp_springArm, TEXT("Category"), TEXT("PlayerShip"));
 				MetaData->SetValue(NewProp_springArm, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_springArm, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
@@ -76,7 +81,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 856020887);
+	IMPLEMENT_CLASS(APlayerShip, 673839694);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

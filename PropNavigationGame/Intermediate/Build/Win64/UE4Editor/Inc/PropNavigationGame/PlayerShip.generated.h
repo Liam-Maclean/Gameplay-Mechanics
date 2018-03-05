@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROPNAVIGATIONGAME_PlayerShip_generated_h
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_RPC_WRAPPERS
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_INCLASS_NO_PURE_DECLS \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerShip(); \
 	friend PROPNAVIGATIONGAME_API class UClass* Z_Construct_UClass_APlayerShip(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_INCLASS \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerShip(); \
 	friend PROPNAVIGATIONGAME_API class UClass* Z_Construct_UClass_APlayerShip(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_STANDARD_CONSTRUCTORS \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerShip(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerShip) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_ENHANCED_CONSTRUCTORS \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API APlayerShip(APlayerShip&&); \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerShip); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerShip)
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_PRIVATE_PROPERTY_OFFSET
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_12_PROLOG
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_GENERATED_BODY_LEGACY \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_PRIVATE_PROPERTY_OFFSET
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_13_PROLOG
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_PRIVATE_PROPERTY_OFFSET \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_RPC_WRAPPERS \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_INCLASS \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_STANDARD_CONSTRUCTORS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_PRIVATE_PROPERTY_OFFSET \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_INCLASS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_GENERATED_BODY \
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_PRIVATE_PROPERTY_OFFSET \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_INCLASS_NO_PURE_DECLS \
-	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_15_ENHANCED_CONSTRUCTORS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_PRIVATE_PROPERTY_OFFSET \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_INCLASS_NO_PURE_DECLS \
+	PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

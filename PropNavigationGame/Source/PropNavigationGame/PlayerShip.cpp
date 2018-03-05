@@ -44,6 +44,7 @@ void APlayerShip::BeginPlay()
 {
 	Super::BeginPlay();
 	firingComponent->InitialiseComponent();
+	phaserComponent->InitialiseComponent(100, 1);
 	
 }
 

@@ -61,13 +61,6 @@ void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class
 			}
 			OtherActor->Destroy();
 		}
-		//Destroy();
-		//OtherActor->Destroy();
-		//if (OtherActor->Tags.Find("Bullet"))
-		//{
-		//	OtherActor->Destroy();
-		//	Destroy();
-		//}
 	}
 }
 

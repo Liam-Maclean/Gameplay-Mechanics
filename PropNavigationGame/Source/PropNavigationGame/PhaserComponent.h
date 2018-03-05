@@ -34,7 +34,10 @@ public:
 	TArray<USkeletalMeshSocket*> sockets;
 	USkeletalMeshComponent* skele_mesh;
 
+	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds);
 	void FirePhasers(FVector Target);
 		
-	
+private:
+	float m_damageOverDurationValue;
+	float m_coolDownInSeconds;
 };

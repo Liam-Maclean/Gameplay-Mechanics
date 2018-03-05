@@ -13,16 +13,23 @@ UPhaserComponent::UPhaserComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	
+	//Load particle system made in folders
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
+
+	//set the template 
 	phaserEffect->SetTemplate(PS.Object);
 
-	////phaserEffect->SetRelativeLocation(FVector(0, 0, 0));
-	//phaserEffect->SetBeamSourcePoint(0, FVector(100, 100, 100), 0);
-	//phaserEffect->SetBeamTargetPoint(0, FVector(0,0,0), 0);
-	//phaserEffect->ToggleActive();
 	// ...
+}
+
+//initialise phaser weapons initial values
+//*first param- How much damage in one phaser duration
+//*second param- How long between each phaser blast
+void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds)
+{
+	m_damageOverDurationValue = damageOverDurationValue;
+	m_coolDownInSeconds = coolDownInSeconds;
 }
 
 
@@ -65,17 +72,28 @@ void UPhaserComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 }
 
 
+//Fire Phasers function
+//*first param- Target that we are firing at 
 void UPhaserComponent::FirePhasers(FVector Target)
 {
+	//if the skeletal mesh exists on the object
 	if (skele_mesh)
 	{
+		//for each socket found in the skeletal mesh in the constructor
 		for (int i = 0; i < names.Num(); i++)
 		{
-			//UE_LOG(LogTemp, Warning, TEXT("Turn on Particle System"));
+			//store the world location and rotation of the socket
 			FRotator rotation;
 			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, rotation);
+
+			//make the source point the socket 
 			phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
+			phaserEffect->SetBeamSourcePoint(1, spawningLocation, 0);
+			//make the target point the target object
 			phaserEffect->SetBeamTargetPoint(0, Target, 0);
+			phaserEffect->SetBeamTargetPoint(1, Target, 0);
+
+			//enable phasers
 			phaserEffect->ToggleActive();
 		}
 	}

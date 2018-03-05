@@ -17,6 +17,7 @@ APlayerShip::APlayerShip()
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
+	particleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle System"));
 
 	//set root component
 	RootComponent =  mesh;
@@ -59,7 +60,6 @@ void APlayerShip::Tick(float DeltaTime)
 	}
 
 
-
 	//if the turning speed is to the right
 	if (turningSpeed > 0.0f)
 	{
@@ -71,7 +71,7 @@ void APlayerShip::Tick(float DeltaTime)
 		if (newTurnAngle.Roll >(maxTurningAngle*-1))
 		{
 			//start turning left
-			newTurnAngle.Roll -= turningSpeed;
+			newTurnAngle.Roll -= (turningSpeed * 0.8f);
 		}
 		
 	}
@@ -86,7 +86,7 @@ void APlayerShip::Tick(float DeltaTime)
 		if (newTurnAngle.Roll < maxTurningAngle)
 		{
 			//start turning right
-			newTurnAngle.Roll -= turningSpeed;
+			newTurnAngle.Roll -= (turningSpeed * 0.8f);
 		}
 	}
 	
@@ -160,7 +160,54 @@ void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAction("FireMissile", IE_Pressed, this, &APlayerShip::FireMissile);
 	PlayerInputComponent->BindAxis("MousePitch", this, &APlayerShip::MousePitch);
 	PlayerInputComponent->BindAxis("MouseYaw", this, &APlayerShip::MouseYaw);
+	PlayerInputComponent->BindAction("FirePhasers", IE_Pressed, this, &APlayerShip::FirePhasers);
 }
+
+void APlayerShip::FirePhasers()
+{
+	if (Controller != NULL)
+	{
+		//get the mouse world position + direction
+		FVector mouseLocation, mouseDirection;
+		APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
+		playerController->DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
+	
+		//normalise it and multiply it by a distance
+		mouseDirection.Normalize();
+		mouseDirection * 1000.0f;
+
+		//do a raycast using mouse location and cirection
+		FHitResult hit(ForceInit);
+		playerController->GetHitResultUnderCursor(ECollisionChannel::ECC_WorldDynamic, false, hit);
+
+		FString TraceString;
+
+		if (hit.GetActor() != nullptr)
+		{
+			//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
+			phaserComponent->FirePhasers(hit.GetActor()->GetActorLocation());
+			UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
+		}
+
+		
+		//if (GetWorld()->LineTraceSingleByObjectType(hit, mouseLocation, mouseDirection, FCollisionObjectQueryParams::AllObjects))
+		//{
+		//	if (hit.GetActor()->Tags.Find("Target"))
+		//	{
+		//		phaserComponent->FirePhasers(hit.GetActor()->GetActorLocation());
+		//		UE_LOG(LogTemp, Warning, TEXT("Hit something"));
+		//	}
+		//}
+
+		//if the actor hit contained the tag targettable
+		//if (hit.GetActor())
+		//{
+			//Create Particle system for phasers
+			
+		//}
+	}
+}
+
 
 void APlayerShip::ImpulseForwardBack(float axis)
 {

@@ -34,6 +34,7 @@ public:
 	void TurnRightLeft(float axis);
 	void MousePitch(float axis);
 	void MouseYaw(float axis);
+	void FirePhasers();
 	void FireMissile();
 	
 
@@ -61,9 +62,11 @@ public:
 		USpringArmComponent* springArm;
 	
 
+	UParticleSystemComponent* particleSystemComponent;
 
 	UCameraComponent* camera;
 
+	UPROPERTY(EditAnywhere)
 	UPhaserComponent* phaserComponent;
 
 	UFiringComponent* firingComponent;

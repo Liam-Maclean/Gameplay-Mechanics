@@ -26,12 +26,15 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UPROPERTY(EditAnywhere)
 	UParticleSystemComponent* phaserEffect;
+
 	TArray<FName> names;
 	FVector spawningLocation;
 	TArray<USkeletalMeshSocket*> sockets;
 	USkeletalMeshComponent* skele_mesh;
-	void FirePhasers();
+
+	void FirePhasers(FVector Target);
 		
 	
 };

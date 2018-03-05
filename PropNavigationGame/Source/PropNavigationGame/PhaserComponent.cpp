@@ -17,10 +17,11 @@ UPhaserComponent::UPhaserComponent()
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
 	phaserEffect->SetTemplate(PS.Object);
-	phaserEffect->SetBeamSourcePoint(1, FVector(100,100,100), 0);
-	phaserEffect->SetBeamTargetPoint(1, FVector(0,0,0), 0);
-	phaserEffect->ToggleActive();
-	//phaserEffect->Activate(true);
+
+	////phaserEffect->SetRelativeLocation(FVector(0, 0, 0));
+	//phaserEffect->SetBeamSourcePoint(0, FVector(100, 100, 100), 0);
+	//phaserEffect->SetBeamTargetPoint(0, FVector(0,0,0), 0);
+	//phaserEffect->ToggleActive();
 	// ...
 }
 
@@ -31,7 +32,6 @@ void UPhaserComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-
 	TArray<USkeletalMeshComponent*> mesh;
 	GetOwner()->GetComponents(mesh, true);
 
@@ -53,18 +53,6 @@ void UPhaserComponent::BeginPlay()
 			}
 		}
 	}
-
-	if (skele_mesh)
-	{
-		for (int i = 0; i < names.Num(); i++)
-		{
-			//FVector ParticleSystemSource;
-	
-			//UWorld* const world = GetWorld();
-			//ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);
-		}
-	}
-
 }
 
 
@@ -77,14 +65,18 @@ void UPhaserComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 }
 
 
-void UPhaserComponent::FirePhasers()
+void UPhaserComponent::FirePhasers(FVector Target)
 {
 	if (skele_mesh)
 	{
 		for (int i = 0; i < names.Num(); i++)
 		{
-			spawningLocation = skele_mesh->GetSocketLocation(names[i]);
-			UWorld* const world = GetWorld();
+			//UE_LOG(LogTemp, Warning, TEXT("Turn on Particle System"));
+			FRotator rotation;
+			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, rotation);
+			phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
+			phaserEffect->SetBeamTargetPoint(0, Target, 0);
+			phaserEffect->ToggleActive();
 		}
 	}
 }

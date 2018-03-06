@@ -19,6 +19,12 @@ void UHealthComponent::BeginPlay()
 	// ...	
 }
 
+//returns shield strength
+int UHealthComponent::GetHealthStrength()
+{
+	return healthStrength;
+}
+
 // Called every frame
 void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {

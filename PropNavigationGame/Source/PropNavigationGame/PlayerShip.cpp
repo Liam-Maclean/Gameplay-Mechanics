@@ -3,6 +3,10 @@
 #include "PlayerShip.h"
 #include "Components/inputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "GameFramework/HUD.h"
+#include "ShieldComponent.h"
+#include "HealthComponent.h"
+#include "SpaceHUD.h"
 // Sets default values
 APlayerShip::APlayerShip()
 {
@@ -26,6 +30,8 @@ APlayerShip::APlayerShip()
 	springArm->AttachToComponent(skeleMesh, FAttachmentTransformRules::KeepWorldTransform);
 	springArm->TargetArmLength = 400.0f;
 	springArm->SetWorldRotation(FRotator(-20.0f, 0.0f, 0.0f));
+	springArm->bAbsoluteRotation = true;
+
 
 	FRotator StartRotation = FRotator(0, 0, -180.0f);
 	skeleMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
@@ -38,6 +44,61 @@ APlayerShip::APlayerShip()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 }
+
+//returns the shield strength of the target object
+int APlayerShip::GetTargetShieldStrength()
+{
+	if (TargetedActor)
+	{
+		UShieldComponent* shields = (UShieldComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		if (shields != nullptr)
+		{
+			return shields->GetShieldStrength();
+		}
+	}
+	else
+	{
+		return 0;
+	}
+
+	return 0;
+}
+
+
+//returns the health of the target object
+int APlayerShip::GetTargetHealthStrength()
+{
+	if (TargetedActor)
+	{
+		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		if (health != nullptr)
+		{
+			return health->GetHealthStrength();
+		}
+	}
+	else
+	{
+		return 0;
+	}
+
+	return 0;
+}
+
+//Returns the name of the actor targeted
+FName APlayerShip::GetTargetName()
+{
+	if (TargetedActor)
+	{
+		return TargetedActor->GetFName();
+	}
+	else
+	{
+		return FName("No actor found");
+	}
+
+	return FName("No actor found");
+}
+
 
 // Called when the game starts or when spawned
 void APlayerShip::BeginPlay()
@@ -65,14 +126,14 @@ void APlayerShip::Tick(float DeltaTime)
 	if (turningSpeed > 0.0f)
 	{
 		//add the turning speed angle
-		newTurnAngle.Yaw += turningSpeed;
+		newTurnAngle.Yaw += turningSpeed * 0.5f;
 
 
 		//if the "roll" of the ship is not at it's negative max angle
 		if (newTurnAngle.Roll >(maxTurningAngle*-1))
 		{
 			//start turning left
-			newTurnAngle.Roll -= (turningSpeed * 0.8f);
+			newTurnAngle.Roll -= (turningSpeed * 0.6f);
 		}
 		
 	}
@@ -80,14 +141,14 @@ void APlayerShip::Tick(float DeltaTime)
 	else if (turningSpeed < 0.0f)
 	{
 		//add the turning speed angle
-		newTurnAngle.Yaw += turningSpeed;
+		newTurnAngle.Yaw += turningSpeed * 0.5f;
 
 
 		//if the "roll" of the ship is not at it's max angle
 		if (newTurnAngle.Roll < maxTurningAngle)
 		{
 			//start turning right
-			newTurnAngle.Roll -= (turningSpeed * 0.8f);
+			newTurnAngle.Roll -= (turningSpeed * 0.6f);
 		}
 	}
 	
@@ -98,13 +159,13 @@ void APlayerShip::Tick(float DeltaTime)
 		if (newTurnAngle.Roll < 0.0f)
 		{
 			//add untill neutral (0 degrees)
-			newTurnAngle.Roll += 2.0f;
+			newTurnAngle.Roll += 0.5f;
 		}
 		//if roll angle is more than neutral
 		if (newTurnAngle.Roll > 0.0f)
 		{
 			//remove untill neutral (0 degrees)
-			newTurnAngle.Roll -= 2.0f;
+			newTurnAngle.Roll -= 0.5f;
 		}
 	}
 
@@ -117,10 +178,6 @@ void APlayerShip::Tick(float DeltaTime)
 	//set the actors rotation and position
 	skeleMesh->SetWorldRotation(newTurnAngle);
 	skeleMesh->SetWorldLocation(newActorPosition);
-
-	//SetActorLocation(newActorPosition);
-
-
 
 	//if the velocity is small enough for the player not to notice
 	if (newForwardVelocity <= 0.1f && newForwardVelocity >= -0.1f)
@@ -162,50 +219,61 @@ void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("MousePitch", this, &APlayerShip::MousePitch);
 	PlayerInputComponent->BindAxis("MouseYaw", this, &APlayerShip::MouseYaw);
 	PlayerInputComponent->BindAction("FirePhasers", IE_Pressed, this, &APlayerShip::FirePhasers);
+	PlayerInputComponent->BindAction("Target", IE_Pressed, this, &APlayerShip::TargetActorWithMouse);
 }
 
-void APlayerShip::FirePhasers()
+
+//Target an actor in the scene with the mouse
+void APlayerShip::TargetActorWithMouse()
 {
+	//if a controller exists
 	if (Controller != NULL)
 	{
-		//get the mouse world position + direction
-		FVector mouseLocation, mouseDirection;
+		//get the player controller
 		APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
-		playerController->DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
-	
-		//normalise it and multiply it by a distance
-		mouseDirection.Normalize();
-		mouseDirection * 1000.0f;
 
 		//do a raycast using mouse location and cirection
 		FHitResult hit(ForceInit);
 		playerController->GetHitResultUnderCursor(ECollisionChannel::ECC_WorldDynamic, false, hit);
-
+		ASpaceHUD* hud = (ASpaceHUD*)playerController->GetHUD();
+		
+		
 		FString TraceString;
 
+		//if there was a target hit by the mouse
 		if (hit.GetActor() != nullptr)
 		{
-			//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
-			phaserComponent->FirePhasers(hit.GetActor()->GetActorLocation());
-			UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
+			//if the target actor is targetable
+			//if (hit.GetActor()->Tags.Find("Targetable"))
+			//{
+				//contain that targetted actor
+				TargetedActor = hit.GetActor();
+				UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %s."), *hit.GetActor()->GetName());
+			//}
 		}
+		//if mouse has not collided with anything
+		else if (hit.GetActor() == nullptr)
+		{
+			//untarget actor
+			TargetedActor = nullptr;
+		}
+	}
+}
 
-		
-		//if (GetWorld()->LineTraceSingleByObjectType(hit, mouseLocation, mouseDirection, FCollisionObjectQueryParams::AllObjects))
-		//{
-		//	if (hit.GetActor()->Tags.Find("Target"))
-		//	{
-		//		phaserComponent->FirePhasers(hit.GetActor()->GetActorLocation());
-		//		UE_LOG(LogTemp, Warning, TEXT("Hit something"));
-		//	}
-		//}
-
-		//if the actor hit contained the tag targettable
-		//if (hit.GetActor())
-		//{
-			//Create Particle system for phasers
-			
-		//}
+//Fire phasers at the targetted actor
+void APlayerShip::FirePhasers()
+{
+	//if a targetted actor exists
+	if (TargetedActor)
+	{
+		//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
+		phaserComponent->FirePhasers(TargetedActor->GetActorLocation());
+		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
+	}
+	//if there is no actor targetted
+	else if (!TargetedActor)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("NO ACTOR TARGETED"));
 	}
 }
 

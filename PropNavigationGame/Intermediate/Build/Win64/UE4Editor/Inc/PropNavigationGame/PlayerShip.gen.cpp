@@ -14,8 +14,11 @@ PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 // Cross Module References
-	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_APlayerShip_NoRegister();
+	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength();
 	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_APlayerShip();
+	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetName();
+	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetShieldStrength();
+	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_APlayerShip_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_PropNavigationGame();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
@@ -25,6 +28,79 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 // End Cross Module References
 	void APlayerShip::StaticRegisterNativesAPlayerShip()
 	{
+		UClass* Class = APlayerShip::StaticClass();
+		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
+			{ "GetTargetHealthStrength", (Native)&APlayerShip::execGetTargetHealthStrength },
+			{ "GetTargetName", (Native)&APlayerShip::execGetTargetName },
+			{ "GetTargetShieldStrength", (Native)&APlayerShip::execGetTargetShieldStrength },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, ARRAY_COUNT(AnsiFuncs));
+	}
+	UFunction* Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength()
+	{
+		struct PlayerShip_eventGetTargetHealthStrength_Parms
+		{
+			int32 ReturnValue;
+		};
+		UObject* Outer = Z_Construct_UClass_APlayerShip();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetHealthStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetTargetHealthStrength_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetTargetHealthStrength_Parms), 0x0010000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Target functions"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_APlayerShip_GetTargetName()
+	{
+		struct PlayerShip_eventGetTargetName_Parms
+		{
+			FName ReturnValue;
+		};
+		UObject* Outer = Z_Construct_UClass_APlayerShip();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetName"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetTargetName_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UNameProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetTargetName_Parms), 0x0010000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Target functions"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_APlayerShip_GetTargetShieldStrength()
+	{
+		struct PlayerShip_eventGetTargetShieldStrength_Parms
+		{
+			int32 ReturnValue;
+		};
+		UObject* Outer = Z_Construct_UClass_APlayerShip();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetShieldStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetTargetShieldStrength_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetTargetShieldStrength_Parms), 0x0010000000000580);
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Target functions"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+#endif
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_APlayerShip_NoRegister()
 	{
@@ -43,6 +119,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UObjectForceRegistration(OuterClass);
 				OuterClass->ClassFlags |= (EClassFlags)0x20900080u;
 
+				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength());
+				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetName());
+				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetShieldStrength());
 
 				UProperty* NewProp_mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("mesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(mesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				UProperty* NewProp_skeleMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("skeleMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(skeleMesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
@@ -52,6 +131,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UProperty* NewProp_maxForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForwardSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForwardSpeed, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxTurningAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningAngle, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_timeBetweenShots = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("timeBetweenShots"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(timeBetweenShots, APlayerShip), 0x0010000000000001);
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength(), "GetTargetHealthStrength"); // 2279389958
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetName(), "GetTargetName"); // 1661370068
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetShieldStrength(), "GetTargetShieldStrength"); // 175059321
 				static TCppClassTypeInfo<TCppClassTypeTraits<APlayerShip> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -86,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 759977080);
+	IMPLEMENT_CLASS(APlayerShip, 926869237);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

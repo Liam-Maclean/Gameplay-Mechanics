@@ -15,6 +15,9 @@ class PROPNAVIGATIONGAME_API ASpaceHUD : public AHUD
 	GENERATED_BODY()
 	
 	
-	
+public:
+	void UpdateTargetData();
+
+
 	
 };

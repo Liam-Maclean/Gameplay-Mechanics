@@ -13,6 +13,7 @@ UShieldComponent::UShieldComponent()
 	// ...
 }
 
+
 // Called when the game starts
 void UShieldComponent::BeginPlay()
 {
@@ -21,6 +22,13 @@ void UShieldComponent::BeginPlay()
 	// ...
 	
 }
+
+//returns shield strength
+int UShieldComponent::GetShieldStrength()
+{
+	return shieldStrength;
+}
+
 
 // Called every frame
 void UShieldComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

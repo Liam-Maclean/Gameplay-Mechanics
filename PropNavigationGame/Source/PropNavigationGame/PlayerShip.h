@@ -36,8 +36,19 @@ public:
 	void MouseYaw(float axis);
 	void FirePhasers();
 	void FireMissile();
-	
+	void TargetActorWithMouse();
 
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+	int GetTargetShieldStrength();
+
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+	int GetTargetHealthStrength();
+
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+	FName GetTargetName();
+
+
+	AActor* TargetedActor;
 
 	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
 	float timeBetweenShots = 0.5f;
@@ -59,7 +70,7 @@ public:
 	USceneComponent* sceneRoot;
 
 	UPROPERTY(EditAnywhere)
-		USpringArmComponent* springArm;
+	USpringArmComponent* springArm;
 	
 
 	UParticleSystemComponent* particleSystemComponent;

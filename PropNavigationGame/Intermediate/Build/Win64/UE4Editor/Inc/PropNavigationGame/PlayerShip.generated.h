@@ -13,8 +13,60 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROPNAVIGATIONGAME_PlayerShip_generated_h
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetTargetName) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetTargetName(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetHealthStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetTargetHealthStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetTargetShieldStrength(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetTargetName) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetTargetName(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetHealthStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetTargetHealthStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetTargetShieldStrength(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerShip(); \

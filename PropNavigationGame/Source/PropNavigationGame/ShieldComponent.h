@@ -24,6 +24,7 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	int GetShieldStrength();
 	void DecrementShield(int value);
 	void IncrementShield(int value);
 

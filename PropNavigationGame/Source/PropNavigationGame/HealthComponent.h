@@ -30,6 +30,9 @@ public:
 	//Decrease health
 	void DecrementHealth(int value);
 
+	//returns health strength of the component
+	int GetHealthStrength();
+
 	//stat
 	UPROPERTY(EditAnywhere, Category = "Health stats")
 	int healthStrength = 100;

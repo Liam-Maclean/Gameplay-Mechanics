@@ -6,6 +6,7 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "EnemyShip.h"
 // Sets default values for this component's properties
 UPhaserComponent::UPhaserComponent()
 {
@@ -74,7 +75,7 @@ void UPhaserComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 
 //Fire Phasers function
 //*first param- Target that we are firing at 
-void UPhaserComponent::FirePhasers(FVector Target)
+void UPhaserComponent::FirePhasers(AEnemyShip* target)
 {
 	//if the skeletal mesh exists on the object
 	if (skele_mesh)
@@ -90,11 +91,16 @@ void UPhaserComponent::FirePhasers(FVector Target)
 			phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
 			phaserEffect->SetBeamSourcePoint(1, spawningLocation, 0);
 			//make the target point the target object
-			phaserEffect->SetBeamTargetPoint(0, Target, 0);
-			phaserEffect->SetBeamTargetPoint(1, Target, 0);
+			phaserEffect->SetBeamTargetPoint(0, target->GetActorLocation(), 0);
+			phaserEffect->SetBeamTargetPoint(1, target->GetActorLocation(), 0);
 
 			//enable phasers
 			phaserEffect->ToggleActive();
+
+			//cast to enemy ship
+			target->ApplyDamageTaken(m_damageOverDurationValue);
+			//target = nullptr;
+
 		}
 	}
 }

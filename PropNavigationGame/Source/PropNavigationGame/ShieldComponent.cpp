@@ -37,7 +37,7 @@ void UShieldComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 
 	if (shieldStrength <= 0)
 	{
-		DestroyComponent();
+		this->SetActive(false);
 	}
 	// ...
 }

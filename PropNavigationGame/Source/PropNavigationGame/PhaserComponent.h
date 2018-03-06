@@ -6,6 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "Engine/SkeletalMeshSocket.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "EnemyShip.h"
 #include "PhaserComponent.generated.h"
 
 
@@ -35,7 +36,7 @@ public:
 	USkeletalMeshComponent* skele_mesh;
 
 	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds);
-	void FirePhasers(FVector Target);
+	void FirePhasers(AEnemyShip* target);
 		
 private:
 	float m_damageOverDurationValue;

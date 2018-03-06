@@ -13,15 +13,10 @@ AEnemyShip::AEnemyShip()
 	healthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 	shieldComponent = CreateDefaultSubobject<UShieldComponent>(TEXT("Shield Component"));
 	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh Component"));
-
 	sphereMesh = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere Mesh Component"));
 	sphereMesh->InitSphereRadius(100.0f);
 	sphereMesh->SetCollisionProfileName("Trigger");
-
 	RootComponent = sphereMesh;
-
-	//staticMesh->SetupAttachment(RootComponent);
-
 	sphereMesh->OnComponentBeginOverlap.AddDynamic(this, &AEnemyShip::OnOverlapBegin);
 	
 }
@@ -38,6 +33,25 @@ void AEnemyShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+//Take damage from hit/actor
+void AEnemyShip::ApplyDamageTaken(int value)
+{
+	if (shieldComponent->IsActive())
+	{
+		shieldComponent->DecrementShield(20);
+	}
+	else if (healthComponent->IsActive())
+	{
+		healthComponent->DecrementHealth(50);
+	}
+
+	if ((shieldComponent->IsActive() == false) && (healthComponent->IsActive() == false))
+	{
+		Destroy();
+	}
+}
+
 
 void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp,int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)
 {

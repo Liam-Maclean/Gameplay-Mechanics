@@ -33,7 +33,7 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 
 	if (healthStrength <= 0)
 	{
-		DestroyComponent();
+		this->SetActive(false);
 	}
 	// ...
 }

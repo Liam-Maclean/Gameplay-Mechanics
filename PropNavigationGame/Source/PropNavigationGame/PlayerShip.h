@@ -48,7 +48,7 @@ public:
 	FName GetTargetName();
 
 
-	AActor* TargetedActor;
+	AEnemyShip* TargetedActor;
 
 	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
 	float timeBetweenShots = 0.5f;

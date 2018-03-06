@@ -106,6 +106,9 @@ void APlayerShip::BeginPlay()
 	Super::BeginPlay();
 	firingComponent->InitialiseComponent();
 	phaserComponent->InitialiseComponent(100, 1);
+	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
+	playerController->bShowMouseCursor = true;
+	playerController->bEnableClickEvents = true;
 	
 }
 
@@ -113,6 +116,12 @@ void APlayerShip::BeginPlay()
 void APlayerShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	//if (TargetedActor->IsActorBeingDestroyed())
+	//{
+	//	TargetedActor = nullptr;
+	//}
+
 	FRotator newTurnAngle = skeleMesh->GetComponentRotation();
 	FVector newActorPosition = skeleMesh->GetComponentLocation();
 
@@ -244,12 +253,12 @@ void APlayerShip::TargetActorWithMouse()
 		if (hit.GetActor() != nullptr)
 		{
 			//if the target actor is targetable
-			//if (hit.GetActor()->Tags.Find("Targetable"))
-			//{
+			if (hit.GetActor()->Tags.Find("Targetable") != INDEX_NONE)
+			{
 				//contain that targetted actor
-				TargetedActor = hit.GetActor();
+				TargetedActor = (AEnemyShip*)hit.GetActor();
 				UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %s."), *hit.GetActor()->GetName());
-			//}
+			}
 		}
 		//if mouse has not collided with anything
 		else if (hit.GetActor() == nullptr)
@@ -267,7 +276,7 @@ void APlayerShip::FirePhasers()
 	if (TargetedActor)
 	{
 		//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
-		phaserComponent->FirePhasers(TargetedActor->GetActorLocation());
+		phaserComponent->FirePhasers(TargetedActor);
 		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
 	}
 	//if there is no actor targetted

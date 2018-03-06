@@ -4104,6 +4104,10 @@ void UELinkerFixups()
     EmptyLinkFunctionForGeneratedCodePropNavigationGame_init();
     extern void EmptyLinkFunctionForGeneratedCodeShieldComponent();
     EmptyLinkFunctionForGeneratedCodeShieldComponent();
+    extern void EmptyLinkFunctionForGeneratedCodeSpaceGameMode();
+    EmptyLinkFunctionForGeneratedCodeSpaceGameMode();
+    extern void EmptyLinkFunctionForGeneratedCodeSpaceHUD();
+    EmptyLinkFunctionForGeneratedCodeSpaceHUD();
     extern void EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     EmptyLinkFunctionForGeneratedCodeSlateReflector_init();
     extern void EmptyLinkFunctionForGeneratedCodeWidgetSnapshotMessages();

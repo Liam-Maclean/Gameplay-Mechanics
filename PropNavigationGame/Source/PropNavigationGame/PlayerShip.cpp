@@ -7,6 +7,7 @@
 #include "ShieldComponent.h"
 #include "HealthComponent.h"
 #include "SpaceHUD.h"
+
 // Sets default values
 APlayerShip::APlayerShip()
 {
@@ -95,6 +96,37 @@ FName APlayerShip::GetTargetName()
 	}
 
 	return FName("No actor found");
+}
+
+//Returns a string of the impulse speed currently active
+FName APlayerShip::GetImpulseSpeed()
+{
+	switch (impulseSpeed)
+	{
+		//if the impulse speed is set to none
+	case ImpulseSpeed::None:
+		return FName("No Impulse");
+		break;
+		//if the impulse speed is set to one quarter
+	case ImpulseSpeed::OneQuarter:
+		return FName("One Quarter Impulse");
+		break;
+		//if the impulse speed is set to a half
+	case ImpulseSpeed::Half:
+		return FName("Half Impulse");
+		break;
+		//if the impulse speed is set to three quarters 
+	case ImpulseSpeed::ThreeQuarter:
+		return FName("Three Quarter Impulse");
+		break;
+		//if the impulse speed is set to full
+	case ImpulseSpeed::Full:
+		return FName("Full Impulse");
+		break;
+	default:
+		return FName("No Impulse");
+		break;
+	}
 }
 
 // Called when the game starts or when spawned

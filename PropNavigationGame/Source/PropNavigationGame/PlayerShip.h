@@ -72,6 +72,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Target functions")
 	FName GetTargetName();
 
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+	FName GetImpulseSpeed();
+
 
 	AEnemyShip* TargetedActor;
 

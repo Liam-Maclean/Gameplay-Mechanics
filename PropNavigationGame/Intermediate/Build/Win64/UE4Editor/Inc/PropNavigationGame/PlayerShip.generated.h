@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetImpulseSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetTargetName) \
 	{ \
 		P_FINISH; \
@@ -41,6 +49,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetImpulseSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetTargetName) \
 	{ \

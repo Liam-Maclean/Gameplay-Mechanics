@@ -21,7 +21,6 @@ APlayerShip::APlayerShip()
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
-	particleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle System"));
 
 	//set root component
 	RootComponent =  mesh;
@@ -64,7 +63,6 @@ int APlayerShip::GetTargetShieldStrength()
 	return 0;
 }
 
-
 //returns the health of the target object
 int APlayerShip::GetTargetHealthStrength()
 {
@@ -99,7 +97,6 @@ FName APlayerShip::GetTargetName()
 	return FName("No actor found");
 }
 
-
 // Called when the game starts or when spawned
 void APlayerShip::BeginPlay()
 {
@@ -109,7 +106,7 @@ void APlayerShip::BeginPlay()
 	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
 	playerController->bShowMouseCursor = true;
 	playerController->bEnableClickEvents = true;
-	
+
 }
 
 // Called every frame
@@ -117,19 +114,123 @@ void APlayerShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//if (TargetedActor->IsActorBeingDestroyed())
-	//{
-	//	TargetedActor = nullptr;
-	//}
-
-	FRotator newTurnAngle = skeleMesh->GetComponentRotation();
-	FVector newActorPosition = skeleMesh->GetComponentLocation();
-
 	if (timeBetweenShots < 0.5f)
 	{
 		timeBetweenShots += DeltaTime;
 	}
 
+	CalculateShipTurningAngles();
+	CalculateShipMovement();
+	CalculateCameraTurningWithMouse();
+
+}
+
+// Called to bind functionality to input
+void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	//bind functions to input keys for movement
+	PlayerInputComponent->BindAxis("ImpulseMove", this, &APlayerShip::ImpulseForwardBack);
+	PlayerInputComponent->BindAxis("Turn", this, &APlayerShip::TurnRightLeft);
+	PlayerInputComponent->BindAxis("TurnShipUpDown", this, &APlayerShip::TurnShipUpDown);
+	PlayerInputComponent->BindAction("FireMissile", IE_Pressed, this, &APlayerShip::FireMissile);
+	PlayerInputComponent->BindAxis("MousePitch", this, &APlayerShip::MousePitch);
+	PlayerInputComponent->BindAxis("MouseYaw", this, &APlayerShip::MouseYaw);
+	PlayerInputComponent->BindAction("FirePhasers", IE_Pressed, this, &APlayerShip::FirePhasers);
+	PlayerInputComponent->BindAction("Target", IE_Pressed, this, &APlayerShip::TargetActorWithMouse);
+	PlayerInputComponent->BindAction("ZoomIn", IE_Pressed, this, &APlayerShip::ZoomCameraIn);
+	PlayerInputComponent->BindAction("ZoomOut", IE_Pressed, this, &APlayerShip::ZoomCameraOut);
+	PlayerInputComponent->BindAction("IncreaseImpulseSpeed", IE_Pressed, this, &APlayerShip::IncreaseImpulseSpeed);
+	PlayerInputComponent->BindAction("DecreaseImpulseSpeed", IE_Pressed, this, &APlayerShip::DecreaseImpulseSpeed);
+}
+
+//Calculates how the spring arm will turn with mouse
+//-Contains code to rotate spring arm with camera attached
+void APlayerShip::CalculateCameraTurningWithMouse()
+{
+	FRotator newPitch = springArm->GetComponentRotation();
+	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
+	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
+	newPitch.Roll = 0.0f;
+	springArm->SetWorldRotation(newPitch);
+}
+
+//Calculates the ships movement in game
+//-Contains calculations for impulse speed settings
+//-Contains calculations for increasing and decreasing between impulse settings
+//-Contains setting world Position for skeletal mesh
+void APlayerShip::CalculateShipMovement()
+{
+	//Get the skeletal mesh's location in world space
+	FVector newActorPosition = skeleMesh->GetComponentLocation();
+
+	//Do a statement for changing impulse speed
+	switch (impulseSpeed)
+	{
+		//if the impulse speed is set to none
+	case ImpulseSpeed::None:
+		//set the max current impulse speed to 0 (we will slow to a stop)
+		currentMaxImpulseSpeed = 0.0f;
+		break;
+		//if the impulse speed is set to one quarter
+	case ImpulseSpeed::OneQuarter:
+		//Set the max current impulse speed to a quarter of the max speed we can travel at
+		currentMaxImpulseSpeed = (maxForwardSpeed / 4);
+		break;
+		//if the impulse speed is set to a half
+	case ImpulseSpeed::Half:
+		//Set the max current impulse speed to one half of the max speed we can travel at 
+		currentMaxImpulseSpeed = (maxForwardSpeed / 2);
+		break;
+		//if the impulse speed is set to three quarters 
+	case ImpulseSpeed::ThreeQuarter:
+		//Set the max current impulse speed to three quarters of the max speed we can travel at
+		currentMaxImpulseSpeed = ((maxForwardSpeed / 4) * 3);
+		break;
+		//if the impulse speed is set to full
+	case ImpulseSpeed::Full:
+		//Set the max current impulse speed to the max speed we can travel at 
+		currentMaxImpulseSpeed = maxForwardSpeed;
+		break;
+	default:
+		break;
+	}
+
+	//if the velocity is close enough to the max impulse speed for this setting
+	if (newForwardVelocity <= currentMaxImpulseSpeed + 0.1f && newForwardVelocity >= currentMaxImpulseSpeed - 0.1f)
+	{
+		//manually correct impulse speed 
+		newForwardVelocity = currentMaxImpulseSpeed;
+	}
+	//if the player's ship has exceeded the max impulse speed for this setting
+	if (newForwardVelocity > currentMaxImpulseSpeed)
+	{
+		//Decrease forward velocity
+		newForwardVelocity -= 0.01f;
+	}
+	//if the players ship has not reached max impulse speed for this impulse setting
+	else if (newForwardVelocity < currentMaxImpulseSpeed)
+	{
+		//Increase forward velocity
+		newForwardVelocity += 0.01f;
+	}
+
+
+	//move the actor forward using the actors' forward vector and multiplying by speed
+	newActorPosition += (-skeleMesh->GetForwardVector() * newForwardVelocity);
+
+	//set the actors rotation and position
+	skeleMesh->SetWorldLocation(newActorPosition);
+}
+
+//Calculates the ships rotation angles in game
+//-Contains calculations for turning the ship
+//-Contains calculations for "Rolling" the ship while turning
+//-Contains calculations for turning the ship "up and down"
+void APlayerShip::CalculateShipTurningAngles()
+{
+	FRotator newTurnAngle = skeleMesh->GetComponentRotation();
 
 	//if the turning speed is to the right
 	if (turningSpeed > 0.0f)
@@ -137,30 +238,54 @@ void APlayerShip::Tick(float DeltaTime)
 		//add the turning speed angle
 		newTurnAngle.Yaw += turningSpeed * 0.5f;
 
-
-		//if the "roll" of the ship is not at it's negative max angle
-		if (newTurnAngle.Roll >(maxTurningAngle*-1))
+		if (newForwardVelocity > 0.0f)
 		{
-			//start turning left
-			newTurnAngle.Roll -= (turningSpeed * 0.6f);
+			//if the "roll" of the ship is not at it's negative max angle
+			if (newTurnAngle.Roll > (maxTurningAngle*-1))
+			{
+				//start turning left
+				newTurnAngle.Roll -= (turningSpeed * 0.6f);
+			}
 		}
-		
+
 	}
 	//if the turning speed is to the left 
 	else if (turningSpeed < 0.0f)
 	{
 		//add the turning speed angle
 		newTurnAngle.Yaw += turningSpeed * 0.5f;
-
-
-		//if the "roll" of the ship is not at it's max angle
-		if (newTurnAngle.Roll < maxTurningAngle)
+		if (newForwardVelocity > 0.0f)
 		{
-			//start turning right
-			newTurnAngle.Roll -= (turningSpeed * 0.6f);
+			//if the "roll" of the ship is not at it's max angle
+			if (newTurnAngle.Roll < maxTurningAngle)
+			{
+				//start turning right
+				newTurnAngle.Roll -= (turningSpeed * 0.6f);
+			}
 		}
 	}
-	
+
+	//if we are turning up
+	if (turningSpeedUpDown > 0.0f)
+	{
+		//if the pithch hasn't hit the max turn angle for pitch turning
+		if (newTurnAngle.Pitch < 30.0f)
+		{
+			//add the turn angle on
+			newTurnAngle.Pitch += turningSpeedUpDown * 0.5f;
+		}
+	}
+	//if we are turning down
+	else if (turningSpeedUpDown < 0.0f)
+	{
+		//if the pitch hasn't hit the min turn angle for pitch turning
+		if (newTurnAngle.Pitch > -30.0f)
+		{
+			//add the turn angle on
+			newTurnAngle.Pitch += turningSpeedUpDown * 0.5f;
+		}
+	}
+
 	//if the turn speed hasn't changed
 	if (turningSpeed == 0.0f)
 	{
@@ -178,59 +303,9 @@ void APlayerShip::Tick(float DeltaTime)
 		}
 	}
 
-
-	//move the actor forward using the actors' forward vector and multiplying by speed
-	newActorPosition += (-skeleMesh->GetForwardVector() * newForwardVelocity);
-
-
-	
-	//set the actors rotation and position
+	//Set the world rotation of the mesh 
 	skeleMesh->SetWorldRotation(newTurnAngle);
-	skeleMesh->SetWorldLocation(newActorPosition);
-
-	//if the velocity is small enough for the player not to notice
-	if (newForwardVelocity <= 0.1f && newForwardVelocity >= -0.1f)
-	{
-		//kill velocity
-		newForwardVelocity = 0.0f;
-	}
-	//if the player's ship is still moving forward
-	else if (newForwardVelocity > 0.0f)
-	{
-		//Decrease innertia
-		newForwardVelocity -= 0.01f;
-	}
-	//if the players ship is still moving backwards
-	else if (newForwardVelocity < 0.0f)
-	{
-		//Decrease innertia
-		newForwardVelocity += 0.01f;
-	}
-
-	FRotator newPitch = springArm->GetComponentRotation();
-	newPitch.Pitch = FMath::Clamp(newPitch.Pitch + mouseInput.Y, -180.0f, 180.0f);
-	newPitch.Yaw = FMath::Clamp(newPitch.Yaw + mouseInput.X, -180.0f, 180.0f);
-	newPitch.Roll = 0.0f;
-	springArm->SetWorldRotation(newPitch);
-
-
 }
-
-// Called to bind functionality to input
-void APlayerShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	//bind functions to input keys for movement
-	PlayerInputComponent->BindAxis("ImpulseMove", this, &APlayerShip::ImpulseForwardBack);
-	PlayerInputComponent->BindAxis("Turn", this, &APlayerShip::TurnRightLeft);
-	PlayerInputComponent->BindAction("FireMissile", IE_Pressed, this, &APlayerShip::FireMissile);
-	PlayerInputComponent->BindAxis("MousePitch", this, &APlayerShip::MousePitch);
-	PlayerInputComponent->BindAxis("MouseYaw", this, &APlayerShip::MouseYaw);
-	PlayerInputComponent->BindAction("FirePhasers", IE_Pressed, this, &APlayerShip::FirePhasers);
-	PlayerInputComponent->BindAction("Target", IE_Pressed, this, &APlayerShip::TargetActorWithMouse);
-}
-
 
 //Target an actor in the scene with the mouse
 void APlayerShip::TargetActorWithMouse()
@@ -286,7 +361,89 @@ void APlayerShip::FirePhasers()
 	}
 }
 
+//fires missiles from the firing component
+void APlayerShip::FireMissile()
+{
+	if (timeBetweenShots >= 0.5f)
+	{
+		firingComponent->FireMissile();
+	}
+}
 
+//mouse pitch controlled by mouse position (rotates camera in pitch axis)
+void APlayerShip::MousePitch(float axis)
+{
+	mouseInput.Y = axis;
+}
+
+//mouse yaw controlled by mouse position (rotates camera in yaw axis)
+void APlayerShip::MouseYaw(float axis)
+{
+	mouseInput.X = axis;
+}
+
+//Camera zoom in with mouse wheel up
+void APlayerShip::ZoomCameraIn()
+{
+	if (springArm->TargetArmLength > minCameraZoom)
+	{
+		springArm->TargetArmLength -= zoomSensitivity;
+	}
+}
+
+//Camera zoom out with mouse wheel down
+void APlayerShip::ZoomCameraOut()
+{
+	if (springArm->TargetArmLength < maxCameraZoom)
+	{
+		springArm->TargetArmLength += zoomSensitivity;
+	}
+
+}
+
+//Increase the impulse speed we are currently going at 
+void APlayerShip::IncreaseImpulseSpeed()
+{
+	//if we're not at full speed
+	if (impulseSpeed != ImpulseSpeed::Full)
+	{
+		//cast to an int and increment the value of the enum
+		int impulse = static_cast<int>(impulseSpeed) + 1;
+		impulseSpeed = static_cast<ImpulseSpeed>(impulse);
+	}
+}
+
+//Decrease the impulse speed we are currently going at 
+void APlayerShip::DecreaseImpulseSpeed()
+{
+	//if we're not at full speed
+	if (impulseSpeed != ImpulseSpeed::None)
+	{
+		//cast to an int and decrease the value of the enum
+		int impulse = static_cast<int>(impulseSpeed) - 1;
+		impulseSpeed = static_cast<ImpulseSpeed>(impulse);
+	}
+}
+
+//turns the ship left and right dependant on axis value (negative for left, positive for right in input menu)
+void APlayerShip::TurnRightLeft(float axis)
+{
+	turningSpeed = axis;
+
+	//clamp turning speed with max turning speed;
+	//if (turningSpeed >= maxTurningSpeed)
+	//{
+	//	turningSpeed = maxTurningSpeed;
+	//}
+}
+
+//turns the ship upwards
+void APlayerShip::TurnShipUpDown(float axis)
+{
+	turningSpeedUpDown = axis;
+}
+
+//manual Impulse Forward (REDUNDANT CODE ONLY FOR TESTING PURPOSES)
 void APlayerShip::ImpulseForwardBack(float axis)
 {
 	//increase forward velocity
@@ -302,34 +459,5 @@ void APlayerShip::ImpulseForwardBack(float axis)
 	}
 }
 
-void APlayerShip::MousePitch(float axis)
-{
-	mouseInput.Y = axis;
-}
-
-void APlayerShip::MouseYaw(float axis)
-{
-	mouseInput.X = axis;
-}
-
-
-void APlayerShip::TurnRightLeft(float axis)
-{
-	turningSpeed = axis;
-
-	//clamp turning speed with max turning speed;
-	//if (turningSpeed >= maxTurningSpeed)
-	//{
-	//	turningSpeed = maxTurningSpeed;
-	//}
-}
-
-void APlayerShip::FireMissile()
-{
-	if (timeBetweenShots >= 0.5f)
-	{
-		firingComponent->FireMissile();
-	}
-}
 
 

@@ -127,6 +127,9 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UProperty* NewProp_skeleMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("skeleMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(skeleMesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
 				UProperty* NewProp_phaserComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("phaserComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(phaserComponent, APlayerShip), 0x0010000000080009, Z_Construct_UClass_UPhaserComponent_NoRegister());
 				UProperty* NewProp_springArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("springArm"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(springArm, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USpringArmComponent_NoRegister());
+				UProperty* NewProp_zoomSensitivity = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("zoomSensitivity"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(zoomSensitivity, APlayerShip), 0x0010000000000001);
+				UProperty* NewProp_maxCameraZoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxCameraZoom"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxCameraZoom, APlayerShip), 0x0010000000000001);
+				UProperty* NewProp_minCameraZoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("minCameraZoom"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(minCameraZoom, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxTurningSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningSpeed, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForwardSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForwardSpeed, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxTurningAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningAngle, APlayerShip), 0x0010000000000001);
@@ -154,6 +157,12 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				MetaData->SetValue(NewProp_springArm, TEXT("Category"), TEXT("PlayerShip"));
 				MetaData->SetValue(NewProp_springArm, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_springArm, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+				MetaData->SetValue(NewProp_zoomSensitivity, TEXT("Category"), TEXT("Camera|Zoom"));
+				MetaData->SetValue(NewProp_zoomSensitivity, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+				MetaData->SetValue(NewProp_maxCameraZoom, TEXT("Category"), TEXT("Camera|Zoom"));
+				MetaData->SetValue(NewProp_maxCameraZoom, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+				MetaData->SetValue(NewProp_minCameraZoom, TEXT("Category"), TEXT("Camera|Zoom"));
+				MetaData->SetValue(NewProp_minCameraZoom, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
 				MetaData->SetValue(NewProp_maxTurningSpeed, TEXT("Category"), TEXT("Movement|Rotation and turning"));
 				MetaData->SetValue(NewProp_maxTurningSpeed, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
 				MetaData->SetValue(NewProp_maxForwardSpeed, TEXT("Category"), TEXT("Movement|Acceleration and deceleration"));
@@ -168,7 +177,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 926869237);
+	IMPLEMENT_CLASS(APlayerShip, 1728094990);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

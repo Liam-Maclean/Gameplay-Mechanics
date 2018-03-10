@@ -16,6 +16,16 @@ class PROPNAVIGATIONGAME_API APlayerShip : public APawn
 	GENERATED_BODY()
 
 public:
+
+	enum ImpulseSpeed
+	{
+		None = 0,
+		OneQuarter = 1,
+		Half = 2,
+		ThreeQuarter = 3,
+		Full = 4
+	};
+
 	// Sets default values for this pawn's properties
 	APlayerShip();
 
@@ -30,13 +40,28 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void IncreaseImpulseSpeed();
+	void DecreaseImpulseSpeed();
 	void ImpulseForwardBack(float axis);
 	void TurnRightLeft(float axis);
 	void MousePitch(float axis);
 	void MouseYaw(float axis);
 	void FirePhasers();
 	void FireMissile();
+	void ZoomCameraOut();
+	void ZoomCameraIn();
+
+	void CalculateCameraTurningWithMouse();
+	void CalculateShipMovement();
+	void CalculateShipTurningAngles();
+	void TurnShipUpDown(float axis);
+
+
 	void TargetActorWithMouse();
+
+	//impulse speed, initialise as none so we're not moving
+	ImpulseSpeed impulseSpeed = None;
+
 
 	UFUNCTION(BlueprintPure, Category = "Target functions")
 	int GetTargetShieldStrength();
@@ -62,8 +87,19 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
 	float maxTurningSpeed;
 
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+	float minCameraZoom;
+
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+	float maxCameraZoom;
+
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+	float zoomSensitivity;
+
+	float currentMaxImpulseSpeed;
 	float newForwardVelocity;
 	float turningSpeed;
+	float turningSpeedUpDown;
 	
 	FVector2D mouseInput;
 
@@ -71,9 +107,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USpringArmComponent* springArm;
-	
-
-	UParticleSystemComponent* particleSystemComponent;
 
 	UCameraComponent* camera;
 

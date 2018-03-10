@@ -17,7 +17,7 @@ UPhaserComponent::UPhaserComponent()
 	//Load particle system made in folders
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
-
+	phaserEffect->SetActive(false);
 	//set the template 
 	phaserEffect->SetTemplate(PS.Object);
 

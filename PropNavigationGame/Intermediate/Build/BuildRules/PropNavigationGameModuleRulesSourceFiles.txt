@@ -1,3 +1,3 @@
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PropNavigationGame.Build.cs
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame.Target.cs
-M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGameEditor.Target.cs
+C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PropNavigationGame.Build.cs
+C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame.Target.cs
+C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGameEditor.Target.cs

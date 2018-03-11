@@ -1,0 +1,1408 @@
+﻿Log file open, 03/10/18 15:12:43
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(321518560) SRandInit(321518560).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170561
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.10-15.12.45:346][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.10-15.12.45:346][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.10-15.12.45:377][  0]LogInit: Computer: MC11610
+[2018.03.10-15.12.45:377][  0]LogInit: User: 1503395
+[2018.03.10-15.12.45:377][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.10-15.12.45:377][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2018.03.10-15.12.45:378][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.10-15.12.45:378][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.10-15.12.45:378][  0]LogMemory: Process Physical Memory: 278.52 MB used, 278.52 MB peak
+[2018.03.10-15.12.45:378][  0]LogMemory: Process Virtual Memory: 282.07 MB used, 282.07 MB peak
+[2018.03.10-15.12.45:378][  0]LogMemory: Physical Memory: 5446.08 MB used,  27262.29 MB free, 32708.36 MB total
+[2018.03.10-15.12.45:378][  0]LogMemory: Virtual Memory: 709.63 MB used,  27262.29 MB free, 134217728.00 MB total
+[2018.03.10-15.12.45:715][  0]LogInit: Using OS detected language (en-US).
+[2018.03.10-15.12.45:715][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.10-15.12.45:718][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.10-15.12.46:406][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.10-15.12.46:450][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.10-15.12.46:450][  0]LogD3D11RHI:       8088/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.10-15.12.46:452][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.10-15.12.46:452][  0]LogD3D11RHI:       0/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.10-15.12.46:452][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.10-15.12.46:457][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.10-15.12.46:457][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.10-15.12.46:457][  0]LogWindows: EnumDisplayDevices:
+[2018.03.10-15.12.46:457][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.10-15.12.46:458][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.10-15.12.46:458][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.10-15.12.46:458][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.10-15.12.46:458][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.10-15.12.46:458][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.10-15.12.46:458][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.10-15.12.46:458][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.10-15.12.46:458][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.10-15.12.46:478][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.10-15.12.46:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.10-15.12.46:536][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/8476/).
+[2018.03.10-15.12.46:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/075A0B1341EC7FC0A87F998FB0700CC5/'.
+[2018.03.10-15.12.46:537][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.10-15.12.47:569][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.10-15.12.47:656][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.10-15.12.47:736][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.10-15.12.47:819][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.10-15.12.47:907][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.10-15.12.47:992][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.10-15.12.48:097][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.10-15.12.48:179][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.10-15.12.48:257][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.10-15.12.48:355][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.10-15.12.48:449][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.10-15.12.48:546][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.10-15.12.48:640][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.10-15.12.48:724][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.10-15.12.48:811][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.10-15.12.48:982][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.10-15.12.48:982][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.10-15.12.49:051][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.10-15.12.49:191][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.10-15.12.49:239][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.10-15.12.49:340][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.10-15.12.49:425][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.10-15.12.49:502][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.10-15.12.49:582][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.10-15.12.49:582][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.10-15.12.50:436][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.10-15.12.50:500][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.10-15.12.50:500][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.10-15.12.50:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file M:/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.10-15.12.50:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.10-15.12.50:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file M:/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.10-15.12.50:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.10-15.12.50:517][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.10-15.12.50:529][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.10-15.12.50:537][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.10-15.12.50:537][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.10-15.12.50:538][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.10-15.12.50:538][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.10-15.12.50:859][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.03.10-15.12.51:076][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.10-15.12.51:648][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.10-15.12.51:724][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.10-15.12.51:724][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.10-15.12.51:724][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.10-15.12.51:724][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.10-15.12.51:724][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.10-15.12.51:725][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.10-15.12.52:202][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.03.10-15.12.52:659][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.228354 seconds
+[2018.03.10-15.12.52:671][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.10-15.12.52:671][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.03.10-15.12.52:671][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.10-15.12.52:818][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.10-15.12.56:460][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.10-15.12.56:527][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.10-15.12.56:528][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.12.57:258][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.12.57:258][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.12.57:447][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.173 s
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: 
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: Stack: 
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000699535F6
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000696DC2C2
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000696F4736
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000065FF2438
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-4272.dll!APlayerShip::APlayerShip() [m:\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:30]
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006900A442
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006927324B
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000069256C73
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000006900C157
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000069578210
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000697C68C0
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000008227E06D
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000008227E37E
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE6664B1
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE66A7BD
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE66379A
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE6639EA
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE6702D9
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000AE671C47
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: KERNEL32.DLL!0x00000000975B1FE4
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: ntdll.dll!0x000000009875EF91
+[2018.03.10-15.12.57:447][  0]LogOutputDevice: Error: 
+[2018.03.10-15.12.57:456][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.10-15.12.58:217][  0]LogStats:                    SendNewReport -  0.761 s
+[2018.03.10-15.12.58:217][  0]LogStats:             FDebug::EnsureFailed -  0.942 s
+[2018.03.10-15.12.58:628][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.10-15.12.59:283][  0]SourceControl: Source control is disabled
+[2018.03.10-15.12.59:284][  0]SourceControl: Source control is disabled
+[2018.03.10-15.12.59:372][  0]SourceControl: Source control is disabled
+[2018.03.10-15.12.59:455][  0]SourceControl: Source control is disabled
+[2018.03.10-15.13.00:462][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.10-15.13.00:935][  0]LogOcInput: OculusInput pre-init called
+[2018.03.10-15.13.01:357][  0]LogEngine: Initializing Engine...
+[2018.03.10-15.13.01:359][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.10-15.13.01:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.10-15.13.01:546][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.10-15.13.01:760][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.10-15.13.01:768][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.13.01:831][  0]LogInit: FAudioDevice initialized.
+[2018.03.10-15.13.01:918][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.10-15.13.01:928][  0]LogInit: Texture streaming: Enabled
+[2018.03.10-15.13.02:137][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.10-15.13.02:485][  0]LogInit: Transaction tracking system initialized
+[2018.03.10-15.13.03:006][  0]BlueprintLog: New page: Editor Load
+[2018.03.10-15.13.04:494][  0]LocalizationService: Localization service is disabled
+[2018.03.10-15.13.05:669][  0]LogConsoleResponse: Display: 
+[2018.03.10-15.13.05:863][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.10-15.13.05:863][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.10-15.13.05:863][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.10-15.13.06:533][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.02s
+[2018.03.10-15.13.07:573][  0]SourceControl: Source control is disabled
+[2018.03.10-15.13.07:573][  0]Cmd: MAP LOAD FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.10-15.13.07:578][  0]LightingResults: New page: Lighting Build
+[2018.03.10-15.13.07:643][  0]MapCheck: New page: Map Check
+[2018.03.10-15.13.07:643][  0]LightingResults: New page: Lighting Build
+[2018.03.10-15.13.08:332][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.10-15.13.08:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.10-15.13.08:352][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.10-15.13.08:430][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.565ms to complete.
+[2018.03.10-15.13.08:430][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.856
+[2018.03.10-15.13.08:500][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.10-15.13.08:608][  0]LogCollectionManager: Loaded 0 collections in 0.001668 seconds
+[2018.03.10-15.13.08:715][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.03.10-15.13.08:715][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.03.10-15.13.08:715][  0]LogFileCache: Scanning file cache for directory 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.03.10-15.13.08:715][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.10-15.13.08:725][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2396 classes and 502 folders.
+[2018.03.10-15.13.08:831][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2018.03.10-15.13.08:876][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2018.03.10-15.13.08:948][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2018.03.10-15.13.09:006][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.10-15.13.09:008][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.10-15.13.09:013][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.10-15.13.09:098][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.10-15.13.09:303][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2018.03.10-15.13.09:303][  0]LogLoad: (Engine Initialization) Total time: 27.43 seconds
+[2018.03.10-15.13.09:303][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.10-15.13.09:303][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.10-15.13.09:330][  0]LogAssetRegistry: Asset discovery search completed in 18.4925 seconds
+[2018.03.10-15.13.09:331][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.10-15.13.09:331][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2018.03.10-15.13.09:331][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:332][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.03.10-15.13.09:332][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:332][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:332][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:332][  0]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:335][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.10-15.13.09:387][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.10-15.13.09:450][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:451][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.03.10-15.13.09:451][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:452][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64', and we were unable to create a new request.
+[2018.03.10-15.13.09:452][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:452][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.03.10-15.13.09:452][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.10-15.13.09:453][  1]LogDirectoryWatcher: A directory notification failed for 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.03.10-15.13.10:336][ 88]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.10-15.13.11:137][171]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.10-15.13.11:219][171]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.13.11:232][171]Cmd: MAP LOAD FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.10-15.13.11:232][171]LightingResults: New page: Lighting Build
+[2018.03.10-15.13.11:233][171]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.03.10-15.13.11:234][171]MapCheck: New page: Map Check
+[2018.03.10-15.13.11:234][171]LightingResults: New page: Lighting Build
+[2018.03.10-15.13.11:286][171]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.10-15.13.11:306][171]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.10-15.13.11:380][171]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73.91ms to complete.
+[2018.03.10-15.13.11:380][171]LogFileHelpers: Loading map 'StarTrekMap' took 0.148
+[2018.03.10-15.13.14:554][544]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.13.14:666][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.13.14:667][544]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:13:14)
+[2018.03.10-15.13.14:667][544]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.13.14:669][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001917s)
+[2018.03.10-15.13.14:669][544]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.13.14:670][544]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.03.10-15.13.14:670][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002882s)
+[2018.03.10-15.13.14:682][544]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.13.14:726][544]LogInit: FAudioDevice initialized.
+[2018.03.10-15.13.14:771][544]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.13.14:773][544]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.13.14
+[2018.03.10-15.13.14:773][544]LogWorld: Bringing up level for play took: 0.001342
+[2018.03.10-15.13.14:853][544]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0033 seconds. Added 11 classes and 0 folders.
+[2018.03.10-15.13.14:855][544]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.807
+[2018.03.10-15.13.28:652][178]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.10-15.14.38:712][ 32]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.14.38:726][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.14.38:726][ 32]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:14:38)
+[2018.03.10-15.14.38:726][ 32]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.14.38:730][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003468s)
+[2018.03.10-15.14.38:731][ 32]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.14.38:732][ 32]LogPlayLevel: PIE: World Init took: (0.001766s)
+[2018.03.10-15.14.38:732][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.005716s)
+[2018.03.10-15.14.38:772][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.14.38:815][ 32]LogInit: FAudioDevice initialized.
+[2018.03.10-15.14.38:849][ 32]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.14.38:851][ 32]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.14.38
+[2018.03.10-15.14.38:852][ 32]LogWorld: Bringing up level for play took: 0.001978
+[2018.03.10-15.14.38:855][ 32]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.805
+[2018.03.10-15.14.44:894][755]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.14.45:293][803]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.14.46:168][908]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.14.46:902][996]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.14.47:635][ 84]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.14.48:085][138]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.14.48:452][182]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.14.58:885][405]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.14.58:896][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.14.58:896][405]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:14:58)
+[2018.03.10-15.14.58:896][405]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.14.58:898][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001666s)
+[2018.03.10-15.14.58:898][405]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.14.58:899][405]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2018.03.10-15.14.58:899][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002739s)
+[2018.03.10-15.14.58:943][405]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.14.59:049][405]LogInit: FAudioDevice initialized.
+[2018.03.10-15.14.59:092][405]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.14.59:098][405]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.14.59
+[2018.03.10-15.14.59:098][405]LogWorld: Bringing up level for play took: 0.003766
+[2018.03.10-15.14.59:103][405]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.556
+[2018.03.10-15.15.08:755][558]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.10:240][736]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.15.20:882][ 13]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.15.21:131][ 43]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.21:965][143]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.22:506][208]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.22:790][242]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.23:048][273]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.23:289][302]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.23:790][362]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.15.24:331][427]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.24:623][462]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.24:882][493]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.25:123][522]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.25:832][607]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.26:140][644]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.26:557][694]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.26:882][733]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.15.39:993][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-15.15.40:277][287]LogSavePackage: Save=241.38ms
+[2018.03.10-15.15.40:277][287]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap1A8DAF9542EB50175AC35099C73BE158.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-15.15.40:296][287]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-15.15.40:325][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-15.15.40:439][287]LogSavePackage: Save=88.39ms
+[2018.03.10-15.15.40:439][287]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltDataE1E10F5F48170F025DFC14BD5A3AC3C9.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-15.15.40:451][287]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-15.24.09:463][540]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PropNavigationGame
+[2018.03.10-15.24.09:463][540]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.10-15.24.09:463][540]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.17
+[2018.03.10-15.24.09:463][540]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.03.10-15.24.09:463][540]LogTemp: BranchPath = MC11610/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MC11610/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries
+[2018.03.10-15.24.09:487][541]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\1503395\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.10-15.24.39:898][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-15.24.40:205][656]LogSavePackage: Save=252.12ms
+[2018.03.10-15.24.40:205][656]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapA68CA87F4107D0325DA697BB957F70A2.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-15.24.40:217][656]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-15.24.40:245][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-15.24.40:366][656]LogSavePackage: Save=87.78ms
+[2018.03.10-15.24.40:366][656]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData9C498AE1408A13317DBB68A614EEFEBC.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-15.24.40:378][656]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-15.24.41:175][742]Candidate modules for hot reload:
+[2018.03.10-15.24.41:175][742]  PropNavigationGame
+[2018.03.10-15.24.41:176][742]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 9833 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-15.24.41:178][742]Warning: Starting HotReload took  0.0s.
+[2018.03.10-15.25.00:144][863]CompilerResultsLog: New page: Compilation - 10 Mar 2018 15:25:00
+[2018.03.10-15.25.00:144][863]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-15.25.00:144][863]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-15.25.00:144][863]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.1830181 seconds
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: Error: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\PlayerShip.cpp(198) : error C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-9833.dll
+[2018.03.10-15.25.00:145][863]CompilerResultsLog: Total build time: 18.75 seconds (Local executor: 0.00 seconds)
+[2018.03.10-15.25.00:145][863]LogMainFrame: MainFrame: Module compiling took 18.974 seconds
+[2018.03.10-15.25.00:145][863]Warning: HotReload failed, recompile failed
+[2018.03.10-15.25.21:107][533]Candidate modules for hot reload:
+[2018.03.10-15.25.21:107][533]  PropNavigationGame
+[2018.03.10-15.25.21:108][533]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 3928 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-15.25.21:110][533]Warning: Starting HotReload took  0.0s.
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: New page: Compilation - 10 Mar 2018 15:25:41
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-15.25.41:086][614]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.4358503 seconds
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-3928.dll
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-3928.lib
+[2018.03.10-15.25.41:086][614]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3928.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3928.exp
+[2018.03.10-15.25.41:086][614]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3928.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3928.suppressed.exp
+[2018.03.10-15.25.41:086][614]CompilerResultsLog: Total build time: 19.77 seconds (Local executor: 3.25 seconds)
+[2018.03.10-15.25.41:086][614]LogMainFrame: MainFrame: Module compiling took 19.982 seconds
+[2018.03.10-15.25.41:305][614]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.25.41:305][614]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.25.41:308][614]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.10-15.25.41:308][614]LogClass: Function GetTargetHealthStrength is new.
+[2018.03.10-15.25.41:308][614]LogClass: Function GetTargetName is new.
+[2018.03.10-15.25.41:308][614]LogClass: Function GetTargetShieldStrength is new.
+[2018.03.10-15.25.41:313][614]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.10-15.25.41:418][614]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.25.41:418][614]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.25.41:420][614]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.03.10-15.25.41:563][614]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0032 seconds. Added 10 classes and 2 folders.
+[2018.03.10-15.25.41:564][614]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.03.10-15.25.41:660][614]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 2398 classes and 506 folders.
+[2018.03.10-15.25.41:660][614]Display: HotReload took 20.6s.
+[2018.03.10-15.25.43:994][864]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.25.44:004][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.25.44:004][864]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:25:44)
+[2018.03.10-15.25.44:004][864]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.25.44:006][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001861s)
+[2018.03.10-15.25.44:007][864]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.25.44:008][864]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2018.03.10-15.25.44:008][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003483s)
+[2018.03.10-15.25.44:044][864]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.25.44:090][864]LogInit: FAudioDevice initialized.
+[2018.03.10-15.25.44:122][864]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.25.44:124][864]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.25.44
+[2018.03.10-15.25.44:124][864]LogWorld: Bringing up level for play took: 0.001424
+[2018.03.10-15.25.44:126][864]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.478
+[2018.03.10-15.27.08:433][938]Candidate modules for hot reload:
+[2018.03.10-15.27.08:433][938]  PropNavigationGame
+[2018.03.10-15.27.08:434][938]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 761 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-15.27.08:435][938]Warning: Starting HotReload took  0.0s.
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: New page: Compilation - 10 Mar 2018 15:27:27
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-15.27.27:425][634]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.4403 seconds
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.10-15.27.27:425][634]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-15.27.27:426][634]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-761.dll
+[2018.03.10-15.27.27:426][634]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-761.lib
+[2018.03.10-15.27.27:426][634]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-761.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-761.exp
+[2018.03.10-15.27.27:426][634]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-761.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-761.suppressed.exp
+[2018.03.10-15.27.27:426][634]CompilerResultsLog: Total build time: 18.79 seconds (Local executor: 3.16 seconds)
+[2018.03.10-15.27.27:426][634]LogMainFrame: MainFrame: Module compiling took 18.996 seconds
+[2018.03.10-15.27.27:636][634]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.27.27:636][634]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.27.27:643][634]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.10-15.27.27:718][634]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.27.27:718][634]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.27.27:725][634]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0047 seconds. Added 10 classes and 2 folders.
+[2018.03.10-15.27.27:726][634]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.03.10-15.27.27:759][634]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2398 classes and 506 folders.
+[2018.03.10-15.27.27:759][634]Display: HotReload took 19.3s.
+[2018.03.10-15.27.29:396][823]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.27.29:407][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.27.29:407][823]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:27:29)
+[2018.03.10-15.27.29:407][823]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.27.29:409][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002422s)
+[2018.03.10-15.27.29:410][823]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.27.29:410][823]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2018.03.10-15.27.29:411][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003726s)
+[2018.03.10-15.27.29:451][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.27.29:495][823]LogInit: FAudioDevice initialized.
+[2018.03.10-15.27.29:529][823]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.27.29:532][823]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.27.29
+[2018.03.10-15.27.29:532][823]LogWorld: Bringing up level for play took: 0.001993
+[2018.03.10-15.27.29:534][823]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.112
+[2018.03.10-15.28.07:350][359]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.28.07:949][431]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.28.08:658][516]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.29.38:369][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-15.29.38:645][988]LogSavePackage: Save=253.18ms
+[2018.03.10-15.29.38:645][988]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapC010A4C7473611A3925974A4FF3C92F9.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-15.29.38:657][988]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-15.29.38:684][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-15.29.38:789][988]LogSavePackage: Save=87.91ms
+[2018.03.10-15.29.38:789][988]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData3877265947594B9288BBF2B909C5D119.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-15.29.38:802][988]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-15.31.47:821][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-15.31.48:130][445]LogSavePackage: Save=248.49ms
+[2018.03.10-15.31.48:130][445]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapEE500C4D443036CC8B8BEB9F99C4487A.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-15.31.48:141][445]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-15.31.48:175][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-15.31.48:313][445]LogSavePackage: Save=92.32ms
+[2018.03.10-15.31.48:313][445]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData0E86C48642606A93D5C246BC186DB109.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-15.31.48:325][445]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-15.32.01:057][831]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.32.01:068][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.32.01:068][831]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:32:01)
+[2018.03.10-15.32.01:068][831]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.32.01:071][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002539s)
+[2018.03.10-15.32.01:071][831]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.32.01:072][831]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2018.03.10-15.32.01:072][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003795s)
+[2018.03.10-15.32.01:108][831]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.32.01:151][831]LogInit: FAudioDevice initialized.
+[2018.03.10-15.32.01:181][831]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.32.01:183][831]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.32.01
+[2018.03.10-15.32.01:183][831]LogWorld: Bringing up level for play took: 0.001270
+[2018.03.10-15.32.01:185][831]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.458
+[2018.03.10-15.32.09:079][777]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.32.09:546][833]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.32.10:504][948]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-15.32.33:521][609]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0059 seconds. Added 113 classes and 0 folders.
+[2018.03.10-15.32.34:197][609]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.10-15.32.42:804][ 79]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.10-15.33.15:543][755]BlueprintLog: New page: Compile SpaceUI
+[2018.03.10-15.33.16:102][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceUI" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset" SILENT=true
+[2018.03.10-15.33.16:673][791]LogSavePackage: Save=552.21ms
+[2018.03.10-15.33.16:673][791]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceUI5630E74842BB8F88E70E089F247E9A9E.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset'
+[2018.03.10-15.33.16:699][791]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset
+[2018.03.10-15.33.18:383][937]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.33.18:399][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.33.18:399][937]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:33:18)
+[2018.03.10-15.33.18:399][937]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.33.18:401][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001650s)
+[2018.03.10-15.33.18:402][937]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.33.18:402][937]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2018.03.10-15.33.18:402][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003164s)
+[2018.03.10-15.33.18:444][937]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.33.18:484][937]LogInit: FAudioDevice initialized.
+[2018.03.10-15.33.18:519][937]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.33.18:523][937]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.33.18
+[2018.03.10-15.33.18:524][937]LogWorld: Bringing up level for play took: 0.002511
+[2018.03.10-15.33.18:527][937]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.885
+[2018.03.10-15.33.19:971][108]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.33.20:771][204]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.47.52:075][639]Candidate modules for hot reload:
+[2018.03.10-15.47.52:075][639]  PropNavigationGame
+[2018.03.10-15.47.52:076][639]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 3137 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-15.47.52:077][639]Warning: Starting HotReload took  0.0s.
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: New page: Compilation - 10 Mar 2018 15:48:10
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-15.48.10:630][951]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.7655366 seconds
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: [3/4] Link UE4Editor-PropNavigationGame-3137.dll
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: [4/4] Link UE4Editor-PropNavigationGame-3137.lib
+[2018.03.10-15.48.10:630][951]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3137.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3137.exp
+[2018.03.10-15.48.10:630][951]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3137.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3137.suppressed.exp
+[2018.03.10-15.48.10:630][951]CompilerResultsLog: Total build time: 18.35 seconds (Local executor: 3.16 seconds)
+[2018.03.10-15.48.10:630][951]LogMainFrame: MainFrame: Module compiling took 18.560 seconds
+[2018.03.10-15.48.10:890][951]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.48.10:891][951]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.48.10:901][951]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.10-15.48.11:017][951]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-15.48.11:017][951]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-15.48.11:022][951]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0030 seconds. Added 10 classes and 2 folders.
+[2018.03.10-15.48.11:024][951]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.03.10-15.48.11:250][951]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2398 classes and 506 folders.
+[2018.03.10-15.48.11:250][951]Display: HotReload took 19.2s.
+[2018.03.10-15.48.12:366][ 75]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.48.12:377][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.48.12:377][ 75]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:48:12)
+[2018.03.10-15.48.12:377][ 75]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.48.12:379][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001808s)
+[2018.03.10-15.48.12:380][ 75]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.48.12:380][ 75]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2018.03.10-15.48.12:380][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003369s)
+[2018.03.10-15.48.12:449][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.48.12:527][ 75]LogInit: FAudioDevice initialized.
+[2018.03.10-15.48.12:565][ 75]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.48.12:571][ 75]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.48.12
+[2018.03.10-15.48.12:571][ 75]LogWorld: Bringing up level for play took: 0.003883
+[2018.03.10-15.48.12:576][ 75]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.954
+[2018.03.10-15.48.18:163][738]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.48.18:579][788]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.48.48:712][976]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-15.48.48:724][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-15.48.48:724][976]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 15:48:48)
+[2018.03.10-15.48.48:724][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-15.48.48:727][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002658s)
+[2018.03.10-15.48.48:727][976]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-15.48.48:728][976]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2018.03.10-15.48.48:728][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.004082s)
+[2018.03.10-15.48.48:770][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-15.48.48:813][976]LogInit: FAudioDevice initialized.
+[2018.03.10-15.48.48:846][976]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-15.48.48:848][976]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-15.48.48
+[2018.03.10-15.48.48:848][976]LogWorld: Bringing up level for play took: 0.001355
+[2018.03.10-15.48.48:850][976]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.772
+[2018.03.10-15.49.05:870][ 17]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-15.49.07:036][157]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-15.49.46:941][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.10-15.49.47:244][915]LogSavePackage: Save=244.40ms
+[2018.03.10-15.49.47:244][915]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto1BFAF00DB4E93624E515BC99C23D9B9E8.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap'
+[2018.03.10-15.49.47:257][915]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap
+[2018.03.10-15.49.47:263][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.339
+[2018.03.10-15.49.47:263][915]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.339
+[2018.03.10-16.01.21:277][814]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.01.21:291][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.01.21:291][814]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:01:21)
+[2018.03.10-16.01.21:291][814]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.01.21:295][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003965s)
+[2018.03.10-16.01.21:296][814]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.01.21:296][814]LogPlayLevel: PIE: World Init took: (0.001120s)
+[2018.03.10-16.01.21:297][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.005427s)
+[2018.03.10-16.01.21:337][814]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.01.21:385][814]LogInit: FAudioDevice initialized.
+[2018.03.10-16.01.21:415][814]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.01.21:418][814]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.01.21
+[2018.03.10-16.01.21:418][814]LogWorld: Bringing up level for play took: 0.001986
+[2018.03.10-16.01.21:420][814]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.18
+[2018.03.10-16.01.47:511][942]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.10-16.01.47:869][985]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.48:810][ 98]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.49:194][144]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.49:477][178]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.49:727][208]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.49:935][233]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.50:119][255]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.50:310][278]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.50:519][303]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.50:719][327]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.50:919][351]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.51:169][381]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.51:428][412]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.51:686][443]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.51:953][475]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.52:220][507]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.52:486][539]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.52:778][574]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.53:119][615]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.53:453][655]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.54:545][786]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.55:036][845]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.55:795][936]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.56:370][  5]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.56:803][ 57]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.57:154][ 99]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.57:462][136]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.58:237][229]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.58:621][275]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.59:137][337]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.59:530][384]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.01.59:871][425]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.00:180][462]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.00:489][499]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.00:839][541]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.01:206][585]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.01:499][620]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.01:832][660]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.02:107][693]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.10-16.02.02:498][740]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.02:982][798]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.03:490][859]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.03:882][906]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.04:209][945]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.04:517][982]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.04:726][  7]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.04:993][ 39]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.05:284][ 74]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.02.06:125][175]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.05.13:454][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-16.05.13:800][918]LogSavePackage: Save=282.15ms
+[2018.03.10-16.05.13:800][918]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapE2BC31FE418CE75271C83FA7A985D180.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-16.05.13:820][918]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-16.05.13:852][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-16.05.14:001][918]LogSavePackage: Save=100.01ms
+[2018.03.10-16.05.14:001][918]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData190EE3134B49841BA6664CAAD847BE4A.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-16.05.14:013][918]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-16.15.13:886][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.035
+[2018.03.10-16.15.13:891][ 43]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SpaceUI] ([1] browsable assets)...
+[2018.03.10-16.15.13:891][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceUI]
+[2018.03.10-16.15.13:891][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceUI" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/SpaceUI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.03.10-16.15.14:410][ 43]LogSavePackage: Save=485.93ms
+[2018.03.10-16.15.14:410][ 43]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceUI_Auto22890983A4117A852A48F1C99F6336645.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/SpaceUI_Auto2.uasset'
+[2018.03.10-16.15.14:420][ 43]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/SpaceUI_Auto2.uasset
+[2018.03.10-16.15.14:420][ 43]LogFileHelpers: Auto-saving content packages took 0.532
+[2018.03.10-16.17.29:872][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-16.17.30:166][789]LogSavePackage: Save=247.61ms
+[2018.03.10-16.17.30:166][789]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap6E4948324CDAE5569A3FB4A3CCC15A1D.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-16.17.30:178][789]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-16.17.30:209][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-16.17.30:344][789]LogSavePackage: Save=91.09ms
+[2018.03.10-16.17.30:344][789]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData5C08FB724180FE09D5988487EBF22CD2.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-16.17.30:356][789]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-16.17.31:659][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceUI" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset" SILENT=true
+[2018.03.10-16.17.32:085][883]LogSavePackage: Save=408.85ms
+[2018.03.10-16.17.32:085][883]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceUI3E84B0E043C5FA2D987E44939A4411F3.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset'
+[2018.03.10-16.17.32:098][883]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset
+[2018.03.10-16.17.32:539][919]Candidate modules for hot reload:
+[2018.03.10-16.17.32:539][919]  PropNavigationGame
+[2018.03.10-16.17.32:540][919]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 9955 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-16.17.32:541][919]Warning: Starting HotReload took  0.0s.
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: New page: Compilation - 10 Mar 2018 16:17:50
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-16.17.50:458][288]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.6617328 seconds
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: Performing 5 actions (4 in parallel)
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-16.17.50:458][288]CompilerResultsLog: Error: m:\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp(133)  : error C4715: 'APlayerShip::GetImpulseSpeed': not all control paths return a value
+[2018.03.10-16.17.50:459][288]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-9955.dll
+[2018.03.10-16.17.50:459][288]CompilerResultsLog: Total build time: 17.54 seconds (Local executor: 0.00 seconds)
+[2018.03.10-16.17.50:459][288]LogMainFrame: MainFrame: Module compiling took 17.922 seconds
+[2018.03.10-16.17.50:459][288]Warning: HotReload failed, recompile failed
+[2018.03.10-16.18.12:802][976]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.18.12:816][976]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.10-16.18.12:823][976]LogPlayLevel: [PlayLevel] Compiling MyStarTrekHUD before play...
+[2018.03.10-16.18.12:830][976]LogPlayLevel: [PlayLevel]   Compiling SpaceUI as a dependent...
+[2018.03.10-16.18.12:862][976]LogPlayLevel: PlayLevel: Blueprint regeneration took 46 ms (2 blueprints)
+[2018.03.10-16.18.12:863][976]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:18:12)
+[2018.03.10-16.18.12:863][976]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.18.12:865][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002393s)
+[2018.03.10-16.18.12:866][976]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.18.12:866][976]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2018.03.10-16.18.12:867][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003927s)
+[2018.03.10-16.18.12:914][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.18.12:960][976]LogInit: FAudioDevice initialized.
+[2018.03.10-16.18.12:991][976]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.18.12:993][976]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.18.12
+[2018.03.10-16.18.12:993][976]LogWorld: Bringing up level for play took: 0.001726
+[2018.03.10-16.18.12:995][976]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.581
+[2018.03.10-16.18.15:227][155]Candidate modules for hot reload:
+[2018.03.10-16.18.15:227][155]  PropNavigationGame
+[2018.03.10-16.18.15:228][155]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 652 Win64 Development -editorrecompile -canskiplink "M:/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.10-16.18.15:230][155]Warning: Starting HotReload took  0.0s.
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: New page: Compilation - 10 Mar 2018 16:18:35
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.10-16.18.35:003][636]CompilerResultsLog:   Running UnrealHeaderTool "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.1557354 seconds
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: PlayerShip.cpp
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-652.dll
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-652.lib
+[2018.03.10-16.18.35:003][636]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-652.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-652.exp
+[2018.03.10-16.18.35:003][636]CompilerResultsLog:    Creating library M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-652.suppressed.lib and object M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-652.suppressed.exp
+[2018.03.10-16.18.35:003][636]CompilerResultsLog: Total build time: 19.58 seconds (Local executor: 3.26 seconds)
+[2018.03.10-16.18.35:003][636]LogMainFrame: MainFrame: Module compiling took 19.779 seconds
+[2018.03.10-16.18.35:265][636]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-16.18.35:265][636]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-16.18.35:271][636]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.10-16.18.35:271][636]LogClass: Function GetImpulseSpeed is new.
+[2018.03.10-16.18.35:271][636]LogClass: Function GetTargetHealthStrength is new.
+[2018.03.10-16.18.35:271][636]LogClass: Function GetTargetName is new.
+[2018.03.10-16.18.35:271][636]LogClass: Function GetTargetShieldStrength is new.
+[2018.03.10-16.18.35:275][636]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.10-16.18.35:401][636]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.10-16.18.35:401][636]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.10-16.18.35:404][636]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.03.10-16.18.35:612][636]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0027 seconds. Added 10 classes and 2 folders.
+[2018.03.10-16.18.35:614][636]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.03.10-16.18.35:845][636]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2398 classes and 506 folders.
+[2018.03.10-16.18.35:845][636]Display: HotReload took 20.6s.
+[2018.03.10-16.19.18:697][ 47]BlueprintLog: New page: Compile SpaceUI
+[2018.03.10-16.19.18:724][ 47]LogBlueprint: Error: [Compiler SpaceUI] This blueprint (self) is not a PlayerShip, therefore ' Target ' must have a connection.
+[2018.03.10-16.19.18:767][ 47]LogBlueprint: Warning: [Compiler SpaceUI] [3996.98] Compile of SpaceUI failed. 1 Fatal Issue(s) 0 Warning(s) [in 69 ms] (/Game/SpaceUI.SpaceUI)
+[2018.03.10-16.19.19:203][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceUI" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset" SILENT=true
+[2018.03.10-16.19.19:749][ 78]LogSavePackage: Save=531.23ms
+[2018.03.10-16.19.19:749][ 78]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceUI94E12E34479DEB3F0532EBB4FAAE4F17.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset'
+[2018.03.10-16.19.19:772][ 78]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset
+[2018.03.10-16.19.49:010][463]BlueprintLog: New page: Compile SpaceUI
+[2018.03.10-16.19.50:057][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceUI" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset" SILENT=true
+[2018.03.10-16.19.50:636][537]LogSavePackage: Save=564.35ms
+[2018.03.10-16.19.50:636][537]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/SpaceUI166AB0F8414D2B0C61C1B09CC06DD089.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset'
+[2018.03.10-16.19.50:662][537]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/SpaceUI.uasset
+[2018.03.10-16.19.50:664][537]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.10-16.19.52:803][719]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.19.52:815][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.19.52:815][719]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:19:52)
+[2018.03.10-16.19.52:815][719]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.19.52:817][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001697s)
+[2018.03.10-16.19.52:818][719]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.19.52:818][719]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2018.03.10-16.19.52:818][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002900s)
+[2018.03.10-16.19.52:885][719]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.19.52:931][719]LogInit: FAudioDevice initialized.
+[2018.03.10-16.19.52:960][719]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.19.52:962][719]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.19.52
+[2018.03.10-16.19.52:963][719]LogWorld: Bringing up level for play took: 0.001349
+[2018.03.10-16.19.52:965][719]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.61
+[2018.03.10-16.21.34:531][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-16.21.34:801][873]LogSavePackage: Save=236.23ms
+[2018.03.10-16.21.34:802][873]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapE23C4E5541F75FE38694189E0E911D35.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-16.21.34:812][873]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-16.21.34:843][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-16.21.34:950][873]LogSavePackage: Save=82.13ms
+[2018.03.10-16.21.34:950][873]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltDataB481B9CE436B6F1295623F9D9B614534.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-16.21.34:963][873]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-16.25.59:095][574]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0029 seconds. Added 1 classes and 0 folders.
+[2018.03.10-16.25.59:098][574]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.25.59:169][574]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.26.00:431][646]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.26.00:431][646]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.26.00:431][646]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.26.06:801][140]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.26.06:875][140]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.26.06:913][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.10-16.26.06:918][140]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2018.03.10-16.26.08:334][213]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.10-16.26.08:334][213]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.10-16.26.08:334][213]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.10-16.26.08:334][213]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.10-16.26.37:365][522]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.26.37:374][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.10-16.26.38:364][584]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.26.38:364][584]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.26.38:364][584]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.26.53:702][703]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.26.53:714][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.10-16.26.54:463][746]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.26.54:463][746]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.26.54:464][746]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.27.02:547][427]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.27.03:293][475]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.27.03:293][475]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.27.03:293][475]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.27.26:805][461]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.27.27:792][524]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.27.27:792][524]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.27.27:793][524]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.27.39:317][ 99]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.27.40:093][145]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.27.40:093][145]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.27.40:094][145]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.27.53:054][997]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.27.53:065][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.10-16.27.53:787][ 43]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.27.53:787][ 43]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.27.53:787][ 43]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.27.55:874][217]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.27.55:888][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.10-16.27.56:595][260]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.27.56:595][260]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.27.56:595][260]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.06:518][ 49]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.06:534][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.10-16.28.07:274][ 92]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.07:274][ 92]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.07:274][ 92]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.15:764][803]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.16:499][849]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.16:499][849]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.16:499][849]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.17:484][929]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.18:212][974]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.18:212][974]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.18:212][974]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.19:373][ 67]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.20:113][114]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.20:113][114]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.20:113][114]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.21:784][249]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.22:521][295]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.22:521][295]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.22:521][295]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.23:337][364]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.24:076][410]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.24:077][410]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.24:077][410]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.24:547][449]LogEditorTransaction: Undo Edit UTiling
+[2018.03.10-16.28.24:550][449]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.24:567][449]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.24:586][449]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.28.24:848][459]LogEditorTransaction: Undo Edit UTiling
+[2018.03.10-16.28.24:852][459]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.24:867][459]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.24:879][459]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.28.25:671][502]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.25:671][502]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.25:672][502]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.26:834][570]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.10-16.28.26:834][570]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.10-16.28.26:834][570]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.10-16.28.26:834][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.10-16.28.27:761][645]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.28.27:798][645]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.10-16.28.28:506][684]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.10-16.28.28:506][684]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.10-16.28.28:506][684]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.10-16.28.59:862][985]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0032 seconds. Added 2 classes and 2 folders.
+[2018.03.10-16.30.48:752][531]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.30.48:765][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.30.48:765][531]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:30:48)
+[2018.03.10-16.30.48:765][531]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.30.48:768][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002363s)
+[2018.03.10-16.30.48:769][531]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.30.48:769][531]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2018.03.10-16.30.48:769][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003651s)
+[2018.03.10-16.30.48:814][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.30.48:858][531]LogInit: FAudioDevice initialized.
+[2018.03.10-16.30.48:891][531]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.30.48:893][531]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.30.48
+[2018.03.10-16.30.48:893][531]LogWorld: Bringing up level for play took: 0.001276
+[2018.03.10-16.30.48:895][531]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.672
+[2018.03.10-16.30.52:126][917]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.10-16.31.43:341][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.10-16.31.43:658][ 13]LogSavePackage: Save=273.85ms
+[2018.03.10-16.31.43:658][ 13]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto35E02FD724339FC947AA7169577359976.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap'
+[2018.03.10-16.31.43:666][ 13]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap
+[2018.03.10-16.31.43:673][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.350
+[2018.03.10-16.31.43:673][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.350
+[2018.03.10-16.31.43:681][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/EngineTrailMaterial] ([1] browsable assets)...
+[2018.03.10-16.31.43:703][ 13]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/EngineTrailMaterial.EngineTrailMaterial]
+[2018.03.10-16.31.43:703][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/EngineTrailMaterial]
+[2018.03.10-16.31.43:756][ 13]LogSavePackage: Save=39.00ms
+[2018.03.10-16.31.43:756][ 13]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial_Auto3B20B6AE34A62DEA11BCA09975EF4E771.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/EngineTrailMaterial_Auto3.uasset'
+[2018.03.10-16.31.43:766][ 13]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/EngineTrailMaterial_Auto3.uasset
+[2018.03.10-16.31.43:770][ 13]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/TrailParticleSystem] ([1] browsable assets)...
+[2018.03.10-16.31.43:776][ 13]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/TrailParticleSystem.TrailParticleSystem]
+[2018.03.10-16.31.43:776][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/TrailParticleSystem]
+[2018.03.10-16.31.43:923][ 13]LogSavePackage: Save=136.51ms
+[2018.03.10-16.31.43:924][ 13]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem_Auto367ED646046CF1104EA28668ABE85D1D2.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto3.uasset'
+[2018.03.10-16.31.43:936][ 13]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto3.uasset
+[2018.03.10-16.31.43:936][ 13]LogFileHelpers: Auto-saving content packages took 0.261
+[2018.03.10-16.31.49:913][476]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2018.03.10-16.31.50:088][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.10-16.31.50:498][476]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0036 seconds. Added 1 classes and 0 folders.
+[2018.03.10-16.32.10:529][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.03.10-16.34.18:079][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/TrailParticleSystem" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset" SILENT=true
+[2018.03.10-16.34.18:221][759]LogSavePackage: Save=130.78ms
+[2018.03.10-16.34.18:222][759]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem2D854A2E4E3A000F3D08D8AD0642F4D0.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.10-16.34.18:241][759]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.10-16.34.27:262][196]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.34.27:272][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.34.27:272][196]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:34:27)
+[2018.03.10-16.34.27:272][196]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.34.27:275][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002197s)
+[2018.03.10-16.34.27:275][196]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.34.27:276][196]LogPlayLevel: PIE: World Init took: (0.001034s)
+[2018.03.10-16.34.27:276][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003575s)
+[2018.03.10-16.34.27:318][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.34.27:365][196]LogInit: FAudioDevice initialized.
+[2018.03.10-16.34.27:398][196]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.34.27:400][196]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.34.27
+[2018.03.10-16.34.27:401][196]LogWorld: Bringing up level for play took: 0.001663
+[2018.03.10-16.34.27:402][196]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.164
+[2018.03.10-16.35.49:537][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/TrailParticleSystem" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset" SILENT=true
+[2018.03.10-16.35.49:733][848]LogSavePackage: Save=159.25ms
+[2018.03.10-16.35.49:733][848]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem6A9558B44A2FB463E39F8F919EB634B9.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.10-16.35.49:744][848]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.10-16.36.23:805][486]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.36.23:839][486]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.36.23:862][486]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.10-16.36.23:900][486]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EngineTrailMaterial, compiling. 
+[2018.03.10-16.36.24:676][486]TextureStreamingBuild: Display: Compiling optional shaders took 0.784 seconds.
+[2018.03.10-16.36.26:554][486]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.36.26:596][486]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.36.26:671][486]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.10-16.36.26:763][486]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2018.03.10-16.36.27:727][486]TextureStreamingBuild: Display: Compiling optional shaders took 0.970 seconds.
+[2018.03.10-16.36.27:919][486]LogCascade: Quitting Cascade. FXSystem=0x000001A528BD4FE0
+[2018.03.10-16.36.30:666][678]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.36.30:681][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.36.30:682][678]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:36:30)
+[2018.03.10-16.36.30:682][678]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.36.30:684][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002653s)
+[2018.03.10-16.36.30:685][678]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.36.30:685][678]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2018.03.10-16.36.30:686][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003947s)
+[2018.03.10-16.36.30:740][678]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.36.30:800][678]LogInit: FAudioDevice initialized.
+[2018.03.10-16.36.30:833][678]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.36.30:835][678]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.36.30
+[2018.03.10-16.36.30:835][678]LogWorld: Bringing up level for play took: 0.001716
+[2018.03.10-16.36.30:837][678]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.728
+[2018.03.10-16.36.38:568][555]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.36.38:579][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.36.38:580][555]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:36:38)
+[2018.03.10-16.36.38:580][555]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.36.38:582][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001830s)
+[2018.03.10-16.36.38:582][555]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.36.38:582][555]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2018.03.10-16.36.38:583][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002924s)
+[2018.03.10-16.36.38:628][555]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.36.38:672][555]LogInit: FAudioDevice initialized.
+[2018.03.10-16.36.38:704][555]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.36.38:707][555]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.36.38
+[2018.03.10-16.36.38:707][555]LogWorld: Bringing up level for play took: 0.001486
+[2018.03.10-16.36.38:709][555]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.856
+[2018.03.10-16.39.25:010][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.03.10-16.39.30:135][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.Actor_3.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.03.10-16.39.54:367][610]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:2075).
+[2018.03.10-16.41.30:835][420]LogLinker: Warning: Can't find file '/Game/TrailAnimation'
+[2018.03.10-16.41.30:835][420]LogLinker: Warning: Can't find file '/Game/TrailAnimation'
+[2018.03.10-16.41.30:835][420]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/TrailAnimation.TrailAnimation'
+[2018.03.10-16.41.36:154][825]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TrailAnimation.TrailAnimation
+[2018.03.10-16.41.38:863][ 22]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_4.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.03.10-16.41.39:170][ 22]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.03.10-16.43.43:167][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.018
+[2018.03.10-16.43.43:169][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/NewMaterial] ([1] browsable assets)...
+[2018.03.10-16.43.43:181][433]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/NewMaterial.NewMaterial]
+[2018.03.10-16.43.43:181][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/NewMaterial]
+[2018.03.10-16.43.43:277][433]LogSavePackage: Save=66.96ms
+[2018.03.10-16.43.43:277][433]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/NewMaterial_Auto408579D87432FC4D8B9B6A695C731B70C.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/NewMaterial_Auto4.uasset'
+[2018.03.10-16.43.43:285][433]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/NewMaterial_Auto4.uasset
+[2018.03.10-16.43.43:289][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/EngineTrailMaterial] ([1] browsable assets)...
+[2018.03.10-16.43.43:299][433]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/EngineTrailMaterial.EngineTrailMaterial]
+[2018.03.10-16.43.43:299][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/EngineTrailMaterial]
+[2018.03.10-16.43.43:341][433]LogSavePackage: Save=33.27ms
+[2018.03.10-16.43.43:341][433]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial_Auto4A1A787B5455A81264CA2F8924C702B42.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/EngineTrailMaterial_Auto4.uasset'
+[2018.03.10-16.43.43:353][433]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/EngineTrailMaterial_Auto4.uasset
+[2018.03.10-16.43.43:355][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TrailAnimation] ([1] browsable assets)...
+[2018.03.10-16.43.43:365][433]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/TrailAnimation.TrailAnimation]
+[2018.03.10-16.43.43:365][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/TrailAnimation]
+[2018.03.10-16.43.43:365][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrailAnimation" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/TrailAnimation_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2018.03.10-16.43.43:408][433]LogSavePackage: Save=31.76ms
+[2018.03.10-16.43.43:408][433]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailAnimation_Auto4D603971E42C9B3D4BFC23DB12F9B029E.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/TrailAnimation_Auto4.uasset'
+[2018.03.10-16.43.43:420][433]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/TrailAnimation_Auto4.uasset
+[2018.03.10-16.43.43:420][433]LogFileHelpers: Auto-saving content packages took 0.252
+[2018.03.10-16.46.01:750][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Excelsior_Skeleton" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset" SILENT=true
+[2018.03.10-16.46.01:805][ 63]LogSavePackage: Save=27.44ms
+[2018.03.10-16.46.01:805][ 63]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Excelsior_Skeleton96706D714779DF280EF33098C90F1D26.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset'
+[2018.03.10-16.46.01:822][ 63]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset
+[2018.03.10-16.47.13:500][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Excelsior_Skeleton" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset" SILENT=true
+[2018.03.10-16.47.13:551][463]LogSavePackage: Save=29.62ms
+[2018.03.10-16.47.13:551][463]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Excelsior_Skeleton2EB07A88469DA29C553FC3A0B4C2D2C3.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset'
+[2018.03.10-16.47.13:564][463]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Excelsior_Skeleton.uasset
+[2018.03.10-16.47.15:898][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrailAnimation" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset" SILENT=true
+[2018.03.10-16.47.15:986][629]LogSavePackage: Save=76.80ms
+[2018.03.10-16.47.15:986][629]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailAnimation1ED475EA437D179697E4699C6D3477AE.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset'
+[2018.03.10-16.47.16:002][629]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset
+[2018.03.10-16.47.24:585][305]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.10-16.47.24:597][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.10-16.47.24:597][305]PIE: New page: PIE session: StarTrekMap (10 Mar 2018 16:47:24)
+[2018.03.10-16.47.24:597][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.10-16.47.24:600][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002667s)
+[2018.03.10-16.47.24:600][305]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.10-16.47.24:600][305]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2018.03.10-16.47.24:601][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003768s)
+[2018.03.10-16.47.24:647][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.10-16.47.24:694][305]LogInit: FAudioDevice initialized.
+[2018.03.10-16.47.24:725][305]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.10-16.47.24:727][305]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.10-16.47.24
+[2018.03.10-16.47.24:728][305]LogWorld: Bringing up level for play took: 0.001487
+[2018.03.10-16.47.24:730][305]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.827
+[2018.03.10-16.47.37:109][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-16.47.37:391][785]LogSavePackage: Save=236.23ms
+[2018.03.10-16.47.37:391][785]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapF7924A6C4FC95C7D7E11D7B71546BDF7.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-16.47.37:407][785]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-16.47.37:427][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-16.47.37:530][785]LogSavePackage: Save=68.73ms
+[2018.03.10-16.47.37:530][785]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData935258334FF6C9A69ECF2B90181ACAB6.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-16.47.37:540][785]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-16.47.39:570][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.10-16.47.39:863][994]LogSavePackage: Save=259.14ms
+[2018.03.10-16.47.39:864][994]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap3241369D4ACF42D8BA07F595601D5FB2.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.10-16.47.39:878][994]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.10-16.47.39:913][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarTrekMap_BuiltData" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset" SILENT=true
+[2018.03.10-16.47.40:043][994]LogSavePackage: Save=96.00ms
+[2018.03.10-16.47.40:043][994]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_BuiltData31C5C902419FD691E8DA5ABDEE237945.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset'
+[2018.03.10-16.47.40:055][994]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap_BuiltData.uasset
+[2018.03.10-16.47.41:179][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/NewMaterial" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/NewMaterial.uasset" SILENT=true
+[2018.03.10-16.47.41:237][102]LogSavePackage: Save=39.90ms
+[2018.03.10-16.47.41:237][102]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/NewMaterialE416745A4D371BC4B5D4AA8F5E151460.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/NewMaterial.uasset'
+[2018.03.10-16.47.41:250][102]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/NewMaterial.uasset
+[2018.03.10-16.47.41:263][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/EngineTrailMaterial" FILE="M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset" SILENT=true
+[2018.03.10-16.47.41:302][102]LogSavePackage: Save=28.58ms
+[2018.03.10-16.47.41:302][102]LogSavePackage: Moving 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial10753F834A13A524E4F492BE403FCB6E.tmp' to 'M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset'
+[2018.03.10-16.47.41:315][102]LogSavePackage: Display: Finished SavePackage M:/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset
+[2018.03.10-16.47.43:310][281]LogCascade: Quitting Cascade. FXSystem=0x000001A5BB268900
+[2018.03.10-16.47.43:546][281]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.10-16.47.43:818][282]Cmd: QUIT_EDITOR
+[2018.03.10-16.47.43:971][282]LogExit: Preparing to exit.
+[2018.03.10-16.47.45:183][282]LogExit: Editor shut down
+[2018.03.10-16.47.45:225][282]LogExit: Transaction tracking system shut down
+[2018.03.10-16.47.45:592][282]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.10-16.47.45:592][282]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.10-16.47.45:592][282]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.10-16.47.45:592][282]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.10-16.47.45:699][282]LogExit: Object subsystem successfully closed.
+[2018.03.10-16.47.45:717][282]LogD3D11RHI: Shutdown
+[2018.03.10-16.47.45:717][282]LogD3D11RHI: CleanupD3DDevice
+[2018.03.10-16.47.45:721][282]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module AnimationEditor (560)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (558)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module SkeletonEditor (556)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (554)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module DistCurveEditor (552)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module Cascade (550)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module MaterialEditor (548)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module PropNavigationGame (546)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module SequencerWidgets (544)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module BlueprintGraph (542)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (540)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (536)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.03.10-16.47.45:749][282]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.03.10-16.47.45:749][282]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module Media (479)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2018.03.10-16.47.45:754][282]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2018.03.10-16.47.45:755][282]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2018.03.10-16.47.46:047][282]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2018.03.10-16.47.46:048][282]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2018.03.10-16.47.46:100][282]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2018.03.10-16.47.46:106][282]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2018.03.10-16.47.46:107][282]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2018.03.10-16.47.46:107][282]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2018.03.10-16.47.46:107][282]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.03.10-16.47.46:120][282]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.03.10-16.47.46:121][282]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.03.10-16.47.46:122][282]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.03.10-16.47.46:122][282]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.03.10-16.47.46:123][282]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.03.10-16.47.46:123][282]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.03.10-16.47.46:123][282]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.03.10-16.47.46:124][282]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.03.10-16.47.46:225][282]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.03.10-16.47.46:326][282]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.03.10-16.47.46:328][282]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.03.10-16.47.46:328][282]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.03.10-16.47.46:328][282]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.03.10-16.47.46:328][282]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.03.10-16.47.46:331][282]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.03.10-16.47.46:336][282]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.03.10-16.47.46:336][282]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.03.10-16.47.46:336][282]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.03.10-16.47.46:336][282]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.03.10-16.47.46:336][282]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.03.10-16.47.46:337][282]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.03.10-16.47.46:342][282]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.10-16.47.46:374][282]LogDerivedDataCache: Shutdown
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.10-16.47.46:374][282]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.10-16.47.46:375][282]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.10-16.47.46:376][282]LogOnline: Display: Unloading online subsystem: NULL
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.10-16.47.46:376][282]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.10-16.47.46:376][282]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.10-16.47.46:376][282]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E120510-4D8B-0F9A-605F-5BB36CF12372%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.0-3573198%2B%2B%2BUE4%2BRelease-4.17&UserID=0b9cbc234c09b0caeff2ad9c38ff3c33%7C%7Cb3bb5595-b62c-4dc8-9233-e71661b596ea&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.10-16.47.46:389][282]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.10-16.47.46:391][282]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.10-16.47.46:396][282]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.10-16.47.46:401][282]LogExit: Exiting.
+[2018.03.10-16.47.46:419][282]Log file closed, 03/10/18 16:47:46

@@ -1,0 +1,1431 @@
+﻿Log file open, 03/11/18 14:34:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-937822439) SRandInit(-937822439).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.211965
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.11-14.34.57:463][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-14.34.57:463][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.11-14.34.57:472][  0]LogInit: Computer: DESKTOP-OEIKC8O
+[2018.03.11-14.34.57:472][  0]LogInit: User: LiamMaclean
+[2018.03.11-14.34.57:472][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.11-14.34.57:472][  0]LogInit: High frequency timer resolution =3.906249 MHz
+[2018.03.11-14.34.57:473][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.11-14.34.57:473][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.11-14.34.57:473][  0]LogMemory: Process Physical Memory: 279.91 MB used, 279.91 MB peak
+[2018.03.11-14.34.57:473][  0]LogMemory: Process Virtual Memory: 282.29 MB used, 282.29 MB peak
+[2018.03.11-14.34.57:473][  0]LogMemory: Physical Memory: 3583.84 MB used,  12661.26 MB free, 16245.11 MB total
+[2018.03.11-14.34.57:473][  0]LogMemory: Virtual Memory: 710.40 MB used,  12661.26 MB free, 134217728.00 MB total
+[2018.03.11-14.34.57:597][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.11-14.34.57:597][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.11-14.34.57:600][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.11-14.34.58:138][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.11-14.34.58:170][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2018.03.11-14.34.58:170][  0]LogD3D11RHI:       2997/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.11-14.34.58:175][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.03.11-14.34.58:175][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.11-14.34.58:177][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.11-14.34.58:177][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.11-14.34.58:177][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.11-14.34.58:181][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.11-14.34.58:181][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.11-14.34.58:181][  0]LogWindows: EnumDisplayDevices:
+[2018.03.11-14.34.58:181][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2018.03.11-14.34.58:181][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.03.11-14.34.58:181][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.03.11-14.34.58:181][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.03.11-14.34.58:181][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.03.11-14.34.58:181][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.03.11-14.34.58:181][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.03.11-14.34.58:182][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.11-14.34.58:182][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2018.03.11-14.34.58:182][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.11-14.34.58:182][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.11-14.34.58:182][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.11-14.34.58:205][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.11-14.34.58:216][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.11-14.34.58:265][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/7944/).
+[2018.03.11-14.34.58:266][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam Maclean/AppData/Local/Temp/UnrealShaderWorkingDir/C498404A45333333440C64828934305E/'.
+[2018.03.11-14.34.58:266][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.11-14.34.59:045][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.11-14.34.59:084][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.11-14.34.59:123][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.11-14.34.59:166][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.11-14.34.59:206][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.11-14.34.59:245][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.11-14.34.59:284][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.11-14.34.59:322][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.11-14.34.59:355][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.11-14.34.59:397][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.11-14.34.59:436][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.11-14.34.59:490][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.11-14.34.59:530][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.11-14.34.59:568][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.11-14.34.59:607][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.11-14.34.59:686][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.11-14.34.59:686][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.11-14.34.59:718][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.11-14.34.59:798][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.11-14.34.59:821][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.11-14.34.59:871][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.11-14.34.59:914][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.11-14.34.59:956][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.11-14.35.00:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.11-14.35.00:003][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.11-14.35.00:413][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.11-14.35.00:486][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.11-14.35.00:499][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.11-14.35.00:511][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam Maclean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.11-14.35.00:519][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.11-14.35.00:519][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.11-14.35.00:520][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-14.35.00:520][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.11-14.35.00:742][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.03.11-14.35.00:835][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.11-14.35.00:962][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.11-14.35.01:205][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.11-14.35.01:236][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.11-14.35.01:236][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.11-14.35.01:236][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.11-14.35.01:236][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.11-14.35.01:237][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.11-14.35.01:538][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.03.11-14.35.01:735][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.045425 seconds
+[2018.03.11-14.35.01:741][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.11-14.35.01:741][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.11-14.35.01:741][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.11-14.35.01:793][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.11-14.35.03:907][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.11-14.35.03:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.11-14.35.04:489][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.11-14.35.04:490][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.11-14.35.04:714][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.215 s
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: 
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: Stack: 
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000095F3E36
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000937C2D2
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000009394746
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000FD0D26B8
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-8136.dll!APlayerShip::APlayerShip() [c:\users\liam maclean\documents\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:31]
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000000F85A182
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000000FAC33DB
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000000FAA6E03
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000000F85BE97
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000009218220
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000094668D0
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000003048D3CD
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000003048D6DE
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B40264B1
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B402A7BD
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B402379A
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B40239EA
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B40302D9
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000B4031C47
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: KERNEL32.DLL!0x000000003CEC1FE4
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: ntdll.dll!0x000000003D4BEFC1
+[2018.03.11-14.35.04:714][  0]LogOutputDevice: Error: 
+[2018.03.11-14.35.04:720][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.11-14.35.04:902][  0]LogStats:                    SendNewReport -  0.183 s
+[2018.03.11-14.35.04:902][  0]LogStats:             FDebug::EnsureFailed -  0.403 s
+[2018.03.11-14.35.05:134][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.11-14.35.05:499][  0]SourceControl: Source control is disabled
+[2018.03.11-14.35.05:499][  0]SourceControl: Source control is disabled
+[2018.03.11-14.35.05:546][  0]SourceControl: Source control is disabled
+[2018.03.11-14.35.05:592][  0]SourceControl: Source control is disabled
+[2018.03.11-14.35.06:084][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.11-14.35.06:306][  0]LogOcInput: OculusInput pre-init called
+[2018.03.11-14.35.06:546][  0]LogEngine: Initializing Engine...
+[2018.03.11-14.35.06:547][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.11-14.35.06:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.11-14.35.06:721][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.11-14.35.06:836][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.11-14.35.06:843][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.35.06:865][  0]LogInit: FAudioDevice initialized.
+[2018.03.11-14.35.07:141][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.11-14.35.07:175][  0]LogInit: Texture streaming: Enabled
+[2018.03.11-14.35.07:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.11-14.35.07:483][  0]LogInit: Transaction tracking system initialized
+[2018.03.11-14.35.07:737][  0]BlueprintLog: New page: Editor Load
+[2018.03.11-14.35.08:443][  0]LocalizationService: Localization service is disabled
+[2018.03.11-14.35.09:032][  0]LogConsoleResponse: Display: 
+[2018.03.11-14.35.09:182][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.11-14.35.09:182][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.11-14.35.09:182][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.11-14.35.10:028][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.01s
+[2018.03.11-14.35.10:028][  0]SourceControl: Source control is disabled
+[2018.03.11-14.35.10:028][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-14.35.10:029][  0]LightingResults: New page: Lighting Build
+[2018.03.11-14.35.10:061][  0]MapCheck: New page: Map Check
+[2018.03.11-14.35.10:061][  0]LightingResults: New page: Lighting Build
+[2018.03.11-14.35.10:330][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.11-14.35.10:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-14.35.10:349][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-14.35.10:391][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.488ms to complete.
+[2018.03.11-14.35.10:391][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.363
+[2018.03.11-14.35.10:589][  0]LogCollectionManager: Loaded 0 collections in 0.001486 seconds
+[2018.03.11-14.35.10:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.03.11-14.35.10:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/LiamMaclean/Collections/' took 0.01s
+[2018.03.11-14.35.10:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.03.11-14.35.10:699][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.11-14.35.10:707][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2396 classes and 502 folders.
+[2018.03.11-14.35.10:756][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.03.11-14.35.10:790][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.03.11-14.35.10:824][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2018.03.11-14.35.10:875][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-14.35.10:876][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.11-14.35.10:880][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.11-14.35.10:957][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.11-14.35.11:126][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2018.03.11-14.35.11:126][  0]LogLoad: (Engine Initialization) Total time: 16.40 seconds
+[2018.03.11-14.35.11:126][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.11-14.35.11:126][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.11-14.35.11:126][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.11-14.35.11:493][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.11-14.35.11:540][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.35.11:815][  1]LogAssetRegistry: Asset discovery search completed in 11.0948 seconds
+[2018.03.11-14.35.11:816][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.11-14.35.11:816][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.03.11-14.35.24:142][595]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.35.24:638][595]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.35.24:748][595]Cmd: MAP LOAD FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.11-14.35.24:749][595]LightingResults: New page: Lighting Build
+[2018.03.11-14.35.24:751][595]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.03.11-14.35.24:763][595]MapCheck: New page: Map Check
+[2018.03.11-14.35.24:764][595]LightingResults: New page: Lighting Build
+[2018.03.11-14.35.24:906][595]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.11-14.35.24:975][595]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.11-14.35.25:021][595]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.673ms to complete.
+[2018.03.11-14.35.25:021][595]LogFileHelpers: Loading map 'StarTrekMap' took 0.276
+[2018.03.11-14.35.26:762][779]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-14.35.26:877][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.35.26:916][779]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 14:35:26)
+[2018.03.11-14.35.26:917][779]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-14.35.26:974][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057435s)
+[2018.03.11-14.35.26:976][779]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.35.26:977][779]LogPlayLevel: PIE: World Init took: (0.002146s)
+[2018.03.11-14.35.26:977][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.060465s)
+[2018.03.11-14.35.27:014][779]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.35.27:028][779]LogInit: FAudioDevice initialized.
+[2018.03.11-14.35.27:086][779]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-14.35.27:129][779]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-14.35.27
+[2018.03.11-14.35.27:163][779]LogWorld: Bringing up level for play took: 0.036957
+[2018.03.11-14.35.27:349][779]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 11 classes and 0 folders.
+[2018.03.11-14.35.27:395][779]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.355
+[2018.03.11-14.35.29:763][  5]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.11-14.35.39:089][104]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.40:316][248]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.40:932][322]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.41:257][361]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.41:607][403]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.41:932][442]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.42:285][484]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.42:686][532]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.43:144][587]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.43:427][621]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.43:736][658]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.44:036][694]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.44:342][729]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.44:616][760]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.44:874][791]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.45:122][820]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.45:381][851]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.45:639][882]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.45:889][912]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.46:156][944]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.46:414][975]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.46:673][  6]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.46:923][ 36]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.47:264][ 77]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.47:581][115]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.47:898][153]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.48:164][185]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.48:409][214]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.48:618][239]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.48:819][263]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.49:035][289]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.49:618][359]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.50:446][456]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.50:955][517]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.51:330][562]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.51:658][601]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.52:100][654]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.52:466][698]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.52:833][742]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.53:116][776]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-14.35.58:886][447]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TrailAnimation.TrailAnimation
+[2018.03.11-14.35.59:278][447]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0070 seconds. Added 1 classes and 2 folders.
+[2018.03.11-14.35.59:835][447]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.11-14.36.00:899][447]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.11-14.36.03:923][447]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0024 seconds. Added 1 classes and 0 folders.
+[2018.03.11-14.36.03:929][447]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.03.11-14.36.18:137][665]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.11-14.37.14:110][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrailAnimation" FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset" SILENT=true
+[2018.03.11-14.37.14:251][476]LogSavePackage: Save=123.39ms
+[2018.03.11-14.37.14:251][476]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailAnimation7A5854E54F4B62FD6DC08D947BC0B019.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset'
+[2018.03.11-14.37.14:263][476]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset
+[2018.03.11-14.37.20:104][892]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-14.37.20:117][892]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.37.20:118][892]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 14:37:20)
+[2018.03.11-14.37.20:118][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-14.37.20:119][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001681s)
+[2018.03.11-14.37.20:120][892]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.37.20:120][892]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2018.03.11-14.37.20:120][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002649s)
+[2018.03.11-14.37.20:130][892]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.37.20:136][892]LogInit: FAudioDevice initialized.
+[2018.03.11-14.37.20:169][892]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-14.37.20:172][892]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-14.37.20
+[2018.03.11-14.37.20:172][892]LogWorld: Bringing up level for play took: 0.001822
+[2018.03.11-14.37.20:174][892]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.425
+[2018.03.11-14.40.02:792][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrailAnimation" FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset" SILENT=true
+[2018.03.11-14.40.02:801][143]LogSavePackage: Save=5.40ms
+[2018.03.11-14.40.02:801][143]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailAnimation5E334EE140F5D9F1B0B4A7A1832A1481.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset'
+[2018.03.11-14.40.02:804][143]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset
+[2018.03.11-14.40.20:615][508]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0081 seconds. Added 2 classes and 2 folders.
+[2018.03.11-14.40.32:856][744]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2018.03.11-14.41.04:525][372]LogParticles: Warning: MaxCount = 2002 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-14.41.08:635][847]LogParticles: Warning: MaxCount = 2002 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-14.41.39:993][385]LogSavePackage: Save=9.38ms
+[2018.03.11-14.41.39:993][385]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem9ECB0F6D4F69EED2B0C2D8B8DC9A3206.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-14.41.39:996][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-14.42.24:652][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TrailAnimation" FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset" SILENT=true
+[2018.03.11-14.42.24:663][615]LogSavePackage: Save=4.97ms
+[2018.03.11-14.42.24:663][615]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailAnimation4D1A3C3D4262C97A0EDEE595FC0EEF7F.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset'
+[2018.03.11-14.42.24:665][615]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/TrailAnimation.uasset
+[2018.03.11-14.42.31:032][967]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-14.42.31:045][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.42.31:045][967]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 14:42:31)
+[2018.03.11-14.42.31:045][967]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-14.42.31:047][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001764s)
+[2018.03.11-14.42.31:048][967]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.42.31:048][967]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2018.03.11-14.42.31:048][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002912s)
+[2018.03.11-14.42.31:058][967]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.42.31:064][967]LogInit: FAudioDevice initialized.
+[2018.03.11-14.42.31:093][967]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-14.42.31:094][967]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-14.42.31
+[2018.03.11-14.42.31:095][967]LogWorld: Bringing up level for play took: 0.001221
+[2018.03.11-14.42.31:096][967]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.654
+[2018.03.11-14.45.21:124][562]LogCascade: Non-seeded module ParticleModuleTypeDataAnimTrail
+[2018.03.11-14.45.34:594][ 23]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2018.03.11-14.46.50:348][127]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-14.46.50:362][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.46.50:362][127]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 14:46:50)
+[2018.03.11-14.46.50:362][127]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-14.46.50:364][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001973s)
+[2018.03.11-14.46.50:364][127]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.46.50:365][127]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2018.03.11-14.46.50:365][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003100s)
+[2018.03.11-14.46.50:375][127]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.46.50:380][127]LogInit: FAudioDevice initialized.
+[2018.03.11-14.46.50:410][127]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-14.46.50:412][127]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-14.46.50
+[2018.03.11-14.46.50:412][127]LogWorld: Bringing up level for play took: 0.001050
+[2018.03.11-14.46.50:414][127]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.664
+[2018.03.11-14.48.05:062][485]LogCascade: Non-seeded module ParticleModuleCameraOffset
+[2018.03.11-14.48.55:419][  6]LogSavePackage: Save=9.85ms
+[2018.03.11-14.48.55:419][  6]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem583AD7554F9BFDCC712D26AC56A63EDD.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-14.48.55:422][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-14.49.08:571][177]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-14.49.09:158][182]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-14.49.11:807][461]LogSlate: Took 0.026746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.11-14.49.26:078][137]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.TrailParticleSystem) Component already registered.
+[2018.03.11-14.49.27:311][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.11-14.49.28:316][388]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-14.49.34:630][121]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.TrailParticleSystem) Component already registered.
+[2018.03.11-14.49.36:604][354]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.TrailParticleSystem) Component already registered.
+[2018.03.11-14.49.38:286][554]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.TrailParticleSystem) Component already registered.
+[2018.03.11-14.49.40:036][761]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.TrailParticleSystem) Component already registered.
+[2018.03.11-14.49.41:017][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.11-14.49.41:745][954]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-14.49.42:810][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.11-14.49.50:978][964]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-14.49.50:992][964]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-14.49.50:992][964]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 14:49:50)
+[2018.03.11-14.49.50:992][964]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-14.49.50:994][964]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001583s)
+[2018.03.11-14.49.50:994][964]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-14.49.50:995][964]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2018.03.11-14.49.50:995][964]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002587s)
+[2018.03.11-14.49.51:005][964]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-14.49.51:011][964]LogInit: FAudioDevice initialized.
+[2018.03.11-14.49.51:041][964]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-14.49.51:043][964]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-14.49.51
+[2018.03.11-14.49.51:043][964]LogWorld: Bringing up level for play took: 0.001061
+[2018.03.11-14.49.51:044][964]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.706
+[2018.03.11-14.50.22:639][845]LogSavePackage: Save=26.57ms
+[2018.03.11-14.50.22:639][845]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto1DB90F00E429E2A035FF26F9165822651.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap'
+[2018.03.11-14.50.22:641][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap
+[2018.03.11-14.50.22:643][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.052
+[2018.03.11-14.50.22:643][845]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2018.03.11-14.56.27:185][366]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Liam Maclean/Desktop/Gradient.png)
+[2018.03.11-14.56.27:210][366]LogTexture: Display: Building textures: Gradient (AutoDXT, 256X256)
+[2018.03.11-14.56.30:239][682]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0017 seconds. Added 1 classes and 0 folders.
+[2018.03.11-14.56.30:255][682]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.56.30:742][682]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.56.30:757][682]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.56.30:802][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-14.56.31:039][682]LogSlate: Took 0.214855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.11-14.56.34:054][837]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.56.34:054][837]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.56.34:054][837]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.56.41:180][112]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.56.41:192][112]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-14.56.41:884][147]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.56.41:884][147]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.56.41:884][147]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.01:528][776]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.01:538][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling. 
+[2018.03.11-14.57.02:240][813]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.02:240][813]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.02:240][813]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.03:409][911]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.04:085][947]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.04:085][947]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.04:085][947]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.20:802][374]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.21:474][410]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.21:474][410]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.21:474][410]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.24:921][708]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.24:934][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-14.57.25:637][746]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.25:638][746]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.25:638][746]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.26:931][856]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.27:617][895]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.27:617][895]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.27:617][895]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.42:495][119]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.42:505][119]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.42:700][130]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2018.03.11-14.57.42:700][130]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.42:700][130]MaterialEditorStats: Texture samplers: 0/16
+[2018.03.11-14.57.44:651][290]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.44:662][290]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.44:884][300]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2018.03.11-14.57.44:884][300]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.44:884][300]MaterialEditorStats: Texture samplers: 0/16
+[2018.03.11-14.57.45:707][367]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.45:708][367]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.45:708][367]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.45:716][367]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.45:716][367]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.45:716][367]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.45:719][367]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.52:306][901]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.52:306][901]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.52:306][901]LogMaterial: Warning: 	Volume materials must use an Additive blend mode.
+[2018.03.11-14.57.52:314][901]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.52:314][901]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.52:314][901]LogMaterial: Warning: 	Volume materials must use an Additive blend mode.
+[2018.03.11-14.57.52:318][901]MaterialEditorStats: Error: [SM5] Volume materials must use an Additive blend mode.
+[2018.03.11-14.57.54:919][111]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.54:935][111]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.55:767][152]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.11-14.57.55:767][152]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.11-14.57.55:767][152]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-14.57.56:766][232]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.56:766][232]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.56:766][232]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.56:774][232]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.56:774][232]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.56:774][232]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.56:776][232]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.57.59:026][413]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.57.59:027][413]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.57.59:027][413]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.58.06:176][995]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.58.06:177][995]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.58.06:177][995]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.58.09:693][287]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-14.58.09:693][287]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-14.58.09:693][287]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-14.58.09:702][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-14.58.21:450][461]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-14.58.21:524][461]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-14.58.21:540][461]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-14.58.21:582][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-14.58.21:586][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDivide_0, compiling. 
+[2018.03.11-14.58.22:962][529]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.11-14.58.22:962][529]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-14.58.22:962][529]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.11-14.58.22:962][529]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.00.33:328][892]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.33:328][892]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.33:328][892]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/StarterContent/Gradient.Gradient
+[2018.03.11-15.00.33:328][892]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.33:335][892]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.00.33:361][892]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Grayscale, should be Color for /Game/StarterContent/Gradient.Gradient
+[2018.03.11-15.00.33:361][892]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.41:260][542]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.41:260][542]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.41:260][542]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/StarterContent/Gradient.Gradient
+[2018.03.11-15.00.41:260][542]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.41:269][542]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.00.41:294][542]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Alpha, should be Color for /Game/StarterContent/Gradient.Gradient
+[2018.03.11-15.00.41:294][542]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.43:902][755]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.43:902][755]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.43:902][755]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.43:910][755]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.00.43:938][755]MaterialEditorStats: Error: [SM5] Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.49:607][211]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.49:608][211]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.49:608][211]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.51:713][383]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.51:713][383]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.51:713][383]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.53:978][568]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.53:978][568]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.53:978][568]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.00.53:982][568]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.00.57:301][832]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.00.57:301][832]LogMaterial: Warning: Failed to compile Material /Engine/Transient.EngineTrailMaterial for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.11-15.00.57:301][832]LogMaterial: Warning: 	Material using the DeferredDecal domain need to use the BlendModel Translucent (this saves performance)
+[2018.03.11-15.01.32:649][ 72]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.008
+[2018.03.11-15.01.32:651][ 72]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Gradient] ([1] browsable assets)...
+[2018.03.11-15.01.32:658][ 72]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Gradient.Gradient]
+[2018.03.11-15.01.32:658][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Gradient]
+[2018.03.11-15.01.32:667][ 72]LogSavePackage: Save=6.08ms
+[2018.03.11-15.01.32:667][ 72]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Gradient_Auto2EA6A91C94E6627BE169F67925191ABC5.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Gradient_Auto2.uasset'
+[2018.03.11-15.01.32:668][ 72]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Gradient_Auto2.uasset
+[2018.03.11-15.01.32:668][ 72]LogFileHelpers: Auto-saving content packages took 0.018
+[2018.03.11-15.01.34:776][238]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.34:792][238]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.35:768][294]MaterialEditorStats: Base pass shader: 80 instructions
+[2018.03.11-15.01.35:768][294]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.11-15.01.35:768][294]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.11-15.01.35:768][294]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.01.37:634][446]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.37:645][446]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.37:849][458]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2018.03.11-15.01.37:849][458]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.03.11-15.01.37:849][458]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.11-15.01.37:849][458]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.01.47:801][818]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.47:810][818]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.01.48:410][853]MaterialEditorStats: Base pass shader without light map: 30 instructions
+[2018.03.11-15.01.48:410][853]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.01.48:410][853]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.01.48:410][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.05.54:481][756]LogMaterial: Warning: Material /Game/StarterContent/EngineTrailMaterial.EngineTrailMaterial needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.05.54:482][756]LogMaterial: Warning: Material /Engine/Transient.EngineTrailMaterial needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.05.54:484][756]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.05.54:493][756]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.05.55:440][813]MaterialEditorStats: Base pass shader without light map: 30 instructions
+[2018.03.11-15.05.55:440][813]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.05.55:440][813]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.05.55:440][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.06.33:180][ 39]LogMaterialEditor: Saving and Compiling material EngineTrailMaterial
+[2018.03.11-15.06.33:553][ 39]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.06.33:581][ 39]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.06.33:602][ 39]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.06.33:630][ 39]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EngineTrailMaterial, compiling. 
+[2018.03.11-15.06.34:266][ 39]TextureStreamingBuild: Display: Compiling optional shaders took 0.641 seconds.
+[2018.03.11-15.06.35:779][ 39]LogSavePackage: Save=11.24ms
+[2018.03.11-15.06.35:779][ 39]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial03AFD7914D6E316F02215E88809BA4AC.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset'
+[2018.03.11-15.06.35:782][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset
+[2018.03.11-15.06.35:789][ 39]MaterialEditorStats: Base pass shader without light map: 30 instructions
+[2018.03.11-15.06.35:789][ 39]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.06.35:789][ 39]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.11-15.06.35:789][ 39]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.07.00:385][316]LogCascade: Non-seeded module ParticleModuleColor
+[2018.03.11-15.07.42:061][ 81]LogSavePackage: Save=9.61ms
+[2018.03.11-15.07.42:061][ 81]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemD20FCC3448FEEF5F4D7E7E8DDC3454E8.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-15.07.42:066][ 81]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-15.08.05:819][489]LogCascade: Non-seeded module ParticleModuleOrientationAxisLock
+[2018.03.11-15.08.30:324][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.11-15.08.30:668][123]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-15.08.41:404][363]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.08.41:418][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.08.41:418][363]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:08:41)
+[2018.03.11-15.08.41:418][363]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.08.41:420][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001718s)
+[2018.03.11-15.08.41:421][363]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.08.41:421][363]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2018.03.11-15.08.41:421][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002697s)
+[2018.03.11-15.08.41:458][363]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.08.41:464][363]LogInit: FAudioDevice initialized.
+[2018.03.11-15.08.41:500][363]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.08.41:505][363]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.08.41
+[2018.03.11-15.08.41:506][363]LogWorld: Bringing up level for play took: 0.003351
+[2018.03.11-15.08.41:510][363]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.24
+[2018.03.11-15.08.58:355][346]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.03.11-15.09.14:215][149]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.09.14:228][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.09.14:228][149]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:09:14)
+[2018.03.11-15.09.14:228][149]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.09.14:230][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2018.03.11-15.09.14:230][149]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.09.14:230][149]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2018.03.11-15.09.14:230][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002274s)
+[2018.03.11-15.09.14:267][149]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.09.14:272][149]LogInit: FAudioDevice initialized.
+[2018.03.11-15.09.14:305][149]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.09.14:307][149]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.09.14
+[2018.03.11-15.09.14:307][149]LogWorld: Bringing up level for play took: 0.001094
+[2018.03.11-15.09.14:308][149]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.558
+[2018.03.11-15.09.56:538][191]LogCascade: Non-seeded module ParticleModuleOrientationAxisLock
+[2018.03.11-15.11.42:797][706]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.11.42:800][706]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2018.03.11-15.11.45:575][856]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.11.45:578][856]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2018.03.11-15.12.00:509][ 60]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.12.00:512][ 60]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2018.03.11-15.12.05:273][333]LogMaterial: Warning: Material /Game/StarterContent/Materials/M_ColorGrid_LowSpec.M_ColorGrid_LowSpec needed to have new flag set bUsedWithParticleSprites !
+[2018.03.11-15.12.05:281][333]LogMaterial: Missing cached shader map for material M_ColorGrid_LowSpec, compiling. 
+[2018.03.11-15.12.37:856][ 38]LogSavePackage: Save=25.21ms
+[2018.03.11-15.12.37:856][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto35FB422974C59EBE91D749D90DC7EB6B7.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap'
+[2018.03.11-15.12.37:858][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap
+[2018.03.11-15.12.37:860][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.053
+[2018.03.11-15.12.37:860][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2018.03.11-15.12.37:862][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Basic_Wall] ([1] browsable assets)...
+[2018.03.11-15.12.37:878][ 38]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall]
+[2018.03.11-15.12.37:878][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Basic_Wall]
+[2018.03.11-15.12.37:899][ 38]LogSavePackage: Save=13.66ms
+[2018.03.11-15.12.37:899][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_Basic_Wall_Auto3AC2D45104CD1A54AB78F8DB1ED90BB79.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto3.uasset'
+[2018.03.11-15.12.37:900][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Wall_Auto3.uasset
+[2018.03.11-15.12.37:900][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Basic_Floor] ([1] browsable assets)...
+[2018.03.11-15.12.37:919][ 38]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor]
+[2018.03.11-15.12.37:919][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Basic_Floor]
+[2018.03.11-15.12.37:939][ 38]LogSavePackage: Save=11.77ms
+[2018.03.11-15.12.37:939][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_Basic_Floor_Auto3D1BE75854BFAF921C5E0109BA40A6705.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Floor_Auto3.uasset'
+[2018.03.11-15.12.37:940][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_Basic_Floor_Auto3.uasset
+[2018.03.11-15.12.37:940][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/TrailParticleSystem] ([1] browsable assets)...
+[2018.03.11-15.12.37:947][ 38]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/TrailParticleSystem.TrailParticleSystem]
+[2018.03.11-15.12.37:947][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/TrailParticleSystem]
+[2018.03.11-15.12.37:959][ 38]LogSavePackage: Save=9.32ms
+[2018.03.11-15.12.37:959][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem_Auto3FDED5BFA41892E8006086CB82A987332.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto3.uasset'
+[2018.03.11-15.12.37:961][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto3.uasset
+[2018.03.11-15.12.37:962][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_AssetPlatform] ([1] browsable assets)...
+[2018.03.11-15.12.37:978][ 38]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform]
+[2018.03.11-15.12.37:978][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_AssetPlatform]
+[2018.03.11-15.12.37:997][ 38]LogSavePackage: Save=12.05ms
+[2018.03.11-15.12.37:997][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_AssetPlatform_Auto3A2A7E707416D5C7DA81DB4B14968CC37.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_AssetPlatform_Auto3.uasset'
+[2018.03.11-15.12.37:999][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_AssetPlatform_Auto3.uasset
+[2018.03.11-15.12.37:999][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_ColorGrid_LowSpec] ([1] browsable assets)...
+[2018.03.11-15.12.38:018][ 38]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_ColorGrid_LowSpec.M_ColorGrid_LowSpec]
+[2018.03.11-15.12.38:018][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_ColorGrid_LowSpec]
+[2018.03.11-15.12.38:036][ 38]LogSavePackage: Save=11.57ms
+[2018.03.11-15.12.38:036][ 38]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_ColorGrid_LowSpec_Auto3CFBC5D6D4C506EB22A874597332EC627.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_ColorGrid_LowSpec_Auto3.uasset'
+[2018.03.11-15.12.38:037][ 38]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/Materials/M_ColorGrid_LowSpec_Auto3.uasset
+[2018.03.11-15.12.38:037][ 38]LogFileHelpers: Auto-saving content packages took 0.177
+[2018.03.11-15.21.50:554][986]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.21.50:604][987]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.11-15.21.52:135][ 71]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.11-15.21.52:135][ 71]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.21.52:135][ 71]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.11-15.21.52:135][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.21.54:630][263]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.21.54:649][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.21.55:987][331]MaterialEditorStats: Base pass shader: 52 instructions
+[2018.03.11-15.21.55:987][331]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.21.55:987][331]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.11-15.22.04:740][ 47]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.22.04:784][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.22.05:998][109]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.11-15.22.05:998][109]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.22.05:998][109]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.11-15.22.05:998][109]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.22.13:264][670]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.13:874][706]MaterialEditorStats: Base pass shader without light map: 30 instructions
+[2018.03.11-15.22.13:874][706]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.22.13:874][706]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.22.13:874][706]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.22.16:753][930]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.16:763][930]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.11-15.22.17:360][962]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2018.03.11-15.22.17:360][962]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.22.17:360][962]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.22.22:331][372]LogMaterialEditor: Saving and Compiling material EngineTrailMaterial
+[2018.03.11-15.22.22:708][372]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.22:731][372]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.22:754][372]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.22:789][372]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EngineTrailMaterial, compiling. 
+[2018.03.11-15.22.23:209][372]TextureStreamingBuild: Display: Compiling optional shaders took 0.426 seconds.
+[2018.03.11-15.22.24:640][372]LogSavePackage: Save=17.40ms
+[2018.03.11-15.22.24:640][372]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial19BF902E477AA3E1DAC29D8CB96A51AA.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset'
+[2018.03.11-15.22.24:643][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset
+[2018.03.11-15.22.24:650][372]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2018.03.11-15.22.24:650][372]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.22.24:650][372]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.11-15.23.06:110][ 12]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.018
+[2018.03.11-15.23.06:112][ 12]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/TrailParticleSystem] ([1] browsable assets)...
+[2018.03.11-15.23.06:120][ 12]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/TrailParticleSystem.TrailParticleSystem]
+[2018.03.11-15.23.06:120][ 12]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/TrailParticleSystem]
+[2018.03.11-15.23.06:140][ 12]LogSavePackage: Save=11.46ms
+[2018.03.11-15.23.06:141][ 12]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem_Auto4CE03012A4E10F23186C00BBA650084FC.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto4.uasset'
+[2018.03.11-15.23.06:141][ 12]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto4.uasset
+[2018.03.11-15.23.06:142][ 12]LogFileHelpers: Auto-saving content packages took 0.030
+[2018.03.11-15.25.43:544][597]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-15.25.47:918][104]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.PhaserComponent.BeamParticleSystem) Component already registered.
+[2018.03.11-15.25.50:372][395]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.PhaserComponent.BeamParticleSystem) Component already registered.
+[2018.03.11-15.25.52:732][674]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.PhaserComponent.BeamParticleSystem) Component already registered.
+[2018.03.11-15.25.54:717][910]LogActorComponent: ~FComponentReregisterContext: (/Game/StarTrekMap.StarTrekMap:PersistentLevel.PlayerShip_1.PhaserComponent.BeamParticleSystem) Component already registered.
+[2018.03.11-15.26.31:584][983]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.26.31:599][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.26.31:599][983]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:26:31)
+[2018.03.11-15.26.31:599][983]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.26.31:601][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002187s)
+[2018.03.11-15.26.31:602][983]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.26.31:602][983]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2018.03.11-15.26.31:602][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003293s)
+[2018.03.11-15.26.31:638][983]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.26.31:643][983]LogInit: FAudioDevice initialized.
+[2018.03.11-15.26.31:676][983]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.26.31:678][983]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.26.31
+[2018.03.11-15.26.31:678][983]LogWorld: Bringing up level for play took: 0.000977
+[2018.03.11-15.26.31:679][983]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.071
+[2018.03.11-15.27.37:955][ 91]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.27.37:969][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.27.37:969][ 91]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:27:37)
+[2018.03.11-15.27.37:969][ 91]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.27.37:971][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001846s)
+[2018.03.11-15.27.37:971][ 91]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.27.37:972][ 91]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2018.03.11-15.27.37:972][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002942s)
+[2018.03.11-15.27.38:007][ 91]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.27.38:013][ 91]LogInit: FAudioDevice initialized.
+[2018.03.11-15.27.38:048][ 91]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.27.38:052][ 91]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.27.38
+[2018.03.11-15.27.38:052][ 91]LogWorld: Bringing up level for play took: 0.002251
+[2018.03.11-15.27.38:055][ 91]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.305
+[2018.03.11-15.28.41:789][362]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.28.41:803][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.28.41:803][362]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:28:41)
+[2018.03.11-15.28.41:803][362]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.28.41:805][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001770s)
+[2018.03.11-15.28.41:805][362]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.28.41:806][362]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.03.11-15.28.41:806][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002701s)
+[2018.03.11-15.28.41:845][362]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.28.41:854][362]LogInit: FAudioDevice initialized.
+[2018.03.11-15.28.41:895][362]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.28.41:900][362]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.28.41
+[2018.03.11-15.28.41:901][362]LogWorld: Bringing up level for play took: 0.003279
+[2018.03.11-15.28.41:905][362]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.155
+[2018.03.11-15.29.47:349][690]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.29.51:955][123]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.29.51:969][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.29.51:969][123]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:29:51)
+[2018.03.11-15.29.51:969][123]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.29.51:971][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001501s)
+[2018.03.11-15.29.51:972][123]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.29.51:972][123]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.03.11-15.29.51:972][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002516s)
+[2018.03.11-15.29.52:010][123]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.29.52:016][123]LogInit: FAudioDevice initialized.
+[2018.03.11-15.29.52:052][123]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.29.52:058][123]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.29.52
+[2018.03.11-15.29.52:059][123]LogWorld: Bringing up level for play took: 0.003970
+[2018.03.11-15.29.52:064][123]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.314
+[2018.03.11-15.32.08:390][454]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.08:400][454]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.09:291][510]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2018.03.11-15.32.09:291][510]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.32.09:291][510]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.32.10:371][591]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.10:380][591]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.11:027][628]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2018.03.11-15.32.11:027][628]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.32.11:027][628]MaterialEditorStats: Texture samplers: 3/16
+[2018.03.11-15.32.56:331][ 81]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.56:345][ 81]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.32.57:362][141]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2018.03.11-15.32.57:362][141]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.32.57:362][141]MaterialEditorStats: Texture samplers: 4/16
+[2018.03.11-15.33.03:587][620]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.03:599][620]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.04:369][663]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2018.03.11-15.33.04:369][663]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.33.04:369][663]MaterialEditorStats: Texture samplers: 4/16
+[2018.03.11-15.33.09:987][ 37]LogMaterialEditor: Saving and Compiling material EngineTrailMaterial
+[2018.03.11-15.33.10:367][ 37]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.10:395][ 37]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.10:424][ 37]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.10:461][ 37]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EngineTrailMaterial, compiling. 
+[2018.03.11-15.33.10:972][ 37]TextureStreamingBuild: Display: Compiling optional shaders took 0.515 seconds.
+[2018.03.11-15.33.12:549][ 37]LogSavePackage: Save=12.34ms
+[2018.03.11-15.33.12:549][ 37]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterial3E5BBB48479D7A4C1FEF8B8AB9DCE4D8.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset'
+[2018.03.11-15.33.12:552][ 37]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset
+[2018.03.11-15.33.12:559][ 37]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2018.03.11-15.33.12:559][ 37]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.33.12:559][ 37]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.11-15.33.15:851][316]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.33.15:865][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.33.15:865][316]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:33:15)
+[2018.03.11-15.33.15:865][316]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.33.15:866][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001418s)
+[2018.03.11-15.33.15:867][316]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.33.15:867][316]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.03.11-15.33.15:867][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002437s)
+[2018.03.11-15.33.15:906][316]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.33.15:912][316]LogInit: FAudioDevice initialized.
+[2018.03.11-15.33.15:944][316]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.33.15:946][316]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.33.15
+[2018.03.11-15.33.15:947][316]LogWorld: Bringing up level for play took: 0.001132
+[2018.03.11-15.33.15:948][316]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.198
+[2018.03.11-15.34.16:194][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:194][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:195][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:195][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:196][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:196][617]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:210][618]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:210][618]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:224][619]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:224][619]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:225][619]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:226][619]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:239][620]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:239][620]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:253][621]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:253][621]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:267][622]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:267][622]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:281][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:281][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:282][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:283][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:283][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:284][623]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:297][624]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:298][624]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:299][624]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:299][624]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:313][625]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:313][625]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:327][626]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:328][626]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:341][627]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:342][627]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:355][628]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:356][628]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:369][629]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:370][629]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:385][630]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:386][630]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:387][630]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:387][630]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:400][631]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:401][631]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:415][632]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:416][632]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:416][632]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:417][632]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:431][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:431][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:432][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:433][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:433][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:434][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:434][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:435][633]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:449][634]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:449][634]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:450][634]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:451][634]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:464][635]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:464][635]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:465][635]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:466][635]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:479][636]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:480][636]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:481][636]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:481][636]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:497][637]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:497][637]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:511][638]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:511][638]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:571][643]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:571][643]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:586][644]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:586][644]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:600][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:601][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:602][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:602][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:603][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:603][645]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:617][646]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:617][646]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:631][647]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:631][647]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:645][648]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:645][648]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:646][648]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:647][648]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:766][658]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:766][658]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:767][658]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:767][658]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:781][659]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:782][659]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:796][660]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:797][660]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:798][660]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:798][660]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:812][661]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:812][661]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:825][662]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:839][663]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:851][664]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:852][664]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:866][665]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.16:880][666]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:934][839]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:934][839]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:960][841]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:961][841]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:987][843]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.18:987][843]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:001][844]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:001][844]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:015][845]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:016][845]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:030][846]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:030][846]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:044][847]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:044][847]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:058][848]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:059][848]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:109][852]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:110][852]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:125][853]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:125][853]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:139][854]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:140][854]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:166][856]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:166][856]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:180][857]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:180][857]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:194][858]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:195][858]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:208][859]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:209][859]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:707][900]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:708][900]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:721][901]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:722][901]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:736][902]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:737][902]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:751][903]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:752][903]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:768][904]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:768][904]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:783][905]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.19:783][905]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:323][378]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:323][378]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:338][379]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:339][379]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:353][380]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:353][380]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:368][381]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:368][381]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:382][382]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:383][382]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:396][383]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:397][383]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:410][384]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:411][384]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:424][385]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:425][385]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:438][386]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:438][386]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:439][386]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.25:440][386]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.34.37:758][386]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.34.37:772][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.34.37:772][386]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:34:37)
+[2018.03.11-15.34.37:772][386]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.34.37:774][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001695s)
+[2018.03.11-15.34.37:775][386]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.34.37:775][386]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2018.03.11-15.34.37:775][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002957s)
+[2018.03.11-15.34.37:810][386]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.34.37:815][386]LogInit: FAudioDevice initialized.
+[2018.03.11-15.34.37:850][386]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.34.37:853][386]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.34.37
+[2018.03.11-15.34.37:854][386]LogWorld: Bringing up level for play took: 0.001832
+[2018.03.11-15.34.37:856][386]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.106
+[2018.03.11-15.35.03:537][428]Cmd: TRANSACTION UNDO
+[2018.03.11-15.35.03:537][428]LogEditorTransaction: Undo Detach Component
+[2018.03.11-15.35.03:623][428]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.11-15.35.03:630][428]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.35.03:642][428]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.35.04:767][513]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2018.03.11-15.35.04:767][513]MaterialEditorStats: Vertex shader: 122 instructions
+[2018.03.11-15.35.04:767][513]MaterialEditorStats: Texture samplers: 4/16
+[2018.03.11-15.35.05:718][589]MaterialEditorStats: Base pass shader: 49 instructions
+[2018.03.11-15.35.05:718][589]MaterialEditorStats: Vertex shader: 124 instructions
+[2018.03.11-15.35.05:718][589]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.11-15.35.05:718][589]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.11-15.35.19:237][197]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.35.19:251][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.35.19:251][197]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:35:19)
+[2018.03.11-15.35.19:251][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.35.19:253][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2018.03.11-15.35.19:254][197]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.35.19:254][197]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.03.11-15.35.19:254][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002697s)
+[2018.03.11-15.35.19:288][197]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.35.19:294][197]LogInit: FAudioDevice initialized.
+[2018.03.11-15.35.19:329][197]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.35.19:331][197]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.35.19
+[2018.03.11-15.35.19:332][197]LogWorld: Bringing up level for play took: 0.001839
+[2018.03.11-15.35.19:334][197]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.416
+[2018.03.11-15.35.41:080][762]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.35.41:094][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.35.41:094][762]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:35:41)
+[2018.03.11-15.35.41:094][762]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.35.41:096][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001604s)
+[2018.03.11-15.35.41:096][762]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.35.41:097][762]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2018.03.11-15.35.41:097][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002795s)
+[2018.03.11-15.35.41:141][762]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.35.41:154][762]LogInit: FAudioDevice initialized.
+[2018.03.11-15.35.41:193][762]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.35.41:196][762]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.35.41
+[2018.03.11-15.35.41:197][762]LogWorld: Bringing up level for play took: 0.002254
+[2018.03.11-15.35.41:200][762]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.55
+[2018.03.11-15.36.38:792][ 88]Cmd: MODE GRID=0
+[2018.03.11-15.36.41:574][408]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (TrailParticleSystem)
+[2018.03.11-15.36.45:124][828]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.36.45:137][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.36.45:137][828]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:36:45)
+[2018.03.11-15.36.45:138][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.36.45:139][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001529s)
+[2018.03.11-15.36.45:140][828]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.36.45:140][828]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2018.03.11-15.36.45:140][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002537s)
+[2018.03.11-15.36.45:174][828]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.36.45:180][828]LogInit: FAudioDevice initialized.
+[2018.03.11-15.36.45:218][828]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.36.45:224][828]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.36.45
+[2018.03.11-15.36.45:225][828]LogWorld: Bringing up level for play took: 0.004378
+[2018.03.11-15.36.45:231][828]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.519
+[2018.03.11-15.37.54:389][871]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:390][871]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:391][871]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:392][871]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:393][871]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:407][872]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:408][872]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:409][872]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:410][872]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:425][873]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:426][873]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:427][873]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:428][873]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:442][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:443][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:444][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:445][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:446][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:447][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:448][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:449][874]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:463][875]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:464][875]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:479][876]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:480][876]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:495][877]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:496][877]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:511][878]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:512][878]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:513][878]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:513][878]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:528][879]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:529][879]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:531][879]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:531][879]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:546][880]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:547][880]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:548][880]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:549][880]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:563][881]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:564][881]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:578][882]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:579][882]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:594][883]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:595][883]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:596][883]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:597][883]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:611][884]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:612][884]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:627][885]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:628][885]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:643][886]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:644][886]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:659][887]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:685][889]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:710][891]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:724][892]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:738][893]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:753][894]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:767][895]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:781][896]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:807][898]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:844][901]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.54:892][905]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.58:971][247]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.58:972][247]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.58:973][247]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:013][250]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:014][250]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:040][252]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:041][252]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:042][252]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:043][252]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:057][253]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:058][253]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:073][254]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:075][254]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:076][254]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:077][254]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:091][255]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:092][255]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:107][256]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:108][256]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:109][256]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:110][256]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:124][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:125][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:127][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:127][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:129][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:129][257]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:144][258]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:145][258]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:146][258]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:147][258]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:161][259]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:162][259]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:163][259]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:164][259]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:178][260]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:179][260]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:206][262]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:207][262]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:245][265]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:246][265]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:271][267]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:272][267]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:299][269]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:300][269]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:314][270]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:375][275]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:401][277]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:416][278]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:417][278]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:442][280]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:468][282]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:549][289]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:838][314]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:967][325]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:992][327]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.37.59:993][327]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:019][329]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:045][331]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:046][331]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:072][333]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:086][334]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:100][335]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:126][337]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:141][338]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.00:166][340]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.38.37:732][220]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.38.37:746][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.38.37:747][220]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:38:37)
+[2018.03.11-15.38.37:747][220]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.38.37:748][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001554s)
+[2018.03.11-15.38.37:749][220]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.38.37:749][220]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.03.11-15.38.37:749][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002461s)
+[2018.03.11-15.38.37:785][220]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.38.37:791][220]LogInit: FAudioDevice initialized.
+[2018.03.11-15.38.37:824][220]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.38.37:826][220]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.38.37
+[2018.03.11-15.38.37:826][220]LogWorld: Bringing up level for play took: 0.001130
+[2018.03.11-15.38.37:827][220]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.077
+[2018.03.11-15.38.48:973][512]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.38.48:986][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.38.48:987][512]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:38:48)
+[2018.03.11-15.38.48:987][512]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.38.48:989][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001926s)
+[2018.03.11-15.38.48:989][512]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.38.48:989][512]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.03.11-15.38.48:990][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002955s)
+[2018.03.11-15.38.49:030][512]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.38.49:035][512]LogInit: FAudioDevice initialized.
+[2018.03.11-15.38.49:068][512]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.38.49:070][512]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.38.49
+[2018.03.11-15.38.49:071][512]LogWorld: Bringing up level for play took: 0.001216
+[2018.03.11-15.38.49:072][512]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.678
+[2018.03.11-15.39.06:884][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.11-15.39.07:403][596]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-15.39.25:005][661]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.39.25:019][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.39.25:019][661]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:39:25)
+[2018.03.11-15.39.25:019][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.39.25:021][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001761s)
+[2018.03.11-15.39.25:022][661]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.39.25:022][661]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2018.03.11-15.39.25:022][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002812s)
+[2018.03.11-15.39.25:060][661]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.39.25:065][661]LogInit: FAudioDevice initialized.
+[2018.03.11-15.39.25:103][661]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.39.25:107][661]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.39.25
+[2018.03.11-15.39.25:107][661]LogWorld: Bringing up level for play took: 0.002880
+[2018.03.11-15.39.25:111][661]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.639
+[2018.03.11-15.40.17:320][979]LogSavePackage: Save=36.18ms
+[2018.03.11-15.40.17:320][979]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto5245FF2194B117811CFCDA88BE4DF120E.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto5.umap'
+[2018.03.11-15.40.17:323][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto5.umap
+[2018.03.11-15.40.17:325][979]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.079
+[2018.03.11-15.40.17:325][979]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.079
+[2018.03.11-15.40.17:327][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/TrailParticleSystem] ([1] browsable assets)...
+[2018.03.11-15.40.17:332][979]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/TrailParticleSystem.TrailParticleSystem]
+[2018.03.11-15.40.17:332][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/TrailParticleSystem]
+[2018.03.11-15.40.17:356][979]LogSavePackage: Save=15.50ms
+[2018.03.11-15.40.17:356][979]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystem_Auto524B83DA54CE49665613F2A8CE1D798CD.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto5.uasset'
+[2018.03.11-15.40.17:358][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystem_Auto5.uasset
+[2018.03.11-15.40.17:358][979]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/TrailParticleSystemBlue] ([1] browsable assets)...
+[2018.03.11-15.40.17:364][979]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue]
+[2018.03.11-15.40.17:364][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/TrailParticleSystemBlue]
+[2018.03.11-15.40.17:381][979]LogSavePackage: Save=14.91ms
+[2018.03.11-15.40.17:381][979]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemBlue_Auto56E80D7B74B6ED1A25AF658B9ADDB5866.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystemBlue_Auto5.uasset'
+[2018.03.11-15.40.17:382][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarterContent/TrailParticleSystemBlue_Auto5.uasset
+[2018.03.11-15.40.17:382][979]LogFileHelpers: Auto-saving content packages took 0.056
+[2018.03.11-15.40.56:652][835]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.40.59:576][ 93]LogSavePackage: Save=12.09ms
+[2018.03.11-15.40.59:576][ 93]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemBlue2C63EB184A1BEAF77C55BEA22D909995.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystemBlue.uasset'
+[2018.03.11-15.40.59:583][ 93]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystemBlue.uasset
+[2018.03.11-15.41.13:482][388]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.41.15:757][587]LogSavePackage: Save=11.95ms
+[2018.03.11-15.41.15:757][587]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemFBDCE72A4B0FC59D69C82BA8CF1D89AB.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-15.41.15:764][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-15.41.18:729][881]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.41.18:743][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.41.18:743][881]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:41:18)
+[2018.03.11-15.41.18:743][881]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.41.18:744][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001602s)
+[2018.03.11-15.41.18:745][881]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.41.18:745][881]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.03.11-15.41.18:745][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002449s)
+[2018.03.11-15.41.18:783][881]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.41.18:789][881]LogInit: FAudioDevice initialized.
+[2018.03.11-15.41.18:821][881]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.41.18:822][881]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.41.18
+[2018.03.11-15.41.18:823][881]LogWorld: Bringing up level for play took: 0.001040
+[2018.03.11-15.41.18:824][881]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 1.074
+[2018.03.11-15.41.47:242][280]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.11-15.41.47:984][369]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.41.48:784][465]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.41.49:226][518]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.41.49:620][565]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.41.49:995][610]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.41.50:478][668]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.11-15.42.00:799][ 82]LogSavePackage: Save=10.09ms
+[2018.03.11-15.42.00:799][ 82]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemAA9212FD4EA7D8630D0703989EC77E53.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-15.42.00:801][ 82]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-15.42.05:830][220]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.42.05:869][220]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.42.05:894][220]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.11-15.42.05:926][220]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy EngineTrailMaterial, compiling. 
+[2018.03.11-15.42.06:657][220]TextureStreamingBuild: Display: Compiling optional shaders took 0.736 seconds.
+[2018.03.11-15.42.08:374][220]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.42.08:414][220]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.42.08:489][220]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.11-15.42.08:570][220]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2018.03.11-15.42.09:458][220]TextureStreamingBuild: Display: Compiling optional shaders took 0.894 seconds.
+[2018.03.11-15.42.09:715][220]LogCascade: Quitting Cascade. FXSystem=0x0000026B927372E0
+[2018.03.11-15.42.10:024][220]LogCascade: Quitting Cascade. FXSystem=0x0000026BBCD9E020
+[2018.03.11-15.42.10:042][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2018.03.11-15.42.16:031][691]LogEditorViewport: Clicking on Actor (LMB): PlayerShip (PlayerShip1)
+[2018.03.11-15.42.27:687][ 69]LogEditorViewport: Clicking on Component (LMB): ParticleSystemComponent (TrailParticleSystemBlue1)
+[2018.03.11-15.42.41:083][530]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.42.41:097][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.42.41:098][530]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:42:41)
+[2018.03.11-15.42.41:098][530]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.42.41:100][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002102s)
+[2018.03.11-15.42.41:100][530]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.42.41:101][530]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.03.11-15.42.41:101][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003055s)
+[2018.03.11-15.42.41:141][530]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.42.41:147][530]LogInit: FAudioDevice initialized.
+[2018.03.11-15.42.41:183][530]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.42.41:186][530]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.42.41
+[2018.03.11-15.42.41:187][530]LogWorld: Bringing up level for play took: 0.002426
+[2018.03.11-15.42.41:190][530]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.56
+[2018.03.11-15.43.19:440][898]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.43.20:181][964]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystem.TrailParticleSystem)
+[2018.03.11-15.43.24:957][401]LogSavePackage: Save=11.39ms
+[2018.03.11-15.43.24:957][401]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemFF08370443555C518EB974BCFBC1472D.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset'
+[2018.03.11-15.43.24:960][401]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystem.uasset
+[2018.03.11-15.43.33:306][174]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.43.33:960][231]LogParticles: Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_1 (/Game/StarterContent/TrailParticleSystemBlue.TrailParticleSystemBlue)
+[2018.03.11-15.43.34:972][316]LogSavePackage: Save=10.69ms
+[2018.03.11-15.43.34:972][316]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/TrailParticleSystemBlueB83E7F7743C9EC304E0C109F280A0D69.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystemBlue.uasset'
+[2018.03.11-15.43.34:976][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/TrailParticleSystemBlue.uasset
+[2018.03.11-15.43.37:155][533]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.11-15.43.37:169][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.11-15.43.37:169][533]PIE: New page: PIE session: StarTrekMap (11 Mar 2018 15:43:37)
+[2018.03.11-15.43.37:169][533]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.11-15.43.37:171][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001686s)
+[2018.03.11-15.43.37:171][533]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.11-15.43.37:171][533]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2018.03.11-15.43.37:172][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.002621s)
+[2018.03.11-15.43.37:212][533]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.11-15.43.37:218][533]LogInit: FAudioDevice initialized.
+[2018.03.11-15.43.37:254][533]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.11-15.43.37:257][533]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.11-15.43.37
+[2018.03.11-15.43.37:257][533]LogWorld: Bringing up level for play took: 0.001869
+[2018.03.11-15.43.37:260][533]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.491
+[2018.03.11-15.44.41:007][131]LogSavePackage: Save=33.24ms
+[2018.03.11-15.44.41:007][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapEA3FA92747D0BECA1979668469E28D72.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.03.11-15.44.41:014][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.03.11-15.44.41:039][131]LogFileHelpers: Saving map 'StarTrekMap' took 0.124
+[2018.03.11-15.44.41:057][131]LogSavePackage: Save=8.80ms
+[2018.03.11-15.44.41:057][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_Basic_Wall7234AFD943B14900E072F4A1270A108A.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Wall.uasset'
+[2018.03.11-15.44.41:063][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2018.03.11-15.44.41:095][131]LogSavePackage: Save=11.83ms
+[2018.03.11-15.44.41:095][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/NewMaterial324D7A0545571818BF122689E6CAB901.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/NewMaterial.uasset'
+[2018.03.11-15.44.41:098][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/NewMaterial.uasset
+[2018.03.11-15.44.41:113][131]LogSavePackage: Save=4.99ms
+[2018.03.11-15.44.41:114][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_Basic_FloorD658BD204E65CE9A1432CC8D4D1910EB.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Floor.uasset'
+[2018.03.11-15.44.41:119][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2018.03.11-15.44.41:136][131]LogSavePackage: Save=7.48ms
+[2018.03.11-15.44.41:136][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/GradientD1BD268F4084D4EACA5A4A878411E44B.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Gradient.uasset'
+[2018.03.11-15.44.41:142][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Gradient.uasset
+[2018.03.11-15.44.41:176][131]LogSavePackage: Save=12.72ms
+[2018.03.11-15.44.41:176][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/EngineTrailMaterialC337AB6D49F9D701429293A1E6592C33.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset'
+[2018.03.11-15.44.41:179][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/EngineTrailMaterial.uasset
+[2018.03.11-15.44.41:195][131]LogSavePackage: Save=5.52ms
+[2018.03.11-15.44.41:195][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_AssetPlatform12530C33410ABF15DA5004B83A1A67D9.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_AssetPlatform.uasset'
+[2018.03.11-15.44.41:199][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2018.03.11-15.44.41:215][131]LogSavePackage: Save=5.01ms
+[2018.03.11-15.44.41:215][131]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/M_ColorGrid_LowSpecA7413971421BE2434BAB65835016EC01.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset'
+[2018.03.11-15.44.41:217][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2018.03.11-15.45.26:983][566]LogCascade: Quitting Cascade. FXSystem=0x0000026BC407AC00
+[2018.03.11-15.45.27:068][566]LogCascade: Quitting Cascade. FXSystem=0x0000026B158EA840
+[2018.03.11-15.45.27:101][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2018.03.11-15.47.51:011][848]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Liam Maclean/Downloads/spacescape-0.5.1/spacescape/save/SpaceCubeMap.dds)
+[2018.03.11-15.47.52:733][848]LogTexture: Display: Building textures: SpaceCubeMap (AutoDXT, 4096X4096)

@@ -35,9 +35,17 @@ public:
 	TArray<USkeletalMeshSocket*> sockets;
 	USkeletalMeshComponent* skele_mesh;
 
-	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds);
+	AActor* lastKnownTarget;
+	FVector lastTargetLocation;
+	FName socketName;
+
+
+	float timerSeconds;
+	bool bPhaserActive = false;
+
+	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name);
 	void FirePhasers(AEnemyShip* target);
-		
+	void ToggleForSeconds(float seconds);
 private:
 	float m_damageOverDurationValue;
 	float m_coolDownInSeconds;

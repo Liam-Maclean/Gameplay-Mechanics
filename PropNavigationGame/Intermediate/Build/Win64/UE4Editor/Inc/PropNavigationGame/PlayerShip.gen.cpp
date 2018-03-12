@@ -150,7 +150,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 
 				UProperty* NewProp_mesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("mesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(mesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				UProperty* NewProp_skeleMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("skeleMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(skeleMesh, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
-				UProperty* NewProp_phaserComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("phaserComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(phaserComponent, APlayerShip), 0x0010000000080009, Z_Construct_UClass_UPhaserComponent_NoRegister());
+				UProperty* NewProp_phaserComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("phaserComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UArrayProperty(CPP_PROPERTY_BASE(phaserComponent, APlayerShip), 0x0010008000000009);
+				UProperty* NewProp_phaserComponent_Inner = new(EC_InternalUseOnlyConstructor, NewProp_phaserComponent, TEXT("phaserComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(FObjectInitializer(), EC_CppProperty, 0, 0x0000000000080008, Z_Construct_UClass_UPhaserComponent_NoRegister());
 				UProperty* NewProp_springArm = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("springArm"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(springArm, APlayerShip), 0x0010000000080009, Z_Construct_UClass_USpringArmComponent_NoRegister());
 				UProperty* NewProp_zoomSensitivity = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("zoomSensitivity"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(zoomSensitivity, APlayerShip), 0x0010000000000001);
 				UProperty* NewProp_maxCameraZoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxCameraZoom"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxCameraZoom, APlayerShip), 0x0010000000000001);
@@ -203,7 +204,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 148435577);
+	IMPLEMENT_CLASS(APlayerShip, 217826836);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

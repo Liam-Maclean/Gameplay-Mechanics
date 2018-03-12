@@ -55,7 +55,7 @@ public:
 	void CalculateShipMovement();
 	void CalculateShipTurningAngles();
 	void TurnShipUpDown(float axis);
-
+	void SendSocketsToFireComponents();
 
 	void TargetActorWithMouse();
 
@@ -104,6 +104,9 @@ public:
 	float turningSpeed;
 	float turningSpeedUpDown;
 	
+	TArray<FName> names;
+
+
 	FVector2D mouseInput;
 
 	USceneComponent* sceneRoot;
@@ -114,7 +117,7 @@ public:
 	UCameraComponent* camera;
 
 	UPROPERTY(EditAnywhere)
-	UPhaserComponent* phaserComponent;
+	TArray<UPhaserComponent*> phaserComponent;
 
 	UFiringComponent* firingComponent;
 

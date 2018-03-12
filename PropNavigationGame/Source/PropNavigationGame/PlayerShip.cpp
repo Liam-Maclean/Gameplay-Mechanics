@@ -7,6 +7,7 @@
 #include "ShieldComponent.h"
 #include "HealthComponent.h"
 #include "SpaceHUD.h"
+#include "ConstructorHelpers.h"
 
 // Sets default values
 APlayerShip::APlayerShip()
@@ -15,13 +16,15 @@ APlayerShip::APlayerShip()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//initialise components in hierarchy
+	static ConstructorHelpers::FObjectFinder<USkeletalMesh> PS(TEXT("'SkeletalMesh'/Game/StarterContent/Excelsior.Excelsior'"));
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArm"));
 	sceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Scene Root"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
-	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
+	skeleMesh->SetSkeletalMesh(PS.Object);
+
 
 	//set root component
 	RootComponent =  mesh;
@@ -40,10 +43,13 @@ APlayerShip::APlayerShip()
 	//attach camera to spring arm
 	camera->AttachToComponent(springArm, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 
+	SendSocketsToFireComponents();
+
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
 }
+
+
 
 //returns the shield strength of the target object
 int APlayerShip::GetTargetShieldStrength()
@@ -129,12 +135,35 @@ FName APlayerShip::GetImpulseSpeed()
 	}
 }
 
+void APlayerShip::SendSocketsToFireComponents()
+{
+	//if (skeleMesh)
+	//{
+		names = skeleMesh->GetAllSocketNames();
+		UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %f."), names.Num());
+		for (int i = 0; i < names.Num(); i++)
+		{
+			FString name = names[i].ToString();
+			if (name.Contains("Phaser"))
+			{
+				phaserComponent.Add(CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent")));
+				phaserComponent[phaserComponent.Num()]->InitialiseComponent(100, 1, names[i]);
+				UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %s."), *names[i].ToString());
+			}
+			else
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %s."), *names[i].ToString());
+			}
+		}
+	//}
+}
+
 // Called when the game starts or when spawned
 void APlayerShip::BeginPlay()
 {
 	Super::BeginPlay();
 	firingComponent->InitialiseComponent();
-	phaserComponent->InitialiseComponent(100, 1);
+	//phaserComponent->InitialiseComponent(100, 1);
 	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
 	playerController->bShowMouseCursor = true;
 	playerController->bEnableClickEvents = true;
@@ -383,7 +412,11 @@ void APlayerShip::FirePhasers()
 	if (TargetedActor)
 	{
 		//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
-		phaserComponent->FirePhasers(TargetedActor);
+		for (int i = 0; i < phaserComponent.Num(); i++)
+		{
+			phaserComponent[i]->FirePhasers(TargetedActor);
+		}
+
 		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
 	}
 	//if there is no actor targetted

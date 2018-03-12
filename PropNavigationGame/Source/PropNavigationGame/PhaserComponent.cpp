@@ -17,7 +17,7 @@ UPhaserComponent::UPhaserComponent()
 	//Load particle system made in folders
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
-	phaserEffect->SetActive(false);
+	phaserEffect->SetVisibility(false);
 	//set the template 
 	phaserEffect->SetTemplate(PS.Object);
 
@@ -27,10 +27,11 @@ UPhaserComponent::UPhaserComponent()
 //initialise phaser weapons initial values
 //*first param- How much damage in one phaser duration
 //*second param- How long between each phaser blast
-void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds)
+void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name)
 {
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
+	socketName = name;
 }
 
 
@@ -38,29 +39,6 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 void UPhaserComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
-	TArray<USkeletalMeshComponent*> mesh;
-	GetOwner()->GetComponents(mesh, true);
-
-	if (mesh.Num() > 0)
-	{
-		skele_mesh = mesh[0];
-		names = skele_mesh->GetAllSocketNames();
-
-		for (int i = 0; i < names.Num(); i++)
-		{
-			FString name = names[i].ToString();
-			if (name.Contains("Phaser"))
-			{
-
-			}
-			else
-			{
-				names.RemoveAt(i);
-			}
-		}
-	}
 }
 
 
@@ -69,7 +47,15 @@ void UPhaserComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	FRotator rotation;
+	skele_mesh->GetSocketWorldLocationAndRotation(socketName, spawningLocation, rotation);
+	phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
+
+
+	if (bPhaserActive)
+	{
+		ToggleForSeconds(120);
+	}
 }
 
 
@@ -80,28 +66,44 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 	//if the skeletal mesh exists on the object
 	if (skele_mesh)
 	{
-		//for each socket found in the skeletal mesh in the constructor
-		for (int i = 0; i < names.Num(); i++)
-		{
-			//store the world location and rotation of the socket
-			FRotator rotation;
-			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, rotation);
+		//store the world location and rotation of the socket
+		FRotator rotation;
+		skele_mesh->GetSocketWorldLocationAndRotation(socketName, spawningLocation, rotation);
 
-			//make the source point the socket 
-			phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
-			phaserEffect->SetBeamSourcePoint(1, spawningLocation, 0);
-			//make the target point the target object
-			phaserEffect->SetBeamTargetPoint(0, target->GetActorLocation(), 0);
-			phaserEffect->SetBeamTargetPoint(1, target->GetActorLocation(), 0);
+		//make the source point the socket 
+		phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
+		phaserEffect->SetBeamSourcePoint(1, spawningLocation, 0);
 
-			//enable phasers
-			phaserEffect->ToggleActive();
+		//make the target point the target object and store latest target location
+		lastKnownTarget = target;
+		phaserEffect->SetBeamTargetPoint(0, target->GetActorLocation(), 0);
+		phaserEffect->SetBeamTargetPoint(1, target->GetActorLocation(), 0);
 
-			//cast to enemy ship
-			target->ApplyDamageTaken(m_damageOverDurationValue);
-			//target = nullptr;
+		//Enable phasers
+		bPhaserActive = true;
 
-		}
+		//cast to enemy ship
+		target->ApplyDamageTaken(m_damageOverDurationValue);
+	}
+}
+
+//Toggle Phasers for duration
+//@first parameter: Seconds for timer
+void UPhaserComponent::ToggleForSeconds(float seconds)
+{
+	if (timerSeconds < seconds)
+	{
+		//phaserEffect->SetActive(true);
+		phaserEffect->SetBeamTargetPoint(0, lastKnownTarget->GetActorLocation(), 0);
+		phaserEffect->SetVisibility(true);
+		timerSeconds++;
+	}
+	else
+	{
+		//phaserEffect->SetActive(false);
+		phaserEffect->SetVisibility(false);
+		timerSeconds = 0.0f;
+		bPhaserActive = false;
 	}
 }
 

@@ -145,10 +145,8 @@ void APlayerShip::SendSocketsToFireComponents()
 			FString name = names[i].ToString();
 			if (name.Contains("Phaser"))
 			{
-				//phaserComponent.Add(NewNamedObject<UPhaserComponent>(this, "phaserComponent"));
-				//phaserComponent[phaserComponent.Num()]->InitialiseComponent(100, 1, names[i]);
 
-				UPhaserComponent* createdComp = NewObject<UPhaserComponent>();// ");// NewObject<UPhaserComponent>(this, "Phaser");
+				UPhaserComponent* createdComp = NewObject<UPhaserComponent>(this);// ");// NewObject<UPhaserComponent>(this, "Phaser");
 				if (createdComp)
 				{
 					createdComp->RegisterComponent();
@@ -187,6 +185,12 @@ void APlayerShip::Tick(float DeltaTime)
 	{
 		timeBetweenShots += DeltaTime;
 	}
+
+	//for (int i = 0; i < phaserComponent.Num(); i++)
+	//{
+	//	phaserComponent[i]->TickComponent(DeltaTime )
+	//}
+
 
 	CalculateShipTurningAngles();
 	CalculateShipMovement();

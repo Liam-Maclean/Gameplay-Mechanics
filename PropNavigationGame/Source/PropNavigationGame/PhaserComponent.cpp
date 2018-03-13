@@ -27,11 +27,12 @@ UPhaserComponent::UPhaserComponent()
 //initialise phaser weapons initial values
 //*first param- How much damage in one phaser duration
 //*second param- How long between each phaser blast
-void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name)
+void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name, USkeletalMeshComponent* skelMesh)
 {
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
 	socketName = name;
+	skele_mesh = skelMesh;
 }
 
 
@@ -66,6 +67,8 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 	//if the skeletal mesh exists on the object
 	if (skele_mesh)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("Skeleton mesh=: %s."), *skele_mesh->GetName());
+
 		//store the world location and rotation of the socket
 		FRotator rotation;
 		skele_mesh->GetSocketWorldLocationAndRotation(socketName, spawningLocation, rotation);

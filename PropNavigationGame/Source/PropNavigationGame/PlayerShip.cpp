@@ -3,6 +3,7 @@
 #include "PlayerShip.h"
 #include "Components/inputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "GameFramework/HUD.h"
 #include "ShieldComponent.h"
 #include "HealthComponent.h"
@@ -16,16 +17,14 @@ APlayerShip::APlayerShip()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//initialise components in hierarchy
-	static ConstructorHelpers::FObjectFinder<USkeletalMesh> PS(TEXT("'SkeletalMesh'/Game/StarterContent/Excelsior.Excelsior'"));
+	//static ConstructorHelpers::FObjectFinder<USkeletalMesh> PS(TEXT("'SkeletalMesh'/Game/StarterContent/Excelsior.Excelsior'"));
 	springArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArm"));
 	sceneRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Scene Root"));
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
-	skeleMesh->SetSkeletalMesh(PS.Object);
-
-
+	//skeleMesh->SetSkeletalMesh(PS.Object);
 	//set root component
 	RootComponent =  mesh;
 
@@ -43,7 +42,7 @@ APlayerShip::APlayerShip()
 	//attach camera to spring arm
 	camera->AttachToComponent(springArm, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 
-	SendSocketsToFireComponents();
+	//SendSocketsToFireComponents();
 
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -137,8 +136,8 @@ FName APlayerShip::GetImpulseSpeed()
 
 void APlayerShip::SendSocketsToFireComponents()
 {
-	//if (skeleMesh)
-	//{
+	if (skeleMesh)
+	{
 		names = skeleMesh->GetAllSocketNames();
 		UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %f."), names.Num());
 		for (int i = 0; i < names.Num(); i++)
@@ -146,8 +145,16 @@ void APlayerShip::SendSocketsToFireComponents()
 			FString name = names[i].ToString();
 			if (name.Contains("Phaser"))
 			{
-				phaserComponent.Add(CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent")));
-				phaserComponent[phaserComponent.Num()]->InitialiseComponent(100, 1, names[i]);
+				//phaserComponent.Add(NewNamedObject<UPhaserComponent>(this, "phaserComponent"));
+				//phaserComponent[phaserComponent.Num()]->InitialiseComponent(100, 1, names[i]);
+
+				UPhaserComponent* createdComp = NewObject<UPhaserComponent>();// ");// NewObject<UPhaserComponent>(this, "Phaser");
+				if (createdComp)
+				{
+					createdComp->RegisterComponent();
+					createdComp->InitialiseComponent(100, 1, names[i], skeleMesh);
+					phaserComponent.Add(createdComp);
+				}
 				UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %s."), *names[i].ToString());
 			}
 			else
@@ -155,13 +162,14 @@ void APlayerShip::SendSocketsToFireComponents()
 				UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %s."), *names[i].ToString());
 			}
 		}
-	//}
+	}
 }
 
 // Called when the game starts or when spawned
 void APlayerShip::BeginPlay()
 {
 	Super::BeginPlay();
+	SendSocketsToFireComponents();
 	firingComponent->InitialiseComponent();
 	//phaserComponent->InitialiseComponent(100, 1);
 	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();

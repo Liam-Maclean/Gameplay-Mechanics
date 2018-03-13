@@ -43,7 +43,7 @@ public:
 	float timerSeconds;
 	bool bPhaserActive = false;
 
-	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name);
+	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name, USkeletalMeshComponent* skelMesh);
 	void FirePhasers(AEnemyShip* target);
 	void ToggleForSeconds(float seconds);
 private:

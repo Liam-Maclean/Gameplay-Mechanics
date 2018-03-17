@@ -25,6 +25,14 @@ int UHealthComponent::GetHealthStrength()
 	return healthStrength;
 }
 
+//returns the health percentage of the component
+int UHealthComponent::GetHealthPercentage()
+{
+	//return percentage using max health strength and health strength as values
+	return (healthStrength / maxHealthStrength);
+}
+
+
 // Called every frame
 void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {

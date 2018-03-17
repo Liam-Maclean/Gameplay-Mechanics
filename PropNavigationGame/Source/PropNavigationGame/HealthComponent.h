@@ -33,8 +33,14 @@ public:
 	//returns health strength of the component
 	int GetHealthStrength();
 
+	//returns health percentage of the component
+	int GetHealthPercentage();
+
 	//stat
 	UPROPERTY(EditAnywhere, Category = "Health stats")
-	int healthStrength = 100;
+	int healthStrength = 300;
+
+	UPROPERTY(EditAnywhere, Category = "Health stats")
+	int maxHealthStrength = 300;
 	
 };

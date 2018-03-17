@@ -29,6 +29,13 @@ int UShieldComponent::GetShieldStrength()
 	return shieldStrength;
 }
 
+//returns the health percentage of the component
+int UShieldComponent::GetShieldPercentage()
+{
+	//return percentage using max health strength and health strength as values
+	return (shieldStrength / maxShieldStrength);
+}
+
 //toggle if the ship is in combat or not 
 void UShieldComponent::ToggleInCombat(bool inCombat)
 {

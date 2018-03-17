@@ -33,6 +33,7 @@ public:
 	//Return shield Strength
 	int GetShieldStrength();
 
+	int GetShieldPercentage();
 	//Decrease Shield Strength function
 	void DecrementShield(int value);
 

@@ -40,6 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20B00080u;
 
 
+				UProperty* NewProp_maxHealthStrength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxHealthStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(maxHealthStrength, UHealthComponent), 0x0010000000000001);
 				UProperty* NewProp_healthStrength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("healthStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(healthStrength, UHealthComponent), 0x0010000000000001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<UHealthComponent> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -50,6 +51,8 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("HealthComponent.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("HealthComponent.h"));
+				MetaData->SetValue(NewProp_maxHealthStrength, TEXT("Category"), TEXT("Health stats"));
+				MetaData->SetValue(NewProp_maxHealthStrength, TEXT("ModuleRelativePath"), TEXT("HealthComponent.h"));
 				MetaData->SetValue(NewProp_healthStrength, TEXT("Category"), TEXT("Health stats"));
 				MetaData->SetValue(NewProp_healthStrength, TEXT("ModuleRelativePath"), TEXT("HealthComponent.h"));
 				MetaData->SetValue(NewProp_healthStrength, TEXT("ToolTip"), TEXT("stat"));
@@ -59,7 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthComponent, 2766055187);
+	IMPLEMENT_CLASS(UHealthComponent, 1040545325);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UHealthComponent(Z_Construct_UClass_UHealthComponent, &UHealthComponent::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("UHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

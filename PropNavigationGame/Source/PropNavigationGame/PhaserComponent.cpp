@@ -32,6 +32,7 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
 	socketName = name;
+	//skele_mesh = skelMesh;
 }
 
 
@@ -40,6 +41,15 @@ void UPhaserComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	phaserEffect->SetVisibility(false);
+	// ...v	
+	TArray<USkeletalMeshComponent*> mesh;
+	GetOwner()->GetComponents(mesh, true);
+	
+	if (mesh.Num() > 0)
+	{
+		skele_mesh = mesh[0];
+		names = skele_mesh->GetAllSocketNames();
+	}
 }
 
 
@@ -66,8 +76,6 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 	//if the skeletal mesh exists on the object
 	if (skele_mesh)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Skeleton mesh=: %s."), *skele_mesh->GetName());
-		UE_LOG(LogTemp, Warning, TEXT("Phaser effect=: %s."), *phaserEffect->GetName());
 
 		//store the world location and rotation of the socket
 		FRotator rotation;
@@ -81,9 +89,6 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 		lastKnownTarget = target;
 		phaserEffect->SetBeamTargetPoint(0, target->GetActorLocation(), 0);
 		phaserEffect->SetBeamTargetPoint(1, target->GetActorLocation(), 0);
-
-		UE_LOG(LogTemp, Warning, TEXT("Spawning location=: %s."), *spawningLocation.ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Target location=: %s."), *target->GetActorLocation().ToString());
 
 		//Enable phasers
 		bPhaserActive = true;

@@ -18,9 +18,12 @@ UPhaserComponent::UPhaserComponent()
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
 	//phaserEffect->Activate(true);
-	//phaserEffect->SetVisibility(true);
+
 	//set the template 
+	phaserEffect->RegisterComponent();
 	phaserEffect->SetTemplate(PS.Object);
+	//phaserEffect->DeactivateSystem();
+
 
 	//phaserEffect->RegisterComponentWithWorld(GetOwner()->GetWorld());
 	//GetOwner()->AddOwnedComponent(phaserEffect);
@@ -36,6 +39,8 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
 	socketName = name;
+
+	
 	//skele_mesh = skelMesh;
 }
 
@@ -44,8 +49,8 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 void UPhaserComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
+	phaserEffect->SetVisibility(false);
+	// ...v
 	TArray<USkeletalMeshComponent*> mesh;
 	GetOwner()->GetComponents(mesh, true);
 
@@ -104,7 +109,7 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 		bPhaserActive = true;
 
 		//cast to enemy ship
-		target->ApplyDamageTaken(m_damageOverDurationValue);
+		//target->ApplyDamageTaken(m_damageOverDurationValue);
 	}
 }
 
@@ -114,9 +119,10 @@ void UPhaserComponent::ToggleForSeconds(float seconds)
 {
 	if (timerSeconds < seconds)
 	{
-		
+		//phaserEffect->Activate();
+		phaserEffect->SetVisibility(true);
 		phaserEffect->SetBeamTargetPoint(0, lastKnownTarget->GetActorLocation(), 0);
-		
+	
 		timerSeconds++;
 		UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
 		UE_LOG(LogTemp, Warning, TEXT("Visibible"));
@@ -124,7 +130,9 @@ void UPhaserComponent::ToggleForSeconds(float seconds)
 	}
 	else
 	{
-		phaserEffect->DeactivateSystem();
+		//phaserEffect->DeactivateSystem();
+		//phaserEffect->Deactivate();
+		phaserEffect->SetVisibility(false);
 		timerSeconds = 0.0f;
 		bPhaserActive = false;
 

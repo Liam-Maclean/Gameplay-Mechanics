@@ -14,21 +14,14 @@ UPhaserComponent::UPhaserComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 	//PrimaryComponentTick.bStartWithTickEnabled = true;
+
 	//Load particle system made in folders
 	static ConstructorHelpers::FObjectFinder<UParticleSystem> PS(TEXT("ParticleSystem'/Game/StarterContent/BeamParticleSystem.BeamParticleSystem'"));
 	phaserEffect = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BeamParticleSystem"));
-	//phaserEffect->Activate(true);
 
-	//set the template 
+	//Register the components made dynamically
 	phaserEffect->RegisterComponent();
 	phaserEffect->SetTemplate(PS.Object);
-	//phaserEffect->DeactivateSystem();
-
-
-	//phaserEffect->RegisterComponentWithWorld(GetOwner()->GetWorld());
-	//GetOwner()->AddOwnedComponent(phaserEffect);
-
-	// ...
 }
 
 //initialise phaser weapons initial values
@@ -39,9 +32,6 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
 	socketName = name;
-
-	
-	//skele_mesh = skelMesh;
 }
 
 
@@ -50,15 +40,6 @@ void UPhaserComponent::BeginPlay()
 {
 	Super::BeginPlay();
 	phaserEffect->SetVisibility(false);
-	// ...v
-	TArray<USkeletalMeshComponent*> mesh;
-	GetOwner()->GetComponents(mesh, true);
-
-	if (mesh.Num() > 0)
-	{
-		skele_mesh = mesh[0];
-		names = skele_mesh->GetAllSocketNames();
-	}
 }
 
 
@@ -104,12 +85,11 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 		UE_LOG(LogTemp, Warning, TEXT("Spawning location=: %s."), *spawningLocation.ToString());
 		UE_LOG(LogTemp, Warning, TEXT("Target location=: %s."), *target->GetActorLocation().ToString());
 
-	//	phaserEffect->SetVisibility(true);
 		//Enable phasers
 		bPhaserActive = true;
 
 		//cast to enemy ship
-		//target->ApplyDamageTaken(m_damageOverDurationValue);
+		target->ApplyDamageTaken(m_damageOverDurationValue);
 	}
 }
 
@@ -117,23 +97,31 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 //@first parameter: Seconds for timer
 void UPhaserComponent::ToggleForSeconds(float seconds)
 {
+	//if the time hasn't elasped 
 	if (timerSeconds < seconds)
 	{
-		//phaserEffect->Activate();
+		//turn on the phaser effect
 		phaserEffect->SetVisibility(true);
+
+		//Set the beams target point to the last known target selected
 		phaserEffect->SetBeamTargetPoint(0, lastKnownTarget->GetActorLocation(), 0);
 	
+		//increment timer
 		timerSeconds++;
 		UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
 		UE_LOG(LogTemp, Warning, TEXT("Visibible"));
 	
 	}
+	//if the time has elapsed
 	else
 	{
-		//phaserEffect->DeactivateSystem();
-		//phaserEffect->Deactivate();
+		//Turn off the phaser effect
 		phaserEffect->SetVisibility(false);
+
+		//Reset timer for the next phaser fired
 		timerSeconds = 0.0f;
+
+		//set the phaser active to false
 		bPhaserActive = false;
 
 		UE_LOG(LogTemp, Warning, TEXT("invisible"));

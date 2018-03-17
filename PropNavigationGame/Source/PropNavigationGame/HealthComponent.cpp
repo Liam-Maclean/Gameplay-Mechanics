@@ -31,10 +31,10 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 
-	if (healthStrength <= 0)
-	{
-		this->SetActive(false);
-	}
+	//if (healthStrength <= 0)
+	//{
+	//	this->SetActive(false);
+	//}
 	// ...
 }
 

@@ -26,9 +26,14 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	float timer;
+	bool InCombat;
+
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit);
 	void ApplyDamageTaken(int value);
+	void SetInCombat(bool inCombat);
+	void IncrementInCombatTimer();
 
 	UPROPERTY(EditAnywhere)
 	USphereComponent* sphereMesh;

@@ -25,32 +25,85 @@ AEnemyShip::AEnemyShip()
 void AEnemyShip::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+
 }
+
+//Times down the incombat reset timer to check if the shop is still in combat
+//@Checks for 5 seconds if the ship has taken any damage or performed any attacking action
+void AEnemyShip::IncrementInCombatTimer()
+{
+	//if in combat
+	if (InCombat)
+	{
+		//increment timer 
+		if (timer < 300.0f)
+		{
+			timer++;
+		}
+		//if timer has elapsed fully
+		else
+		{
+			//set in combat to false
+			SetInCombat(false);
+			timer = 0.0f;
+		}
+	}
+}
+
 
 // Called every frame
 void AEnemyShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	IncrementInCombatTimer();
+}
+
+//toggle ship in combat to apply regeneration and change components
+void AEnemyShip::SetInCombat(bool inCombat)
+{
+	//store if ship is in combat
+	InCombat = inCombat;
+
+	//toggle components that require in combat information
+	shieldComponent->ToggleInCombat(inCombat);
+
+	//if in combat again
+	if (inCombat == true)
+	{
+		//reset the timer 
+		timer = 0.0f;
+	}
+
 }
 
 //Take damage from hit/actor
 void AEnemyShip::ApplyDamageTaken(int value)
 {
-	if (shieldComponent->IsActive())
+	//toggle the ship is in combat after taking damage
+	SetInCombat(true);
+
+	//if the shields are higher than 0 
+	if (shieldComponent->GetShieldStrength() > 0.0f)
 	{
+		//decrease shield values
 		shieldComponent->DecrementShield(20);
 	}
-	else if (healthComponent->IsActive())
+	//otherwise check if health values are greater than 0 
+	else if (healthComponent->GetHealthStrength() > 0.0f)
 	{
+		//decrease health values
 		healthComponent->DecrementHealth(50);
 	}
 
-	if ((shieldComponent->IsActive() == false) && (healthComponent->IsActive() == false))
+	//if both values are bellow or equal to 0
+	if (shieldComponent->GetShieldStrength() <= 0.0f && healthComponent->GetHealthStrength() <= 0.0f)
 	{
+		//destroy the object
 		Destroy();
 	}
 }
+
 
 
 void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp,int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)

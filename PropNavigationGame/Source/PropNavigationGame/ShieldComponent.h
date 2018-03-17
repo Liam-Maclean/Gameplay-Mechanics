@@ -24,12 +24,55 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	float timer;
+
+
+	void ToggleInCombat(bool inCombat);
+	bool InCombat;
+
+	//Return shield Strength
 	int GetShieldStrength();
+
+	int GetShieldPercentage();
+	//Decrease Shield Strength function
 	void DecrementShield(int value);
+
+	//Increase Shield Strength function
 	void IncrementShield(int value);
 
-	UPROPERTY(EditAnywhere, Category = "Shield Values")
-	int shieldStrength = 100;
+	//Regenerate Shield Strength
+	void RegenerateShields();
+
+	//Regen out of combat per second
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
+	float regenOutOfCombatP5;
+
+	//Regen of shield in combat
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
+	float regenInCombatP5;
+
+	//directional shield values (front)
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
+	int frontShieldValue;
+
+	//directional shield values (left)
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
+	int leftShieldValue;
+
+	//directional shield values (right)
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
+	int rightShieldValue;
+
+	//directional shield values (reer)
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
+	int reerShieldValue;
+
+	//Total Shield Strength
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
+	int shieldStrength = 300;
+
+	UPROPERTY(EditAnywhere, Category = "Shield Values|Max Values")
+	int maxShieldStrength = 500;
 
 	
 };

@@ -1,0 +1,1096 @@
+﻿Log file open, 03/17/18 13:28:29
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(981967075) SRandInit(981967075).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.191931
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.17-13.28.31:079][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.17-13.28.31:079][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.17-13.28.31:113][  0]LogInit: Computer: MC11575
+[2018.03.17-13.28.31:113][  0]LogInit: User: 1503395
+[2018.03.17-13.28.31:113][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.17-13.28.31:113][  0]LogInit: High frequency timer resolution =3.328408 MHz
+[2018.03.17-13.28.31:113][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.17-13.28.31:113][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.17-13.28.31:113][  0]LogMemory: Process Physical Memory: 280.02 MB used, 280.02 MB peak
+[2018.03.17-13.28.31:113][  0]LogMemory: Process Virtual Memory: 277.50 MB used, 277.50 MB peak
+[2018.03.17-13.28.31:113][  0]LogMemory: Physical Memory: 5394.20 MB used,  27314.17 MB free, 32708.37 MB total
+[2018.03.17-13.28.31:113][  0]LogMemory: Virtual Memory: 656.55 MB used,  27314.17 MB free, 8388608.00 MB total
+[2018.03.17-13.28.31:444][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.17-13.28.31:444][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.17-13.28.31:447][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.17-13.28.32:141][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.17-13.28.32:165][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.17-13.28.32:165][  0]LogD3D11RHI:       8077/0/16098 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.17-13.28.32:165][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.17-13.28.32:171][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.17-13.28.32:171][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.17-13.28.32:171][  0]LogWindows: EnumDisplayDevices:
+[2018.03.17-13.28.32:171][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.17-13.28.32:172][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.03.17-13.28.32:172][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.03.17-13.28.32:172][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.17-13.28.32:172][  0]LogD3D11RHI:   Driver Version: 390.65 (internal:23.21.13.9065, unified:390.65)
+[2018.03.17-13.28.32:172][  0]LogD3D11RHI:      Driver Date: 1-3-2018
+[2018.03.17-13.28.32:172][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.17-13.28.32:185][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.17-13.28.32:200][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.17-13.28.32:243][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/3380/).
+[2018.03.17-13.28.32:243][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/A205B89B4B1FE0E602D1228A38560884/'.
+[2018.03.17-13.28.32:243][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.17-13.28.33:297][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.17-13.28.33:396][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.17-13.28.33:494][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.17-13.28.33:589][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.17-13.28.33:680][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.17-13.28.33:777][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.17-13.28.33:873][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.17-13.28.33:963][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.17-13.28.34:046][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.17-13.28.34:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.17-13.28.34:248][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.17-13.28.34:340][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.17-13.28.34:432][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.17-13.28.34:522][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.17-13.28.34:612][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.17-13.28.34:801][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.17-13.28.34:801][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.17-13.28.34:879][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.17-13.28.35:033][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.17-13.28.35:083][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.17-13.28.35:173][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.17-13.28.35:266][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.17-13.28.35:361][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.17-13.28.35:449][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.17-13.28.35:449][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.17-13.28.36:349][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.17-13.28.36:455][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.17-13.28.36:455][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.17-13.28.36:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.17-13.28.36:457][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.17-13.28.36:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.17-13.28.36:457][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.17-13.28.36:473][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.17-13.28.36:485][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.17-13.28.36:493][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.17-13.28.36:494][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.17-13.28.36:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.17-13.28.36:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.17-13.28.36:770][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.03.17-13.28.37:044][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.17-13.28.37:049][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.17-13.28.37:751][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.17-13.28.37:837][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.17-13.28.37:837][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.17-13.28.37:837][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.17-13.28.37:837][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.17-13.28.37:837][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.17-13.28.38:247][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.03.17-13.28.38:762][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.254883 seconds
+[2018.03.17-13.28.38:768][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.17-13.28.38:768][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.03.17-13.28.38:768][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.17-13.28.38:890][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.17-13.28.42:943][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.17-13.28.43:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.17-13.28.43:003][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.28.43:843][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2018.03.17-13.28.43:909][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.17-13.28.43:909][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.17-13.28.43:926][  0]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.17-13.28.44:153][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.155 s
+[2018.03.17-13.28.44:153][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.17-13.28.44:153][  0]LogOutputDevice: Error: 
+[2018.03.17-13.28.44:153][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.03.17-13.28.44:153][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.03.17-13.28.44:153][  0]LogOutputDevice: Error: Stack: 
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E81935F6
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7F1C2C2
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7F34736
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000E4832438
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame.dll!0x00000000CC7A7E85
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E784A442
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E7AB324B
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E7A96C73
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E784C157
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7DB8210
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E80068C0
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000EB35E06D
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000EB35E37E
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD264B1
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD2A7BD
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD2379A
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD239EA
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD302D9
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD31C47
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: kernel32.dll!0x00000000778559CD
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: ntdll.dll!0x00000000779B383D
+[2018.03.17-13.28.44:154][  0]LogOutputDevice: Error: 
+[2018.03.17-13.28.44:160][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.17-13.28.45:187][  0]LogStats:                    SendNewReport -  1.027 s
+[2018.03.17-13.28.45:187][  0]LogStats:             FDebug::EnsureFailed -  1.189 s
+[2018.03.17-13.28.45:878][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.17-13.28.47:261][  0]SourceControl: Source control is disabled
+[2018.03.17-13.28.47:262][  0]SourceControl: Source control is disabled
+[2018.03.17-13.28.47:395][  0]SourceControl: Source control is disabled
+[2018.03.17-13.28.47:534][  0]SourceControl: Source control is disabled
+[2018.03.17-13.28.49:371][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.17-13.28.50:103][  0]LogOcInput: OculusInput pre-init called
+[2018.03.17-13.28.51:004][  0]LogEngine: Initializing Engine...
+[2018.03.17-13.28.51:007][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.17-13.28.51:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.17-13.28.51:467][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.17-13.28.51:835][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.17-13.28.51:849][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-13.28.51:907][  0]LogInit: FAudioDevice initialized.
+[2018.03.17-13.28.52:014][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.17-13.28.52:020][  0]LogInit: Texture streaming: Enabled
+[2018.03.17-13.28.52:294][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.17-13.28.52:838][  0]LogInit: Transaction tracking system initialized
+[2018.03.17-13.28.53:551][  0]BlueprintLog: New page: Editor Load
+[2018.03.17-13.28.55:392][  0]LocalizationService: Localization service is disabled
+[2018.03.17-13.28.56:740][  0]LogConsoleResponse: Display: 
+[2018.03.17-13.28.56:942][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.17-13.28.56:942][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.17-13.28.56:942][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.17-13.28.57:459][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.05s
+[2018.03.17-13.28.58:958][  0]SourceControl: Source control is disabled
+[2018.03.17-13.28.58:958][  0]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-13.28.58:964][  0]LightingResults: New page: Lighting Build
+[2018.03.17-13.28.59:050][  0]MapCheck: New page: Map Check
+[2018.03.17-13.28.59:050][  0]LightingResults: New page: Lighting Build
+[2018.03.17-13.28.59:165][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.17-13.28.59:165][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.17-13.28.59:165][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.17-13.28.59:378][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.17-13.28.59:378][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.17-13.28.59:378][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.17-13.28.59:477][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.17-13.28.59:477][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.17-13.28.59:477][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.17-13.28.59:477][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.17-13.28.59:494][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.17-13.28.59:494][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.17-13.28.59:494][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.17-13.28.59:494][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.17-13.28.59:571][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2018.03.17-13.28.59:837][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.17-13.28.59:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-13.28.59:928][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-13.29.00:040][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.807ms to complete.
+[2018.03.17-13.29.00:040][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.082
+[2018.03.17-13.29.00:293][  0]LogCollectionManager: Loaded 0 collections in 0.011533 seconds
+[2018.03.17-13.29.00:472][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.03.17-13.29.00:472][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.03.17-13.29.00:472][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.03.17-13.29.00:472][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.17-13.29.00:489][  0]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2396 classes and 502 folders.
+[2018.03.17-13.29.00:677][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0044 seconds. Added 0 classes and 0 folders.
+[2018.03.17-13.29.00:762][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0053 seconds. Added 0 classes and 0 folders.
+[2018.03.17-13.29.00:887][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0047 seconds. Added 1 classes and 2 folders.
+[2018.03.17-13.29.00:921][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.17-13.29.00:925][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.17-13.29.00:931][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.17-13.29.01:074][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.17-13.29.01:426][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0062 seconds. Added 1 classes and 2 folders.
+[2018.03.17-13.29.01:427][  0]LogLoad: (Engine Initialization) Total time: 33.98 seconds
+[2018.03.17-13.29.01:427][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.17-13.29.01:427][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.17-13.29.01:427][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.17-13.29.01:457][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.17-13.29.01:526][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-13.29.01:581][  1]LogAssetRegistry: Asset discovery search completed in 24.8302 seconds
+[2018.03.17-13.29.01:585][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.17-13.29.01:585][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
+[2018.03.17-13.29.01:659][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:660][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.03.17-13.29.01:660][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:660][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:660][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:660][  3]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:674][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:675][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64', and we were unable to create a new request.
+[2018.03.17-13.29.01:675][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:675][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.03.17-13.29.01:675][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:676][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.03.17-13.29.01:676][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.17-13.29.01:676][  4]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.03.17-13.29.07:624][641]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.17-13.29.07:752][641]LogTexture: Display: Building textures: Gradient (AutoDXT, 256X256)
+[2018.03.17-13.29.07:752][641]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.17-13.29.10:512][641]LogTexture: Display: Building textures: SpaceCubeMap2048 (BGRA8, 2048X2048)
+[2018.03.17-13.29.10:513][641]LogMaterial: Missing cached shader map for material SkyboxMaterial, compiling. 
+[2018.03.17-13.29.10:656][641]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.17-13.29.10:663][641]LogSlate: Took 0.000969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.17-13.29.10:706][641]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.17-13.29.10:706][641]LightingResults: New page: Lighting Build
+[2018.03.17-13.29.10:707][641]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.03.17-13.29.10:709][641]MapCheck: New page: Map Check
+[2018.03.17-13.29.10:709][641]LightingResults: New page: Lighting Build
+[2018.03.17-13.29.10:750][641]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.17-13.29.10:801][641]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.17-13.29.10:920][641]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.181ms to complete.
+[2018.03.17-13.29.10:921][641]LogFileHelpers: Loading map 'StarTrekMap' took 0.216
+[2018.03.17-13.29.13:553][929]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.17-13.29.14:638][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-13.29.14:639][929]PIE: New page: PIE session: StarTrekMap (17 Mar 2018 13:29:14)
+[2018.03.17-13.29.14:639][929]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.17-13.29.14:641][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002401s)
+[2018.03.17-13.29.14:642][929]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.17-13.29.14:642][929]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.03.17-13.29.14:642][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003354s)
+[2018.03.17-13.29.14:653][929]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-13.29.14:698][929]LogInit: FAudioDevice initialized.
+[2018.03.17-13.29.14:742][929]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.17-13.29.14:745][929]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.17-13.29.14
+[2018.03.17-13.29.14:745][929]LogWorld: Bringing up level for play took: 0.001509
+[2018.03.17-13.29.14:862][929]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0091 seconds. Added 11 classes and 0 folders.
+[2018.03.17-13.29.14:871][929]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.488
+[2018.03.17-13.29.23:126][912]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.17-13.29.23:974][ 13]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.25:039][141]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.26:097][268]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.26:581][326]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.26:989][375]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.27:381][422]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.27:731][464]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.28:215][522]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.28:573][565]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.28:823][595]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.29:124][631]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.29.29:382][662]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.30.26:606][901]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
+[2018.03.17-13.30.28:459][902]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h'
+[2018.03.17-13.30.28:527][902]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.cpp'
+[2018.03.17-13.30.28:603][904]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h'
+[2018.03.17-13.30.28:611][904]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.cpp'
+[2018.03.17-13.30.36:763][217]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.h'
+[2018.03.17-13.30.36:962][217]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/PlayerShip.cpp'
+[2018.03.17-13.31.05:373][413]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.17-13.31.05:395][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-13.31.05:395][413]PIE: New page: PIE session: StarTrekMap (17 Mar 2018 13:31:05)
+[2018.03.17-13.31.05:396][413]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.17-13.31.05:400][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004611s)
+[2018.03.17-13.31.05:402][413]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.17-13.31.05:402][413]LogPlayLevel: PIE: World Init took: (0.001459s)
+[2018.03.17-13.31.05:402][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.006518s)
+[2018.03.17-13.31.05:416][413]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-13.31.05:457][413]LogInit: FAudioDevice initialized.
+[2018.03.17-13.31.05:488][413]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.17-13.31.05:491][413]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.17-13.31.05
+[2018.03.17-13.31.05:491][413]LogWorld: Bringing up level for play took: 0.001891
+[2018.03.17-13.31.05:494][413]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.125
+[2018.03.17-13.31.10:089][963]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.17-13.31.10:881][ 58]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.11:406][121]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.11:922][183]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.12:181][214]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.12:439][245]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.12:673][273]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.13:014][314]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.13:564][380]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.14:106][445]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.14:381][478]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.14:806][529]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.15:098][564]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.15:398][600]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.15:648][630]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.15:840][653]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.16:006][673]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.16:200][696]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.16:441][725]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.16:733][760]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.17:000][792]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.17:316][830]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.17:533][856]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.17:758][883]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.17:941][905]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.18:125][927]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.18:291][947]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.18:450][966]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.18:625][987]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.18:808][  9]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.19:025][ 35]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.19:242][ 61]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.31.24:723][390]Candidate modules for hot reload:
+[2018.03.17-13.31.24:723][390]  PropNavigationGame
+[2018.03.17-13.31.24:724][390]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 1988 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.17-13.31.24:725][390]Warning: Starting HotReload took  0.0s.
+[2018.03.17-13.31.49:681][915]CompilerResultsLog: New page: Compilation - 17 Mar 2018 13:31:49
+[2018.03.17-13.31.49:682][915]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.17-13.31.49:682][915]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.17-13.31.49:682][915]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.17-13.31.49:682][915]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.5188801 seconds
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: Performing 25 actions (4 in parallel)
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: SharedPCH.Engine.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: Bullet.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: HomingRocket.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: HealthComponent.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: FiringComponent.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: SpaceHUD.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: SpaceGameMode.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: ShieldComponent.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PropNavigationGame.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PlayerShip.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: PhaserComponent.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: HomingRocket.cpp
+[2018.03.17-13.31.49:683][915]CompilerResultsLog: HealthComponent.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: FiringComponent.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: EnemyShip.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: Bullet.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\Bullet.cpp(26) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: SpaceGameMode.gen.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: SpaceHUD.gen.cpp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: [24/25] Link UE4Editor-PropNavigationGame-1988.dll
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: [25/25] Link UE4Editor-PropNavigationGame-1988.lib
+[2018.03.17-13.31.49:684][915]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1988.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1988.exp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1988.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1988.suppressed.exp
+[2018.03.17-13.31.49:684][915]CompilerResultsLog: Total build time: 24.49 seconds (Local executor: 8.43 seconds)
+[2018.03.17-13.31.49:684][915]LogMainFrame: MainFrame: Module compiling took 24.964 seconds
+[2018.03.17-13.31.50:081][915]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.17-13.31.50:081][915]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.17-13.31.50:089][915]LogClass: Could not find existing class PhaserComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.17-13.31.50:089][915]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.17-13.31.50:089][915]LogClass: Function GetImpulseSpeed is new.
+[2018.03.17-13.31.50:089][915]LogClass: Function GetTargetHealthStrength is new.
+[2018.03.17-13.31.50:089][915]LogClass: Function GetTargetName is new.
+[2018.03.17-13.31.50:090][915]LogClass: Function GetTargetShieldStrength is new.
+[2018.03.17-13.31.50:100][915]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.17-13.31.50:204][915]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.17-13.31.50:204][915]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.17-13.31.50:206][915]LogHotReload: Re-instancing PhaserComponent after hot-reload.
+[2018.03.17-13.31.50:242][915]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.03.17-13.31.50:243][915]LogClass: Warning: Type mismatch in phaserComponent of PlayerShip - Previous (ObjectProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.03.17-13.31.50:321][915]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0078 seconds. Added 10 classes and 2 folders.
+[2018.03.17-13.31.50:323][915]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2018.03.17-13.31.50:382][915]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2398 classes and 506 folders.
+[2018.03.17-13.31.50:390][915]Display: HotReload took 25.7s.
+[2018.03.17-13.31.55:456][ 46]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.17-13.31.55:475][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-13.31.55:475][ 46]PIE: New page: PIE session: StarTrekMap (17 Mar 2018 13:31:55)
+[2018.03.17-13.31.55:475][ 46]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.17-13.31.55:478][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002939s)
+[2018.03.17-13.31.55:478][ 46]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.17-13.31.55:479][ 46]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.03.17-13.31.55:479][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003926s)
+[2018.03.17-13.31.55:490][ 46]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-13.31.55:531][ 46]LogInit: FAudioDevice initialized.
+[2018.03.17-13.31.55:563][ 46]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.17-13.31.55:566][ 46]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.17-13.31.55
+[2018.03.17-13.31.55:566][ 46]LogWorld: Bringing up level for play took: 0.001374
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.03.17-13.31.55:567][ 46]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.03.17-13.31.55:568][ 46]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.195
+[2018.03.17-13.32.02:962][932]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.17-13.32.03:386][983]LogTemp: Warning: Skeleton mesh=: Skeleton Mesh.
+[2018.03.17-13.32.03:386][983]LogTemp: Warning: Phaser effect=: BeamParticleSystem.
+[2018.03.17-13.32.03:386][983]LogTemp: Warning: Spawning location=: X=552.508 Y=-743.284 Z=818.767.
+[2018.03.17-13.32.03:387][983]LogTemp: Warning: Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:387][983]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.32.03:387][983]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:387][983]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:395][984]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:395][984]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:403][985]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:403][985]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:411][986]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:412][986]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:420][987]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:420][987]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:428][988]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:428][988]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:437][989]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:437][989]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:445][990]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:445][990]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:453][991]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:453][991]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:462][992]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:462][992]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:470][993]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:470][993]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:478][994]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:478][994]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:487][995]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:487][995]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:495][996]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:495][996]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:503][997]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:503][997]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:512][998]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:512][998]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:520][999]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:520][999]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:528][  0]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:528][  0]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:537][  1]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:537][  1]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:545][  2]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:545][  2]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:553][  3]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:553][  3]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:562][  4]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:562][  4]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:570][  5]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:570][  5]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:578][  6]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:578][  6]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:587][  7]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:587][  7]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:595][  8]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:595][  8]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:603][  9]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:603][  9]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:612][ 10]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:612][ 10]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:620][ 11]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:620][ 11]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:628][ 12]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:628][ 12]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:637][ 13]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:637][ 13]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:645][ 14]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:645][ 14]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:653][ 15]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:653][ 15]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:662][ 16]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:662][ 16]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:670][ 17]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:670][ 17]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:678][ 18]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:678][ 18]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:687][ 19]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:687][ 19]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:695][ 20]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:695][ 20]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:703][ 21]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:703][ 21]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:712][ 22]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:712][ 22]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:720][ 23]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:720][ 23]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:728][ 24]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:728][ 24]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:737][ 25]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:737][ 25]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:745][ 26]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:745][ 26]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:753][ 27]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:753][ 27]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:762][ 28]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:762][ 28]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:770][ 29]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:770][ 29]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:778][ 30]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:778][ 30]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:787][ 31]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:787][ 31]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:795][ 32]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:795][ 32]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:803][ 33]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:803][ 33]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:812][ 34]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:812][ 34]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:820][ 35]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:820][ 35]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:828][ 36]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:828][ 36]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:837][ 37]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:837][ 37]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:845][ 38]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:845][ 38]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:853][ 39]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:853][ 39]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:862][ 40]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:862][ 40]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:870][ 41]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:870][ 41]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:878][ 42]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:878][ 42]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:887][ 43]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:887][ 43]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:895][ 44]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:895][ 44]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:903][ 45]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:903][ 45]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:912][ 46]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:912][ 46]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:920][ 47]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:920][ 47]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:928][ 48]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:928][ 48]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:937][ 49]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:937][ 49]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:945][ 50]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:945][ 50]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:953][ 51]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:953][ 51]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:962][ 52]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:962][ 52]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:970][ 53]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:970][ 53]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:978][ 54]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:978][ 54]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:987][ 55]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:987][ 55]LogTemp: Warning: Visibible
+[2018.03.17-13.32.03:995][ 56]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.03:995][ 56]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:003][ 57]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:003][ 57]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:012][ 58]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:012][ 58]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:020][ 59]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:020][ 59]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:028][ 60]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:028][ 60]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:037][ 61]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:037][ 61]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Skeleton mesh=: Skeleton Mesh.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Phaser effect=: BeamParticleSystem.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Spawning location=: X=830.082 Y=-435.264 Z=792.479.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:045][ 62]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:054][ 63]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:054][ 63]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:062][ 64]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:062][ 64]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:070][ 65]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:070][ 65]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:078][ 66]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:078][ 66]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:087][ 67]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:087][ 67]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:095][ 68]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:095][ 68]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:103][ 69]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:103][ 69]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:112][ 70]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:112][ 70]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:120][ 71]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:120][ 71]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:128][ 72]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:128][ 72]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:137][ 73]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:137][ 73]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:145][ 74]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:145][ 74]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:153][ 75]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:153][ 75]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:162][ 76]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:162][ 76]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:170][ 77]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:170][ 77]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:178][ 78]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:178][ 78]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:187][ 79]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:187][ 79]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:195][ 80]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:195][ 80]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:203][ 81]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:203][ 81]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:212][ 82]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:212][ 82]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:220][ 83]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:220][ 83]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:228][ 84]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:228][ 84]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:237][ 85]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:237][ 85]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:245][ 86]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:245][ 86]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:253][ 87]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:253][ 87]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:262][ 88]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:262][ 88]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:270][ 89]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:270][ 89]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:278][ 90]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:278][ 90]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:287][ 91]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:287][ 91]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:295][ 92]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:295][ 92]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:303][ 93]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:303][ 93]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:312][ 94]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:312][ 94]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:320][ 95]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:320][ 95]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:328][ 96]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:328][ 96]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:337][ 97]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:337][ 97]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:345][ 98]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:345][ 98]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:353][ 99]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:354][ 99]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:362][100]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:362][100]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:370][101]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:370][101]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:379][102]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.04:379][102]LogTemp: Warning: Visibible
+[2018.03.17-13.32.04:387][103]LogTemp: Warning: invisible
+[2018.03.17-13.32.20:503][735]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.17-13.32.20:523][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.17-13.32.20:523][735]PIE: New page: PIE session: StarTrekMap (17 Mar 2018 13:32:20)
+[2018.03.17-13.32.20:523][735]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.17-13.32.20:525][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002348s)
+[2018.03.17-13.32.20:526][735]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.17-13.32.20:526][735]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.03.17-13.32.20:526][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003095s)
+[2018.03.17-13.32.20:536][735]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.17-13.32.20:578][735]LogInit: FAudioDevice initialized.
+[2018.03.17-13.32.20:608][735]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.17-13.32.20:611][735]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.17-13.32.20
+[2018.03.17-13.32.20:611][735]LogWorld: Bringing up level for play took: 0.001402
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.03.17-13.32.20:612][735]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.03.17-13.32.20:613][735]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.762
+[2018.03.17-13.32.22:064][908]LogTemp: Warning: Targeted Actor: EnemyShip_1.
+[2018.03.17-13.32.24:347][182]LogTemp: Warning: Skeleton mesh=: Skeleton Mesh.
+[2018.03.17-13.32.24:347][182]LogTemp: Warning: Phaser effect=: BeamParticleSystem.
+[2018.03.17-13.32.24:347][182]LogTemp: Warning: Spawning location=: X=-463.942 Y=269.691 Z=270.768.
+[2018.03.17-13.32.24:347][182]LogTemp: Warning: Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:347][182]LogTemp: Warning: Trace Actor EnemyShip_1.
+[2018.03.17-13.32.24:348][182]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:348][182]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:356][183]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:356][183]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:364][184]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:364][184]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:372][185]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:372][185]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:381][186]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:381][186]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:389][187]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:389][187]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:397][188]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:397][188]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:406][189]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:406][189]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:414][190]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:414][190]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:422][191]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:423][191]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:431][192]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:431][192]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:439][193]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:439][193]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:447][194]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:447][194]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:456][195]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:456][195]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:464][196]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:464][196]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:472][197]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:472][197]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:481][198]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:481][198]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:489][199]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:489][199]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:497][200]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:497][200]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:506][201]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:506][201]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:514][202]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:514][202]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:522][203]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:522][203]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:531][204]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:531][204]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:539][205]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:539][205]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:547][206]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:547][206]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:556][207]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:556][207]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:564][208]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:564][208]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:572][209]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:573][209]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:581][210]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:581][210]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:589][211]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:589][211]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:597][212]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:597][212]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:606][213]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:606][213]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:614][214]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:614][214]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:622][215]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:622][215]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:631][216]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:631][216]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:639][217]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:639][217]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:647][218]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:647][218]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:656][219]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:656][219]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:664][220]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:664][220]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:673][221]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:673][221]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:681][222]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:681][222]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:689][223]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:689][223]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:697][224]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:697][224]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:706][225]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:706][225]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:714][226]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:714][226]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:723][227]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:723][227]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:731][228]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:731][228]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:739][229]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:739][229]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:747][230]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:747][230]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:756][231]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:756][231]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:764][232]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:764][232]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:773][233]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:773][233]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:781][234]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:781][234]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:789][235]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:789][235]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:797][236]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:798][236]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:806][237]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:806][237]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:814][238]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:814][238]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:823][239]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:823][239]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:831][240]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:831][240]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:839][241]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:839][241]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:847][242]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:847][242]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:856][243]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:856][243]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:864][244]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:864][244]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:872][245]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:873][245]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:881][246]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:881][246]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:889][247]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:889][247]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:897][248]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:897][248]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:906][249]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:906][249]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:914][250]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:914][250]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:923][251]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:923][251]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:931][252]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:931][252]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:939][253]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:939][253]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:947][254]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:947][254]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:956][255]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:956][255]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:964][256]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:964][256]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:973][257]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:973][257]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:981][258]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:981][258]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:989][259]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:989][259]LogTemp: Warning: Visibible
+[2018.03.17-13.32.24:998][260]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.24:998][260]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:006][261]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:006][261]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:014][262]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:014][262]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:023][263]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:023][263]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:031][264]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:031][264]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:039][265]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:039][265]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:048][266]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:048][266]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:056][267]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:056][267]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:064][268]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:064][268]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:073][269]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:073][269]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:081][270]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:081][270]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:089][271]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:089][271]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:098][272]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:098][272]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:106][273]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:106][273]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:114][274]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:114][274]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:123][275]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:123][275]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:131][276]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:131][276]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:139][277]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:139][277]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:148][278]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:148][278]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:157][279]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:157][279]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:164][280]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:164][280]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:173][281]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:173][281]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:181][282]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:181][282]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:190][283]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:190][283]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:198][284]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:198][284]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:206][285]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:206][285]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:214][286]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:214][286]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:223][287]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:223][287]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:231][288]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:231][288]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:239][289]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:239][289]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:248][290]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:248][290]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:256][291]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:256][291]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:264][292]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:264][292]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:273][293]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:273][293]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:281][294]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:281][294]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:289][295]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:289][295]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:297][296]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:298][296]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:306][297]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:306][297]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:314][298]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:314][298]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:323][299]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:323][299]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:331][300]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:331][300]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:339][301]LogTemp: Warning: last Known Target location=: X=1420.000 Y=90.000 Z=210.000.
+[2018.03.17-13.32.25:339][301]LogTemp: Warning: Visibible
+[2018.03.17-13.32.25:348][302]LogTemp: Warning: invisible
+[2018.03.17-13.32.26:811][462]LogSlate: Took 0.009408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.17-13.32.54:341][739]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.17-13.32.54:883][804]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.17-13.32.55:350][860]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.17-13.32.55:967][934]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.17-13.32.56:325][977]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.17-13.36.14:067][460]Candidate modules for hot reload:
+[2018.03.17-13.36.14:067][460]  PropNavigationGame
+[2018.03.17-13.36.14:068][460]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 2066 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.17-13.36.14:069][460]Warning: Starting HotReload took  0.0s.
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: New page: Compilation - 17 Mar 2018 13:36:35
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.17-13.36.35:112][851]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 9.1666313 seconds
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: PhaserComponent.cpp
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: PlayerShip.cpp
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: [3/4] Link UE4Editor-PropNavigationGame-2066.dll
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: [4/4] Link UE4Editor-PropNavigationGame-2066.lib
+[2018.03.17-13.36.35:112][851]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-2066.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-2066.exp
+[2018.03.17-13.36.35:112][851]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-2066.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-2066.suppressed.exp
+[2018.03.17-13.36.35:112][851]CompilerResultsLog: Total build time: 20.79 seconds (Local executor: 4.41 seconds)
+[2018.03.17-13.36.35:113][851]LogMainFrame: MainFrame: Module compiling took 21.050 seconds
+[2018.03.17-13.36.35:410][851]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.17-13.36.35:410][851]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.17-13.36.35:417][851]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.17-13.36.35:484][851]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.17-13.36.35:484][851]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.17-13.36.35:739][851]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.249 s
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: 
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: Ensure condition failed: MyOwnerWorld [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1022]
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: 
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: Stack: 
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E81935F6
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7F1C2C2
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7F34736
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000E479987B
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-PropNavigationGame-2066.dll!UPhaserComponent::UPhaserComponent() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\phasercomponent.cpp:24]
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A946E
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A9EFE
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA696FBA
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A1502
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6AB94B
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6ABD45
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A44C6
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E77C31F5
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E7AB20B8
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E7A96C7A
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000E784C157
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E7DB8210
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E80068C0
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E8005BD3
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A275E
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA69FD54
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6A0720
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-HotReload.dll!0x00000000CA6B2C1B
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000E0AEAE4E
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000E137B0E6
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD1534A
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD23970
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD239EA
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD302D9
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: UE4Editor.exe!0x000000003FD31C47
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: kernel32.dll!0x00000000778559CD
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: ntdll.dll!0x00000000779B383D
+[2018.03.17-13.36.35:740][851]LogOutputDevice: Error: 
+[2018.03.17-13.36.35:745][851]LogStats:                SubmitErrorReport -  0.000 s

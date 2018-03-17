@@ -3,10 +3,12 @@
 #include "PlayerShip.h"
 #include "Components/inputComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "GameFramework/HUD.h"
 #include "ShieldComponent.h"
 #include "HealthComponent.h"
 #include "SpaceHUD.h"
+#include "ConstructorHelpers.h"
 
 // Sets default values
 APlayerShip::APlayerShip()
@@ -20,7 +22,6 @@ APlayerShip::APlayerShip()
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
-	phaserComponent = CreateDefaultSubobject<UPhaserComponent>(TEXT("PhaserComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
 
 	//set root component
@@ -32,7 +33,7 @@ APlayerShip::APlayerShip()
 	springArm->SetWorldRotation(FRotator(-20.0f, 0.0f, 0.0f));
 	springArm->bAbsoluteRotation = true;
 
-
+	//Initialise skeletal mesh to be the correct way around
 	FRotator StartRotation = FRotator(0, 0, -180.0f);
 	skeleMesh->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
 	skeleMesh->SetRelativeRotation(StartRotation);
@@ -42,59 +43,76 @@ APlayerShip::APlayerShip()
 
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-
 }
+
+
 
 //returns the shield strength of the target object
 int APlayerShip::GetTargetShieldStrength()
 {
+	//if a targetted actor exists 
 	if (TargetedActor)
 	{
+		//if the targetted actor has a shield component 
 		UShieldComponent* shields = (UShieldComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
 		if (shields != nullptr)
 		{
+			//return the actors shield component value
 			return shields->GetShieldStrength();
 		}
 	}
+	//if a targetted actor does not exist
 	else
 	{
+		//return a value of 0
 		return 0;
 	}
 
+	//return a value of 0 (Default)
 	return 0;
 }
 
 //returns the health of the target object
 int APlayerShip::GetTargetHealthStrength()
 {
+	//if a targetted actor exists
 	if (TargetedActor)
 	{
+		//if the targetted actor has a health component attached 
 		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
 		if (health != nullptr)
 		{
+			//return the targets health values 
 			return health->GetHealthStrength();
 		}
 	}
+	//if a targetted actor does not exist
 	else
 	{
+		//return a value of 0
 		return 0;
 	}
 
+	//return a value of 0  (Default)
 	return 0;
 }
 
 //Returns the name of the actor targeted
 FName APlayerShip::GetTargetName()
 {
+	//if a targetted actor exists
 	if (TargetedActor)
 	{
+		//return it's name
 		return TargetedActor->GetFName();
 	}
+	//if a targetted actor doesn't exist
 	else
 	{
+		//return that no actor was found or targetted
 		return FName("No actor found");
 	}
-
+	//return that no actor was found or targetted (Default)
 	return FName("No actor found");
 }
 
@@ -129,12 +147,53 @@ FName APlayerShip::GetImpulseSpeed()
 	}
 }
 
+//Sets up the fire components with the sockets to fire from
+void APlayerShip::SendSocketsToFireComponents()
+{
+	//if the skeletal mesh is initialised properly
+	if (skeleMesh)
+	{
+		//get all the socket names from the mesh
+		names = skeleMesh->GetAllSocketNames();
+		UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %f."), names.Num());
+
+		//for every name gathered
+		for (int i = 0; i < names.Num(); i++)
+		{
+			//check the name contains the substring "phaser", if so
+			FString name = names[i].ToString();
+			if (name.Contains("Phaser"))
+			{
+				//Dynamically create a new component called phaser component
+				UPhaserComponent* createdComp = NewObject<UPhaserComponent>(this);// ");// NewObject<UPhaserComponent>(this, "Phaser");
+				if (createdComp)
+				{
+					//Register the component (because we're creating it dynamically it must be registered)
+					createdComp->RegisterComponent();
+					
+					//initialise the component, handing it the skeletal mesh, the name of the socket and a damage value for the phaser bank
+					createdComp->InitialiseComponent(100, 1, names[i], skeleMesh);
+
+					//add the phaser component to the list of phaser components
+					phaserComponent.Add(createdComp);
+				}
+				UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %s."), *names[i].ToString());
+			}
+			else
+			{
+				UE_LOG(LogTemp, Warning, TEXT("Doesn't Contain: %s."), *names[i].ToString());
+			}
+		}
+	}
+}
+
 // Called when the game starts or when spawned
 void APlayerShip::BeginPlay()
 {
 	Super::BeginPlay();
+	SendSocketsToFireComponents();
 	firingComponent->InitialiseComponent();
-	phaserComponent->InitialiseComponent(100, 1);
+	//phaserComponent->InitialiseComponent(100, 1);
 	APlayerController* playerController = (APlayerController*)GetWorld()->GetFirstPlayerController();
 	playerController->bShowMouseCursor = true;
 	playerController->bEnableClickEvents = true;
@@ -151,6 +210,7 @@ void APlayerShip::Tick(float DeltaTime)
 		timeBetweenShots += DeltaTime;
 	}
 
+	//seperated logic in different methods (for cleanliness)
 	CalculateShipTurningAngles();
 	CalculateShipMovement();
 	CalculateCameraTurningWithMouse();
@@ -383,7 +443,11 @@ void APlayerShip::FirePhasers()
 	if (TargetedActor)
 	{
 		//TraceString += FString::Printf(TEXT("Trace Actor %s."), *hit.GetActor()->GetName());
-		phaserComponent->FirePhasers(TargetedActor);
+		for (int i = 0; i < phaserComponent.Num(); i++)
+		{
+			phaserComponent[i]->FirePhasers(TargetedActor);
+		}
+
 		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
 	}
 	//if there is no actor targetted
@@ -417,8 +481,10 @@ void APlayerShip::MouseYaw(float axis)
 //Camera zoom in with mouse wheel up
 void APlayerShip::ZoomCameraIn()
 {
+	//if the camera hasn't reached the minimum zoom location
 	if (springArm->TargetArmLength > minCameraZoom)
 	{
+		//zoom in
 		springArm->TargetArmLength -= zoomSensitivity;
 	}
 }
@@ -426,8 +492,10 @@ void APlayerShip::ZoomCameraIn()
 //Camera zoom out with mouse wheel down
 void APlayerShip::ZoomCameraOut()
 {
+	//if the camera hasn't reached the maximum camera zoom
 	if (springArm->TargetArmLength < maxCameraZoom)
 	{
+		//zoom out
 		springArm->TargetArmLength += zoomSensitivity;
 	}
 
@@ -461,12 +529,6 @@ void APlayerShip::DecreaseImpulseSpeed()
 void APlayerShip::TurnRightLeft(float axis)
 {
 	turningSpeed = axis;
-
-	//clamp turning speed with max turning speed;
-	//if (turningSpeed >= maxTurningSpeed)
-	//{
-	//	turningSpeed = maxTurningSpeed;
-	//}
 }
 
 //turns the ship upwards

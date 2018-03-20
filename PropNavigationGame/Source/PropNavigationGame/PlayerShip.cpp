@@ -79,7 +79,7 @@ int APlayerShip::GetTargetHealthStrength()
 	if (TargetedActor)
 	{
 		//if the targetted actor has a health component attached 
-		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UHealthComponent::StaticClass());
 		if (health != nullptr)
 		{
 			//return the targets health values 

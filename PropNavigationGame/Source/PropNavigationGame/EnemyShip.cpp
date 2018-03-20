@@ -78,7 +78,7 @@ void AEnemyShip::SetInCombat(bool inCombat)
 }
 
 //Take damage from hit/actor
-void AEnemyShip::ApplyDamageTaken(int value)
+void AEnemyShip::ApplyDamageTaken(int value, FVector AttackerLocation)
 {
 	//toggle the ship is in combat after taking damage
 	SetInCombat(true);
@@ -87,7 +87,7 @@ void AEnemyShip::ApplyDamageTaken(int value)
 	if (shieldComponent->GetShieldStrength() > 0.0f)
 	{
 		//decrease shield values
-		shieldComponent->DecrementShield(20);
+		shieldComponent->DecrementShield(20, AttackerLocation);
 	}
 	//otherwise check if health values are greater than 0 
 	else if (healthComponent->GetHealthStrength() > 0.0f)
@@ -113,14 +113,14 @@ void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class
 		if (OtherActor->IsA(ABullet::StaticClass()))
 		{
 
-			if (shieldComponent)
-			{
-				shieldComponent->DecrementShield(20);
-			}
-			else if (healthComponent)
-			{
-				healthComponent->DecrementHealth(50);
-			}
+			//if (shieldComponent)
+			//{
+			//	shieldComponent->DecrementShield(20);
+			//}
+			//else if (healthComponent)
+			//{
+			//	healthComponent->DecrementHealth(50);
+			//}
 			
 			if ((!shieldComponent->IsValidLowLevel()) && (!healthComponent->IsValidLowLevel()))
 			{

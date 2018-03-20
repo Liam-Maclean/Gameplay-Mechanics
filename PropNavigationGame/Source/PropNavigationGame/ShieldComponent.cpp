@@ -1,7 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ShieldComponent.h"
-
+#include "GameFramework/Actor.h"
+#include "ConstructorHelpers.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values for this component's properties
 UShieldComponent::UShieldComponent()
@@ -10,6 +13,22 @@ UShieldComponent::UShieldComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/ShieldMesh.ShieldMesh'"));
+	frontShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("FrontShield"));
+	leftBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("leftBroadSideShield"));
+	rightBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("rightBroadSideShield"));
+	reerShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReerShield"));
+
+	frontShield->SetStaticMesh(SM.Object);
+	leftBroadSideShield->SetStaticMesh(SM.Object);
+	rightBroadSideShield->SetStaticMesh(SM.Object);
+	reerShield->SetStaticMesh(SM.Object);
+
+
+	frontShield->RegisterComponent();
+	leftBroadSideShield->RegisterComponent();
+	rightBroadSideShield->RegisterComponent();
+	reerShield->RegisterComponent();
 	// ...
 }
 
@@ -27,6 +46,14 @@ void UShieldComponent::BeginPlay()
 int UShieldComponent::GetShieldStrength()
 {
 	return shieldStrength;
+}
+
+//Gets a percentage from the values passed in
+//@First param, value to get percentage off
+//@second param, value of the maximum amount of X
+int UShieldComponent::GetPercentage(int value, int max)
+{
+	return (value / max);
 }
 
 //returns the health percentage of the component
@@ -98,10 +125,68 @@ void UShieldComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 }
 
 //Decrement the shield value
-void UShieldComponent::DecrementShield(int value)
+void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 {
-	//decrease shield value
-	shieldStrength -= value;
+	//Actor rotation
+	FRotator ownerActorRotation = GetOwner()->GetActorRotation();
+
+	//Actor location
+	FVector ownerActorLocation = GetOwner()->GetActorLocation();
+
+	UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *SourceOfFire.ToString());
+	
+
+	//get the direction of the fire 
+	FVector direction = ownerActorLocation - SourceOfFire;
+	//Get the angle of the directional vector
+
+	UE_LOG(LogTemp, Warning, TEXT("Direction=: %s."), *direction.ToString());
+
+	double angleOfFire = (FMath::Atan2(direction.X, direction.Y));
+	angleOfFire = angleOfFire * 360 / (3.14 * 2);
+	if (angleOfFire < 0)
+	{
+		angleOfFire = angleOfFire + 360;
+	}
+
+
+	UE_LOG(LogTemp, Warning, TEXT("Angle of Fire =: %f."), angleOfFire);
+	//clamp the rotation values of the ship between 0 and 360 (for calculations)
+	FRotator clampedRotation = ownerActorRotation.Clamp();
+
+	UE_LOG(LogTemp, Warning, TEXT("Clamped Rotation =: %s."), *clampedRotation.ToString());
+
+	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %i."), *clampedRotation.Pitch());
+
+	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %f."), *clampedRotation.Yaw());
+
+	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %f."), *clampedRotation.Roll());
+
+
+	//if damage lies on the front angle of the ship (between -45 and 45 degrees)
+	if (angleOfFire > 315 + clampedRotation.Pitch && angleOfFire < 360 + clampedRotation.Pitch || angleOfFire > 0 + clampedRotation.Pitch && angleOfFire < 45 + clampedRotation.Pitch)
+	{
+		//Front Shield Damage
+		frontShieldValue -= value;
+	}
+	//if damage lies on the right angle of the ship (between 45 and 135 degrees
+	else if (angleOfFire > 45 + clampedRotation.Pitch && angleOfFire < 135 + clampedRotation.Pitch)
+	{
+		//Right Broadside Damage
+		rightShieldValue -= value;
+	}
+	//if the damage lies on the reer angle of the ship (between 135 and 225 degrees)
+	else if (angleOfFire > 135 + clampedRotation.Pitch && angleOfFire < 225 + clampedRotation.Pitch)
+	{
+		//Reer Damage
+		reerShieldValue -= value;
+	}
+	//if the damage lies on the left angle of the ship (between 225 and 315 degrees)
+	else if (angleOfFire > 225 + clampedRotation.Pitch && angleOfFire < 325 + clampedRotation.Pitch)
+	{
+		//Left Broadside Damage
+		leftShieldValue -= value;
+	}
 }
 
 //Increment shield value

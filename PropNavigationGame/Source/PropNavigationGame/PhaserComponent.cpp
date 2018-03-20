@@ -94,7 +94,7 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 		bPhaserActive = true;
 
 		//cast to enemy ship
-		target->ApplyDamageTaken(m_damageOverDurationValue);
+		target->ApplyDamageTaken(m_damageOverDurationValue, skele_mesh->GetComponentLocation());
 	}
 }
 
@@ -113,8 +113,8 @@ void UPhaserComponent::ToggleForSeconds(float seconds)
 	
 		//increment timer
 		timerSeconds++;
-		UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Visibible"));
+		//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
+		//UE_LOG(LogTemp, Warning, TEXT("Visibible"));
 	
 	}
 	//if the time has elapsed

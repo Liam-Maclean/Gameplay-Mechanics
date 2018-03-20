@@ -31,7 +31,7 @@ public:
 
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit);
-	void ApplyDamageTaken(int value);
+	void ApplyDamageTaken(int value, FVector location);
 	void SetInCombat(bool inCombat);
 	void IncrementInCombatTimer();
 

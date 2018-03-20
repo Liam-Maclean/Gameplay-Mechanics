@@ -26,16 +26,23 @@ public:
 
 	float timer;
 
+	UStaticMeshComponent* frontShield;
+	UStaticMeshComponent* leftBroadSideShield;
+	UStaticMeshComponent* rightBroadSideShield;
+	UStaticMeshComponent* reerShield;
+
 
 	void ToggleInCombat(bool inCombat);
 	bool InCombat;
+
+	int GetPercentage(int value, int max);
 
 	//Return shield Strength
 	int GetShieldStrength();
 
 	int GetShieldPercentage();
 	//Decrease Shield Strength function
-	void DecrementShield(int value);
+	void DecrementShield(int value, FVector SourceOfFire);
 
 	//Increase Shield Strength function
 	void IncrementShield(int value);

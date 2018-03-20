@@ -1,0 +1,916 @@
+﻿Log file open, 03/20/18 16:49:20
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1900222854) SRandInit(-1900222854).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.184834
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.20-16.49.22:084][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.49.22:084][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.20-16.49.22:136][  0]LogInit: Computer: MC11602
+[2018.03.20-16.49.22:136][  0]LogInit: User: 1503395
+[2018.03.20-16.49.22:136][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.20-16.49.22:136][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2018.03.20-16.49.22:136][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.20-16.49.22:136][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.20-16.49.22:136][  0]LogMemory: Process Physical Memory: 279.55 MB used, 279.55 MB peak
+[2018.03.20-16.49.22:136][  0]LogMemory: Process Virtual Memory: 282.15 MB used, 282.15 MB peak
+[2018.03.20-16.49.22:136][  0]LogMemory: Physical Memory: 3776.37 MB used,  28932.00 MB free, 32708.36 MB total
+[2018.03.20-16.49.22:136][  0]LogMemory: Virtual Memory: 709.61 MB used,  28932.00 MB free, 134217728.00 MB total
+[2018.03.20-16.49.22:389][  0]LogInit: Using OS detected language (en-US).
+[2018.03.20-16.49.22:389][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.20-16.49.22:392][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.20-16.49.23:025][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.20-16.49.23:083][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.20-16.49.23:083][  0]LogD3D11RHI:       8088/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.20-16.49.23:085][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.20-16.49.23:085][  0]LogD3D11RHI:       0/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.20-16.49.23:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.20-16.49.23:090][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.20-16.49.23:090][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.20-16.49.23:090][  0]LogWindows: EnumDisplayDevices:
+[2018.03.20-16.49.23:090][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.20-16.49.23:090][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.49.23:090][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.49.23:090][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.49.23:090][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.20-16.49.23:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.20-16.49.23:090][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.20-16.49.23:090][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.20-16.49.23:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.20-16.49.23:111][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.20-16.49.23:126][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.20-16.49.23:169][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/1444/).
+[2018.03.20-16.49.23:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/670592A94AC7A6DB1058A59A9AEB821D/'.
+[2018.03.20-16.49.23:169][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.20-16.49.24:021][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.20-16.49.24:094][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.20-16.49.24:165][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.20-16.49.24:238][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.20-16.49.24:312][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.20-16.49.24:386][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.20-16.49.24:460][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.20-16.49.24:533][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.20-16.49.24:599][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.20-16.49.24:671][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.20-16.49.24:743][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.20-16.49.24:815][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.20-16.49.24:887][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.20-16.49.24:960][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.20-16.49.25:031][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.20-16.49.25:174][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.20-16.49.25:174][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.20-16.49.25:234][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.20-16.49.25:360][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.20-16.49.25:404][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.20-16.49.25:475][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.20-16.49.25:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.20-16.49.25:618][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.20-16.49.25:709][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.20-16.49.25:709][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.20-16.49.26:434][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.20-16.49.26:493][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.49.26:493][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.20-16.49.26:494][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.20-16.49.26:494][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.20-16.49.26:495][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.20-16.49.26:495][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.20-16.49.26:507][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.20-16.49.26:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.20-16.49.26:528][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.20-16.49.26:528][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.20-16.49.26:529][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.49.26:529][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.49.26:763][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.03.20-16.49.26:946][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.49.27:081][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.20-16.49.27:524][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.20-16.49.27:584][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.20-16.49.27:584][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.20-16.49.27:584][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.20-16.49.27:584][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.20-16.49.27:584][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.20-16.49.27:934][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.03.20-16.49.28:338][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.204187 seconds
+[2018.03.20-16.49.28:345][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.20-16.49.28:345][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.20-16.49.28:345][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.20-16.49.28:500][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.20-16.49.31:941][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.20-16.49.31:994][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.20-16.49.31:995][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.32:696][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.49.32:697][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.49.32:872][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.160 s
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: 
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: Ensure condition failed: MyOwnerWorld [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1022]
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: 
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: Stack: 
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000081435F6
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007ECC2C2
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007EE4736
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x000000000980987B
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-4478.dll!UPhaserComponent::UPhaserComponent() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\phasercomponent.cpp:24]
+[2018.03.20-16.49.32:872][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1A442
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E8324B
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E66C73
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1C157
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007D68210
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007FB68C0
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000002D3FE06D
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000002D3FE37E
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052864B1
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528A7BD
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528379A
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052839EA
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052902D9
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: UE4Editor.exe!0x0000000005291C47
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: KERNEL32.DLL!0x000000003E311FE4
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-16.49.32:873][  0]LogOutputDevice: Error: 
+[2018.03.20-16.49.32:880][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.20-16.49.33:679][  0]LogStats:                    SendNewReport -  0.799 s
+[2018.03.20-16.49.33:679][  0]LogStats:             FDebug::EnsureFailed -  0.967 s
+[2018.03.20-16.49.33:682][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: 
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: Stack: 
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000081435F6
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007ECC2C2
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007EE4736
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000098A2438
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-4478.dll!APlayerShip::APlayerShip() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:32]
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1A442
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E8324B
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E66C73
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1C157
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007D68210
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000007FB68C0
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000002D3FE06D
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000002D3FE37E
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052864B1
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528A7BD
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528379A
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052839EA
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052902D9
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: UE4Editor.exe!0x0000000005291C47
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: KERNEL32.DLL!0x000000003E311FE4
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-16.49.33:682][  0]LogOutputDevice: Error: 
+[2018.03.20-16.49.33:691][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.20-16.49.34:427][  0]LogStats:                    SendNewReport -  0.736 s
+[2018.03.20-16.49.34:427][  0]LogStats:             FDebug::EnsureFailed -  0.748 s
+[2018.03.20-16.49.34:797][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.20-16.49.35:414][  0]SourceControl: Source control is disabled
+[2018.03.20-16.49.35:414][  0]SourceControl: Source control is disabled
+[2018.03.20-16.49.35:484][  0]SourceControl: Source control is disabled
+[2018.03.20-16.49.35:557][  0]SourceControl: Source control is disabled
+[2018.03.20-16.49.36:476][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.20-16.49.36:835][  0]LogOcInput: OculusInput pre-init called
+[2018.03.20-16.49.37:228][  0]LogEngine: Initializing Engine...
+[2018.03.20-16.49.37:229][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.20-16.49.37:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-16.49.37:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-16.49.37:636][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.20-16.49.37:642][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-16.49.37:713][  0]LogInit: FAudioDevice initialized.
+[2018.03.20-16.49.37:807][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.49.37:824][  0]LogInit: Texture streaming: Enabled
+[2018.03.20-16.49.38:058][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.20-16.49.38:425][  0]LogInit: Transaction tracking system initialized
+[2018.03.20-16.49.38:934][  0]BlueprintLog: New page: Editor Load
+[2018.03.20-16.49.40:379][  0]LocalizationService: Localization service is disabled
+[2018.03.20-16.49.41:454][  0]LogConsoleResponse: Display: 
+[2018.03.20-16.49.41:644][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.20-16.49.41:644][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.20-16.49.41:644][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.20-16.49.42:455][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.02s
+[2018.03.20-16.49.43:251][  0]SourceControl: Source control is disabled
+[2018.03.20-16.49.43:251][  0]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-16.49.43:255][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.49.43:324][  0]MapCheck: New page: Map Check
+[2018.03.20-16.49.43:324][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.49.43:430][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.49.43:430][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.20-16.49.43:430][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.20-16.49.43:616][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.49.43:616][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.20-16.49.43:616][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.20-16.49.43:702][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.49.43:703][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.49.43:703][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.49.43:703][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.49.43:710][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.49.43:710][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.20-16.49.43:710][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.49.43:710][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.20-16.49.43:926][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.20-16.49.43:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-16.49.43:945][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-16.49.44:017][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.995ms to complete.
+[2018.03.20-16.49.44:017][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.766
+[2018.03.20-16.49.44:074][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.20-16.49.44:185][  0]LogCollectionManager: Loaded 0 collections in 0.003124 seconds
+[2018.03.20-16.49.44:305][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.03.20-16.49.44:306][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.03.20-16.49.44:306][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.03.20-16.49.44:306][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.20-16.49.44:316][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2396 classes and 502 folders.
+[2018.03.20-16.49.44:425][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.49.44:474][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.49.44:543][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
+[2018.03.20-16.49.44:564][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-16.49.44:567][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.20-16.49.44:573][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.20-16.49.44:669][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.20-16.49.44:705][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-16.49.44:883][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2018.03.20-16.49.44:883][  0]LogLoad: (Engine Initialization) Total time: 26.01 seconds
+[2018.03.20-16.49.44:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.20-16.49.44:883][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.20-16.49.44:913][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.20-16.49.44:982][  1]LogAssetRegistry: Asset discovery search completed in 18.2417 seconds
+[2018.03.20-16.49.44:985][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.20-16.49.44:985][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.03.20-16.49.44:985][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.44:986][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.03.20-16.49.44:986][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.44:986][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.44:986][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.44:986][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.45:073][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.45:073][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.03.20-16.49.45:073][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.45:074][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.03.20-16.49.45:074][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.45:074][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64', and we were unable to create a new request.
+[2018.03.20-16.49.45:074][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.49.45:075][  2]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.03.20-16.49.51:381][724]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-16.49.51:727][724]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.20-16.49.51:779][724]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-16.49.51:779][724]LightingResults: New page: Lighting Build
+[2018.03.20-16.49.51:780][724]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.03.20-16.49.51:781][724]MapCheck: New page: Map Check
+[2018.03.20-16.49.51:781][724]LightingResults: New page: Lighting Build
+[2018.03.20-16.49.51:794][724]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-16.49.51:825][724]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-16.49.51:899][724]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.17ms to complete.
+[2018.03.20-16.49.51:899][724]LogFileHelpers: Loading map 'StarTrekMap' took 0.120
+[2018.03.20-16.49.53:134][856]LogEditorViewport: Clicking on Actor (LMB): EnemyShip (EnemyShip2)
+[2018.03.20-16.49.53:736][922]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.20-16.50.10:818][459]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/ShieldComponent.h'
+[2018.03.20-16.50.10:878][459]LogVSAccessor: Warning: Couldn't goto line number '0' in '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/ShieldComponent.cpp'
+[2018.03.20-16.51.21:947][784]Candidate modules for hot reload:
+[2018.03.20-16.51.21:947][784]  PropNavigationGame
+[2018.03.20-16.51.21:948][784]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 1472 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.20-16.51.21:950][784]Warning: Starting HotReload took  0.0s.
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: New page: Compilation - 20 Mar 2018 16:51:43
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.20-16.51.43:220][259]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.9274576 seconds
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: Performing 12 actions (4 in parallel)
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: ShieldComponent.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: PlayerShip.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: PhaserComponent.cpp
+[2018.03.20-16.51.43:220][259]CompilerResultsLog: HomingRocket.cpp
+[2018.03.20-16.51.43:221][259]CompilerResultsLog: FiringComponent.cpp
+[2018.03.20-16.51.43:221][259]CompilerResultsLog: EnemyShip.cpp
+[2018.03.20-16.51.43:221][259]CompilerResultsLog: [11/12] Link UE4Editor-PropNavigationGame-1472.dll
+[2018.03.20-16.51.43:221][259]CompilerResultsLog: [12/12] Link UE4Editor-PropNavigationGame-1472.lib
+[2018.03.20-16.51.43:221][259]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1472.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1472.exp
+[2018.03.20-16.51.43:221][259]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1472.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-1472.suppressed.exp
+[2018.03.20-16.51.43:221][259]CompilerResultsLog: Total build time: 21.05 seconds (Local executor: 4.76 seconds)
+[2018.03.20-16.51.43:221][259]LogMainFrame: MainFrame: Module compiling took 21.278 seconds
+[2018.03.20-16.51.43:437][259]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.51.43:437][259]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.51.43:443][259]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.20-16.51.43:513][259]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.51.43:513][259]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.51.43:528][259]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0129 seconds. Added 10 classes and 2 folders.
+[2018.03.20-16.51.43:530][259]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.03.20-16.51.43:639][259]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 2398 classes and 506 folders.
+[2018.03.20-16.51.43:639][259]Display: HotReload took 21.7s.
+[2018.03.20-16.51.46:936][647]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.51.47:488][710]LogEditorViewport: Clicking on Actor (LMB): EnemyShip (EnemyShip2)
+[2018.03.20-16.52.01:415][357]Cmd: DELETE
+[2018.03.20-16.52.01:415][357]Cmd: ACTOR DELETE
+[2018.03.20-16.52.01:438][357]LogEditorActor: Deleted Actor: EnemyShip
+[2018.03.20-16.52.01:446][357]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.03.20-16.52.04:369][706]LogEditor: Attempting to add actor of class 'EnemyShip' to level at -700.00,-590.00,310.00
+[2018.03.20-16.52.05:404][827]LogEditor: Attempting to add actor of class 'EnemyShip' to level at -340.00,-80.00,570.00
+[2018.03.20-16.52.18:008][320]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.19:001][435]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.20:250][582]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.20:640][627]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.21:256][699]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.21:698][750]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.22:022][787]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_C (Skybox_BP)
+[2018.03.20-16.52.22:245][812]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Skybox)
+[2018.03.20-16.52.29:018][606]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-16.52.51:825][261]Candidate modules for hot reload:
+[2018.03.20-16.52.51:825][261]  PropNavigationGame
+[2018.03.20-16.52.51:826][261]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 1903 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.20-16.52.51:827][261]Warning: Starting HotReload took  0.0s.
+[2018.03.20-16.52.58:262][ 21]CompilerResultsLog: New page: Compilation - 20 Mar 2018 16:52:58
+[2018.03.20-16.52.58:262][ 21]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.20-16.52.58:262][ 21]CompilerResultsLog: Target is up to date
+[2018.03.20-16.52.58:262][ 21]CompilerResultsLog: Total build time: 6.24 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.03.20-16.52.58:262][ 21]LogMainFrame: MainFrame: Module compiling took 6.440 seconds
+[2018.03.20-16.52.58:283][ 21]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2398 classes and 506 folders.
+[2018.03.20-16.52.58:283][ 21]Display: HotReload took  6.5s.
+[2018.03.20-16.53.09:328][346]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Static Mesh Component)
+[2018.03.20-16.53.12:790][754]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.53.12:927][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.53.12:928][754]PIE: New page: PIE session: StarTrekMap (20 Mar 2018 16:53:12)
+[2018.03.20-16.53.12:928][754]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.20-16.53.12:934][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005789s)
+[2018.03.20-16.53.12:936][754]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.20-16.53.12:936][754]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2018.03.20-16.53.12:936][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.008297s)
+[2018.03.20-16.53.12:960][754]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-16.53.13:019][754]LogInit: FAudioDevice initialized.
+[2018.03.20-16.53.13:064][754]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.20-16.53.13:071][754]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.20-16.53.13
+[2018.03.20-16.53.13:072][754]LogWorld: Bringing up level for play took: 0.003311
+[2018.03.20-16.53.13:181][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0030 seconds. Added 11 classes and 0 folders.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.03.20-16.53.13:182][754]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.03.20-16.53.13:183][754]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.547
+[2018.03.20-16.53.14:103][861]LogTemp: Warning: Targeted Actor: EnemyShip_3.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Source of fire=: X=20.000 Y=-90.000 Z=250.000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Direction=: X=980.000 Y=10.000 Z=10.000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Angle of Fire =: 89.460725.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Source of fire=: X=20.000 Y=-90.000 Z=250.000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Direction=: X=980.000 Y=10.000 Z=10.000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Angle of Fire =: 89.460725.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.14:953][963]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.15:953][ 83]LogTemp: Warning: invisible
+[2018.03.20-16.53.15:953][ 83]LogTemp: Warning: invisible
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Source of fire=: X=44.583 Y=-59.240 Z=250.000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Direction=: X=955.417 Y=-20.760 Z=10.000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Angle of Fire =: 91.291037.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Source of fire=: X=44.583 Y=-59.240 Z=250.000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Direction=: X=955.417 Y=-20.760 Z=10.000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Angle of Fire =: 91.291037.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.16:453][143]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.17:453][263]LogTemp: Warning: invisible
+[2018.03.20-16.53.17:453][263]LogTemp: Warning: invisible
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Source of fire=: X=146.008 Y=105.583 Z=189.790.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Direction=: X=853.992 Y=-185.583 Z=70.210.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Angle of Fire =: 102.312340.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Source of fire=: X=146.008 Y=105.583 Z=189.790.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Direction=: X=853.992 Y=-185.583 Z=70.210.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Angle of Fire =: 102.312340.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.17:586][279]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.18:586][399]LogTemp: Warning: invisible
+[2018.03.20-16.53.18:586][399]LogTemp: Warning: invisible
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Source of fire=: X=560.670 Y=-167.042 Z=118.635.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Direction=: X=439.330 Y=87.042 Z=141.365.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Angle of Fire =: 78.833328.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Source of fire=: X=560.670 Y=-167.042 Z=118.635.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Direction=: X=439.330 Y=87.042 Z=141.365.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Angle of Fire =: 78.833328.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.19:686][531]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.20:686][651]LogTemp: Warning: invisible
+[2018.03.20-16.53.20:686][651]LogTemp: Warning: invisible
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Source of fire=: X=69.825 Y=-200.865 Z=503.508.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Direction=: X=930.175 Y=120.865 Z=-243.508.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Angle of Fire =: 82.638457.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Source of fire=: X=69.825 Y=-200.865 Z=503.508.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Direction=: X=930.175 Y=120.865 Z=-243.508.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Angle of Fire =: 82.638457.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.22:378][854]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.23:378][974]LogTemp: Warning: invisible
+[2018.03.20-16.53.23:378][974]LogTemp: Warning: invisible
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Source of fire=: X=113.829 Y=210.797 Z=333.314.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Direction=: X=886.171 Y=-290.797 Z=-73.314.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Angle of Fire =: 108.222138.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Source of fire=: X=113.829 Y=210.797 Z=333.314.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Direction=: X=886.171 Y=-290.797 Z=-73.314.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Angle of Fire =: 108.222138.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.23:945][ 42]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.24:644][126]LogTemp: Warning: Source of fire=: X=275.373 Y=299.263 Z=243.887.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Direction=: X=724.627 Y=-379.263 Z=16.113.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Angle of Fire =: 117.686790.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Source of fire=: X=275.373 Y=299.263 Z=243.887.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Direction=: X=724.627 Y=-379.263 Z=16.113.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Angle of Fire =: 117.686790.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.24:645][126]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.24:945][162]LogTemp: Warning: invisible
+[2018.03.20-16.53.24:945][162]LogTemp: Warning: invisible
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Source of fire=: X=388.695 Y=292.865 Z=246.930.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Direction=: X=611.305 Y=-372.865 Z=13.070.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Angle of Fire =: 121.442634.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Source of fire=: X=388.695 Y=292.865 Z=246.930.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Direction=: X=611.305 Y=-372.865 Z=13.070.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Angle of Fire =: 121.442634.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.25:028][172]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Source of fire=: X=506.739 Y=228.725 Z=269.126.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Direction=: X=493.261 Y=-308.725 Z=-9.126.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Angle of Fire =: 122.103762.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Source of fire=: X=506.739 Y=228.725 Z=269.126.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Direction=: X=493.261 Y=-308.725 Z=-9.126.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Angle of Fire =: 122.103762.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.25:487][227]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.26:029][292]LogTemp: Warning: invisible
+[2018.03.20-16.53.26:029][292]LogTemp: Warning: invisible
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Source of fire=: X=1013.846 Y=-775.658 Z=84.561.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Direction=: X=-13.846 Y=695.658 Z=175.439.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Angle of Fire =: 358.859192.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Source of fire=: X=1013.846 Y=-775.658 Z=84.561.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Direction=: X=-13.846 Y=695.658 Z=175.439.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Angle of Fire =: 358.859192.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.29:565][711]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Source of fire=: X=1245.205 Y=-879.877 Z=52.276.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Direction=: X=-245.205 Y=799.877 Z=207.724.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Angle of Fire =: 342.948220.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Source of fire=: X=1245.205 Y=-879.877 Z=52.276.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Direction=: X=-245.205 Y=799.877 Z=207.724.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Angle of Fire =: 342.948220.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.30:450][817]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.30:565][831]LogTemp: Warning: invisible
+[2018.03.20-16.53.30:565][831]LogTemp: Warning: invisible
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Source of fire=: X=1423.641 Y=-807.696 Z=34.220.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Direction=: X=-423.641 Y=727.696 Z=225.780.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Angle of Fire =: 329.778075.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Source of fire=: X=1423.641 Y=-807.696 Z=34.220.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Direction=: X=-423.641 Y=727.696 Z=225.780.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Angle of Fire =: 329.778075.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.31:107][896]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.32:107][ 16]LogTemp: Warning: invisible
+[2018.03.20-16.53.32:107][ 16]LogTemp: Warning: invisible
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Source of fire=: X=1554.783 Y=-563.810 Z=150.914.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Direction=: X=-554.783 Y=483.810 Z=109.086.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Angle of Fire =: 311.065905.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Source of fire=: X=1554.783 Y=-563.810 Z=150.914.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Direction=: X=-554.783 Y=483.810 Z=109.086.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Angle of Fire =: 311.065905.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.32:123][ 18]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Source of fire=: X=1588.657 Y=-397.252 Z=235.697.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Direction=: X=-588.657 Y=317.252 Z=24.303.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Angle of Fire =: 298.290803.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Source of fire=: X=1588.657 Y=-397.252 Z=235.697.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Direction=: X=-588.657 Y=317.252 Z=24.303.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Angle of Fire =: 298.290803.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.32:757][ 94]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.33:123][138]LogTemp: Warning: invisible
+[2018.03.20-16.53.33:123][138]LogTemp: Warning: invisible
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Source of fire=: X=1610.385 Y=-246.516 Z=286.943.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Direction=: X=-610.385 Y=166.516 Z=-26.943.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Angle of Fire =: 285.221386.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Source of fire=: X=1610.385 Y=-246.516 Z=286.943.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Direction=: X=-610.385 Y=166.516 Z=-26.943.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Angle of Fire =: 285.221386.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.33:298][159]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Source of fire=: X=1653.880 Y=-132.580 Z=277.650.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Direction=: X=-653.880 Y=52.580 Z=-17.650.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Angle of Fire =: 274.554067.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Source of fire=: X=1653.880 Y=-132.580 Z=277.650.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Direction=: X=-653.880 Y=52.580 Z=-17.650.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Angle of Fire =: 274.554067.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.33:707][208]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.34:299][279]LogTemp: Warning: invisible
+[2018.03.20-16.53.34:299][279]LogTemp: Warning: invisible
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Source of fire=: X=1706.091 Y=50.180 Z=255.865.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Direction=: X=-706.091 Y=-130.180 Z=4.135.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Angle of Fire =: 259.502911.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Source of fire=: X=1706.091 Y=50.180 Z=255.865.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Direction=: X=-706.091 Y=-130.180 Z=4.135.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Angle of Fire =: 259.502911.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.34:349][285]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Source of fire=: X=1652.515 Y=222.686 Z=234.929.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Direction=: X=-652.515 Y=-302.686 Z=25.071.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Angle of Fire =: 245.056294.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Source of fire=: X=1652.515 Y=222.686 Z=234.929.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Direction=: X=-652.515 Y=-302.686 Z=25.071.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Angle of Fire =: 245.056294.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.34:966][359]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.35:349][405]LogTemp: Warning: invisible
+[2018.03.20-16.53.35:349][405]LogTemp: Warning: invisible
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Source of fire=: X=1423.643 Y=349.826 Z=215.193.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Direction=: X=-423.643 Y=-429.826 Z=44.807.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Angle of Fire =: 224.516204.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Source of fire=: X=1423.643 Y=349.826 Z=215.193.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Direction=: X=-423.643 Y=-429.826 Z=44.807.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Angle of Fire =: 224.516204.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.35:866][467]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.36:232][511]LogTemp: Warning: Source of fire=: X=1320.172 Y=386.695 Z=216.157.
+[2018.03.20-16.53.36:232][511]LogTemp: Warning: Direction=: X=-320.172 Y=-466.695 Z=43.843.
+[2018.03.20-16.53.36:232][511]LogTemp: Warning: Angle of Fire =: 214.377877.
+[2018.03.20-16.53.36:232][511]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.36:232][511]LogTemp: Warning: Source of fire=: X=1320.172 Y=386.695 Z=216.157.
+[2018.03.20-16.53.36:233][511]LogTemp: Warning: Direction=: X=-320.172 Y=-466.695 Z=43.843.
+[2018.03.20-16.53.36:233][511]LogTemp: Warning: Angle of Fire =: 214.377877.
+[2018.03.20-16.53.36:233][511]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.36:233][511]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Source of fire=: X=1169.421 Y=439.495 Z=217.560.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Direction=: X=-169.421 Y=-519.495 Z=42.440.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Angle of Fire =: 197.980375.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Source of fire=: X=1169.421 Y=439.495 Z=217.560.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Direction=: X=-169.421 Y=-519.495 Z=42.440.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Angle of Fire =: 197.980375.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.36:766][575]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.36:866][587]LogTemp: Warning: invisible
+[2018.03.20-16.53.36:866][587]LogTemp: Warning: invisible
+[2018.03.20-16.53.37:076][612]LogTemp: Warning: Source of fire=: X=1079.870 Y=462.651 Z=218.371.
+[2018.03.20-16.53.37:076][612]LogTemp: Warning: Direction=: X=-79.870 Y=-542.651 Z=41.629.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Angle of Fire =: 188.285922.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Source of fire=: X=1079.870 Y=462.651 Z=218.371.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Direction=: X=-79.870 Y=-542.651 Z=41.629.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Angle of Fire =: 188.285922.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.37:077][612]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Source of fire=: X=920.131 Y=503.958 Z=219.817.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Direction=: X=79.869 Y=-583.958 Z=40.183.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Angle of Fire =: 172.299244.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Source of fire=: X=920.131 Y=503.958 Z=219.817.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Direction=: X=79.869 Y=-583.958 Z=40.183.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Angle of Fire =: 172.299244.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.37:627][678]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.38:077][732]LogTemp: Warning: invisible
+[2018.03.20-16.53.38:077][732]LogTemp: Warning: invisible
+[2018.03.20-16.53.38:280][756]LogTemp: Warning: Source of fire=: X=730.244 Y=546.859 Z=221.526.
+[2018.03.20-16.53.38:280][756]LogTemp: Warning: Direction=: X=269.756 Y=-626.859 Z=38.474.
+[2018.03.20-16.53.38:280][756]LogTemp: Warning: Angle of Fire =: 156.795898.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Source of fire=: X=730.244 Y=546.859 Z=221.526.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Direction=: X=269.756 Y=-626.859 Z=38.474.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Angle of Fire =: 156.795898.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.38:281][756]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Source of fire=: X=549.522 Y=523.971 Z=223.125.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Direction=: X=450.478 Y=-603.971 Z=36.875.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Angle of Fire =: 143.354894.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Source of fire=: X=549.522 Y=523.971 Z=223.125.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Direction=: X=450.478 Y=-603.971 Z=36.875.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Angle of Fire =: 143.354894.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.38:888][829]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.39:280][876]LogTemp: Warning: invisible
+[2018.03.20-16.53.39:280][876]LogTemp: Warning: invisible
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Source of fire=: X=354.495 Y=454.464 Z=224.944.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Direction=: X=645.505 Y=-534.464 Z=35.056.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Angle of Fire =: 129.689788.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Source of fire=: X=354.495 Y=454.464 Z=224.944.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Direction=: X=645.505 Y=-534.464 Z=35.056.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Angle of Fire =: 129.689788.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.03.20-16.53.39:580][912]LogTemp: Warning: Trace Actor EnemyShip_3.
+[2018.03.20-16.53.40:580][ 32]LogTemp: Warning: invisible
+[2018.03.20-16.53.40:580][ 32]LogTemp: Warning: invisible
+[2018.03.20-16.53.46:792][766]LogEditorViewport: Clicking on Actor (LMB): ShieldMesh_C (ShieldMesh)
+[2018.03.20-16.55.53:164][899]Candidate modules for hot reload:
+[2018.03.20-16.55.53:164][899]  PropNavigationGame
+[2018.03.20-16.55.53:165][899]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 105 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.20-16.55.53:167][899]Warning: Starting HotReload took  0.0s.
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: New page: Compilation - 20 Mar 2018 16:56:17
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.20-16.56.17:888][529]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 10.2721152 seconds
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: Performing 12 actions (4 in parallel)
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: ShieldComponent.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: PlayerShip.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: HomingRocket.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: PhaserComponent.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: EnemyShip.cpp
+[2018.03.20-16.56.17:888][529]CompilerResultsLog: [11/12] Link UE4Editor-PropNavigationGame-105.dll
+[2018.03.20-16.56.17:889][529]CompilerResultsLog: [12/12] Link UE4Editor-PropNavigationGame-105.lib
+[2018.03.20-16.56.17:889][529]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-105.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-105.exp
+[2018.03.20-16.56.17:889][529]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-105.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-105.suppressed.exp
+[2018.03.20-16.56.17:889][529]CompilerResultsLog: Total build time: 24.51 seconds (Local executor: 5.67 seconds)
+[2018.03.20-16.56.17:889][529]LogMainFrame: MainFrame: Module compiling took 24.728 seconds
+[2018.03.20-16.56.18:095][529]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.56.18:095][529]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.56.18:100][529]LogClass: Could not find existing class ShieldComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.20-16.56.18:119][529]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.20-16.56.18:197][529]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.56.18:197][529]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.56.18:201][529]LogHotReload: Re-instancing ShieldComponent after hot-reload.
+[2018.03.20-16.56.18:246][529]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0032 seconds. Added 10 classes and 2 folders.
+[2018.03.20-16.56.18:248][529]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.03.20-16.56.18:284][529]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2398 classes and 506 folders.
+[2018.03.20-16.56.18:284][529]Display: HotReload took 25.1s.
+[2018.03.20-17.00.20:866][551]LogSavePackage: Save=268.74ms
+[2018.03.20-17.00.20:866][551]LogSavePackage: Moving '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto1F5E0581E46A01E7861AC4F8FF0E1DA69.tmp' to '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap'
+[2018.03.20-17.00.20:883][551]LogSavePackage: Display: Finished SavePackage //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto1.umap
+[2018.03.20-17.00.20:894][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.379
+[2018.03.20-17.00.20:894][551]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.379
+[2018.03.20-17.09.13:949][249]Candidate modules for hot reload:
+[2018.03.20-17.09.13:950][249]  PropNavigationGame
+[2018.03.20-17.09.13:950][249]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 2064 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.20-17.09.13:951][249]Warning: Starting HotReload took  0.1s.
+[2018.03.20-17.09.34:716][551]CompilerResultsLog: New page: Compilation - 20 Mar 2018 17:09:34
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.20-17.09.34:717][551]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.6814991 seconds
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Performing 12 actions (4 in parallel)
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: ShieldComponent.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: PlayerShip.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(18) : error C2440: '=': cannot convert from 'UStaticMeshComponent *' to 'UStaticMesh *'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(18) : note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(19) : error C2440: '=': cannot convert from 'UStaticMeshComponent *' to 'UStaticMesh *'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(19) : note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(20) : error C2440: '=': cannot convert from 'UStaticMeshComponent *' to 'UStaticMesh *'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(20) : note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(21) : error C2440: '=': cannot convert from 'UStaticMeshComponent *' to 'UStaticMesh *'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(21) : note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(23) : error C2039: 'SetStaticMesh': is not a member of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(32): note: see declaration of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(24) : error C2039: 'SetStaticMesh': is not a member of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(32): note: see declaration of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(25) : error C2039: 'SetStaticMesh': is not a member of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(32): note: see declaration of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(26) : error C2039: 'SetStaticMesh': is not a member of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h(32): note: see declaration of 'UStaticMesh'
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: PhaserComponent.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: HomingRocket.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: EnemyShip.cpp
+[2018.03.20-17.09.34:717][551]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-2064.dll
+[2018.03.20-17.09.34:718][551]CompilerResultsLog: Total build time: 20.56 seconds (Local executor: 0.00 seconds)
+[2018.03.20-17.09.34:718][551]LogMainFrame: MainFrame: Module compiling took 20.772 seconds
+[2018.03.20-17.09.34:718][551]Warning: HotReload failed, recompile failed
+[2018.03.20-17.09.58:174][434]Candidate modules for hot reload:
+[2018.03.20-17.09.58:174][434]  PropNavigationGame
+[2018.03.20-17.09.58:175][434]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 3651 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.03.20-17.09.58:176][434]Warning: Starting HotReload took  0.0s.
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: New page: Compilation - 20 Mar 2018 17:10:17
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: Compiling game modules for hot reload
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.03.20-17.10.17:387][402]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.7933882 seconds
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: ShieldComponent.cpp
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: [2/3] Link UE4Editor-PropNavigationGame-3651.dll
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: [3/3] Link UE4Editor-PropNavigationGame-3651.lib
+[2018.03.20-17.10.17:387][402]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3651.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3651.exp
+[2018.03.20-17.10.17:387][402]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3651.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-3651.suppressed.exp
+[2018.03.20-17.10.17:387][402]CompilerResultsLog: Total build time: 19.01 seconds (Local executor: 3.10 seconds)
+[2018.03.20-17.10.17:387][402]LogMainFrame: MainFrame: Module compiling took 19.216 seconds
+[2018.03.20-17.10.17:613][402]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-17.10.17:613][402]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-17.10.17:617][402]LogClass: Could not find existing class ShieldComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.03.20-17.10.17:619][402]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.03.20-17.10.21:274][402]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-17.10.21:274][402]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-17.10.21:278][402]LogHotReload: Re-instancing ShieldComponent after hot-reload.
+[2018.03.20-17.10.21:278][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:frontShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_5:HOTRELOADED_ShieldComponent_0.FrontShield
+[2018.03.20-17.10.21:278][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:leftBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_5:HOTRELOADED_ShieldComponent_0.leftBroadSideShield
+[2018.03.20-17.10.21:278][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:rightBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_5:HOTRELOADED_ShieldComponent_0.rightBroadSideShield
+[2018.03.20-17.10.21:278][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:reerShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_5:HOTRELOADED_ShieldComponent_0.ReerShield
+[2018.03.20-17.10.26:143][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:frontShield
+    Item = StaticMeshComponent /Engine/Transient.HOTRELOAD_CDO_DUPLICATE_4:HOTRELOADED_ShieldComponent_2.FrontShield
+[2018.03.20-17.10.26:143][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:leftBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.HOTRELOAD_CDO_DUPLICATE_4:HOTRELOADED_ShieldComponent_2.leftBroadSideShield
+[2018.03.20-17.10.26:144][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:rightBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.HOTRELOAD_CDO_DUPLICATE_4:HOTRELOADED_ShieldComponent_2.rightBroadSideShield
+[2018.03.20-17.10.26:144][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:reerShield
+    Item = StaticMeshComponent /Engine/Transient.HOTRELOAD_CDO_DUPLICATE_4:HOTRELOADED_ShieldComponent_2.ReerShield
+[2018.03.20-17.10.37:518][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:frontShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_3:HOTRELOADED_ShieldComponent_3.FrontShield
+[2018.03.20-17.10.37:525][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:leftBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_3:HOTRELOADED_ShieldComponent_3.leftBroadSideShield
+[2018.03.20-17.10.37:526][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:rightBroadSideShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_3:HOTRELOADED_ShieldComponent_3.rightBroadSideShield
+[2018.03.20-17.10.37:528][402]LogProperty: Warning: Serialized Class /Script/Engine.StaticMeshComponent for a property of Class /Script/Engine.StaticMesh. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.ShieldComponent:reerShield
+    Item = StaticMeshComponent /Engine/Transient.BPGC_ARCH_FOR_CDO_EnemyShip_3:HOTRELOADED_ShieldComponent_3.ReerShield
+[2018.03.20-17.10.51:445][402]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0342 seconds. Added 10 classes and 2 folders.
+[2018.03.20-17.10.51:468][402]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.03.20-17.10.51:559][402]LogContentBrowser: Native class hierarchy populated in 0.0292 seconds. Added 2398 classes and 506 folders.
+[2018.03.20-17.10.51:566][402]Display: HotReload took 53.4s.
+[2018.03.20-17.11.12:050][977]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-17.11.12:081][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.11.12:091][977]PIE: New page: PIE session: StarTrekMap (20 Mar 2018 17:11:12)
+[2018.03.20-17.11.12:096][977]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.20-17.11.12:131][977]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.03.20-17.11.14:868][977]LogWindows: Error: === Critical error: ===
+[2018.03.20-17.11.14:868][977]LogWindows: Error: 
+[2018.03.20-17.11.14:868][977]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\Containers/Array.h] [Line: 596] 
+[2018.03.20-17.11.14:868][977]LogWindows: Error: Array index out of bounds: 4040 from an array of size -1104772920
+[2018.03.20-17.11.14:868][977]LogWindows: Error: 
+[2018.03.20-17.11.14:868][977]LogWindows: Error: 
+[2018.03.20-17.11.14:868][977]LogWindows: Error: KERNELBASE.dll!0x000000003C5C3FB8
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Core.dll!0x00000000081414A4
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Core.dll!0x0000000007F2AD4B
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Core.dll!0x0000000007EC0169
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-CoreUObject.dll!0x0000000014CE72D1
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Core.dll!0x0000000007D5D183
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Engine.dll!0x000000000A35B14A
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-CoreUObject.dll!0x0000000014E7BAAA
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-CoreUObject.dll!0x0000000014E7B047
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000006E2AED4
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-Engine.dll!0x0000000009AFB20B
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000006E27C2B
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000006E54CFE
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000006E70864
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000068DBAA8
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor-UnrealEd.dll!0x000000000716B0E6
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor.exe!0x000000000527534A
+[2018.03.20-17.11.14:868][977]LogWindows: Error: UE4Editor.exe!0x0000000005283970
+[2018.03.20-17.11.14:869][977]LogWindows: Error: UE4Editor.exe!0x00000000052839EA
+[2018.03.20-17.11.14:869][977]LogWindows: Error: UE4Editor.exe!0x00000000052902D9
+[2018.03.20-17.11.14:869][977]LogWindows: Error: UE4Editor.exe!0x0000000005291C47
+[2018.03.20-17.11.14:869][977]LogWindows: Error: KERNEL32.DLL!0x000000003E311FE4
+[2018.03.20-17.11.14:869][977]LogWindows: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-17.11.14:869][977]LogWindows: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-17.11.14:869][977]LogWindows: Error: 
+[2018.03.20-17.11.14:886][977]LogExit: Executing StaticShutdownAfterError
+[2018.03.20-17.11.14:982][977]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.03.20-17.11.14:983][977]Log file closed, 03/20/18 17:11:14

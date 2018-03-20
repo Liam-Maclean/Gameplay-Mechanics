@@ -20,8 +20,6 @@ void UFiringComponent::InitialiseComponent()
 
 }
 
-
-
 // Called when the game starts
 void UFiringComponent::BeginPlay()
 {
@@ -48,7 +46,6 @@ void UFiringComponent::BeginPlay()
 		}
 	}
 }
-
 
 // Called every frame
 void UFiringComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

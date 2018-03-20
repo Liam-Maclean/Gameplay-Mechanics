@@ -45,8 +45,6 @@ APlayerShip::APlayerShip()
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
 
-
-
 //returns the shield strength of the target object
 int APlayerShip::GetTargetShieldStrength()
 {

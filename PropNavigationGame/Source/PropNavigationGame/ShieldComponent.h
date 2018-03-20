@@ -25,29 +25,32 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	float timer;
-	
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* frontShield;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* leftBroadSideShield;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* rightBroadSideShield;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* reerShield;
-
 
 	void ToggleInCombat(bool inCombat);
 	bool InCombat;
-
-	int GetPercentage(int value, int max);
 
 	//Return shield Strength
 	int GetShieldStrength();
 
 	int GetShieldPercentage();
+
+	int GetFrontShieldStrength();
+
+	int GetLeftShieldStrength()
+	{
+		return leftShieldValue;
+	}
+
+	int GetRightShieldStrength()
+	{
+		return rightShieldValue;
+	}
+
+	int GetReerShieldStrength()
+	{
+		return reerShieldValue;
+	}
+
 	//Decrease Shield Strength function
 	void DecrementShield(int value, FVector SourceOfFire);
 

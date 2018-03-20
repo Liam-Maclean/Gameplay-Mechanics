@@ -1,0 +1,472 @@
+﻿Log file open, 03/20/18 16:16:52
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(207883302) SRandInit(207883302).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.177595
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: UE4Editor-PropNavigationGame.dll
+Running C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame Development Win64 -project="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Performing full C++ include scan (building a new target)
+Creating makefile for PropNavigationGame (.uproject file is newer)
+@progress push 5%
+Parsing headers for PropNavigationGameEditor
+  Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for PropNavigationGameEditor in 7.3910026 seconds
+@progress pop
+Performing 25 actions (4 in parallel)
+PlayerShip.gen.cpp
+Bullet.gen.cpp
+ShieldComponent.gen.cpp
+PropNavigationGame.init.gen.cpp
+PhaserComponent.gen.cpp
+HomingRocket.gen.cpp
+HealthComponent.gen.cpp
+FiringComponent.gen.cpp
+EnemyShip.gen.cpp
+SpaceHUD.cpp
+SpaceGameMode.cpp
+ShieldComponent.cpp
+PlayerShip.cpp
+PropNavigationGame.cpp
+PhaserComponent.cpp
+HomingRocket.cpp
+HealthComponent.cpp
+FiringComponent.cpp
+EnemyShip.cpp
+Bullet.cpp
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\Bullet.cpp(26): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[23/25] Resource PCLaunch.rc
+SpaceHUD.gen.cpp
+SpaceGameMode.gen.cpp
+[24/25] Link UE4Editor-PropNavigationGame.dll
+[25/25] Link UE4Editor-PropNavigationGame.lib
+   Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.exp
+   Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame.suppressed.exp
+Total build time: 53.44 seconds (Local executor: 11.51 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.20-16.17.56:652][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.17.56:652][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.20-16.17.56:711][  0]LogInit: Computer: MC11602
+[2018.03.20-16.17.56:711][  0]LogInit: User: 1503395
+[2018.03.20-16.17.56:711][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.20-16.17.56:711][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2018.03.20-16.17.56:711][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.03.20-16.17.56:711][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.20-16.17.56:711][  0]LogMemory: Process Physical Memory: 284.04 MB used, 284.04 MB peak
+[2018.03.20-16.17.56:711][  0]LogMemory: Process Virtual Memory: 282.77 MB used, 282.77 MB peak
+[2018.03.20-16.17.56:711][  0]LogMemory: Physical Memory: 3864.11 MB used,  28844.25 MB free, 32708.36 MB total
+[2018.03.20-16.17.56:711][  0]LogMemory: Virtual Memory: 763.03 MB used,  28844.25 MB free, 134217728.00 MB total
+[2018.03.20-16.17.56:990][  0]LogInit: Using OS detected language (en-US).
+[2018.03.20-16.17.56:990][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.20-16.17.56:993][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.20-16.17.57:612][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.20-16.17.57:659][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.20-16.17.57:659][  0]LogD3D11RHI:       8088/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.20-16.17.57:662][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.20-16.17.57:662][  0]LogD3D11RHI:       0/0/16354 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.20-16.17.57:662][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.20-16.17.57:666][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.20-16.17.57:666][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.20-16.17.57:667][  0]LogWindows: EnumDisplayDevices:
+[2018.03.20-16.17.57:667][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.20-16.17.57:667][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.17.57:667][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.17.57:667][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.20-16.17.57:667][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.20-16.17.57:667][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.20-16.17.57:667][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.20-16.17.57:667][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.20-16.17.57:667][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.20-16.17.57:687][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.20-16.17.57:702][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.20-16.17.57:745][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/11564/).
+[2018.03.20-16.17.57:745][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/47FAE8274A563164E7DBC4927B91B466/'.
+[2018.03.20-16.17.57:745][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.20-16.17.58:723][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.20-16.17.58:807][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.20-16.17.58:887][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.20-16.17.58:966][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.20-16.17.59:047][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.20-16.17.59:126][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.20-16.17.59:207][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.20-16.17.59:288][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.20-16.17.59:359][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.20-16.17.59:439][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.20-16.17.59:523][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.20-16.17.59:620][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.20-16.17.59:698][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.20-16.17.59:775][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.20-16.17.59:858][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.20-16.18.00:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.20-16.18.00:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.20-16.18.00:088][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.20-16.18.00:218][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.20-16.18.00:289][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.20-16.18.00:362][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.20-16.18.00:437][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.20-16.18.00:511][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.20-16.18.00:587][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.20-16.18.00:587][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.20-16.18.01:451][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.20-16.18.01:524][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.18.01:524][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.20-16.18.01:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.20-16.18.01:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.20-16.18.01:526][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.20-16.18.01:526][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.20-16.18.01:545][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.20-16.18.01:558][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.20-16.18.01:567][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.20-16.18.01:567][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.20-16.18.01:568][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.18.01:568][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.20-16.18.01:856][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.03.20-16.18.02:054][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.20-16.18.02:656][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.20-16.18.02:763][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.20-16.18.02:763][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.20-16.18.02:763][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.20-16.18.02:763][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.20-16.18.02:763][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.20-16.18.02:780][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.20-16.18.03:254][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.03.20-16.18.03:760][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.236369 seconds
+[2018.03.20-16.18.03:765][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.20-16.18.03:765][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.20-16.18.03:765][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.20-16.18.03:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.20-16.18.07:922][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.20-16.18.08:001][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.20-16.18.08:002][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.08:860][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2018.03.20-16.18.09:506][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.576 s
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: 
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: Ensure condition failed: MyOwnerWorld [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1022]
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: 
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: Stack: 
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B6F35F6
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B47C2C2
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B494736
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000082E987B
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame.dll!UShieldComponent::UShieldComponent() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\shieldcomponent.cpp:30]
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1A442
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E45E36
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014D98904
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame.dll!AEnemyShip::AEnemyShip() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\enemyship.cpp:14]
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1A442
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E8324B
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E66C73
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1C157
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B318210
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B5668C0
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x0000000021AAE06D
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x0000000021AAE37E
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052864B1
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528A7BD
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528379A
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052839EA
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052902D9
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: UE4Editor.exe!0x0000000005291C47
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: KERNEL32.DLL!0x000000003E311FE4
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-16.18.09:506][  0]LogOutputDevice: Error: 
+[2018.03.20-16.18.09:518][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.20-16.18.10:469][  0]LogStats:                    SendNewReport -  0.951 s
+[2018.03.20-16.18.10:469][  0]LogStats:             FDebug::EnsureFailed -  1.539 s
+[2018.03.20-16.18.10:469][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2018.03.20-16.18.10:469][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2018.03.20-16.18.10:536][  0]LogTexture: Display: Building textures: BaseBeam (AutoDXT, 256X256)
+[2018.03.20-16.18.10:536][  0]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.03.20-16.18.10:631][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.003 s
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: 
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: Stack: 
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B6F35F6
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B47C2C2
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B494736
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000008382438
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame.dll!APlayerShip::APlayerShip() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:32]
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1A442
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E8324B
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014E66C73
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x0000000014C1C157
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B318210
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000000B5668C0
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x0000000021AAE06D
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x0000000021AAE37E
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052864B1
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528A7BD
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x000000000528379A
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052839EA
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000052902D9
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: UE4Editor.exe!0x0000000005291C47
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: KERNEL32.DLL!0x000000003E311FE4
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: ntdll.dll!0x000000003FF6EF91
+[2018.03.20-16.18.10:631][  0]LogOutputDevice: Error: 
+[2018.03.20-16.18.10:634][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.20-16.18.11:571][  0]LogStats:                    SendNewReport -  0.938 s
+[2018.03.20-16.18.11:571][  0]LogStats:             FDebug::EnsureFailed -  0.944 s
+[2018.03.20-16.18.12:242][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.20-16.18.13:246][  0]SourceControl: Source control is disabled
+[2018.03.20-16.18.13:246][  0]SourceControl: Source control is disabled
+[2018.03.20-16.18.13:368][  0]SourceControl: Source control is disabled
+[2018.03.20-16.18.13:490][  0]SourceControl: Source control is disabled
+[2018.03.20-16.18.14:965][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.20-16.18.15:559][  0]LogOcInput: OculusInput pre-init called
+[2018.03.20-16.18.16:115][  0]LogEngine: Initializing Engine...
+[2018.03.20-16.18.16:117][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.20-16.18.16:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.20-16.18.16:347][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.20-16.18.16:607][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.20-16.18.16:613][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-16.18.16:664][  0]LogInit: FAudioDevice initialized.
+[2018.03.20-16.18.16:761][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.20-16.18.16:778][  0]LogInit: Texture streaming: Enabled
+[2018.03.20-16.18.17:019][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.20-16.18.17:448][  0]LogInit: Transaction tracking system initialized
+[2018.03.20-16.18.18:000][  0]BlueprintLog: New page: Editor Load
+[2018.03.20-16.18.19:668][  0]LocalizationService: Localization service is disabled
+[2018.03.20-16.18.20:955][  0]LogConsoleResponse: Display: 
+[2018.03.20-16.18.21:176][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.20-16.18.21:176][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.20-16.18.21:176][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.20-16.18.21:936][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.04s
+[2018.03.20-16.18.23:000][  0]SourceControl: Source control is disabled
+[2018.03.20-16.18.23:000][  0]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-16.18.23:004][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.18.23:076][  0]MapCheck: New page: Map Check
+[2018.03.20-16.18.23:076][  0]LightingResults: New page: Lighting Build
+[2018.03.20-16.18.23:183][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.18.23:183][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.20-16.18.23:184][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.20-16.18.23:511][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.18.23:512][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.03.20-16.18.23:512][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.03.20-16.18.23:737][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.18.23:738][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.18.23:738][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.18.23:739][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.18.23:749][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.03.20-16.18.23:750][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.20-16.18.23:750][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.03.20-16.18.23:750][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.03.20-16.18.23:822][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.03.20-16.18.23:823][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.03.20-16.18.23:931][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2018.03.20-16.18.24:090][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.03.20-16.18.24:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-16.18.24:161][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-16.18.24:272][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 111.173ms to complete.
+[2018.03.20-16.18.24:272][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.272
+[2018.03.20-16.18.24:347][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.20-16.18.24:528][  0]LogCollectionManager: Loaded 0 collections in 0.003122 seconds
+[2018.03.20-16.18.24:693][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.03.20-16.18.24:693][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.03.20-16.18.24:693][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.03.20-16.18.24:693][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.20-16.18.24:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0376 seconds. Added 2396 classes and 502 folders.
+[2018.03.20-16.18.24:933][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0197 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.18.25:247][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0212 seconds. Added 0 classes and 0 folders.
+[2018.03.20-16.18.25:377][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0172 seconds. Added 1 classes and 2 folders.
+[2018.03.20-16.18.25:425][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-16.18.25:433][  0]LogSlate: Took 0.005574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.20-16.18.25:445][  0]LogSlate: Took 0.004207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.20-16.18.25:609][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.20-16.18.26:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0165 seconds. Added 1 classes and 2 folders.
+[2018.03.20-16.18.26:122][  0]LogLoad: (Engine Initialization) Total time: 94.80 seconds
+[2018.03.20-16.18.26:122][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.20-16.18.26:123][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.20-16.18.26:155][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:155][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.03.20-16.18.26:155][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:155][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:155][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:156][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:158][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.20-16.18.26:201][  0]LogSlate: Took 0.002914 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-16.18.26:372][  1]LogAssetRegistry: Asset discovery search completed in 24.5389 seconds
+[2018.03.20-16.18.26:375][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.20-16.18.26:375][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2018.03.20-16.18.26:596][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:597][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64', and we were unable to create a new request.
+[2018.03.20-16.18.26:597][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:597][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.03.20-16.18.26:597][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:598][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.03.20-16.18.26:598][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.03.20-16.18.26:598][ 11]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.03.20-16.19.45:527][638]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.20-16.19.45:778][638]LogTexture: Display: Building textures: Gradient (AutoDXT, 256X256)
+[2018.03.20-16.19.45:778][638]LogTexture: Display: Building textures: 57d0488a295555b9425252a5755880e9 (AutoDXT, 420X420)
+[2018.03.20-16.19.45:778][638]LogMaterial: Missing cached shader map for material EngineTrailMaterial, compiling. 
+[2018.03.20-16.19.48:330][638]LogTexture: Display: Building textures: SpaceCubeMap2048 (BGRA8, 2048X2048)
+[2018.03.20-16.19.48:330][638]LogMaterial: Missing cached shader map for material SkyboxMaterial, compiling. 
+[2018.03.20-16.19.48:395][638]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.20-16.19.48:404][638]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.20-16.19.48:424][638]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.20-16.19.48:424][638]LightingResults: New page: Lighting Build
+[2018.03.20-16.19.48:425][638]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.03.20-16.19.48:429][638]MapCheck: New page: Map Check
+[2018.03.20-16.19.48:429][638]LightingResults: New page: Lighting Build
+[2018.03.20-16.19.48:504][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.20-16.19.48:547][638]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.20-16.19.48:682][638]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.121ms to complete.
+[2018.03.20-16.19.48:683][638]LogFileHelpers: Loading map 'StarTrekMap' took 0.259
+[2018.03.20-16.19.56:465][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.19.57:464][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.19.57:465][378]PIE: New page: PIE session: StarTrekMap (20 Mar 2018 16:19:57)
+[2018.03.20-16.19.57:465][378]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.20-16.19.57:479][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013528s)
+[2018.03.20-16.19.57:480][378]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.20-16.19.57:481][378]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2018.03.20-16.19.57:481][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.015820s)
+[2018.03.20-16.19.57:513][378]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-16.19.57:562][378]LogInit: FAudioDevice initialized.
+[2018.03.20-16.19.57:606][378]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.20-16.19.57:612][378]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.20-16.19.57
+[2018.03.20-16.19.57:614][378]LogWorld: Bringing up level for play took: 0.003814
+[2018.03.20-16.19.57:765][378]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0042 seconds. Added 11 classes and 0 folders.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.03.20-16.19.57:766][378]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.03.20-16.19.57:774][378]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.016
+[2018.03.20-16.20.02:183][905]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.20-16.20.02:434][935]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.20-16.20.02:626][958]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.20-16.20.02:809][980]LogTemp: Warning: NO ACTOR TARGETED
+[2018.03.20-16.20.04:505][158]LogSlate: Took 0.009898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.20-16.20.13:813][247]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.20-16.20.13:828][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.20.13:828][247]PIE: New page: PIE session: StarTrekMap (20 Mar 2018 16:20:13)
+[2018.03.20-16.20.13:828][247]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.03.20-16.20.13:831][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002148s)
+[2018.03.20-16.20.13:831][247]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.03.20-16.20.13:831][247]LogPlayLevel: PIE: World Init took: (0.000798s)
+[2018.03.20-16.20.13:832][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003218s)
+[2018.03.20-16.20.13:842][247]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.20-16.20.13:880][247]LogInit: FAudioDevice initialized.
+[2018.03.20-16.20.13:912][247]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.03.20-16.20.13:914][247]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.03.20-16.20.13
+[2018.03.20-16.20.13:914][247]LogWorld: Bringing up level for play took: 0.001513
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.03.20-16.20.13:915][247]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.03.20-16.20.13:916][247]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.158
+[2018.03.20-16.20.14:849][357]LogTemp: Warning: Targeted Actor: EnemyShip_2.

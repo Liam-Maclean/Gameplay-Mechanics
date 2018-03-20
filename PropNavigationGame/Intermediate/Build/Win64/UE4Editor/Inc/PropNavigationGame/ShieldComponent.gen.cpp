@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_UShieldComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_PropNavigationGame();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void UShieldComponent::StaticRegisterNativesUShieldComponent()
 	{
@@ -49,10 +48,6 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 				UProperty* NewProp_frontShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("frontShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UUnsizedIntProperty(CPP_PROPERTY_BASE(frontShieldValue, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenInCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenInCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenInCombatP5, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenOutOfCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenOutOfCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenOutOfCombatP5, UShieldComponent), 0x0010000000000001);
-				UProperty* NewProp_reerShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("reerShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(reerShield, UShieldComponent), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_rightBroadSideShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("rightBroadSideShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(rightBroadSideShield, UShieldComponent), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_leftBroadSideShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("leftBroadSideShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(leftBroadSideShield, UShieldComponent), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_frontShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("frontShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(frontShield, UShieldComponent), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				static TCppClassTypeInfo<TCppClassTypeTraits<UShieldComponent> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -85,25 +80,13 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 				MetaData->SetValue(NewProp_regenOutOfCombatP5, TEXT("Category"), TEXT("Shield Values|Regeneration"));
 				MetaData->SetValue(NewProp_regenOutOfCombatP5, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 				MetaData->SetValue(NewProp_regenOutOfCombatP5, TEXT("ToolTip"), TEXT("Regen out of combat per second"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("Category"), TEXT("ShieldComponent"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("Category"), TEXT("ShieldComponent"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("Category"), TEXT("ShieldComponent"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("Category"), TEXT("ShieldComponent"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UShieldComponent, 1954737405);
+	IMPLEMENT_CLASS(UShieldComponent, 3559125262);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UShieldComponent(Z_Construct_UClass_UShieldComponent, &UShieldComponent::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("UShieldComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UShieldComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

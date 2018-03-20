@@ -13,32 +13,37 @@ UShieldComponent::UShieldComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Pipe_90'"));
+	//static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Pipe_90'"));
+	//
+	//frontShield = CreateDefaultSubobject<UStaticMesh>(TEXT("FrontShield"));
+	//leftBroadSideShield = CreateDefaultSubobject<UStaticMesh>(TEXT("leftBroadSideShield"));
+	//rightBroadSideShield = CreateDefaultSubobject<UStaticMesh>(TEXT("rightBroadSideShield"));
+	//reerShield = CreateDefaultSubobject<UStaticMesh>(TEXT("ReerShield"));
 	
-	frontShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("FrontShield"));
-	leftBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("leftBroadSideShield"));
-	rightBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("rightBroadSideShield"));
-	reerShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReerShield"));
-	
-	frontShield->SetStaticMesh(SM.Object);
-	leftBroadSideShield->SetStaticMesh(SM.Object);
-	rightBroadSideShield->SetStaticMesh(SM.Object);
-	reerShield->SetStaticMesh(SM.Object);
-	
-	
-	frontShield->RegisterComponent();
-	leftBroadSideShield->RegisterComponent();
-	rightBroadSideShield->RegisterComponent();
-	reerShield->RegisterComponent();
+	//frontShield->SetStaticMesh(SM.Object);
+	//leftBroadSideShield->SetStaticMesh(SM.Object);
+	//rightBroadSideShield->SetStaticMesh(SM.Object);
+	//reerShield->SetStaticMesh(SM.Object);
+
+
+	//
+	//
+	//frontShield->RegisterComponent();
+	//leftBroadSideShield->RegisterComponent();
+	//rightBroadSideShield->RegisterComponent();
+	//reerShield->RegisterComponent();
 	// ...
 }
 
+int UShieldComponent::GetFrontShieldStrength()
+{
+	return frontShieldValue;
+}
 
 // Called when the game starts
 void UShieldComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
 	// ...
 	
 }
@@ -47,14 +52,6 @@ void UShieldComponent::BeginPlay()
 int UShieldComponent::GetShieldStrength()
 {
 	return shieldStrength;
-}
-
-//Gets a percentage from the values passed in
-//@First param, value to get percentage off
-//@second param, value of the maximum amount of X
-int UShieldComponent::GetPercentage(int value, int max)
-{
-	return (value / max);
 }
 
 //returns the health percentage of the component
@@ -70,7 +67,6 @@ void UShieldComponent::ToggleInCombat(bool inCombat)
 	//assign in combat boolean
 	InCombat = inCombat;
 }
-
 
 //Regenerate shield method
 //@Calculates shield regeneration values when in and out of combat
@@ -157,36 +153,46 @@ void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 
 	UE_LOG(LogTemp, Warning, TEXT("Clamped Rotation =: %s."), *clampedRotation.ToString());
 
-	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %i."), *clampedRotation.Pitch());
-
-	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %f."), *clampedRotation.Yaw());
-
-	//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %f."), *clampedRotation.Roll());
-
 
 	//if damage lies on the front angle of the ship (between -45 and 45 degrees)
 	if (angleOfFire > 315 + clampedRotation.Pitch && angleOfFire < 360 + clampedRotation.Pitch || angleOfFire > 0 + clampedRotation.Pitch && angleOfFire < 45 + clampedRotation.Pitch)
 	{
 		//Front Shield Damage
 		frontShieldValue -= value;
+		if (frontShieldValue <= 0)
+		{
+			frontShieldValue = 0;
+		}
 	}
 	//if damage lies on the right angle of the ship (between 45 and 135 degrees
 	else if (angleOfFire > 45 + clampedRotation.Pitch && angleOfFire < 135 + clampedRotation.Pitch)
 	{
 		//Right Broadside Damage
 		rightShieldValue -= value;
+		if (rightShieldValue <= 0)
+		{
+			rightShieldValue = 0;
+		}
 	}
 	//if the damage lies on the reer angle of the ship (between 135 and 225 degrees)
 	else if (angleOfFire > 135 + clampedRotation.Pitch && angleOfFire < 225 + clampedRotation.Pitch)
 	{
 		//Reer Damage
 		reerShieldValue -= value;
+		if (reerShieldValue <= 0)
+		{
+			reerShieldValue = 0;
+		}
 	}
 	//if the damage lies on the left angle of the ship (between 225 and 315 degrees)
 	else if (angleOfFire > 225 + clampedRotation.Pitch && angleOfFire < 325 + clampedRotation.Pitch)
 	{
 		//Left Broadside Damage
 		leftShieldValue -= value;
+		if (leftShieldValue <= 0)
+		{
+			leftShieldValue = 0;
+		}
 	}
 }
 

@@ -1,5 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.vcxproj]
-  Cleaning PropNavigationGameEditor Binaries...
+  Performing full C++ include scan (building a new target)
+  Creating makefile for PropNavigationGame (no existing makefile)
 EXEC : error : System.IO.FileNotFoundException: Could not find file 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'.
   File name: 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'
      at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
@@ -12,17 +13,4 @@ EXEC : error : System.IO.FileNotFoundException: Could not find file 'M:\GitHub\G
      at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName)
      at UnrealBuildTool.UEBuildTarget.CreateTarget(TargetDescriptor Desc, String[] Arguments, Boolean bCompilingSingleFile)
      at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
-  Creating makefile for PropNavigationGameEditor (no existing makefile)
-EXEC : error : System.IO.FileNotFoundException: Could not find file 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'.
-  File name: 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'
-     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-     at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
-     at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
-     at UnrealBuildTool.JsonObject.Read(String FileName)
-     at UnrealBuildTool.ProjectDescriptor.FromFile(String FileName)
-     at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName)
-     at UnrealBuildTool.UEBuildTarget.CreateTarget(TargetDescriptor Desc, String[] Arguments, Boolean bCompilingSingleFile)
-     at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Rebuild.bat" PropNavigationGameEditor Win64 Development "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject" -waitmutex" exited with code -1.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" PropNavigationGame HTML5 DebugGame "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

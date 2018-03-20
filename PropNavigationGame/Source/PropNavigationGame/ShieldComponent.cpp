@@ -13,18 +13,19 @@ UShieldComponent::UShieldComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/ShieldMesh.ShieldMesh'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Pipe_90'"));
+	
 	frontShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("FrontShield"));
 	leftBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("leftBroadSideShield"));
 	rightBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("rightBroadSideShield"));
 	reerShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReerShield"));
-
+	
 	frontShield->SetStaticMesh(SM.Object);
 	leftBroadSideShield->SetStaticMesh(SM.Object);
 	rightBroadSideShield->SetStaticMesh(SM.Object);
 	reerShield->SetStaticMesh(SM.Object);
-
-
+	
+	
 	frontShield->RegisterComponent();
 	leftBroadSideShield->RegisterComponent();
 	rightBroadSideShield->RegisterComponent();

@@ -18,7 +18,9 @@ AEnemyShip::AEnemyShip()
 	sphereMesh->SetCollisionProfileName("Trigger");
 	RootComponent = sphereMesh;
 	sphereMesh->OnComponentBeginOverlap.AddDynamic(this, &AEnemyShip::OnOverlapBegin);
-	
+	//shieldComponent->AddToRoot();
+
+
 }
 
 // Called when the game starts or when spawned

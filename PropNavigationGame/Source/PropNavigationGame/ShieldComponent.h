@@ -25,10 +25,17 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	float timer;
-
+	
+	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* frontShield;
+
+	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* leftBroadSideShield;
+
+	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* rightBroadSideShield;
+
+	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* reerShield;
 
 
@@ -52,27 +59,27 @@ public:
 
 	//Regen out of combat per second
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
-	float regenOutOfCombatP5;
+	float regenOutOfCombatP5 = 22.0f;
 
 	//Regen of shield in combat
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
-	float regenInCombatP5;
+	float regenInCombatP5 = 5.0f;
 
 	//directional shield values (front)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int frontShieldValue;
+	int frontShieldValue = 100;
 
 	//directional shield values (left)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int leftShieldValue;
+	int leftShieldValue = 100;
 
 	//directional shield values (right)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int rightShieldValue;
+	int rightShieldValue = 100;
 
 	//directional shield values (reer)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int reerShieldValue;
+	int reerShieldValue = 100;
 
 	//Total Shield Strength
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")

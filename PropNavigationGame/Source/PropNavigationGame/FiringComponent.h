@@ -26,7 +26,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	void InitialiseComponent();
-	void FireMissile();
+	void FireMissile(AActor* target);
 	TArray<FName> names;
 	FRotator spawnRotation;
 	FVector spawningLocation;

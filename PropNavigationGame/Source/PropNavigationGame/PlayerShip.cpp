@@ -460,7 +460,7 @@ void APlayerShip::FireMissile()
 {
 	if (timeBetweenShots >= 0.5f)
 	{
-		firingComponent->FireMissile();
+		firingComponent->FireMissile(TargetedActor);
 	}
 }
 

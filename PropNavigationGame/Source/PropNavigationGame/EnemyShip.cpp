@@ -26,57 +26,13 @@ AEnemyShip::AEnemyShip()
 	RootComponent = sphereMesh;
 	sphereMesh->OnComponentBeginOverlap.AddDynamic(this, &AEnemyShip::OnOverlapBegin);
 	//shieldComponent->AddToRoot();
-
-	
-
-	frontShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("FrontShield"));
-	leftBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("leftBroadSideShield"));
-	rightBroadSideShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("rightBroadSideShield"));
-	reerShield = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReerShield"));
-
-
-
-	frontShield->SetStaticMesh(SM.Object);
-	leftBroadSideShield->SetStaticMesh(SM.Object);
-	rightBroadSideShield->SetStaticMesh(SM.Object);
-	reerShield->SetStaticMesh(SM.Object);
-
-	frontShield->SetWorldLocation(FVector(0, 0, -12.5));
-	leftBroadSideShield->SetWorldLocation(FVector(0, 0, -12.5));
-	rightBroadSideShield->SetWorldLocation(FVector(0, 0, -12.5));
-	reerShield->SetWorldLocation(FVector(0, 0, -12.5));
-
-
-	frontShield->AttachTo(RootComponent);
-	leftBroadSideShield->AttachTo(RootComponent);
-	rightBroadSideShield->AttachTo(RootComponent);
-	reerShield->AttachTo(RootComponent);
 }
 
 // Called when the game starts or when spawned
 void AEnemyShip::BeginPlay()
 {
 	Super::BeginPlay();
-	FRotator rotation;
-	rotation.Yaw = 45;
-	frontShield->SetWorldRotation(rotation);
-
-	rotation.Yaw = 135;
-	rightBroadSideShield->SetWorldRotation(rotation);
-
-	rotation.Yaw = 225;
-	reerShield->SetWorldRotation(rotation);
-
-	rotation.Yaw = 315;
-	leftBroadSideShield->SetWorldRotation(rotation);
-
-	StartScale = FVector(1, 1, 1);
-	frontShield->AddWorldOffset(FVector(0, 40, 0));
-	rightBroadSideShield->AddWorldOffset(FVector(-40,0, 0));
-	leftBroadSideShield->AddWorldOffset(FVector(40, 0, 0));
-	reerShield->AddWorldOffset(FVector(0, -40, 0));
 }
-
 //Times down the incombat reset timer to check if the shop is still in combat
 //@Checks for 5 seconds if the ship has taken any damage or performed any attacking action
 void AEnemyShip::IncrementInCombatTimer()
@@ -149,8 +105,6 @@ void AEnemyShip::ApplyDamageTaken(int value, FVector AttackerLocation)
 		//destroy the object
 		Destroy();
 	}
-
-	ScaleShields();
 }
 
 void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp,int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)
@@ -178,38 +132,5 @@ void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class
 	}
 }
 
-//scale shield sizes with values
-void AEnemyShip::ScaleShields()
-{
-	if (shieldComponent)
-	{
-		float ReerShieldPercentage = (float)shieldComponent->GetReerShieldStrength() / 100;
-		float FrontShieldPercentage = (float)shieldComponent->GetFrontShieldStrength() / 100;
-		float LeftShieldPercentage = (float)shieldComponent->GetLeftShieldStrength() / 100;
-		float RightShieldPercentage = (float)shieldComponent->GetRightShieldStrength() / 100;
-
-		UE_LOG(LogTemp, Warning, TEXT("Reer percent=: %f."), ReerShieldPercentage);
-		UE_LOG(LogTemp, Warning, TEXT("Front Percent=: %f."), FrontShieldPercentage);
-		UE_LOG(LogTemp, Warning, TEXT("Left Percent=: %f."), LeftShieldPercentage);
-		UE_LOG(LogTemp, Warning, TEXT("Right Percent=: %f."), RightShieldPercentage);
-
-		FVector frontShieldScale, leftShieldScale, rightShieldScale, reerShieldScale;
-		
-		frontShieldScale = StartScale * FrontShieldPercentage;
-		reerShieldScale = StartScale * ReerShieldPercentage;
-		leftShieldScale = StartScale * LeftShieldPercentage;
-		rightShieldScale = StartScale * RightShieldPercentage;
-
-		UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *frontShieldScale.ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *reerShieldScale.ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *leftShieldScale.ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *rightShieldScale.ToString());
-
-		frontShield->SetWorldScale3D(frontShieldScale);
-		leftBroadSideShield->SetWorldScale3D(leftShieldScale);
-		rightBroadSideShield->SetWorldScale3D(rightShieldScale);
-		reerShield->SetWorldScale3D(reerShieldScale);
-	}
-}
 
 

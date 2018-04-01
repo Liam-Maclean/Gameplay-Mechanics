@@ -93,10 +93,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyShip() {}
 				UProperty* NewProp_shieldComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("shieldComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(shieldComponent, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UShieldComponent_NoRegister());
 				UProperty* NewProp_staticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("staticMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(staticMesh, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				UProperty* NewProp_sphereMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("sphereMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(sphereMesh, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_USphereComponent_NoRegister());
-				UProperty* NewProp_reerShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("reerShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(reerShield, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_rightBroadSideShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("rightBroadSideShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(rightBroadSideShield, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_leftBroadSideShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("leftBroadSideShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(leftBroadSideShield, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
-				UProperty* NewProp_frontShield = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("frontShield"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(frontShield, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AEnemyShip_OnOverlapBegin(), "OnOverlapBegin"); // 1436820557
 				static TCppClassTypeInfo<TCppClassTypeTraits<AEnemyShip> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -117,25 +113,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyShip() {}
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("Category"), TEXT("EnemyShip"));
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("Category"), TEXT("EnemyShip"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_reerShield, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("Category"), TEXT("EnemyShip"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_rightBroadSideShield, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("Category"), TEXT("EnemyShip"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_leftBroadSideShield, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("Category"), TEXT("EnemyShip"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_frontShield, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyShip, 610746363);
+	IMPLEMENT_CLASS(AEnemyShip, 2918746320);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyShip(Z_Construct_UClass_AEnemyShip, &AEnemyShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("AEnemyShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

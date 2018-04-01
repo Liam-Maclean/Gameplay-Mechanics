@@ -35,21 +35,7 @@ public:
 	void SetInCombat(bool inCombat);
 	void IncrementInCombatTimer();
 
-	void ScaleShields();
 	FVector StartScale;
-
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* frontShield;
-	
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* leftBroadSideShield;
-	
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* rightBroadSideShield;
-	
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* reerShield;
 
 	UPROPERTY(EditAnywhere)
 	USphereComponent* sphereMesh;

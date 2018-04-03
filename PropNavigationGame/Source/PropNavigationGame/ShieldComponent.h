@@ -32,23 +32,34 @@ public:
 	//Return shield Strength
 	int GetShieldStrength();
 
-	int GetShieldPercentage();
+	float GetShieldPercentage();
 
-	int GetFrontShieldStrength();
 
-	int GetLeftShieldStrength()
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetFrontShieldStrength()
 	{
-		return leftShieldValue;
+		return frontShieldValue / 100;
 	}
 
-	int GetRightShieldStrength()
+
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetLeftShieldStrength()
 	{
-		return rightShieldValue;
+		return leftShieldValue / 100;
 	}
 
-	int GetReerShieldStrength()
+
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetRightShieldStrength()
 	{
-		return reerShieldValue;
+		return rightShieldValue / 100;
+	}
+
+
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetReerShieldStrength()
+	{
+		return reerShieldValue / 100;
 	}
 
 	//Decrease Shield Strength function
@@ -70,26 +81,26 @@ public:
 
 	//directional shield values (front)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int frontShieldValue = 100;
+	float frontShieldValue = 100;
 
 	//directional shield values (left)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int leftShieldValue = 100;
+	float leftShieldValue = 100;
 
 	//directional shield values (right)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int rightShieldValue = 100;
+	float rightShieldValue = 100;
 
 	//directional shield values (reer)
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int reerShieldValue = 100;
+	float reerShieldValue = 100;
 
 	//Total Shield Strength
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int shieldStrength = 300;
+	float shieldStrength = 300;
 
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Max Values")
-	int maxShieldStrength = 500;
+	float maxShieldStrength = 500;
 
 	
 };

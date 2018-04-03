@@ -23,6 +23,7 @@ APlayerShip::APlayerShip()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
+	shieldComponent = CreateDefaultSubobject<UShieldComponent>(TEXT("Shield Component"));
 
 	//set root component
 	RootComponent =  mesh;
@@ -57,6 +58,42 @@ int APlayerShip::GetTargetShieldStrength()
 		{
 			//return the actors shield component value
 			return shields->GetShieldStrength();
+		}
+	}
+	//if a targetted actor does not exist
+	else
+	{
+		//return a value of 0
+		return 0;
+	}
+
+	//return a value of 0 (Default)
+	return 0;
+}
+
+
+//returns the shield strength of the target object
+float APlayerShip::GetShieldPercentage()
+{
+	//UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %f."), shieldComponent->GetShieldPercentage());
+	return shieldComponent->GetShieldPercentage();	
+	
+	//return shield value of the ships shield component
+	//return shieldComponent->GetShieldPercentage();
+}
+
+//returns the shield strength of the target object
+float APlayerShip::GetTargetShieldPercentage()
+{
+	//if a targetted actor exists 
+	if (TargetedActor)
+	{
+		//if the targetted actor has a shield component 
+		UShieldComponent* shields = (UShieldComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		if (shields != nullptr)
+		{
+			//return the actors shield component value
+			return shields->GetShieldPercentage();
 		}
 	}
 	//if a targetted actor does not exist
@@ -446,12 +483,12 @@ void APlayerShip::FirePhasers()
 			phaserComponent[i]->FirePhasers(TargetedActor);
 		}
 
-		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
+		//UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
 	}
 	//if there is no actor targetted
 	else if (!TargetedActor)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("NO ACTOR TARGETED"));
+		//UE_LOG(LogTemp, Warning, TEXT("NO ACTOR TARGETED"));
 	}
 }
 

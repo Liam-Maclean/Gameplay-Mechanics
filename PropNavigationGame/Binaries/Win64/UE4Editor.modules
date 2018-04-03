@@ -1,9 +1,8 @@
 {
-	"Changelist" : 3658906,
-	"CompatibleChangelist" : 3573198,
-	"BuildId" : "7d5229ac-d3e2-4191-ac6f-9a43d8706aee",
+	"Changelist" : 3573198,
+	"BuildId" : "a87d5014-aacc-4b22-afd5-865cf459e7fc",
 	"Modules" : 
 	{
-		"PropNavigationGame" : "UE4Editor-PropNavigationGame-6363.dll"
+		"PropNavigationGame" : "UE4Editor-PropNavigationGame-4347.dll"
 	}
 }

@@ -1,2 +1,4 @@
-﻿  The system cannot find the path specified.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" PropNavigationGame HTML5 DebugGame "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject" -waitmutex" exited with code 3.
+﻿  Compiling game modules for hot reload
+  Target is up to date
+  Deploying PropNavigationGameEditor Win64 Development...
+  Total build time: 5.94 seconds (NoActionsToExecute executor: 0.00 seconds)

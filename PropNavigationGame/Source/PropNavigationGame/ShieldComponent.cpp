@@ -35,11 +35,6 @@ UShieldComponent::UShieldComponent()
 	// ...
 }
 
-int UShieldComponent::GetFrontShieldStrength()
-{
-	return frontShieldValue;
-}
-
 // Called when the game starts
 void UShieldComponent::BeginPlay()
 {
@@ -55,7 +50,7 @@ int UShieldComponent::GetShieldStrength()
 }
 
 //returns the health percentage of the component
-int UShieldComponent::GetShieldPercentage()
+float UShieldComponent::GetShieldPercentage()
 {
 	//return percentage using max health strength and health strength as values
 	return (shieldStrength / maxShieldStrength);
@@ -130,14 +125,14 @@ void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 	//Actor location
 	FVector ownerActorLocation = GetOwner()->GetActorLocation();
 
-	UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *SourceOfFire.ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("Source of fire=: %s."), *SourceOfFire.ToString());
 	
 
 	//get the direction of the fire 
 	FVector direction = ownerActorLocation - SourceOfFire;
 	//Get the angle of the directional vector
 
-	UE_LOG(LogTemp, Warning, TEXT("Direction=: %s."), *direction.ToString());
+	//UE_LOG(LogTemp, Warning, TEXT("Direction=: %s."), *direction.ToString());
 
 	double angleOfFire = (FMath::Atan2(direction.X, direction.Y));
 	angleOfFire = angleOfFire * 360 / (3.14 * 2);
@@ -158,10 +153,10 @@ void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 	if (angleOfFire > 315 + clampedRotation.Pitch && angleOfFire < 360 + clampedRotation.Pitch || angleOfFire > 0 + clampedRotation.Pitch && angleOfFire < 45 + clampedRotation.Pitch)
 	{
 		//Front Shield Damage
-		frontShieldValue -= value;
-		if (frontShieldValue <= 0)
+		reerShieldValue -= value;
+		if (reerShieldValue <= 0)
 		{
-			frontShieldValue = 0;
+			reerShieldValue = 0;
 		}
 	}
 	//if damage lies on the right angle of the ship (between 45 and 135 degrees
@@ -178,10 +173,10 @@ void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 	else if (angleOfFire > 135 + clampedRotation.Pitch && angleOfFire < 225 + clampedRotation.Pitch)
 	{
 		//Reer Damage
-		reerShieldValue -= value;
-		if (reerShieldValue <= 0)
+		frontShieldValue -= value;
+		if (frontShieldValue <= 0)
 		{
-			reerShieldValue = 0;
+			frontShieldValue = 0;
 		}
 	}
 	//if the damage lies on the left angle of the ship (between 225 and 315 degrees)

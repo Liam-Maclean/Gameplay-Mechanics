@@ -7,6 +7,7 @@
 #include "FiringComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "PhaserComponent.h"
+#include "ShieldComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerShip.generated.h"
 
@@ -51,6 +52,9 @@ public:
 	void ZoomCameraOut();
 	void ZoomCameraIn();
 
+
+
+
 	void CalculateCameraTurningWithMouse();
 	void CalculateShipMovement();
 	void CalculateShipTurningAngles();
@@ -74,6 +78,12 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Target functions")
 	FName GetImpulseSpeed();
+
+	UFUNCTION(BlueprintPure, Category = "Personal Attributes")
+	float GetShieldPercentage();
+
+	UFUNCTION(BlueprintPure, Category = "Personal Attributes")
+	float GetTargetShieldPercentage();
 
 
 	AEnemyShip* TargetedActor;
@@ -115,6 +125,8 @@ public:
 	USpringArmComponent* springArm;
 
 	UCameraComponent* camera;
+
+	UShieldComponent* shieldComponent;
 
 	UPROPERTY(EditAnywhere)
 	TArray<UPhaserComponent*> phaserComponent;

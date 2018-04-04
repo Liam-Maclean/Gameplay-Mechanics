@@ -13,25 +13,15 @@ UShieldComponent::UShieldComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	//static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Pipe_90'"));
-	//
-	//frontShield = CreateDefaultSubobject<UStaticMesh>(TEXT("FrontShield"));
-	//leftBroadSideShield = CreateDefaultSubobject<UStaticMesh>(TEXT("leftBroadSideShield"));
-	//rightBroadSideShield = CreateDefaultSubobject<UStaticMesh>(TEXT("rightBroadSideShield"));
-	//reerShield = CreateDefaultSubobject<UStaticMesh>(TEXT("ReerShield"));
-	
-	//frontShield->SetStaticMesh(SM.Object);
-	//leftBroadSideShield->SetStaticMesh(SM.Object);
-	//rightBroadSideShield->SetStaticMesh(SM.Object);
-	//reerShield->SetStaticMesh(SM.Object);
+	//Initialise the divided shield value by dividing the total value by 4
+	dividedShieldValue = maxShieldStrength / 4;
 
+	//Set the values of the shields to the equal divided value
+	reerShieldValue = dividedShieldValue;
+	leftShieldValue = dividedShieldValue;
+	rightShieldValue = dividedShieldValue;
+	frontShieldValue = dividedShieldValue;
 
-	//
-	//
-	//frontShield->RegisterComponent();
-	//leftBroadSideShield->RegisterComponent();
-	//rightBroadSideShield->RegisterComponent();
-	//reerShield->RegisterComponent();
 	// ...
 }
 
@@ -78,13 +68,64 @@ void UShieldComponent::RegenerateShields()
 		}
 		else
 		{
-			//if the shield strength isn't at it's upper limit
-			if (shieldStrength < maxShieldStrength)
+			//if front shield value is less than the max shield value
+			if (frontShieldValue < dividedShieldValue)
 			{
-				//Increment shield strength with in combat regen values
-				IncrementShield(regenInCombatP5);
-				timer = 0.0f;
+				//increment
+				IncrementShield(regenInCombatP5, ShieldSide::front);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (frontShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					frontShieldValue = dividedShieldValue;
+				}
 			}
+
+			//if left shield value is less than the max shield value
+			if (leftShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenInCombatP5, ShieldSide::left);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (leftShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					leftShieldValue = dividedShieldValue;
+				}
+			}
+
+			//if right shield value is less than the max shield value
+			if (rightShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenInCombatP5, ShieldSide::right);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (rightShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					rightShieldValue = dividedShieldValue;
+				}
+			}
+
+			//if reer shield value is less than the max shield value
+			if (reerShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenInCombatP5, ShieldSide::reer);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (reerShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					reerShieldValue = dividedShieldValue;
+				}
+			}
+
+			//reset regen timer
+			timer = 0.0f;
 		}
 	}
 	//if not in combat
@@ -98,13 +139,63 @@ void UShieldComponent::RegenerateShields()
 		}
 		else
 		{
-			//if the shield strength isn't at it's upper limit
-			if (shieldStrength < maxShieldStrength)
+			//if front shield value is less than the max shield value
+			if (frontShieldValue < dividedShieldValue)
 			{
-				//increment the shield strength with out of combat regen values
-				IncrementShield(regenOutOfCombatP5);
-				timer = 0.0f;
+				//increment
+				IncrementShield(regenOutOfCombatP5, ShieldSide::front);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (frontShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					frontShieldValue = dividedShieldValue;
+				}
 			}
+
+			//if left shield value is less than the max shield value
+			if (leftShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenOutOfCombatP5, ShieldSide::left);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (leftShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					leftShieldValue = dividedShieldValue;
+				}
+			}
+
+			//if right shield value is less than the max shield value
+			if (rightShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenOutOfCombatP5, ShieldSide::right);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (rightShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					rightShieldValue = dividedShieldValue;
+				}
+			}
+
+			//if reer shield value is less than the max shield value
+			if (reerShieldValue < dividedShieldValue)
+			{
+				//increment
+				IncrementShield(regenOutOfCombatP5, ShieldSide::reer);
+
+				//if the value has exceeded the divided shield value after incrementing
+				if (reerShieldValue > dividedShieldValue)
+				{
+					//assign it the max value
+					reerShieldValue = dividedShieldValue;
+				}
+			}
+
+			timer = 0.0f;
 		}
 	}
 }
@@ -192,10 +283,32 @@ void UShieldComponent::DecrementShield(int value, FVector SourceOfFire)
 }
 
 //Increment shield value
-void UShieldComponent::IncrementShield(int value)
+void UShieldComponent::IncrementShield(int value, ShieldSide side)
 {
-	//Increase shield value
-	shieldStrength += value;
+	//switch statement for shield side
+	switch (side)
+	{
+	//if front
+	case ShieldSide::front:
+		//increment front shields
+		frontShieldValue += value;
+		break;
+	//if left
+	case ShieldSide::left:
+		//increment left shields
+		leftShieldValue += value;
+		break;
+	//if right
+	case ShieldSide::right:
+		//increment right shields
+		rightShieldValue += value;
+		break;
+	//if reer
+	case ShieldSide::reer:
+		//increment reer shields
+		reerShieldValue += value;
+		break;
+	}
 }
 
 

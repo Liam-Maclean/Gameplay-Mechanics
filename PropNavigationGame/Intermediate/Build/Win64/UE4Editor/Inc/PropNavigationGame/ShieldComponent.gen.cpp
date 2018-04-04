@@ -52,6 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Shield Values"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Returns the front shield strength for HUD blueprint"));
 #endif
 		}
 		return ReturnFunction;
@@ -74,6 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Shield Values"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Returns the left shield strength for HUD blueprint"));
 #endif
 		}
 		return ReturnFunction;
@@ -96,6 +98,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Shield Values"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Returns the reer shield strength for HUD blueprint"));
 #endif
 		}
 		return ReturnFunction;
@@ -118,6 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Shield Values"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Returns the right shield strength for HUD blueprint"));
 #endif
 		}
 		return ReturnFunction;
@@ -152,10 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 				UProperty* NewProp_frontShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("frontShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(frontShieldValue, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenInCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenInCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenInCombatP5, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenOutOfCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenOutOfCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenOutOfCombatP5, UShieldComponent), 0x0010000000000001);
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetFrontShieldStrength(), "GetFrontShieldStrength"); // 3136856029
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetLeftShieldStrength(), "GetLeftShieldStrength"); // 3665071279
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetReerShieldStrength(), "GetReerShieldStrength"); // 995933969
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetRightShieldStrength(), "GetRightShieldStrength"); // 695818262
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetFrontShieldStrength(), "GetFrontShieldStrength"); // 3696257109
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetLeftShieldStrength(), "GetLeftShieldStrength"); // 2347375667
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetReerShieldStrength(), "GetReerShieldStrength"); // 2298528373
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetRightShieldStrength(), "GetRightShieldStrength"); // 1435210227
 				static TCppClassTypeInfo<TCppClassTypeTraits<UShieldComponent> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -167,6 +171,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 				MetaData->SetValue(NewProp_maxShieldStrength, TEXT("Category"), TEXT("Shield Values|Max Values"));
 				MetaData->SetValue(NewProp_maxShieldStrength, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
+				MetaData->SetValue(NewProp_maxShieldStrength, TEXT("ToolTip"), TEXT("Max total shield strength"));
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("Category"), TEXT("Shield Values|Strength"));
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("ToolTip"), TEXT("Total Shield Strength"));
@@ -194,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UShieldComponent, 3336165650);
+	IMPLEMENT_CLASS(UShieldComponent, 807066122);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UShieldComponent(Z_Construct_UClass_UShieldComponent, &UShieldComponent::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("UShieldComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UShieldComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -26,6 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyShip() {}
 	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_UShieldComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
 // End Cross Module References
 	void AEnemyShip::StaticRegisterNativesAEnemyShip()
 	{
@@ -93,6 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyShip() {}
 				UProperty* NewProp_shieldComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("shieldComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(shieldComponent, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UShieldComponent_NoRegister());
 				UProperty* NewProp_staticMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("staticMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(staticMesh, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_UStaticMeshComponent_NoRegister());
 				UProperty* NewProp_sphereMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("sphereMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(sphereMesh, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_USphereComponent_NoRegister());
+				UProperty* NewProp_skeleMesh = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("skeleMesh"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(skeleMesh, AEnemyShip), 0x0010000000080009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AEnemyShip_OnOverlapBegin(), "OnOverlapBegin"); // 1436820557
 				static TCppClassTypeInfo<TCppClassTypeTraits<AEnemyShip> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
@@ -113,13 +115,16 @@ void EmptyLinkFunctionForGeneratedCodeEnemyShip() {}
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("Category"), TEXT("EnemyShip"));
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_sphereMesh, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("Category"), TEXT("EnemyShip"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_skeleMesh, TEXT("ModuleRelativePath"), TEXT("EnemyShip.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyShip, 2918746320);
+	IMPLEMENT_CLASS(AEnemyShip, 1723776620);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AEnemyShip(Z_Construct_UClass_AEnemyShip, &AEnemyShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("AEnemyShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

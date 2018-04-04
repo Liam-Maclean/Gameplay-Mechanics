@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetImpulseSpeed();
 	PROPNAVIGATIONGAME_API UClass* Z_Construct_UClass_APlayerShip();
 	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetShieldPercentage();
+	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetActor();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength();
 	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetName();
 	PROPNAVIGATIONGAME_API UFunction* Z_Construct_UFunction_APlayerShip_GetTargetShieldPercentage();
@@ -35,6 +37,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
 			{ "GetImpulseSpeed", (Native)&APlayerShip::execGetImpulseSpeed },
 			{ "GetShieldPercentage", (Native)&APlayerShip::execGetShieldPercentage },
+			{ "GetTargetActor", (Native)&APlayerShip::execGetTargetActor },
 			{ "GetTargetHealthStrength", (Native)&APlayerShip::execGetTargetHealthStrength },
 			{ "GetTargetName", (Native)&APlayerShip::execGetTargetName },
 			{ "GetTargetShieldPercentage", (Native)&APlayerShip::execGetTargetShieldPercentage },
@@ -81,6 +84,28 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 #if WITH_METADATA
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Personal Attributes"));
+			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
+#endif
+		}
+		return ReturnFunction;
+	}
+	UFunction* Z_Construct_UFunction_APlayerShip_GetTargetActor()
+	{
+		struct PlayerShip_eventGetTargetActor_Parms
+		{
+			AActor* ReturnValue;
+		};
+		UObject* Outer = Z_Construct_UClass_APlayerShip();
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetActor"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetTargetActor_Parms));
+			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetTargetActor_Parms), 0x0010000000000580, Z_Construct_UClass_AActor_NoRegister());
+			ReturnFunction->Bind();
+			ReturnFunction->StaticLink();
+#if WITH_METADATA
+			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
+			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("Target functions"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("PlayerShip.h"));
 #endif
 		}
@@ -193,6 +218,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 
 				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetImpulseSpeed());
 				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetShieldPercentage());
+				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetActor());
 				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength());
 				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetName());
 				OuterClass->LinkChild(Z_Construct_UFunction_APlayerShip_GetTargetShieldPercentage());
@@ -212,6 +238,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UProperty* NewProp_timeBetweenShots = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("timeBetweenShots"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(timeBetweenShots, APlayerShip), 0x0010000000000001);
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetImpulseSpeed(), "GetImpulseSpeed"); // 3588433959
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetShieldPercentage(), "GetShieldPercentage"); // 3821489602
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetActor(), "GetTargetActor"); // 1452522968
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength(), "GetTargetHealthStrength"); // 2279389958
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetName(), "GetTargetName"); // 1661370068
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetShieldPercentage(), "GetTargetShieldPercentage"); // 1317183029
@@ -256,7 +283,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 3978260407);
+	IMPLEMENT_CLASS(APlayerShip, 537714380);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

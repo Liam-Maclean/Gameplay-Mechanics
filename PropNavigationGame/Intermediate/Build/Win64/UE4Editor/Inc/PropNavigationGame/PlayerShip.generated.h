@@ -8,12 +8,21 @@
 #include "ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef PROPNAVIGATIONGAME_PlayerShip_generated_h
 #error "PlayerShip.generated.h already included, missing '#pragma once' in PlayerShip.h"
 #endif
 #define PROPNAVIGATIONGAME_PlayerShip_generated_h
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetTargetActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(AActor**)Z_Param__Result=this->GetTargetActor(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetTargetShieldPercentage) \
 	{ \
@@ -65,6 +74,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetTargetActor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(AActor**)Z_Param__Result=this->GetTargetActor(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetTargetShieldPercentage) \
 	{ \

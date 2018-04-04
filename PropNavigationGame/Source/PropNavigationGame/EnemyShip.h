@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 #include "ShieldComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "HealthComponent.h"
 #include "EnemyShip.generated.h"
 
@@ -36,6 +37,9 @@ public:
 	void IncrementInCombatTimer();
 
 	FVector StartScale;
+
+	UPROPERTY(EditAnywhere)
+	USkeletalMeshComponent* skeleMesh;
 
 	UPROPERTY(EditAnywhere)
 	USphereComponent* sphereMesh;

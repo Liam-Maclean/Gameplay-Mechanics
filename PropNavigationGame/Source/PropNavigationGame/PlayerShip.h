@@ -116,6 +116,11 @@ public:
 	
 	TArray<FName> names;
 
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+	AActor* GetTargetActor()
+	{
+		return TargetedActor;
+	}
 
 	FVector2D mouseInput;
 

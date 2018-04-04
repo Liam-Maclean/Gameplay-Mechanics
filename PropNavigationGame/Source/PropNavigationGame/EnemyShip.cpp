@@ -16,7 +16,7 @@ AEnemyShip::AEnemyShip()
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> SM(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Pipe_90'"));
 
-
+	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeletal component"));
 	healthComponent = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 	shieldComponent = CreateDefaultSubobject<UShieldComponent>(TEXT("Shield Component"));
 	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Static Mesh Component"));

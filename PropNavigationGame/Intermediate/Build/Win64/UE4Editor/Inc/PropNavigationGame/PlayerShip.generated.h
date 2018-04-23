@@ -176,7 +176,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerShip); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerShip)
 
 
-#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_PRIVATE_PROPERTY_OFFSET
+#define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__timeBetweenShots() { return STRUCT_OFFSET(APlayerShip, timeBetweenShots); } \
+	FORCEINLINE static uint32 __PPO__maxTurningAngle() { return STRUCT_OFFSET(APlayerShip, maxTurningAngle); } \
+	FORCEINLINE static uint32 __PPO__maxForwardSpeed() { return STRUCT_OFFSET(APlayerShip, maxForwardSpeed); } \
+	FORCEINLINE static uint32 __PPO__maxTurningSpeed() { return STRUCT_OFFSET(APlayerShip, maxTurningSpeed); } \
+	FORCEINLINE static uint32 __PPO__minCameraZoom() { return STRUCT_OFFSET(APlayerShip, minCameraZoom); } \
+	FORCEINLINE static uint32 __PPO__maxCameraZoom() { return STRUCT_OFFSET(APlayerShip, maxCameraZoom); } \
+	FORCEINLINE static uint32 __PPO__zoomSensitivity() { return STRUCT_OFFSET(APlayerShip, zoomSensitivity); }
+
+
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_14_PROLOG
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

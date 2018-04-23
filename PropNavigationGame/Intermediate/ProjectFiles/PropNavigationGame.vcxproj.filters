@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PropNavigationGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{FA7717A8-29E1-4D89-BC5C-AF30B3F1FABD}</UniqueIdentifier>
+			<UniqueIdentifier>{A567B35C-EC27-4913-B0C6-3B7F53E978B6}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PropNavigationGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{C58C93E5-5059-49C0-8AA2-A425D317CE59}</UniqueIdentifier>
+			<UniqueIdentifier>{B45EF72C-8D27-4ADE-8A17-C825D4383BDC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,7 +28,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PropNavigationGame">
-			<UniqueIdentifier>{393A37E4-423C-4359-A453-B5BCBCF83FE8}</UniqueIdentifier>
+			<UniqueIdentifier>{DDF8CB2F-55CF-4555-8B20-52E61E1576E0}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\PropNavigationGame\Bullet.cpp">
 			<Filter>Source\PropNavigationGame</Filter>

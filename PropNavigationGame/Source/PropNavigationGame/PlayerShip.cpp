@@ -454,6 +454,7 @@ void APlayerShip::TargetActorWithMouse()
 		//if there was a target hit by the mouse
 		if (hit.GetActor() != nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s."), *hit.GetActor()->GetName());
 			//if the target actor is targetable
 			if (hit.GetActor()->Tags.Find("Targetable") != INDEX_NONE)
 			{
@@ -465,6 +466,7 @@ void APlayerShip::TargetActorWithMouse()
 		//if mouse has not collided with anything
 		else if (hit.GetActor() == nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Didn't hit actor:"));
 			//untarget actor
 			TargetedActor = nullptr;
 		}

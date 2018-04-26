@@ -78,8 +78,8 @@ public:
 	float regenInCombatP5 = 5.0f;
 
 	//Total Shield Strength
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	float shieldStrength = 200;
+	UPROPERTY(VisibleAnywhere, Category = "Shield Values|Strength")
+	float totalShieldStrength;
 
 	//Max total shield strength
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Max Values")

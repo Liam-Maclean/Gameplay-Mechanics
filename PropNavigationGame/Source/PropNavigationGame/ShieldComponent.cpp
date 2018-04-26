@@ -36,14 +36,14 @@ void UShieldComponent::BeginPlay()
 //returns shield strength
 int UShieldComponent::GetShieldStrength()
 {
-	return shieldStrength;
+	return totalShieldStrength;
 }
 
 //returns the health percentage of the component
 float UShieldComponent::GetShieldPercentage()
 {
 	//return percentage using max health strength and health strength as values
-	return (shieldStrength / maxShieldStrength);
+	return (totalShieldStrength / maxShieldStrength);
 }
 
 //toggle if the ship is in combat or not 
@@ -205,7 +205,7 @@ void UShieldComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	RegenerateShields();
-	shieldStrength = (m_leftShieldValue + m_rightShieldValue + m_reerShieldValue + m_frontShieldValue);
+	totalShieldStrength = (m_leftShieldValue + m_rightShieldValue + m_reerShieldValue + m_frontShieldValue);
 }
 
 //Decrement the shield value

@@ -70,6 +70,19 @@ private:
 	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
 		float zoomSensitivity;
 
+
+	FVector2D mouseInput;
+	float currentMaxImpulseSpeed;
+	float newForwardVelocity;
+	float turningSpeed;
+	float turningSpeedUpDown;
+
+	TArray<FName> names;
+
+	//impulse speed, initialise as none so we're not moving
+	ImpulseSpeed impulseSpeed = None;
+	AEnemyShip* TargetedActor;
+
 	void IncreaseImpulseSpeed();
 	void DecreaseImpulseSpeed();
 	void ImpulseForwardBack(float axis);
@@ -99,26 +112,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	//impulse speed, initialise as none so we're not moving
-	ImpulseSpeed impulseSpeed = None;
-	AEnemyShip* TargetedActor;
-
-
-
-	float currentMaxImpulseSpeed;
-	float newForwardVelocity;
-	float turningSpeed;
-	float turningSpeedUpDown;
-	
-	TArray<FName> names;
-
 	UFUNCTION(BlueprintPure, Category = "Target functions")
 	AActor* GetTargetActor()
 	{
 		return TargetedActor;
 	}
 
-	FVector2D mouseInput;
 
 	USceneComponent* sceneRoot;
 

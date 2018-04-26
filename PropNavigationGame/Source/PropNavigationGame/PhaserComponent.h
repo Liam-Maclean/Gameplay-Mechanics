@@ -13,8 +13,7 @@
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROPNAVIGATIONGAME_API UPhaserComponent : public UActorComponent
 {
-	GENERATED_BODY()
-
+	GENERATED_BODY() 
 public:	
 	// Sets default values for this component's properties
 	UPhaserComponent();
@@ -28,20 +27,7 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere)
-	UParticleSystemComponent* phaserEffect;
-
-	TArray<FName> names;
-	FVector spawningLocation;
-	TArray<USkeletalMeshSocket*> sockets;
-	USkeletalMeshComponent* skele_mesh;
-
-	AActor* lastKnownTarget;
-	FVector lastTargetLocation;
-	FName socketName;
-
-
-	float timerSeconds;
-	bool bPhaserActive = false;
+		UParticleSystemComponent* phaserEffect;
 
 	void InitialiseComponent(float damageOverDurationValue, float coolDownInSeconds, FName name, USkeletalMeshComponent* skelMesh);
 	void FirePhasers(AEnemyShip* target);
@@ -49,4 +35,14 @@ public:
 private:
 	float m_damageOverDurationValue;
 	float m_coolDownInSeconds;
+
+	float m_timerSeconds;
+	bool m_bPhaserActive = false;
+	TArray<FName> m_names;
+	FVector m_spawningLocation;
+	TArray<USkeletalMeshSocket*> m_sockets;
+	USkeletalMeshComponent* skele_mesh;
+	AActor* m_lastKnownTarget;
+	FVector m_lastTargetLocation;
+	FName m_socketName;
 };

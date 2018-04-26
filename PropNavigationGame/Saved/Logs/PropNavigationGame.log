@@ -3508,3 +3508,1342 @@ LogInit: Object subsystem initialized
 [2018.04.26-20.27.12:329][376]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapCD6C726344151A9930B732A5C4F129D4.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
 [2018.04.26-20.27.12:363][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
 [2018.04.26-20.27.12:405][376]LogFileHelpers: Saving map 'StarTrekMap' took 0.204
+[2018.04.26-20.30.24:500][826]LogEditorViewport: Clicking on Actor (LMB): TestBlueprintEnemy_C (TestBlueprintEnemy)
+[2018.04.26-20.32.17:385][913]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-20.32.17:406][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-20.32.17:407][913]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 22:32:17)
+[2018.04.26-20.32.17:407][913]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-20.32.17:411][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004058s)
+[2018.04.26-20.32.17:412][913]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-20.32.17:412][913]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2018.04.26-20.32.17:413][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.005921s)
+[2018.04.26-20.32.17:431][913]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-20.32.17:440][913]LogInit: FAudioDevice initialized.
+[2018.04.26-20.32.17:473][913]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-20.32.17:477][913]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-21.32.17
+[2018.04.26-20.32.17:478][913]LogWorld: Bringing up level for play took: 0.004054
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-20.32.17:479][913]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-20.32.17:480][913]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-20.32.17:480][913]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-20.32.17:481][913]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.644
+[2018.04.26-20.32.17:492][913]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-20.32.17:492][913]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-20.32.17:492][913]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-20.32.17:493][913]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-20.32.17:493][913]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-20.32.17:505][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-20.32.17:505][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-20.32.17:505][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-20.32.17:506][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-20.32.17:506][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-20.32.17:514][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-20.32.17:514][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-20.32.17:514][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-20.32.17:514][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-20.32.17:515][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-20.32.17:521][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-20.32.17:522][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.SpaceUI_C_7
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-20.32.22:369][498]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-20.33.59:416][976]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-20.53.10:968][343]Candidate modules for hot reload:
+[2018.04.26-20.53.10:968][343]  PropNavigationGame
+[2018.04.26-20.53.10:968][343]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 6003 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.26-20.53.10:969][343]Warning: Starting HotReload took  0.0s.
+[2018.04.26-20.53.41:923][571]CompilerResultsLog: New page: Compilation - 26 Apr 2018 22:53:41
+[2018.04.26-20.53.41:923][571]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.26-20.53.41:923][571]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.04.26-20.53.41:923][571]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.0667425 seconds
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: Performing 12 actions (4 in parallel)
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: ShieldComponent.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: PlayerShip.cpp
+[2018.04.26-20.53.41:924][571]CompilerResultsLog: PhaserComponent.cpp
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: HomingRocket.cpp
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: EnemyShip.cpp
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: Error: C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\HomingRocket.cpp(28) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: [11/12] Link UE4Editor-PropNavigationGame-6003.dll
+[2018.04.26-20.53.41:925][571]CompilerResultsLog: [12/12] Link UE4Editor-PropNavigationGame-6003.lib
+[2018.04.26-20.53.41:925][571]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6003.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6003.exp
+[2018.04.26-20.53.41:925][571]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6003.suppressed.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6003.suppressed.exp
+[2018.04.26-20.53.41:926][571]CompilerResultsLog: Total build time: 30.63 seconds (Local executor: 19.12 seconds)
+[2018.04.26-20.53.41:926][571]LogMainFrame: MainFrame: Module compiling took 30.961 seconds
+[2018.04.26-20.53.41:996][571]LogClass: Could not find existing class ShieldComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.26-20.53.41:996][571]LogClass: Function GetFrontShieldStrength is new.
+[2018.04.26-20.53.41:996][571]LogClass: Function GetLeftShieldStrength is new.
+[2018.04.26-20.53.41:996][571]LogClass: Function GetReerShieldStrength is new.
+[2018.04.26-20.53.41:996][571]LogClass: Function GetRightShieldStrength is new.
+[2018.04.26-20.53.41:999][571]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.04.26-20.53.42:719][571]LogHotReload: Re-instancing ShieldComponent after hot-reload.
+[2018.04.26-20.53.42:765][571]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0033 seconds. Added 10 classes and 2 folders.
+[2018.04.26-20.53.42:767][571]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2018.04.26-20.53.42:815][571]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2398 classes and 506 folders.
+[2018.04.26-20.53.42:815][571]Display: HotReload took 31.9s.
+[2018.04.26-21.13.07:011][335]Candidate modules for hot reload:
+[2018.04.26-21.13.07:011][335]  PropNavigationGame
+[2018.04.26-21.13.07:011][335]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 967 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.26-21.13.07:013][335]Warning: Starting HotReload took  0.0s.
+[2018.04.26-21.13.11:437][502]CompilerResultsLog: New page: Compilation - 26 Apr 2018 23:13:11
+[2018.04.26-21.13.11:437][502]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.26-21.13.11:437][502]CompilerResultsLog: Target is up to date
+[2018.04.26-21.13.11:438][502]CompilerResultsLog: Total build time: 4.11 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.26-21.13.11:438][502]LogMainFrame: MainFrame: Module compiling took 4.430 seconds
+[2018.04.26-21.13.11:475][502]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2398 classes and 506 folders.
+[2018.04.26-21.13.11:475][502]Display: HotReload took  4.5s.
+[2018.04.26-21.13.25:994][977]LogEditorViewport: Clicking on Actor (LMB): StarTrekPlayerShip_C (StarTrekPlayerShip)
+[2018.04.26-21.29.29:620][ 33]Candidate modules for hot reload:
+[2018.04.26-21.29.29:620][ 33]  PropNavigationGame
+[2018.04.26-21.29.29:621][ 33]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 5235 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.26-21.29.29:622][ 33]Warning: Starting HotReload took  0.0s.
+[2018.04.26-21.29.45:049][598]CompilerResultsLog: New page: Compilation - 26 Apr 2018 23:29:45
+[2018.04.26-21.29.45:049][598]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.26-21.29.45:049][598]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.04.26-21.29.45:049][598]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.26-21.29.45:050][598]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 7.1530271 seconds
+[2018.04.26-21.29.45:051][598]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.26-21.29.45:051][598]CompilerResultsLog: PlayerShip.cpp
+[2018.04.26-21.29.45:051][598]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.04.26-21.29.45:051][598]CompilerResultsLog: [3/4] Link UE4Editor-PropNavigationGame-5235.dll
+[2018.04.26-21.29.45:051][598]CompilerResultsLog: [4/4] Link UE4Editor-PropNavigationGame-5235.lib
+[2018.04.26-21.29.45:051][598]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5235.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5235.exp
+[2018.04.26-21.29.45:052][598]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5235.suppressed.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5235.suppressed.exp
+[2018.04.26-21.29.45:052][598]CompilerResultsLog: Total build time: 14.94 seconds (Local executor: 2.95 seconds)
+[2018.04.26-21.29.45:052][598]LogMainFrame: MainFrame: Module compiling took 15.434 seconds
+[2018.04.26-21.29.45:273][598]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.26-21.29.45:274][598]LogClass: Function GetImpulseSpeed is new.
+[2018.04.26-21.29.45:274][598]LogClass: Function GetShieldPercentage is new.
+[2018.04.26-21.29.45:275][598]LogClass: Function GetTargetActor is new.
+[2018.04.26-21.29.45:275][598]LogClass: Function GetTargetHealthStrength is new.
+[2018.04.26-21.29.45:275][598]LogClass: Function GetTargetName is new.
+[2018.04.26-21.29.45:275][598]LogClass: Function GetTargetShieldPercentage is new.
+[2018.04.26-21.29.45:276][598]LogClass: Function GetTargetShieldStrength is new.
+[2018.04.26-21.29.45:298][598]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.04.26-21.29.45:408][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:408][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:411][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:411][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:412][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:412][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:412][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:413][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:413][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:413][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:414][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:414][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:414][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-21.29.45:415][598]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-21.29.45:465][598]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseQuarter ': Binding: 'Get_ImpulseQuarter_BrushColor_0' : 'Get_ImpulseQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-21.29.45:465][598]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseHalf ': Binding: 'Get_ImpulseHalf_BrushColor_0' : 'Get_ImpulseHalf_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-21.29.45:465][598]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseThreeQuarter ': Binding: 'Get_ImpulseThreeQuarter_BrushColor_0' : 'Get_ImpulseThreeQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-21.29.45:466][598]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseFull ': Binding: 'Get_ImpulseFull_BrushColor_0' : 'Get_ImpulseFull_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-21.29.45:466][598]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' ColorAndOpacityDelegate ' on Widget ' Image_437 ': Binding: 'GetColorAndOpacity_0' : 'GetColorAndOpacity_0' was not found on 'Space UI'.
+[2018.04.26-21.29.45:487][598]LogBlueprint: Warning: [Compiler SpaceUI] [5016.86] Compile of SpaceUI failed. 19 Fatal Issue(s) 0 Warning(s) [in 184 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-21.29.45:704][598]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0034 seconds. Added 10 classes and 2 folders.
+[2018.04.26-21.29.45:707][598]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2018.04.26-21.29.45:756][598]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2398 classes and 506 folders.
+[2018.04.26-21.29.45:756][598]Display: HotReload took 16.1s.
+[2018.04.26-21.31.42:806][345]Candidate modules for hot reload:
+[2018.04.26-21.31.42:806][345]  PropNavigationGame
+[2018.04.26-21.31.42:806][345]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 4554 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.26-21.31.42:807][345]Warning: Starting HotReload took  0.0s.
+[2018.04.26-21.31.47:480][885]CompilerResultsLog: New page: Compilation - 26 Apr 2018 23:31:47
+[2018.04.26-21.31.47:481][885]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.26-21.31.47:481][885]CompilerResultsLog: Target is up to date
+[2018.04.26-21.31.47:481][885]CompilerResultsLog: Total build time: 4.47 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.26-21.31.47:481][885]LogMainFrame: MainFrame: Module compiling took 4.678 seconds
+[2018.04.26-21.31.47:504][885]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2398 classes and 506 folders.
+[2018.04.26-21.31.47:504][885]Display: HotReload took  4.7s.
+[2018.04.26-21.31.49:914][173]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.31.49:933][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.32.00:006][991]LogSlate: Took 0.027785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.26-21.32.00:710][991]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 113 classes and 0 folders.
+[2018.04.26-21.32.03:922][991]LogSlate: Took 0.024702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.26-21.32.06:018][109]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-21.32.14:584][593]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.32.14:612][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.32.14:612][593]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:32:14)
+[2018.04.26-21.32.14:612][593]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.32.14:614][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002207s)
+[2018.04.26-21.32.14:615][593]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.32.14:615][593]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2018.04.26-21.32.14:616][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003619s)
+[2018.04.26-21.32.14:634][593]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.32.14:642][593]LogInit: FAudioDevice initialized.
+[2018.04.26-21.32.14:672][593]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.32.14:676][593]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.32.14
+[2018.04.26-21.32.14:676][593]LogWorld: Bringing up level for play took: 0.003118
+[2018.04.26-21.32.14:677][593]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.32.14:677][593]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.32.14:677][593]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.32.14:677][593]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.32.14:678][593]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.32.14:678][593]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.32.14:678][593]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.32.14:678][593]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.32.14:679][593]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.554
+[2018.04.26-21.32.16:433][798]LogTemp: Warning: Hit Actor: TestBlueprintEnemy_70.
+[2018.04.26-21.32.16:433][798]LogTemp: Warning: Targeted Actor: TestBlueprintEnemy_70.
+[2018.04.26-21.32.17:341][907]LogTemp: Warning: Angle of Fire =: 135.078561.
+[2018.04.26-21.32.17:341][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.17:341][907]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Angle of Fire =: 135.078561.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Angle of Fire =: 135.078561.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.17:342][907]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=225.078552 R=0.000000.
+[2018.04.26-21.32.18:341][ 27]LogTemp: Warning: invisible
+[2018.04.26-21.32.18:341][ 27]LogTemp: Warning: invisible
+[2018.04.26-21.32.18:341][ 27]LogTemp: Warning: invisible
+[2018.04.26-21.32.21:324][385]LogTemp: Warning: Angle of Fire =: 49.212221.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Angle of Fire =: 49.212221.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Angle of Fire =: 49.212221.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.21:325][385]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=139.212219 R=0.000000.
+[2018.04.26-21.32.22:325][505]LogTemp: Warning: invisible
+[2018.04.26-21.32.22:325][505]LogTemp: Warning: invisible
+[2018.04.26-21.32.22:325][505]LogTemp: Warning: invisible
+[2018.04.26-21.32.23:933][698]LogTemp: Warning: Angle of Fire =: 218.599216.
+[2018.04.26-21.32.23:933][698]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.23:933][698]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.23:933][698]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.23:933][698]LogTemp: Warning: Angle of Fire =: 218.599216.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Angle of Fire =: 218.599216.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.23:934][698]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=308.599213 R=0.000000.
+[2018.04.26-21.32.24:933][818]LogTemp: Warning: invisible
+[2018.04.26-21.32.24:933][818]LogTemp: Warning: invisible
+[2018.04.26-21.32.24:933][818]LogTemp: Warning: invisible
+[2018.04.26-21.32.25:525][889]LogTemp: Warning: Hit Actor: TestBlueprintEnemy2_79.
+[2018.04.26-21.32.25:526][889]LogTemp: Warning: Targeted Actor: TestBlueprintEnemy2_79.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Angle of Fire =: 263.276249.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Angle of Fire =: 263.276249.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Angle of Fire =: 263.276249.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.26:200][970]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.26:201][970]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=263.276245 R=0.000000.
+[2018.04.26-21.32.27:200][ 90]LogTemp: Warning: invisible
+[2018.04.26-21.32.27:201][ 90]LogTemp: Warning: invisible
+[2018.04.26-21.32.27:201][ 90]LogTemp: Warning: invisible
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Angle of Fire =: 14.006541.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Angle of Fire =: 14.006541.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.27:692][149]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.27:693][149]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.27:693][149]LogTemp: Warning: Angle of Fire =: 14.006541.
+[2018.04.26-21.32.27:693][149]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.27:693][149]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.27:693][149]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=14.006540 R=0.000000.
+[2018.04.26-21.32.28:692][269]LogTemp: Warning: invisible
+[2018.04.26-21.32.28:692][269]LogTemp: Warning: invisible
+[2018.04.26-21.32.28:692][269]LogTemp: Warning: invisible
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Angle of Fire =: 110.726707.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Angle of Fire =: 110.726707.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Angle of Fire =: 110.726707.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.29:959][421]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.29:960][421]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=110.726707 R=0.000000.
+[2018.04.26-21.32.30:851][528]LogTemp: Warning: Angle of Fire =: 106.225133.
+[2018.04.26-21.32.30:851][528]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.30:851][528]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:851][528]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Angle of Fire =: 106.225133.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Angle of Fire =: 106.225133.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:852][528]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=106.225136 R=0.000000.
+[2018.04.26-21.32.30:960][541]LogTemp: Warning: invisible
+[2018.04.26-21.32.30:960][541]LogTemp: Warning: invisible
+[2018.04.26-21.32.30:960][541]LogTemp: Warning: invisible
+[2018.04.26-21.34.44:364][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.34.44:388][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.34.44:388][ 50]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:34:44)
+[2018.04.26-21.34.44:388][ 50]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.34.44:390][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002070s)
+[2018.04.26-21.34.44:391][ 50]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.34.44:391][ 50]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2018.04.26-21.34.44:392][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003363s)
+[2018.04.26-21.34.44:437][ 50]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.34.44:442][ 50]LogInit: FAudioDevice initialized.
+[2018.04.26-21.34.44:478][ 50]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.34.44:482][ 50]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.34.44
+[2018.04.26-21.34.44:483][ 50]LogWorld: Bringing up level for play took: 0.003942
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.34.44:484][ 50]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.34.44:485][ 50]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.36
+[2018.04.26-21.34.45:796][206]LogTemp: Warning: Hit Actor: IKSAmar.
+[2018.04.26-21.34.45:796][206]LogTemp: Warning: Targeted Actor: IKSAmar.
+[2018.04.26-21.34.48:638][547]LogTemp: Warning: Hit Actor: IKSVorn.
+[2018.04.26-21.34.48:638][547]LogTemp: Warning: Targeted Actor: IKSVorn.
+[2018.04.26-21.34.49:816][688]LogTemp: Warning: Hit Actor: IKSBortas.
+[2018.04.26-21.34.49:816][688]LogTemp: Warning: Targeted Actor: IKSBortas.
+[2018.04.26-21.34.50:974][827]LogTemp: Warning: Hit Actor: IKSGroth.
+[2018.04.26-21.34.50:974][827]LogTemp: Warning: Targeted Actor: IKSGroth.
+[2018.04.26-21.35.24:759][ 31]LogSavePackage: Save=43.37ms
+[2018.04.26-21.35.24:759][ 31]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto2FD2711A244824632F9BBEA92EBCBB413.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto2.umap'
+[2018.04.26-21.35.24:769][ 31]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto2.umap
+[2018.04.26-21.35.24:773][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.099
+[2018.04.26-21.35.24:773][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2018.04.26-21.35.55:980][204]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.35.56:001][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.35.56:001][204]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:35:56)
+[2018.04.26-21.35.56:002][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.35.56:003][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001772s)
+[2018.04.26-21.35.56:004][204]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.35.56:004][204]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2018.04.26-21.35.56:005][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003198s)
+[2018.04.26-21.35.56:022][204]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.35.56:028][204]LogInit: FAudioDevice initialized.
+[2018.04.26-21.35.56:060][204]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.35.56:063][204]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.35.56
+[2018.04.26-21.35.56:063][204]LogWorld: Bringing up level for play took: 0.002661
+[2018.04.26-21.35.56:064][204]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.35.56:064][204]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.35.56:064][204]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.35.56:064][204]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.35.56:065][204]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.35.56:065][204]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.35.56:065][204]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.35.56:065][204]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.35.56:066][204]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.059
+[2018.04.26-21.35.57:001][315]LogTemp: Warning: Hit Actor: IKS_Vorn.
+[2018.04.26-21.35.57:001][315]LogTemp: Warning: Targeted Actor: IKS_Vorn.
+[2018.04.26-21.35.59:684][637]LogTemp: Warning: Angle of Fire =: 119.809022.
+[2018.04.26-21.35.59:684][637]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Angle of Fire =: 119.809022.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Angle of Fire =: 119.809022.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.35.59:685][637]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=119.809021 R=0.000000.
+[2018.04.26-21.36.00:684][757]LogTemp: Warning: invisible
+[2018.04.26-21.36.00:685][757]LogTemp: Warning: invisible
+[2018.04.26-21.36.00:685][757]LogTemp: Warning: invisible
+[2018.04.26-21.36.02:051][921]LogTemp: Warning: Angle of Fire =: 103.704376.
+[2018.04.26-21.36.02:051][921]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Angle of Fire =: 103.704376.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Angle of Fire =: 103.704376.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.02:052][921]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=103.704376 R=0.000000.
+[2018.04.26-21.36.03:052][ 41]LogTemp: Warning: invisible
+[2018.04.26-21.36.03:052][ 41]LogTemp: Warning: invisible
+[2018.04.26-21.36.03:052][ 41]LogTemp: Warning: invisible
+[2018.04.26-21.36.03:061][ 42]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.36.03:061][ 42]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.36.03:359][ 78]LogTemp: Warning: Angle of Fire =: 91.987209.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Angle of Fire =: 91.987209.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Angle of Fire =: 91.987209.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.03:360][ 78]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=181.987198 R=0.000000.
+[2018.04.26-21.36.04:360][198]LogTemp: Warning: invisible
+[2018.04.26-21.36.04:361][198]LogTemp: Warning: invisible
+[2018.04.26-21.36.04:361][198]LogTemp: Warning: invisible
+[2018.04.26-21.36.05:177][296]LogTemp: Warning: Angle of Fire =: 60.453684.
+[2018.04.26-21.36.05:177][296]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.05:177][296]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Angle of Fire =: 60.453684.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Angle of Fire =: 60.453684.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.05:178][296]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=150.453674 R=0.000000.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Angle of Fire =: 5.732580.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Angle of Fire =: 5.732580.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:169][415]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:170][415]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:170][415]LogTemp: Warning: Angle of Fire =: 5.732580.
+[2018.04.26-21.36.06:170][415]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:170][415]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:170][415]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=95.732574 R=0.000000.
+[2018.04.26-21.36.06:177][416]LogTemp: Warning: invisible
+[2018.04.26-21.36.06:177][416]LogTemp: Warning: invisible
+[2018.04.26-21.36.06:177][416]LogTemp: Warning: invisible
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Angle of Fire =: 340.244417.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=430.244415 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=70.244415 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Angle of Fire =: 340.244417.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=430.244415 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=70.244415 R=0.000000.
+[2018.04.26-21.36.06:636][471]LogTemp: Warning: Angle of Fire =: 340.244417.
+[2018.04.26-21.36.06:637][471]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.06:637][471]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=430.244415 R=0.000000.
+[2018.04.26-21.36.06:637][471]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=70.244415 R=0.000000.
+[2018.04.26-21.36.07:636][591]LogTemp: Warning: invisible
+[2018.04.26-21.36.07:636][591]LogTemp: Warning: invisible
+[2018.04.26-21.36.07:636][591]LogTemp: Warning: invisible
+[2018.04.26-21.36.07:752][605]LogTemp: Warning: Angle of Fire =: 286.863616.
+[2018.04.26-21.36.07:752][605]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.07:752][605]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=376.863617 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=16.863617 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Angle of Fire =: 286.863616.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=376.863617 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=16.863617 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Angle of Fire =: 286.863616.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=376.863617 R=0.000000.
+[2018.04.26-21.36.07:753][605]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=16.863617 R=0.000000.
+[2018.04.26-21.36.08:753][725]LogTemp: Warning: invisible
+[2018.04.26-21.36.08:753][725]LogTemp: Warning: invisible
+[2018.04.26-21.36.08:753][725]LogTemp: Warning: invisible
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Angle of Fire =: 232.595372.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Angle of Fire =: 232.595372.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Angle of Fire =: 232.595372.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.08:911][744]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=322.595367 R=0.000000.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Angle of Fire =: 197.624164.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Angle of Fire =: 197.624164.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.09:569][823]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:570][823]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:570][823]LogTemp: Warning: Angle of Fire =: 197.624164.
+[2018.04.26-21.36.09:570][823]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.09:570][823]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:570][823]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=287.624146 R=0.000000.
+[2018.04.26-21.36.09:911][864]LogTemp: Warning: invisible
+[2018.04.26-21.36.09:911][864]LogTemp: Warning: invisible
+[2018.04.26-21.36.09:911][864]LogTemp: Warning: invisible
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Angle of Fire =: 177.187985.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Angle of Fire =: 177.187985.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Angle of Fire =: 177.187985.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.10:411][924]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.10:412][924]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=267.187988 R=0.000000.
+[2018.04.26-21.36.11:411][ 44]LogTemp: Warning: invisible
+[2018.04.26-21.36.11:411][ 44]LogTemp: Warning: invisible
+[2018.04.26-21.36.11:411][ 44]LogTemp: Warning: invisible
+[2018.04.26-21.36.12:669][195]LogTemp: Warning: Angle of Fire =: 209.212646.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Angle of Fire =: 209.212646.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Angle of Fire =: 209.212646.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.12:670][195]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=299.212646 R=0.000000.
+[2018.04.26-21.36.13:671][315]LogTemp: Warning: invisible
+[2018.04.26-21.36.13:671][315]LogTemp: Warning: invisible
+[2018.04.26-21.36.13:671][315]LogTemp: Warning: invisible
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Angle of Fire =: 244.788250.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Angle of Fire =: 244.788250.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.14:470][411]LogTemp: Warning: Angle of Fire =: 244.788250.
+[2018.04.26-21.36.14:471][411]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.14:471][411]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.14:471][411]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.788239 R=0.000000.
+[2018.04.26-21.36.15:469][531]LogTemp: Warning: invisible
+[2018.04.26-21.36.15:470][531]LogTemp: Warning: invisible
+[2018.04.26-21.36.15:470][531]LogTemp: Warning: invisible
+[2018.04.26-21.36.16:336][635]LogTemp: Warning: Angle of Fire =: 295.868813.
+[2018.04.26-21.36.16:336][635]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.16:336][635]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=385.868805 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=25.868805 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Angle of Fire =: 295.868813.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=385.868805 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=25.868805 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Angle of Fire =: 295.868813.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=385.868805 R=0.000000.
+[2018.04.26-21.36.16:337][635]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=25.868805 R=0.000000.
+[2018.04.26-21.36.16:895][702]LogTemp: Warning: Hit Actor: IKS_Groth.
+[2018.04.26-21.36.16:895][702]LogTemp: Warning: Targeted Actor: IKS_Groth.
+[2018.04.26-21.36.17:337][755]LogTemp: Warning: invisible
+[2018.04.26-21.36.17:337][755]LogTemp: Warning: invisible
+[2018.04.26-21.36.17:337][755]LogTemp: Warning: invisible
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Angle of Fire =: 325.254757.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Angle of Fire =: 325.254757.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.17:345][756]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.17:346][756]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.17:346][756]LogTemp: Warning: Angle of Fire =: 325.254757.
+[2018.04.26-21.36.17:346][756]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.17:346][756]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.17:346][756]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=325.254761 R=0.000000.
+[2018.04.26-21.36.18:345][876]LogTemp: Warning: invisible
+[2018.04.26-21.36.18:345][876]LogTemp: Warning: invisible
+[2018.04.26-21.36.18:345][876]LogTemp: Warning: invisible
+[2018.04.26-21.36.18:453][889]LogTemp: Warning: Angle of Fire =: 17.125307.
+[2018.04.26-21.36.18:453][889]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.18:453][889]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Angle of Fire =: 17.125307.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Angle of Fire =: 17.125307.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.18:454][889]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=17.125307 R=0.000000.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Angle of Fire =: 58.301971.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Angle of Fire =: 58.301971.
+[2018.04.26-21.36.19:345][996]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Angle of Fire =: 58.301971.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:346][996]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=58.301971 R=0.000000.
+[2018.04.26-21.36.19:453][  9]LogTemp: Warning: invisible
+[2018.04.26-21.36.19:453][  9]LogTemp: Warning: invisible
+[2018.04.26-21.36.19:454][  9]LogTemp: Warning: invisible
+[2018.04.26-21.36.20:186][ 97]LogTemp: Warning: Angle of Fire =: 100.608061.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Angle of Fire =: 100.608061.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Angle of Fire =: 100.608061.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.20:187][ 97]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=100.608063 R=0.000000.
+[2018.04.26-21.36.21:187][217]LogTemp: Warning: invisible
+[2018.04.26-21.36.21:187][217]LogTemp: Warning: invisible
+[2018.04.26-21.36.21:187][217]LogTemp: Warning: invisible
+[2018.04.26-21.36.21:620][269]LogTemp: Warning: Angle of Fire =: 187.160337.
+[2018.04.26-21.36.21:620][269]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.21:620][269]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Angle of Fire =: 187.160337.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Angle of Fire =: 187.160337.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.21:621][269]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=187.160339 R=0.000000.
+[2018.04.26-21.36.22:620][389]LogTemp: Warning: invisible
+[2018.04.26-21.36.22:620][389]LogTemp: Warning: invisible
+[2018.04.26-21.36.22:620][389]LogTemp: Warning: invisible
+[2018.04.26-21.36.46:238][202]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.36.46:260][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.36.46:260][202]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:36:46)
+[2018.04.26-21.36.46:260][202]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.36.46:262][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001964s)
+[2018.04.26-21.36.46:263][202]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.36.46:263][202]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2018.04.26-21.36.46:264][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003524s)
+[2018.04.26-21.36.46:283][202]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.36.46:290][202]LogInit: FAudioDevice initialized.
+[2018.04.26-21.36.46:323][202]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.36.46:327][202]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.36.46
+[2018.04.26-21.36.46:327][202]LogWorld: Bringing up level for play took: 0.003171
+[2018.04.26-21.36.46:328][202]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.36.46:328][202]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.36.46:328][202]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.36.46:328][202]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.36.46:328][202]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.36.46:329][202]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.36.46:329][202]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.36.46:329][202]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.36.46:330][202]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.204
+[2018.04.26-21.36.47:540][346]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.37.14:974][599]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.37.16:210][747]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.37.16:794][817]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.37.19:788][176]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.37.19:788][176]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.37.24:286][715]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.37.24:286][715]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Angle of Fire =: 81.811202.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Angle of Fire =: 81.811202.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.24:736][769]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.24:737][769]LogTemp: Warning: Angle of Fire =: 81.811202.
+[2018.04.26-21.37.24:737][769]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.24:737][769]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.24:737][769]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=171.811188 R=0.000000.
+[2018.04.26-21.37.25:742][889]LogTemp: Warning: invisible
+[2018.04.26-21.37.25:742][889]LogTemp: Warning: invisible
+[2018.04.26-21.37.25:743][889]LogTemp: Warning: invisible
+[2018.04.26-21.37.25:885][906]LogTemp: Warning: Angle of Fire =: 47.778691.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Angle of Fire =: 47.778691.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Angle of Fire =: 47.778691.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.25:886][906]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=137.778687 R=0.000000.
+[2018.04.26-21.37.26:889][ 26]LogTemp: Warning: invisible
+[2018.04.26-21.37.26:889][ 26]LogTemp: Warning: invisible
+[2018.04.26-21.37.26:889][ 26]LogTemp: Warning: invisible
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Angle of Fire =: 194.624095.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Angle of Fire =: 194.624095.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Angle of Fire =: 194.624095.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.28:886][265]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.28:887][265]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=284.624084 R=0.000000.
+[2018.04.26-21.37.29:888][385]LogTemp: Warning: invisible
+[2018.04.26-21.37.29:888][385]LogTemp: Warning: invisible
+[2018.04.26-21.37.29:888][385]LogTemp: Warning: invisible
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Angle of Fire =: 227.550742.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Angle of Fire =: 227.550742.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.30:063][406]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.30:064][406]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.30:064][406]LogTemp: Warning: Angle of Fire =: 227.550742.
+[2018.04.26-21.37.30:064][406]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=89.999992 R=0.000000.
+[2018.04.26-21.37.30:064][406]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.30:064][406]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=317.550720 R=0.000000.
+[2018.04.26-21.37.31:065][526]LogTemp: Warning: invisible
+[2018.04.26-21.37.31:065][526]LogTemp: Warning: invisible
+[2018.04.26-21.37.31:065][526]LogTemp: Warning: invisible
+[2018.04.26-21.37.37:104][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.37.37:125][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.37.37:126][237]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:37:37)
+[2018.04.26-21.37.37:126][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.37.37:129][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003086s)
+[2018.04.26-21.37.37:130][237]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.37.37:130][237]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2018.04.26-21.37.37:131][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.004839s)
+[2018.04.26-21.37.37:149][237]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.37.37:157][237]LogInit: FAudioDevice initialized.
+[2018.04.26-21.37.37:192][237]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.37.37:195][237]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.37.37
+[2018.04.26-21.37.37:195][237]LogWorld: Bringing up level for play took: 0.002953
+[2018.04.26-21.37.37:196][237]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.37.37:196][237]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.37.37:196][237]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.37.37:197][237]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.37.37:197][237]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.37.37:197][237]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.37.37:197][237]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.37.37:197][237]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.37.37:198][237]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 1.073
+[2018.04.26-21.37.37:900][320]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.27:005][590]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.27:828][688]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.28:412][758]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.48:721][168]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.49:621][275]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.51:395][486]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.53:327][707]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.57:238][174]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.57:763][236]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.58:772][356]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.59:370][427]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.38.59:808][479]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.38.59:808][479]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.39.00:224][528]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.39.00:224][528]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.39.00:691][583]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.39.00:692][583]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.39.01:170][640]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.01:970][736]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.02:505][800]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.39.02:505][800]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.39.03:007][860]LogTemp: Warning: Hit Actor: IKS_Amar.
+[2018.04.26-21.39.03:007][860]LogTemp: Warning: Targeted Actor: IKS_Amar.
+[2018.04.26-21.39.03:575][928]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.04:094][990]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.04:758][ 69]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.05:212][123]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.25:246][484]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.39.25:267][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.39.25:267][484]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:39:25)
+[2018.04.26-21.39.25:268][484]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.39.25:270][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002183s)
+[2018.04.26-21.39.25:271][484]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.39.25:271][484]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2018.04.26-21.39.25:271][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003393s)
+[2018.04.26-21.39.25:315][484]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.39.25:321][484]LogInit: FAudioDevice initialized.
+[2018.04.26-21.39.25:355][484]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.39.25:358][484]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.39.25
+[2018.04.26-21.39.25:359][484]LogWorld: Bringing up level for play took: 0.003060
+[2018.04.26-21.39.25:359][484]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.39.25:360][484]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.39.25:361][484]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.764
+[2018.04.26-21.39.26:758][650]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.39.28:541][864]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.40.12:567][ 87]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.40.12:589][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.40.12:589][ 87]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:40:12)
+[2018.04.26-21.40.12:589][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.40.12:592][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002106s)
+[2018.04.26-21.40.12:592][ 87]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.40.12:593][ 87]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2018.04.26-21.40.12:593][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003595s)
+[2018.04.26-21.40.12:644][ 87]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.40.12:650][ 87]LogInit: FAudioDevice initialized.
+[2018.04.26-21.40.12:684][ 87]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.40.12:687][ 87]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.40.12
+[2018.04.26-21.40.12:688][ 87]LogWorld: Bringing up level for play took: 0.002872
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.40.12:689][ 87]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.40.12:690][ 87]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.565
+[2018.04.26-21.40.12:702][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.40.12:702][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.40.12:702][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.40.12:703][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.40.12:703][ 87]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.40.12:715][ 88]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.40.12:715][ 88]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.40.12:716][ 88]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.40.12:716][ 88]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.40.12:716][ 88]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.40.12:724][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.40.12:725][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.40.12:725][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.40.12:725][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.40.12:725][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.40.12:733][ 90]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.40.12:733][ 90]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.SpaceUI_C_8
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.40.12:997][122]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.40.14:021][245]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.40.14:571][311]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.40.15:296][398]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.40.15:838][463]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.42.33:834][904]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-21.42.33:855][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-21.42.33:856][904]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 23:42:33)
+[2018.04.26-21.42.33:856][904]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-21.42.33:858][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001871s)
+[2018.04.26-21.42.33:858][904]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-21.42.33:859][904]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2018.04.26-21.42.33:859][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003088s)
+[2018.04.26-21.42.33:904][904]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-21.42.33:910][904]LogInit: FAudioDevice initialized.
+[2018.04.26-21.42.33:945][904]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-21.42.33:949][904]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-22.42.33
+[2018.04.26-21.42.33:949][904]LogWorld: Bringing up level for play took: 0.002470
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-21.42.33:950][904]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-21.42.33:951][904]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap -0.174
+[2018.04.26-21.42.33:961][904]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.42.33:961][904]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.42.33:962][904]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.42.33:962][904]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.42.33:962][904]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.42.33:973][905]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.42.33:974][905]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.42.33:974][905]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.42.33:974][905]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.42.33:974][905]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.42.33:982][906]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.42.33:982][906]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.42.33:983][906]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-21.42.33:983][906]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-21.42.33:983][906]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-21.42.33:990][907]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-21.42.33:991][907]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.SpaceUI_C_9
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-21.43.12:996][586]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-21.43.13:821][685]LogTemp: Warning: Hit Actor: IKS_Bortas.
+[2018.04.26-21.43.13:821][685]LogTemp: Warning: Targeted Actor: IKS_Bortas.
+[2018.04.26-21.43.14:387][753]LogTemp: Warning: Angle of Fire =: 221.691308.
+[2018.04.26-21.43.14:387][753]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Angle of Fire =: 221.691308.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Angle of Fire =: 221.691308.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.14:388][753]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=221.691315 R=0.000000.
+[2018.04.26-21.43.15:388][873]LogTemp: Warning: invisible
+[2018.04.26-21.43.15:388][873]LogTemp: Warning: invisible
+[2018.04.26-21.43.15:388][873]LogTemp: Warning: invisible
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Angle of Fire =: 303.589485.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Angle of Fire =: 303.589485.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.15:654][905]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.15:655][905]LogTemp: Warning: Angle of Fire =: 303.589485.
+[2018.04.26-21.43.15:655][905]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.15:655][905]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.15:655][905]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=303.589478 R=0.000000.
+[2018.04.26-21.43.16:655][ 25]LogTemp: Warning: invisible
+[2018.04.26-21.43.16:655][ 25]LogTemp: Warning: invisible
+[2018.04.26-21.43.16:655][ 25]LogTemp: Warning: invisible
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Angle of Fire =: 334.087081.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Angle of Fire =: 334.087081.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.17:005][ 67]LogTemp: Warning: Angle of Fire =: 334.087081.
+[2018.04.26-21.43.17:006][ 67]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.17:006][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.17:006][ 67]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=334.087067 R=0.000000.
+[2018.04.26-21.43.18:004][187]LogTemp: Warning: invisible
+[2018.04.26-21.43.18:004][187]LogTemp: Warning: invisible
+[2018.04.26-21.43.18:004][187]LogTemp: Warning: invisible
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Angle of Fire =: 351.404786.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Angle of Fire =: 351.404786.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Angle of Fire =: 351.404786.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.18:496][246]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.18:497][246]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=351.404785 R=0.000000.
+[2018.04.26-21.43.19:496][366]LogTemp: Warning: invisible
+[2018.04.26-21.43.19:496][366]LogTemp: Warning: invisible
+[2018.04.26-21.43.19:496][366]LogTemp: Warning: invisible
+[2018.04.26-21.43.19:787][401]LogTemp: Warning: Angle of Fire =: 353.732680.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Angle of Fire =: 353.732680.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Angle of Fire =: 353.732680.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.19:788][401]LogTemp: Warning: Clamped Rotation + angleOfFire (clamped) =: P=0.000000 Y=353.732666 R=0.000000.
+[2018.04.26-21.43.20:788][521]LogTemp: Warning: invisible
+[2018.04.26-21.43.20:788][521]LogTemp: Warning: invisible
+[2018.04.26-21.43.20:788][521]LogTemp: Warning: invisible
+[2018.04.26-21.49.20:138][226]LogSavePackage: Save=49.68ms
+[2018.04.26-21.49.20:138][226]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMap_Auto3A10A09E84A810B2BC8A535B1F6461870.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap'
+[2018.04.26-21.49.20:164][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Autosaves/Game/StarTrekMap_Auto3.umap
+[2018.04.26-21.49.20:169][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarTrekMap' took 0.121
+[2018.04.26-21.49.20:169][226]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2018.04.26-21.56.44:008][839]LogSavePackage: Save=45.49ms
+[2018.04.26-21.56.44:009][839]LogSavePackage: Moving '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/StarTrekMapCBD35F6B46A0740E2531F2B80F010A27.tmp' to '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap'
+[2018.04.26-21.56.44:012][839]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap
+[2018.04.26-21.56.58:827][516]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.26-21.56.59:265][517]Cmd: QUIT_EDITOR
+[2018.04.26-21.57.00:450][517]LogExit: Preparing to exit.
+[2018.04.26-21.57.01:453][517]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' was aborted.
+[2018.04.26-21.57.01:634][517]LogExit: Editor shut down
+[2018.04.26-21.57.01:639][517]LogExit: Transaction tracking system shut down
+[2018.04.26-21.57.01:972][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.26-21.57.01:972][517]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' was aborted.
+[2018.04.26-21.57.01:972][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.26-21.57.01:972][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.26-21.57.01:972][517]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.26-21.57.03:646][517]LogExit: Object subsystem successfully closed.
+[2018.04.26-21.57.03:830][517]LogD3D11RHI: Shutdown
+[2018.04.26-21.57.03:839][517]LogD3D11RHI: CleanupD3DDevice
+[2018.04.26-21.57.03:985][517]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.26-21.57.05:131][517]LogModuleManager: Shutting down and abandoning module SequencerWidgets (546)
+[2018.04.26-21.57.05:131][517]LogModuleManager: Shutting down and abandoning module BlueprintGraph (544)
+[2018.04.26-21.57.05:131][517]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (542)
+[2018.04.26-21.57.05:186][517]LogModuleManager: Shutting down and abandoning module PropNavigationGame (540)
+[2018.04.26-21.57.05:186][517]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.04.26-21.57.05:186][517]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.04.26-21.57.05:186][517]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.04.26-21.57.05:203][517]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.04.26-21.57.05:210][517]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.04.26-21.57.05:212][517]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.04.26-21.57.05:213][517]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.04.26-21.57.05:213][517]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.04.26-21.57.05:227][517]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' was aborted.
+[2018.04.26-21.57.05:227][517]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/LiamMaclean/Collections/' was aborted.
+[2018.04.26-21.57.05:227][517]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' was aborted.
+[2018.04.26-21.57.05:227][517]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.04.26-21.57.05:239][517]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.04.26-21.57.05:239][517]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.04.26-21.57.05:256][517]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.04.26-21.57.05:276][517]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.04.26-21.57.05:276][517]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.04.26-21.57.05:276][517]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.04.26-21.57.05:285][517]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.04.26-21.57.05:298][517]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.04.26-21.57.05:298][517]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.04.26-21.57.05:384][517]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module Media (479)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2018.04.26-21.57.05:385][517]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2018.04.26-21.57.05:404][517]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2018.04.26-21.57.05:404][517]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2018.04.26-21.57.05:404][517]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2018.04.26-21.57.05:405][517]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2018.04.26-21.57.05:405][517]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2018.04.26-21.57.05:428][517]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2018.04.26-21.57.05:445][517]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2018.04.26-21.57.05:471][517]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2018.04.26-21.57.05:484][517]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2018.04.26-21.57.05:496][517]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2018.04.26-21.57.05:496][517]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2018.04.26-21.57.05:496][517]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2018.04.26-21.57.06:298][517]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2018.04.26-21.57.06:298][517]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2018.04.26-21.57.06:298][517]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2018.04.26-21.57.06:298][517]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2018.04.26-21.57.06:308][517]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2018.04.26-21.57.06:326][517]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2018.04.26-21.57.06:326][517]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2018.04.26-21.57.06:344][517]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2018.04.26-21.57.06:344][517]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2018.04.26-21.57.06:358][517]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2018.04.26-21.57.06:366][517]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2018.04.26-21.57.06:366][517]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2018.04.26-21.57.06:375][517]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2018.04.26-21.57.06:375][517]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2018.04.26-21.57.06:390][517]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2018.04.26-21.57.06:390][517]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2018.04.26-21.57.06:390][517]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2018.04.26-21.57.06:390][517]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2018.04.26-21.57.06:390][517]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2018.04.26-21.57.06:418][517]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2018.04.26-21.57.06:435][517]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2018.04.26-21.57.06:443][517]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2018.04.26-21.57.06:452][517]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2018.04.26-21.57.06:463][517]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2018.04.26-21.57.06:516][517]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2018.04.26-21.57.06:538][517]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2018.04.26-21.57.06:565][517]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2018.04.26-21.57.06:618][517]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2018.04.26-21.57.06:618][517]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2018.04.26-21.57.06:627][517]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2018.04.26-21.57.06:650][517]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2018.04.26-21.57.06:674][517]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2018.04.26-21.57.06:674][517]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2018.04.26-21.57.06:687][517]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2018.04.26-21.57.06:703][517]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.04.26-21.57.06:703][517]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.04.26-21.57.06:703][517]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.04.26-21.57.06:720][517]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.04.26-21.57.06:758][517]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.04.26-21.57.06:758][517]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.04.26-21.57.06:774][517]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.04.26-21.57.06:774][517]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.04.26-21.57.06:774][517]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.04.26-21.57.06:774][517]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2018.04.26-21.57.06:774][517]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2018.04.26-21.57.06:811][517]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2018.04.26-21.57.06:817][517]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.04.26-21.57.07:007][517]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.04.26-21.57.07:015][517]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.04.26-21.57.07:015][517]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.04.26-21.57.07:015][517]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.04.26-21.57.07:015][517]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.04.26-21.57.07:027][517]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.04.26-21.57.07:027][517]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.04.26-21.57.07:027][517]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.04.26-21.57.07:040][517]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.04.26-21.57.07:040][517]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.04.26-21.57.07:040][517]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.04.26-21.57.07:068][517]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.04.26-21.57.07:068][517]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.04.26-21.57.07:084][517]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.04.26-21.57.07:085][517]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.04.26-21.57.07:085][517]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.04.26-21.57.07:085][517]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.04.26-21.57.07:085][517]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.04.26-21.57.07:117][517]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.04.26-21.57.07:127][517]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.04.26-21.57.07:127][517]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.04.26-21.57.07:137][517]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.04.26-21.57.07:137][517]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.04.26-21.57.07:150][517]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.04.26-21.57.07:173][517]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.04.26-21.57.07:199][517]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.04.26-21.57.07:219][517]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.04.26-21.57.07:219][517]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.04.26-21.57.07:219][517]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.04.26-21.57.07:219][517]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.04.26-21.57.07:233][517]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.04.26-21.57.07:241][517]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.04.26-21.57.07:257][517]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.04.26-21.57.07:282][517]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.04.26-21.57.07:282][517]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2018.04.26-21.57.07:283][517]LogDirectoryWatcher: A directory notification for 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' was aborted.
+[2018.04.26-21.57.07:295][517]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.04.26-21.57.07:295][517]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.04.26-21.57.07:295][517]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.04.26-21.57.07:295][517]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.04.26-21.57.07:295][517]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.04.26-21.57.07:296][517]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.04.26-21.57.07:296][517]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.04.26-21.57.07:312][517]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.04.26-21.57.07:413][517]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.04.26-21.57.07:527][517]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.04.26-21.57.07:537][517]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.04.26-21.57.07:537][517]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.04.26-21.57.07:537][517]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.04.26-21.57.07:574][517]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.04.26-21.57.07:599][517]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.04.26-21.57.07:603][517]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.04.26-21.57.07:603][517]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.04.26-21.57.07:613][517]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.04.26-21.57.07:627][517]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.04.26-21.57.07:657][517]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.04.26-21.57.07:657][517]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.04.26-21.57.07:657][517]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.04.26-21.57.07:734][517]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.04.26-21.57.07:734][517]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.04.26-21.57.07:734][517]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.04.26-21.57.07:734][517]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.04.26-21.57.07:745][517]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.04.26-21.57.07:752][517]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.04.26-21.57.07:752][517]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.04.26-21.57.07:792][517]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.04.26-21.57.07:792][517]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.04.26-21.57.07:807][517]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.04.26-21.57.07:847][517]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.04.26-21.57.07:847][517]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.04.26-21.57.07:849][517]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.04.26-21.57.07:863][517]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.04.26-21.57.07:882][517]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.04.26-21.57.07:882][517]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.04.26-21.57.07:890][517]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.04.26-21.57.07:890][517]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.04.26-21.57.07:898][517]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.04.26-21.57.07:906][517]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.04.26-21.57.07:907][517]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.26-21.57.07:929][517]LogDerivedDataCache: Shutdown
+[2018.04.26-21.57.07:937][517]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.26-21.57.07:937][517]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.26-21.57.08:000][517]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.26-21.57.08:048][517]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.26-21.57.08:064][517]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.26-21.57.08:092][517]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.26-21.57.08:106][517]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.26-21.57.08:106][517]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.26-21.57.08:106][517]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.26-21.57.08:118][517]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.04.26-21.57.08:129][517]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.04.26-21.57.08:146][517]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.26-21.57.08:146][517]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.26-21.57.08:146][517]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.26-21.57.08:146][517]LogOnline: Display: Unloading online subsystem: NULL
+[2018.04.26-21.57.08:177][517]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.26-21.57.08:202][517]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.26-21.57.08:202][517]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.26-21.57.08:215][517]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6EA6EF49-43C1-A3DC-109C-B3B88A049379%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=cfe05dc747bd10fe6aedafb411e7d223%7C22d71bd8c0ee4dbea653bb42d359cc9a%7Cd0e2da11-6013-4ad9-a0c4-81a56fa96c0d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.26-21.57.08:235][517]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.26-21.57.08:239][517]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.26-21.57.08:254][517]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.26-21.57.08:254][517]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.26-21.57.08:295][517]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.26-21.57.08:312][517]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.26-21.57.08:312][517]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.26-21.57.08:312][517]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.26-21.57.08:335][517]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.26-21.57.08:345][517]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.26-21.57.08:345][517]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.26-21.57.08:350][517]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.26-21.57.08:350][517]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.26-21.57.08:350][517]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.26-21.57.08:350][517]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.26-21.57.08:361][517]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.26-21.57.08:361][517]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.26-21.57.08:376][517]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.26-21.57.08:376][517]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.26-21.57.08:396][517]LogExit: Exiting.
+[2018.04.26-21.57.08:455][517]Log file closed, 04/26/18 22:57:08

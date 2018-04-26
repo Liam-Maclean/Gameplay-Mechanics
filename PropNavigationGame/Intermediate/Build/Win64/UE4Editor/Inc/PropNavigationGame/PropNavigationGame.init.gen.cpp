@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodePropNavigationGame_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/PropNavigationGame")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x70B3C440;
+			Guid.A = 0x07D4A241;
 			Guid.B = 0x802CAA1C;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

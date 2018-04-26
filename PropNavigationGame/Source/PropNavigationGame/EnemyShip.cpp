@@ -38,19 +38,19 @@ void AEnemyShip::BeginPlay()
 void AEnemyShip::IncrementInCombatTimer()
 {
 	//if in combat
-	if (InCombat)
+	if (m_InCombat)
 	{
 		//increment timer 
-		if (timer < 300.0f)
+		if (m_timer < 300.0f)
 		{
-			timer++;
+			m_timer++;
 		}
 		//if timer has elapsed fully
 		else
 		{
 			//set in combat to false
 			SetInCombat(false);
-			timer = 0.0f;
+			m_timer = 0.0f;
 		}
 	}
 }
@@ -66,7 +66,7 @@ void AEnemyShip::Tick(float DeltaTime)
 void AEnemyShip::SetInCombat(bool inCombat)
 {
 	//store if ship is in combat
-	InCombat = inCombat;
+	m_InCombat = inCombat;
 
 	//toggle components that require in combat information
 	shieldComponent->ToggleInCombat(inCombat);
@@ -75,7 +75,7 @@ void AEnemyShip::SetInCombat(bool inCombat)
 	if (inCombat == true)
 	{
 		//reset the timer 
-		timer = 0.0f;
+		m_timer = 0.0f;
 	}
 
 }
@@ -113,15 +113,6 @@ void AEnemyShip::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class
 	{
 		if (OtherActor->IsA(ABullet::StaticClass()))
 		{
-
-			//if (shieldComponent)
-			//{
-			//	shieldComponent->DecrementShield(20);
-			//}
-			//else if (healthComponent)
-			//{
-			//	healthComponent->DecrementHealth(50);
-			//}
 			
 			if ((!shieldComponent->IsValidLowLevel()) && (!healthComponent->IsValidLowLevel()))
 			{

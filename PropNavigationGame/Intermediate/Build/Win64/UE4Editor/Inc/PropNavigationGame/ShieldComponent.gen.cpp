@@ -150,10 +150,6 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 
 				UProperty* NewProp_maxShieldStrength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxShieldStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxShieldStrength, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_shieldStrength = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("shieldStrength"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(shieldStrength, UShieldComponent), 0x0010000000000001);
-				UProperty* NewProp_reerShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("reerShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(reerShieldValue, UShieldComponent), 0x0010000000000001);
-				UProperty* NewProp_rightShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("rightShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(rightShieldValue, UShieldComponent), 0x0010000000000001);
-				UProperty* NewProp_leftShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("leftShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(leftShieldValue, UShieldComponent), 0x0010000000000001);
-				UProperty* NewProp_frontShieldValue = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("frontShieldValue"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(frontShieldValue, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenInCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenInCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenInCombatP5, UShieldComponent), 0x0010000000000001);
 				UProperty* NewProp_regenOutOfCombatP5 = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("regenOutOfCombatP5"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(regenOutOfCombatP5, UShieldComponent), 0x0010000000000001);
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_UShieldComponent_GetFrontShieldStrength(), "GetFrontShieldStrength"); // 3696257109
@@ -175,18 +171,6 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("Category"), TEXT("Shield Values|Strength"));
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 				MetaData->SetValue(NewProp_shieldStrength, TEXT("ToolTip"), TEXT("Total Shield Strength"));
-				MetaData->SetValue(NewProp_reerShieldValue, TEXT("Category"), TEXT("Shield Values|Strength"));
-				MetaData->SetValue(NewProp_reerShieldValue, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_reerShieldValue, TEXT("ToolTip"), TEXT("directional shield values (reer)"));
-				MetaData->SetValue(NewProp_rightShieldValue, TEXT("Category"), TEXT("Shield Values|Strength"));
-				MetaData->SetValue(NewProp_rightShieldValue, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_rightShieldValue, TEXT("ToolTip"), TEXT("directional shield values (right)"));
-				MetaData->SetValue(NewProp_leftShieldValue, TEXT("Category"), TEXT("Shield Values|Strength"));
-				MetaData->SetValue(NewProp_leftShieldValue, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_leftShieldValue, TEXT("ToolTip"), TEXT("directional shield values (left)"));
-				MetaData->SetValue(NewProp_frontShieldValue, TEXT("Category"), TEXT("Shield Values|Strength"));
-				MetaData->SetValue(NewProp_frontShieldValue, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
-				MetaData->SetValue(NewProp_frontShieldValue, TEXT("ToolTip"), TEXT("directional shield values (front)"));
 				MetaData->SetValue(NewProp_regenInCombatP5, TEXT("Category"), TEXT("Shield Values|Regeneration"));
 				MetaData->SetValue(NewProp_regenInCombatP5, TEXT("ModuleRelativePath"), TEXT("ShieldComponent.h"));
 				MetaData->SetValue(NewProp_regenInCombatP5, TEXT("ToolTip"), TEXT("Regen of shield in combat"));
@@ -199,7 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeShieldComponent() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UShieldComponent, 807066122);
+	IMPLEMENT_CLASS(UShieldComponent, 890126835);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UShieldComponent(Z_Construct_UClass_UShieldComponent, &UShieldComponent::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("UShieldComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UShieldComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

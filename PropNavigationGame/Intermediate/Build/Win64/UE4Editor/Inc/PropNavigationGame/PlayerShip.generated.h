@@ -16,6 +16,22 @@ class AActor;
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetImpulseSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetName) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetTargetName(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetTargetActor) \
 	{ \
 		P_FINISH; \
@@ -37,22 +53,6 @@ class AActor;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=this->GetShieldPercentage(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetImpulseSpeed) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetTargetName) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FName*)Z_Param__Result=this->GetTargetName(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -75,6 +75,22 @@ class AActor;
 
 #define PropNavigationGame_Source_PropNavigationGame_PlayerShip_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetImpulseSpeed) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetTargetName) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FName*)Z_Param__Result=this->GetTargetName(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetTargetActor) \
 	{ \
 		P_FINISH; \
@@ -96,22 +112,6 @@ class AActor;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=this->GetShieldPercentage(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetImpulseSpeed) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FName*)Z_Param__Result=this->GetImpulseSpeed(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetTargetName) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FName*)Z_Param__Result=this->GetTargetName(); \
 		P_NATIVE_END; \
 	} \
  \

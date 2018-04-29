@@ -37,12 +37,6 @@ private:
 	UFUNCTION(BlueprintPure, Category = "Target functions")
 		int GetTargetHealthStrength();
 
-	UFUNCTION(BlueprintPure, Category = "Target functions")
-		FName GetTargetName();
-
-	UFUNCTION(BlueprintPure, Category = "Target functions")
-		FName GetImpulseSpeed();
-
 	UFUNCTION(BlueprintPure, Category = "Personal Attributes")
 		float GetShieldPercentage();
 
@@ -118,7 +112,12 @@ public:
 		return TargetedActor;
 	}
 
+	
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		FName GetTargetName();
 
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		FName GetImpulseSpeed();
 	USceneComponent* sceneRoot;
 
 	UPROPERTY(EditAnywhere)

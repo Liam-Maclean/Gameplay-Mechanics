@@ -21,9 +21,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source"
-/I M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source
-/I M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4\Inc\PropNavigationGame
-/I M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame
+/I "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source"
+/I "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Build/Win64/UE4/Inc/PropNavigationGame"
+/I "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame"
 /I "C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -191,9 +191,9 @@
 /FI"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4\Development\Engine\SharedPCH.Engine.h.pch"
-"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4\Inc\PropNavigationGame\SpaceGameMode.gen.cpp"
-/FI"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame\Definitions.PropNavigationGame.h"
-/Fo"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame\SpaceGameMode.gen.cpp.obj"
+"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4\Inc\PropNavigationGame\SpaceGameMode.gen.cpp"
+/FI"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame\Definitions.PropNavigationGame.h"
+/Fo"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\PropNavigationGame\SpaceGameMode.gen.cpp.obj"
 /TP
 /GR-
 /W4

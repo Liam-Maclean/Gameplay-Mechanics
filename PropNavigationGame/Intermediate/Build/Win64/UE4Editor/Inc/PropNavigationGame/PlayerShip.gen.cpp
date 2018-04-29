@@ -55,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetImpulseSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14040401, 65535, sizeof(PlayerShip_eventGetImpulseSpeed_Parms));
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetImpulseSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetImpulseSpeed_Parms));
 			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UNameProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetImpulseSpeed_Parms), 0x0010000000000580);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
@@ -143,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetName"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14040401, 65535, sizeof(PlayerShip_eventGetTargetName_Parms));
+			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("GetTargetName"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x14020401, 65535, sizeof(PlayerShip_eventGetTargetName_Parms));
 			UProperty* NewProp_ReturnValue = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("ReturnValue"), RF_Public|RF_Transient|RF_MarkAsNative) UNameProperty(CPP_PROPERTY_BASE(ReturnValue, PlayerShip_eventGetTargetName_Parms), 0x0010000000000580);
 			ReturnFunction->Bind();
 			ReturnFunction->StaticLink();
@@ -236,11 +236,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 				UProperty* NewProp_maxForwardSpeed = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxForwardSpeed"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxForwardSpeed, APlayerShip), 0x0040000000000001);
 				UProperty* NewProp_maxTurningAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("maxTurningAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(maxTurningAngle, APlayerShip), 0x0040000000000001);
 				UProperty* NewProp_timeBetweenShots = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("timeBetweenShots"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(timeBetweenShots, APlayerShip), 0x0040000000000001);
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetImpulseSpeed(), "GetImpulseSpeed"); // 2900371720
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetImpulseSpeed(), "GetImpulseSpeed"); // 3588433959
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetShieldPercentage(), "GetShieldPercentage"); // 1014048346
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetActor(), "GetTargetActor"); // 1452522968
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetHealthStrength(), "GetTargetHealthStrength"); // 1247520535
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetName(), "GetTargetName"); // 4150327271
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetName(), "GetTargetName"); // 1661370068
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetShieldPercentage(), "GetTargetShieldPercentage"); // 515196671
 				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_APlayerShip_GetTargetShieldStrength(), "GetTargetShieldStrength"); // 3353881960
 				static TCppClassTypeInfo<TCppClassTypeTraits<APlayerShip> > StaticCppClassTypeInfo;
@@ -283,7 +283,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerShip() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerShip, 2725433214);
+	IMPLEMENT_CLASS(APlayerShip, 4290481613);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerShip(Z_Construct_UClass_APlayerShip, &APlayerShip::StaticClass, TEXT("/Script/PropNavigationGame"), TEXT("APlayerShip"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerShip);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -23,6 +23,7 @@ APlayerShip::APlayerShip()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 	firingComponent = CreateDefaultSubobject<UFiringComponent>(TEXT("FiringComponent"));
 	skeleMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Skeleton Mesh"));
+	shieldComponent = CreateDefaultSubobject<UShieldComponent>(TEXT("Shield Component"));
 
 	//set root component
 	RootComponent =  mesh;
@@ -44,8 +45,6 @@ APlayerShip::APlayerShip()
 	//auto possess player so we can use player functions
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
-
-
 
 //returns the shield strength of the target object
 int APlayerShip::GetTargetShieldStrength()
@@ -72,6 +71,42 @@ int APlayerShip::GetTargetShieldStrength()
 	return 0;
 }
 
+
+//returns the shield strength of the target object
+float APlayerShip::GetShieldPercentage()
+{
+	//UE_LOG(LogTemp, Warning, TEXT("Targeted Actor: %f."), shieldComponent->GetShieldPercentage());
+	return shieldComponent->GetShieldPercentage();	
+	
+	//return shield value of the ships shield component
+	//return shieldComponent->GetShieldPercentage();
+}
+
+//returns the shield strength of the target object
+float APlayerShip::GetTargetShieldPercentage()
+{
+	//if a targetted actor exists 
+	if (TargetedActor)
+	{
+		//if the targetted actor has a shield component 
+		UShieldComponent* shields = (UShieldComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		if (shields != nullptr)
+		{
+			//return the actors shield component value
+			return shields->GetShieldPercentage();
+		}
+	}
+	//if a targetted actor does not exist
+	else
+	{
+		//return a value of 0
+		return 0;
+	}
+
+	//return a value of 0 (Default)
+	return 0;
+}
+
 //returns the health of the target object
 int APlayerShip::GetTargetHealthStrength()
 {
@@ -79,7 +114,7 @@ int APlayerShip::GetTargetHealthStrength()
 	if (TargetedActor)
 	{
 		//if the targetted actor has a health component attached 
-		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UShieldComponent::StaticClass());
+		UHealthComponent* health = (UHealthComponent*)TargetedActor->GetComponentByClass(UHealthComponent::StaticClass());
 		if (health != nullptr)
 		{
 			//return the targets health values 
@@ -419,6 +454,7 @@ void APlayerShip::TargetActorWithMouse()
 		//if there was a target hit by the mouse
 		if (hit.GetActor() != nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Hit Actor: %s."), *hit.GetActor()->GetName());
 			//if the target actor is targetable
 			if (hit.GetActor()->Tags.Find("Targetable") != INDEX_NONE)
 			{
@@ -430,6 +466,7 @@ void APlayerShip::TargetActorWithMouse()
 		//if mouse has not collided with anything
 		else if (hit.GetActor() == nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Didn't hit actor:"));
 			//untarget actor
 			TargetedActor = nullptr;
 		}
@@ -448,12 +485,12 @@ void APlayerShip::FirePhasers()
 			phaserComponent[i]->FirePhasers(TargetedActor);
 		}
 
-		UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
+		//UE_LOG(LogTemp, Warning, TEXT("Trace Actor %s."), *TargetedActor->GetName());
 	}
 	//if there is no actor targetted
 	else if (!TargetedActor)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("NO ACTOR TARGETED"));
+		//UE_LOG(LogTemp, Warning, TEXT("NO ACTOR TARGETED"));
 	}
 }
 
@@ -462,7 +499,7 @@ void APlayerShip::FireMissile()
 {
 	if (timeBetweenShots >= 0.5f)
 	{
-		firingComponent->FireMissile();
+		firingComponent->FireMissile(TargetedActor);
 	}
 }
 

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/StaticMeshComponent.h"
+#include "Components/SphereComponent.h"
 #include "HomingRocket.generated.h"
 
 UCLASS()
@@ -22,11 +24,21 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void InitialiseRocket(AActor* target);
 	void Seek();
+
+
+	AActor* targetActor;
 	TArray<AActor*> FoundActors;
 
-	float PreviousLos, LoS;
+	FVector thisPreviousActorLocation, thisActorLocation;
+	FVector targetPreviousActorLocation, targetActorLocation;
+	FVector PreviousLos, LoS;
+	FVector LoSDelta;
 	float LoSRate;
+	UStaticMeshComponent* staticMesh;
+	USphereComponent* sphereMesh;
+
 
 	float NavigationalConstant = 3.0f;
 	FVector Target;

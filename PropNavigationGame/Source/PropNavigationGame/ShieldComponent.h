@@ -11,7 +11,39 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROPNAVIGATIONGAME_API UShieldComponent : public UActorComponent
 {
 	GENERATED_BODY()
+	
+	enum ShieldSide
+	{
+		front,
+		left,
+		right,
+		reer
+	};
 
+private:
+	//directional shield values (front)
+	float m_frontShieldValue;
+
+	//directional shield values (left)
+	float m_leftShieldValue;
+
+	//directional shield values (right)
+	float m_rightShieldValue;
+
+	//directional shield values (reer)
+	float m_reerShieldValue;
+
+	//timer for checking how long in combat for 
+	float m_timer;
+
+	//bool to check if in combat
+	bool m_InCombat;
+
+	//divided shield value (max shield value / 4)
+	float m_dividedShieldValue = 0.0f;
+
+	//Regenerate Shield Strength
+	void RegenerateShields();
 public:	
 	// Sets default values for this component's properties
 	UShieldComponent();
@@ -24,55 +56,60 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	float timer;
-
-
-	void ToggleInCombat(bool inCombat);
-	bool InCombat;
-
 	//Return shield Strength
 	int GetShieldStrength();
+	float GetShieldPercentage();
+	
+	//Method to toggle if in combat or not
+	void ToggleInCombat(bool inCombat);
 
-	int GetShieldPercentage();
 	//Decrease Shield Strength function
-	void DecrementShield(int value);
+	void DecrementShield(int value, FVector SourceOfFire);
 
 	//Increase Shield Strength function
-	void IncrementShield(int value);
-
-	//Regenerate Shield Strength
-	void RegenerateShields();
+	void IncrementShield(int value, ShieldSide side);
 
 	//Regen out of combat per second
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
-	float regenOutOfCombatP5;
+	float regenOutOfCombatP5 = 22.0f;
 
 	//Regen of shield in combat
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Regeneration")
-	float regenInCombatP5;
-
-	//directional shield values (front)
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int frontShieldValue;
-
-	//directional shield values (left)
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int leftShieldValue;
-
-	//directional shield values (right)
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int rightShieldValue;
-
-	//directional shield values (reer)
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int reerShieldValue;
+	float regenInCombatP5 = 5.0f;
 
 	//Total Shield Strength
-	UPROPERTY(EditAnywhere, Category = "Shield Values|Strength")
-	int shieldStrength = 300;
+	UPROPERTY(VisibleAnywhere, Category = "Shield Values|Strength")
+	float totalShieldStrength;
 
+	//Max total shield strength
 	UPROPERTY(EditAnywhere, Category = "Shield Values|Max Values")
-	int maxShieldStrength = 500;
+	float maxShieldStrength = 1000;
 
-	
+	//Returns the front shield strength for HUD blueprint
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetFrontShieldStrength()
+	{
+		return m_frontShieldValue / m_dividedShieldValue;
+	}
+
+	//Returns the left shield strength for HUD blueprint
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetLeftShieldStrength()
+	{
+		return m_leftShieldValue / m_dividedShieldValue;
+	}
+
+	//Returns the right shield strength for HUD blueprint
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetRightShieldStrength()
+	{
+		return m_rightShieldValue / m_dividedShieldValue;
+	}
+
+	//Returns the reer shield strength for HUD blueprint
+	UFUNCTION(BlueprintPure, Category = "Shield Values")
+	float GetReerShieldStrength()
+	{
+		return m_reerShieldValue / m_dividedShieldValue;
+	}
 };

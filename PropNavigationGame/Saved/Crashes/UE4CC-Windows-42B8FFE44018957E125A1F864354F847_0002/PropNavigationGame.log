@@ -1,0 +1,776 @@
+﻿Log file open, 04/26/18 20:21:27
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-171803921) SRandInit(-171803921).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.645397
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.26-19.21.30:302][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.26-19.21.30:302][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.26-19.21.30:468][  0]LogInit: Computer: DESKTOP-OEIKC8O
+[2018.04.26-19.21.30:468][  0]LogInit: User: LiamMaclean
+[2018.04.26-19.21.30:468][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.26-19.21.30:468][  0]LogInit: High frequency timer resolution =3.906247 MHz
+[2018.04.26-19.21.30:468][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.26-19.21.30:468][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.26-19.21.30:468][  0]LogMemory: Process Physical Memory: 279.54 MB used, 279.54 MB peak
+[2018.04.26-19.21.30:468][  0]LogMemory: Process Virtual Memory: 282.20 MB used, 282.20 MB peak
+[2018.04.26-19.21.30:468][  0]LogMemory: Physical Memory: 4694.56 MB used,  11550.55 MB free, 16245.11 MB total
+[2018.04.26-19.21.30:468][  0]LogMemory: Virtual Memory: 710.40 MB used,  11550.55 MB free, 134217728.00 MB total
+[2018.04.26-19.21.32:228][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.26-19.21.32:228][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.26-19.21.32:613][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.26-19.21.37:474][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.26-19.21.37:628][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2018.04.26-19.21.37:628][  0]LogD3D11RHI:       2997/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.26-19.21.37:655][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.04.26-19.21.37:655][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.26-19.21.37:657][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.26-19.21.37:657][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.26-19.21.37:657][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.26-19.21.37:661][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.26-19.21.37:661][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.26-19.21.37:661][  0]LogWindows: EnumDisplayDevices:
+[2018.04.26-19.21.37:661][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2018.04.26-19.21.37:662][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.04.26-19.21.37:662][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.26-19.21.37:662][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2018.04.26-19.21.37:662][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.26-19.21.37:662][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.26-19.21.37:662][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.26-19.21.37:737][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.26-19.21.38:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2018.04.26-19.21.38:436][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/8532/).
+[2018.04.26-19.21.38:436][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam Maclean/AppData/Local/Temp/UnrealShaderWorkingDir/E12C7BD345EE46B344B5819FD702B7F7/'.
+[2018.04.26-19.21.38:455][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.26-19.21.49:058][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.26-19.21.49:149][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.26-19.21.49:201][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.26-19.21.49:244][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.26-19.21.49:318][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.26-19.21.49:376][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.26-19.21.49:438][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.26-19.21.49:482][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.26-19.21.49:541][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.26-19.21.49:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.26-19.21.49:716][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.26-19.21.49:779][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.26-19.21.49:850][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.26-19.21.49:908][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.26-19.21.49:966][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.26-19.21.50:085][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.26-19.21.50:085][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.26-19.21.50:140][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.26-19.21.50:348][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.26-19.21.50:378][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.26-19.21.50:434][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.26-19.21.50:486][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.26-19.21.50:536][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.26-19.21.50:604][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.26-19.21.50:604][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.26-19.21.53:461][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.26-19.21.55:152][  0]LogDerivedDataCache: Loaded boot cache 1.68s 93MB C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.26-19.21.55:152][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.26-19.21.55:153][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.26-19.21.55:153][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.26-19.21.55:153][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.26-19.21.55:153][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.26-19.21.55:300][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.26-19.21.55:326][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam Maclean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.26-19.21.55:401][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.26-19.21.55:491][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.26-19.21.55:563][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.26-19.21.55:575][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.26-19.22.04:946][  0]LogAssetRegistry: FAssetRegistry took 0.0546 seconds to start up
+[2018.04.26-19.22.06:050][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.26-19.22.10:608][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.26-19.22.13:310][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.26-19.22.13:565][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.26-19.22.13:598][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.26-19.22.13:598][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.26-19.22.13:598][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.26-19.22.13:598][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.26-19.22.20:532][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.04.26-19.22.23:024][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.116021 seconds
+[2018.04.26-19.22.23:061][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.26-19.22.23:061][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.26-19.22.23:061][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.26-19.22.23:162][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.26-19.23.18:827][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.26-19.23.19:011][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.26-19.23.20:360][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.481 s
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: 
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: Ensure condition failed: MyOwnerWorld [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1026]
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: 
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: Stack: 
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000069053E36
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068DDC2D2
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068DF4746
+[2018.04.26-19.23.20:360][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000605F9AFB
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-6363.dll!0x00000000540D793B
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007635A182
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000765C33DB
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000765A6E03
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007635BE97
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068C78220
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068EC68D0
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000827DD3CD
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000827DD6DE
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE064B1
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE0A7BD
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE0379A
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE039EA
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE102D9
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE11C47
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: KERNEL32.DLL!0x00000000A30A1FE4
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: ntdll.dll!0x00000000A478F061
+[2018.04.26-19.23.20:361][  0]LogOutputDevice: Error: 
+[2018.04.26-19.23.20:367][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.26-19.23.23:605][  0]LogStats:                    SendNewReport -  3.239 s
+[2018.04.26-19.23.23:605][  0]LogStats:             FDebug::EnsureFailed -  3.726 s
+[2018.04.26-19.23.23:656][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.050 s
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: 
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: Stack: 
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000069053E36
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068DDC2D2
+[2018.04.26-19.23.23:656][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068DF4746
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000606926B8
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-6363.dll!0x00000000540D8C60
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007635A182
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000765C33DB
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000765A6E03
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x000000007635BE97
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068C78220
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000068EC68D0
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000827DD3CD
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x00000000827DD6DE
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE064B1
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE0A7BD
+[2018.04.26-19.23.23:657][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE0379A
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE039EA
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE102D9
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000BFE11C47
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: KERNEL32.DLL!0x00000000A30A1FE4
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: ntdll.dll!0x00000000A478F061
+[2018.04.26-19.23.23:658][  0]LogOutputDevice: Error: 
+[2018.04.26-19.23.23:667][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.26-19.23.23:873][  0]LogStats:                    SendNewReport -  0.207 s
+[2018.04.26-19.23.23:873][  0]LogStats:             FDebug::EnsureFailed -  0.268 s
+[2018.04.26-19.23.27:016][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.26-19.23.29:280][  0]SourceControl: Source control is disabled
+[2018.04.26-19.23.29:280][  0]SourceControl: Source control is disabled
+[2018.04.26-19.23.29:614][  0]SourceControl: Source control is disabled
+[2018.04.26-19.23.29:775][  0]SourceControl: Source control is disabled
+[2018.04.26-19.23.31:450][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.26-19.23.31:773][  0]LogOcInput: OculusInput pre-init called
+[2018.04.26-19.23.32:625][  0]LogEngine: Initializing Engine...
+[2018.04.26-19.23.32:680][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.26-19.23.33:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.26-19.23.33:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.26-19.23.33:595][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.26-19.23.33:802][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-19.23.33:834][  0]LogInit: FAudioDevice initialized.
+[2018.04.26-19.23.34:119][  0]LogDerivedDataCache: Saved boot cache 0.28s 93MB C:/Users/Liam Maclean/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.26-19.23.34:135][  0]LogInit: Texture streaming: Enabled
+[2018.04.26-19.23.34:639][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.26-19.23.35:557][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.26-19.23.35:908][  0]LogInit: Transaction tracking system initialized
+[2018.04.26-19.23.37:813][  0]BlueprintLog: New page: Editor Load
+[2018.04.26-19.23.44:265][  0]LocalizationService: Localization service is disabled
+[2018.04.26-19.23.47:366][  0]LogConsoleResponse: Display: 
+[2018.04.26-19.23.50:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.03s
+[2018.04.26-19.23.50:692][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.26-19.23.50:693][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.26-19.23.50:743][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.26-19.23.56:321][  0]SourceControl: Source control is disabled
+[2018.04.26-19.23.56:544][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.26-19.23.56:579][  0]LightingResults: New page: Lighting Build
+[2018.04.26-19.23.56:965][  0]MapCheck: New page: Map Check
+[2018.04.26-19.23.56:966][  0]LightingResults: New page: Lighting Build
+[2018.04.26-19.23.58:919][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.26-19.23.58:920][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.04.26-19.23.58:920][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.04.26-19.24.00:424][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.26-19.24.00:424][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading ../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.04.26-19.24.00:424][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.04.26-19.24.00:861][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.26-19.24.00:861][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.26-19.24.00:861][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.26-19.24.00:861][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.26-19.24.01:003][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.26-19.24.01:003][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.04.26-19.24.01:004][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.26-19.24.01:004][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.04.26-19.24.05:038][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.26-19.24.06:369][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.26-19.24.06:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.26-19.24.06:636][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.526ms to complete.
+[2018.04.26-19.24.06:637][  0]LogFileHelpers: Loading map 'Minimal_Default' took 10.215
+[2018.04.26-19.24.10:102][  0]LogCollectionManager: Loaded 0 collections in 0.003522 seconds
+[2018.04.26-19.24.10:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.04.26-19.24.10:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/LiamMaclean/Collections/' took 0.01s
+[2018.04.26-19.24.10:726][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.04.26-19.24.10:726][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.26-19.24.10:814][  0]LogContentBrowser: Native class hierarchy populated in 0.0838 seconds. Added 2396 classes and 502 folders.
+[2018.04.26-19.24.11:110][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0180 seconds. Added 0 classes and 0 folders.
+[2018.04.26-19.24.14:328][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2018.04.26-19.24.14:605][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.04.26-19.24.16:066][  0]LogSlate: Took 0.047929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.26-19.24.16:114][  0]LogSlate: Took 0.024314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.26-19.24.16:236][  0]LogSlate: Took 0.023193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.26-19.24.17:062][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.26-19.24.18:829][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.04.26-19.24.18:829][  0]LogLoad: (Engine Initialization) Total time: 190.51 seconds
+[2018.04.26-19.24.18:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.26-19.24.18:830][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.26-19.24.18:830][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.26-19.24.19:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.26-19.24.19:693][  3]LogAssetRegistry: Asset discovery search completed in 134.7698 seconds
+[2018.04.26-19.24.19:695][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.26-19.24.19:695][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2018.04.26-19.24.19:960][ 15]LogSlate: Took 0.024336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-19.24.23:510][430]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-19.30.44:787][515]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetReerShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Reer Shield Strength
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetRightShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Right Shield Strength
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetLeftShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Left Shield Strength
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetFrontShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Front Shield Strength
+[2018.04.26-19.30.45:019][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetReerShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Reer Shield Strength
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetRightShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Right Shield Strength
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetLeftShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Left Shield Strength
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:020][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Could not find a function named "GetFrontShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Front Shield Strength
+[2018.04.26-19.30.45:021][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:021][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:021][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:021][515]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:039][515]LogBlueprint: Warning: [Compiler HUDOnCharacter] [0576.72] Compile of HUDOnCharacter failed. 32 Fatal Issue(s) 0 Warning(s) [in 118 ms] (/Game/UIAndWidgets/HUDOnCharacter.HUDOnCharacter)
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetReerShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Reer Shield Strength
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetRightShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Right Shield Strength
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetLeftShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Left Shield Strength
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetFrontShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Front Shield Strength
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:123][515]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:124][515]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:124][515]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.30.45:124][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:124][515]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.30.45:124][515]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetTargetActor" in 'PlayerShip'.
+Make sure 'PlayerShip' has been compiled for  Get Target Actor
+[2018.04.26-19.30.45:149][515]LogBlueprint: Warning: [Compiler SpaceUI] [0576.83] Compile of SpaceUI failed. 19 Fatal Issue(s) 0 Warning(s) [in 49 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.30.45:293][515]LogTexture: Display: Building textures: klingon (AutoDXT, 512X512)
+[2018.04.26-19.30.45:293][515]LogTexture: Display: Building textures: D-7C_6 (AutoDXT, 1024X1024)
+[2018.04.26-19.30.45:293][515]LogTexture: Display: Building textures: D-7C_4 (AutoDXT, 512X512)
+[2018.04.26-19.30.45:594][515]LogTexture: Display: Building textures: D-7C_3 (AutoDXT, 1024X320)
+[2018.04.26-19.30.45:595][515]LogTexture: Display: Building textures: D-7C_1 (AutoDXT, 512X512)
+[2018.04.26-19.30.45:595][515]LogTexture: Display: Building textures: D-7C_5 (AutoDXT, 1024X1024)
+[2018.04.26-19.30.45:595][515]LogTexture: Display: Building textures: D-7C_2 (AutoDXT, 512X512)
+[2018.04.26-19.30.47:019][515]LogMaterial: Missing cached shader map for material d_7c_6, compiling. 
+[2018.04.26-19.30.47:114][515]LogMaterial: Missing cached shader map for material d_7c_12, compiling. 
+[2018.04.26-19.30.47:144][515]LogMaterial: Missing cached shader map for material d_7c_5, compiling. 
+[2018.04.26-19.30.47:176][515]LogMaterial: Missing cached shader map for material d_7c_10, compiling. 
+[2018.04.26-19.30.47:205][515]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.26-19.30.47:210][515]LogMaterial: Missing cached shader map for material d_7c_9, compiling. 
+[2018.04.26-19.30.47:241][515]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.04.26-19.30.47:272][515]LogMaterial: Missing cached shader map for material d_7c_7, compiling. 
+[2018.04.26-19.30.47:311][515]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-19.30.47:658][515]Cmd: MAP LOAD FILE="../../../../../../Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.26-19.30.47:659][515]LightingResults: New page: Lighting Build
+[2018.04.26-19.30.47:660][515]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.04.26-19.30.47:730][515]MapCheck: New page: Map Check
+[2018.04.26-19.30.47:730][515]LightingResults: New page: Lighting Build
+[2018.04.26-19.30.48:005][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.26-19.30.48:053][515]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.26-19.30.48:104][515]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.877ms to complete.
+[2018.04.26-19.30.48:104][515]LogFileHelpers: Loading map 'StarTrekMap' took 0.509
+[2018.04.26-19.30.49:846][608]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-19.30.50:010][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-19.30.55:673][740]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-19.30.55:708][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-19.31.06:491][532]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 113 classes and 0 folders.
+[2018.04.26-19.31.08:605][532]LogSlate: Took 0.013558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.26-19.31.10:890][724]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetReerShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Reer Shield Strength
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetRightShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Right Shield Strength
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:972][724]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetLeftShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Left Shield Strength
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetFrontShieldStrength" in 'ShieldComponent'.
+Make sure 'ShieldComponent' has been compiled for  Get Front Shield Strength
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.31.10:973][724]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetTargetActor" in 'PlayerShip'.
+Make sure 'PlayerShip' has been compiled for  Get Target Actor
+[2018.04.26-19.31.11:012][724]LogBlueprint: Warning: [Compiler SpaceUI] [0602.69] Compile of SpaceUI failed. 19 Fatal Issue(s) 0 Warning(s) [in 122 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.31.27:611][996]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.26-19.31.27:654][996]Candidate modules for hot reload:
+[2018.04.26-19.31.27:655][996]  PropNavigationGame
+[2018.04.26-19.31.27:655][996]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 6500 Win64 Development -editorrecompile -canskiplink "C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.26-19.31.27:656][996]Warning: Starting HotReload took  0.1s.
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: New page: Compilation - 26 Apr 2018 21:35:34
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 11.4954167 seconds
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: Performing 24 actions (4 in parallel)
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: Bullet.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: HealthComponent.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: HomingRocket.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: FiringComponent.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: SpaceHUD.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: SpaceGameMode.cpp
+[2018.04.26-19.35.34:124][ 27]CompilerResultsLog: ShieldComponent.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: PropNavigationGame.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: PlayerShip.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: PhaserComponent.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: HomingRocket.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Error: C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\HomingRocket.cpp(28) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: HealthComponent.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: FiringComponent.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: EnemyShip.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Bullet.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Error: C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\Bullet.cpp(26) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612) : note: see declaration of 'USceneComponent::AttachTo'
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: SpaceGameMode.gen.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: SpaceHUD.gen.cpp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: [23/24] Link UE4Editor-PropNavigationGame-6500.dll
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: [24/24] Link UE4Editor-PropNavigationGame-6500.lib
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6500.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6500.exp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog:    Creating library C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6500.suppressed.lib and object C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-6500.suppressed.exp
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Failed to write dependency cache: The network path was not found.
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: 
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Failed to write FlatCPPIncludeDependencyCache: The network path was not found.
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: 
+[2018.04.26-19.35.34:125][ 27]CompilerResultsLog: Total build time: 245.90 seconds (Local executor: 115.80 seconds)
+[2018.04.26-19.35.34:125][ 27]LogMainFrame: MainFrame: Module compiling took 246.514 seconds
+[2018.04.26-19.35.34:176][ 27]LogClass: Could not find existing class EnemyShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.26-19.35.34:176][ 27]LogClass: Function OnOverlapBegin is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetImpulseSpeed is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetShieldPercentage is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetTargetActor is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetTargetHealthStrength is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetTargetName is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetTargetShieldPercentage is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetTargetShieldStrength is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Could not find existing class ShieldComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetFrontShieldStrength is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetLeftShieldStrength is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetReerShieldStrength is new.
+[2018.04.26-19.35.34:180][ 27]LogClass: Function GetRightShieldStrength is new.
+[2018.04.26-19.35.34:188][ 27]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.04.26-19.35.34:195][ 27]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Engine/Transient.Default__TestBlueprintEnemy_C:Shield Component
+[2018.04.26-19.35.34:196][ 27]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_0.Shield Component
+[2018.04.26-19.35.34:346][ 27]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_2.Shield Component
+[2018.04.26-19.35.34:347][ 27]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_4.Shield Component
+[2018.04.26-19.35.34:348][ 27]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_6.Shield Component
+[2018.04.26-19.35.34:907][ 27]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetReerShieldStrength" in 'HOTRELOADED_ShieldComponent_2'.
+Make sure 'HOTRELOADED_ShieldComponent_2' has been compiled for  Get Reer Shield Strength
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetRightShieldStrength" in 'HOTRELOADED_ShieldComponent_2'.
+Make sure 'HOTRELOADED_ShieldComponent_2' has been compiled for  Get Right Shield Strength
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:936][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetLeftShieldStrength" in 'HOTRELOADED_ShieldComponent_2'.
+Make sure 'HOTRELOADED_ShieldComponent_2' has been compiled for  Get Left Shield Strength
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Could not find a function named "GetFrontShieldStrength" in 'HOTRELOADED_ShieldComponent_2'.
+Make sure 'HOTRELOADED_ShieldComponent_2' has been compiled for  Get Front Shield Strength
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.35.34:937][ 27]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.35.34:938][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:938][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:941][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:941][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:941][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:941][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:941][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:942][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:942][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:942][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:942][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:942][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:943][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.26-19.35.34:943][ 27]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.26-19.35.34:945][ 27]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseQuarter ': Binding: 'Get_ImpulseQuarter_BrushColor_0' : 'Get_ImpulseQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-19.35.34:945][ 27]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseHalf ': Binding: 'Get_ImpulseHalf_BrushColor_0' : 'Get_ImpulseHalf_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-19.35.34:945][ 27]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseThreeQuarter ': Binding: 'Get_ImpulseThreeQuarter_BrushColor_0' : 'Get_ImpulseThreeQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-19.35.34:946][ 27]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseFull ': Binding: 'Get_ImpulseFull_BrushColor_0' : 'Get_ImpulseFull_BrushColor_0' was not found on 'Space UI'.
+[2018.04.26-19.35.34:946][ 27]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' ColorAndOpacityDelegate ' on Widget ' Image_437 ': Binding: 'GetColorAndOpacity_0' : 'GetColorAndOpacity_0' was not found on 'Space UI'.
+[2018.04.26-19.35.34:953][ 27]LogBlueprint: Warning: [Compiler SpaceUI] [0866.63] Compile of SpaceUI failed. 35 Fatal Issue(s) 0 Warning(s) [in 43 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.35.35:207][ 27]LogHotReload: Re-instancing ShieldComponent after hot-reload.
+[2018.04.26-19.35.35:279][ 27]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0016 seconds. Added 10 classes and 2 folders.
+[2018.04.26-19.35.35:281][ 27]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.26-19.35.35:554][ 27]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2398 classes and 506 folders.
+[2018.04.26-19.35.35:589][ 27]Display: HotReload took 248.0s.
+[2018.04.26-19.36.33:515][415]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-19.36.33:543][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-19.36.37:900][610]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.36.37:949][610]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.36.38:070][610]LogBlueprint: Warning: [Compiler SpaceUI] [0929.75] Compile of SpaceUI failed. 12 Fatal Issue(s) 0 Warning(s) [in 169 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.36.41:951][845]LogSlate: Took 0.017471 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.26-19.37.41:642][487]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/ShieldComponent.h'
+[2018.04.26-19.37.41:742][487]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/Source/PropNavigationGame/ShieldComponent.cpp'
+[2018.04.26-19.41.59:851][660]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Liam Maclean/Documents/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" -game -rocket -progress
+[2018.04.26-19.42.00:175][660]Discovering modules, targets and source code for project...
+[2018.04.26-19.42.51:876][993]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-19.42.51:916][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-19.42.56:652][239]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.56:707][239]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.56:740][239]LogBlueprint: Warning: [Compiler SpaceUI] [1308.42] Compile of SpaceUI failed. 12 Fatal Issue(s) 0 Warning(s) [in 88 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.42.57:720][325]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.57:768][325]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.57:799][325]LogBlueprint: Warning: [Compiler SpaceUI] [1309.48] Compile of SpaceUI failed. 12 Fatal Issue(s) 0 Warning(s) [in 79 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.42.58:111][352]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.58:161][352]LogBlueprint: Error: [Compiler SpaceUI] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.42.58:190][352]LogBlueprint: Warning: [Compiler SpaceUI] [1309.87] Compile of SpaceUI failed. 12 Fatal Issue(s) 0 Warning(s) [in 79 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.26-19.43.10:939][400]BlueprintLog: New page: Compile SpaceUI
+[2018.04.26-19.43.25:317][790]BlueprintLog: New page: Compile HUDOnCharacter
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:368][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] In use pin  Return Value  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:369][790]LogBlueprint: Error: [Compiler HUDOnCharacter] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2018.04.26-19.43.25:966][790]LogBlueprint: Warning: [Compiler HUDOnCharacter] [1337.64] Compile of HUDOnCharacter failed. 24 Fatal Issue(s) 0 Warning(s) [in 648 ms] (/Game/UIAndWidgets/HUDOnCharacter.HUDOnCharacter)
+[2018.04.26-19.43.52:727][745]BlueprintLog: New page: Compile HUDOnCharacter
+[2018.04.26-19.43.57:934][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.26-19.43.57:957][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-19.43.57:972][ 66]PIE: New page: PIE session: StarTrekMap (26 Apr 2018 21:43:57)
+[2018.04.26-19.43.57:972][ 66]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.26-19.43.57:996][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023819s)
+[2018.04.26-19.43.57:997][ 66]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.26-19.43.57:997][ 66]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.04.26-19.43.57:997][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.024966s)
+[2018.04.26-19.43.58:038][ 66]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.26-19.43.58:044][ 66]LogInit: FAudioDevice initialized.
+[2018.04.26-19.43.58:101][ 66]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.26-19.43.58:104][ 66]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.26-20.43.58
+[2018.04.26-19.43.58:122][ 66]LogWorld: Bringing up level for play took: 0.020018
+[2018.04.26-19.43.58:231][ 66]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
+[2018.04.26-19.43.58:238][ 66]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.26-19.43.58:238][ 66]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.26-19.43.58:248][ 66]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.26-19.43.58:257][ 66]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.132
+[2018.04.26-19.43.58:349][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-19.43.58:349][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-19.43.58:349][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-19.43.58:349][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-19.43.58:349][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-19.43.58:371][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-19.43.58:371][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-19.43.58:371][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-19.43.58:371][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-19.43.58:372][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-19.43.58:380][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-19.43.58:380][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-19.43.58:380][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.26-19.43.58:380][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.26-19.43.58:380][ 68]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.26-19.43.58:389][ 69]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.26-19.43.58:389][ 69]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.26-19.44.02:346][544]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.02:846][604]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.03:338][663]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.04:238][771]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.04:705][827]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.05:180][884]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.05:647][940]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.06:064][990]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.06:530][ 46]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.06:972][ 99]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.07:397][150]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.07:838][203]LogTemp: Warning: Didn't hit actor:
+[2018.04.26-19.44.09:981][460]LogTemp: Warning: Hit Actor: TestBlueprintEnemy_70.
+[2018.04.26-19.44.09:981][460]LogTemp: Warning: Targeted Actor: TestBlueprintEnemy_70.

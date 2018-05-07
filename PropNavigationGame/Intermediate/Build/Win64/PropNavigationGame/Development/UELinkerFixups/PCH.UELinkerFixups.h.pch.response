@@ -23,11 +23,11 @@
 /w44668
 /I "C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source"
 /D_HAS_EXCEPTIONS=0
-/I M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups
-/Yc"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h"
-/Fp"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
-"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.cpp"
-/Fo"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h.obj"
+/I "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups"
+/Yc"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h"
+/Fp"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h.pch"
+"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.cpp"
+/Fo"\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGame\Development\UELinkerFixups\PCH.UELinkerFixups.h.obj"
 /TP
 /GR-
 /W4

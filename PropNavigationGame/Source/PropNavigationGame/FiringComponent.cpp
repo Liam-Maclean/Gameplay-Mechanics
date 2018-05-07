@@ -2,6 +2,7 @@
 
 #include "FiringComponent.h"
 #include "Bullet.h"
+#include "HomingRocket.h"
 #include "Components/SkeletalMeshComponent.h"
 
 // Sets default values for this component's properties
@@ -19,8 +20,6 @@ void UFiringComponent::InitialiseComponent()
 {
 
 }
-
-
 
 // Called when the game starts
 void UFiringComponent::BeginPlay()
@@ -49,7 +48,6 @@ void UFiringComponent::BeginPlay()
 	}
 }
 
-
 // Called every frame
 void UFiringComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
@@ -58,7 +56,7 @@ void UFiringComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	// ...
 }
 
-void UFiringComponent::FireMissile()
+void UFiringComponent::FireMissile(AActor* target)
 {
 	if (skele_mesh)
 	{
@@ -66,7 +64,8 @@ void UFiringComponent::FireMissile()
 		{
 			skele_mesh->GetSocketWorldLocationAndRotation(names[i], spawningLocation, spawnRotation);
 			UWorld* const world = GetWorld();
-			ABullet* bullet = world->SpawnActor<ABullet>(ABullet::StaticClass(), spawningLocation, spawnRotation);
+			AHomingRocket* bullet = world->SpawnActor<AHomingRocket>(AHomingRocket::StaticClass(), spawningLocation, spawnRotation);
+			bullet->InitialiseRocket(target);
 		}
 	}
 }

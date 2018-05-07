@@ -13,8 +13,76 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROPNAVIGATIONGAME_ShieldComponent_generated_h
 
-#define PropNavigationGame_Source_PropNavigationGame_ShieldComponent_h_13_RPC_WRAPPERS
-#define PropNavigationGame_Source_PropNavigationGame_ShieldComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define PropNavigationGame_Source_PropNavigationGame_ShieldComponent_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetReerShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetReerShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetRightShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetRightShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLeftShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetLeftShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetFrontShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetFrontShieldStrength(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PropNavigationGame_Source_PropNavigationGame_ShieldComponent_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetReerShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetReerShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetRightShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetRightShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetLeftShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetLeftShieldStrength(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetFrontShieldStrength) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(float*)Z_Param__Result=this->GetFrontShieldStrength(); \
+		P_NATIVE_END; \
+	}
+
+
 #define PropNavigationGame_Source_PropNavigationGame_ShieldComponent_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUShieldComponent(); \

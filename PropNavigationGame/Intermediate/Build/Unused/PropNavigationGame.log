@@ -1,28 +1,24 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" cannot be imported again. It was already imported at "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". This is most likely a build authoring error. This subsequent import will be ignored. [M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.vcxproj]
-  Cleaning PropNavigationGameEditor Binaries...
-EXEC : error : System.IO.FileNotFoundException: Could not find file 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'.
-  File name: 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'
-     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-     at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
-     at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
-     at UnrealBuildTool.JsonObject.Read(String FileName)
-     at UnrealBuildTool.ProjectDescriptor.FromFile(String FileName)
-     at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName)
-     at UnrealBuildTool.UEBuildTarget.CreateTarget(TargetDescriptor Desc, String[] Arguments, Boolean bCompilingSingleFile)
-     at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
-  Creating makefile for PropNavigationGameEditor (no existing makefile)
-EXEC : error : System.IO.FileNotFoundException: Could not find file 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'.
-  File name: 'M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject'
-     at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
-     at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
-     at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
-     at System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
-     at UnrealBuildTool.JsonObject.Read(String FileName)
-     at UnrealBuildTool.ProjectDescriptor.FromFile(String FileName)
-     at UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName)
-     at UnrealBuildTool.UEBuildTarget.CreateTarget(TargetDescriptor Desc, String[] Arguments, Boolean bCompilingSingleFile)
-     at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(46,5): error MSB3073: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Rebuild.bat" PropNavigationGameEditor Win64 Development "M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\ProjectFiles\PropNavigationGame.uproject" -waitmutex" exited with code -1.
+﻿  Compiling game modules for hot reload
+  Parsing headers for PropNavigationGameEditor
+    Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PropNavigationGameEditor in 8.0024979 seconds
+  Performing 12 actions (4 in parallel)
+  PhaserComponent.gen.cpp
+  PropNavigationGame.init.gen.cpp
+  ShieldComponent.gen.cpp
+  PlayerShip.gen.cpp
+  EnemyShip.gen.cpp
+  ShieldComponent.cpp
+  PlayerShip.cpp
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(75): error C2660: 'UShieldComponent::IncrementShield': function does not take 1 arguments
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(81): error C2660: 'UShieldComponent::IncrementShield': function does not take 1 arguments
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(101): error C2660: 'UShieldComponent::IncrementShield': function does not take 1 arguments
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\ShieldComponent.cpp(195): error C4060: switch statement contains no 'case' or 'default' labels
+  PhaserComponent.cpp
+  HomingRocket.cpp
+  EnemyShip.cpp
+\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\HomingRocket.cpp(28): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+ERROR : UBT error : Failed to produce item: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Binaries\Win64\UE4Editor-PropNavigationGame-5024.dll
+  Total build time: 19.49 seconds (Local executor: 0.00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" PropNavigationGameEditor Win64 Development "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

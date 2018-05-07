@@ -1,0 +1,1017 @@
+﻿Log file open, 04/29/18 13:56:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: PropNavigationGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2049937904) SRandInit(-2049937904).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.187728
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.29-12.56.24:042][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.29-12.56.24:042][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.29-12.56.24:129][  0]LogInit: Computer: MC11594
+[2018.04.29-12.56.24:129][  0]LogInit: User: 1503395
+[2018.04.29-12.56.24:129][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.29-12.56.24:129][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2018.04.29-12.56.24:130][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.29-12.56.24:130][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.29-12.56.24:130][  0]LogMemory: Process Physical Memory: 278.56 MB used, 278.56 MB peak
+[2018.04.29-12.56.24:130][  0]LogMemory: Process Virtual Memory: 282.24 MB used, 282.24 MB peak
+[2018.04.29-12.56.24:130][  0]LogMemory: Physical Memory: 4680.25 MB used,  27956.03 MB free, 32636.29 MB total
+[2018.04.29-12.56.24:130][  0]LogMemory: Virtual Memory: 709.68 MB used,  27956.03 MB free, 134217728.00 MB total
+[2018.04.29-12.56.24:413][  0]LogInit: Using OS detected language (en-US).
+[2018.04.29-12.56.24:413][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.29-12.56.24:417][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.29-12.56.25:198][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.29-12.56.25:247][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.04.29-12.56.25:247][  0]LogD3D11RHI:       8088/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.29-12.56.25:255][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.04.29-12.56.25:255][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.04.29-12.56.25:258][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.29-12.56.25:258][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.29-12.56.25:258][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.29-12.56.25:264][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.29-12.56.25:264][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.29-12.56.25:264][  0]LogWindows: EnumDisplayDevices:
+[2018.04.29-12.56.25:264][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.04.29-12.56.25:264][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.29-12.56.25:264][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.04.29-12.56.25:264][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.04.29-12.56.25:265][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.29-12.56.25:265][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.29-12.56.25:265][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.29-12.56.25:265][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.29-12.56.25:265][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.04.29-12.56.25:265][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.29-12.56.25:265][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.29-12.56.25:265][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.29-12.56.25:287][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.29-12.56.25:302][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.29-12.56.25:347][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Intermediate/Shaders/WorkingDirectory/10168/).
+[2018.04.29-12.56.25:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1503395/AppData/Local/Temp/UnrealShaderWorkingDir/FA46D9C043F10D751081019196EC4ACD/'.
+[2018.04.29-12.56.25:347][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.29-12.56.26:310][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.29-12.56.26:396][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.29-12.56.26:471][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.29-12.56.26:548][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.29-12.56.26:625][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.29-12.56.26:706][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.29-12.56.26:803][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.29-12.56.26:880][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.29-12.56.26:952][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.29-12.56.27:033][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.29-12.56.27:112][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.29-12.56.27:196][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.29-12.56.27:275][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.29-12.56.27:355][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.29-12.56.27:436][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.29-12.56.27:591][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.29-12.56.27:591][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.29-12.56.27:655][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.29-12.56.27:781][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.29-12.56.27:842][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.29-12.56.27:946][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.29-12.56.28:029][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.29-12.56.28:106][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.29-12.56.28:191][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.29-12.56.28:192][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.29-12.56.28:906][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.29-12.56.28:975][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.29-12.56.28:975][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.29-12.56.28:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.29-12.56.28:976][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.29-12.56.28:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.29-12.56.28:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.29-12.56.28:991][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.29-12.56.29:004][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1503395/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.29-12.56.29:013][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.29-12.56.29:014][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.29-12.56.29:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.29-12.56.29:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.29-12.56.30:259][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2018.04.29-12.56.30:472][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.29-12.56.30:653][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.29-12.56.31:065][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.29-12.56.31:132][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.29-12.56.31:132][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.29-12.56.31:132][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.29-12.56.31:132][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.29-12.56.31:132][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.29-12.56.31:525][  0]LogNetVersion: PropNavigationGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1685960384)
+[2018.04.29-12.56.32:059][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.309794 seconds
+[2018.04.29-12.56.32:067][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.29-12.56.32:067][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.29-12.56.32:067][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.29-12.56.32:163][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.29-12.56.36:019][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.29-12.56.36:074][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.29-12.56.36:075][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.36:910][  0]LogMaterial: Missing cached shader map for material M_Basic_Wall, compiling. 
+[2018.04.29-12.56.37:091][  0]LogTexture: Display: Building textures: BaseBeam (AutoDXT, 256X256)
+[2018.04.29-12.56.37:091][  0]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2018.04.29-12.56.38:145][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.977 s
+[2018.04.29-12.56.38:145][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.29-12.56.38:145][  0]LogOutputDevice: Error: 
+[2018.04.29-12.56.38:145][  0]LogOutputDevice: Error: Ensure condition failed: MyOwnerWorld [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 1022]
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: 
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: Stack: 
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1E035F6
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1B8C2C2
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1BA4736
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000ECA5987B
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-1539.dll!UPhaserComponent::UPhaserComponent() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\phasercomponent.cpp:24]
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000F9E0A442
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000FA07324B
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000FA056C73
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000F9E0C157
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1A28210
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1C768C0
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000000117E06D
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000000117E37E
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F64B1
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41FA7BD
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F379A
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F39EA
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D42002D9
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D4201C47
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: KERNEL32.DLL!0x0000000027801FE4
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: ntdll.dll!0x0000000029D7F061
+[2018.04.29-12.56.38:146][  0]LogOutputDevice: Error: 
+[2018.04.29-12.56.38:156][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.29-12.56.39:383][  0]LogStats:                    SendNewReport -  1.224 s
+[2018.04.29-12.56.39:383][  0]LogStats:             FDebug::EnsureFailed -  2.212 s
+[2018.04.29-12.56.39:387][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.003 s
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: 
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1672]
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: Stack: 
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1E035F6
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1B8C2C2
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1BA4736
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Engine.dll!0x00000000ECAF2438
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-PropNavigationGame-1539.dll!APlayerShip::APlayerShip() [\\stuhome\homedrive5$\1503395\github\gameplay-mechanics\propnavigationgame\source\propnavigationgame\playership.cpp:33]
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000F9E0A442
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000FA07324B
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000FA056C73
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!0x00000000F9E0C157
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1A28210
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000F1C768C0
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000000117E06D
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor-Projects.dll!0x000000000117E37E
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F64B1
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41FA7BD
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F379A
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D41F39EA
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D42002D9
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: UE4Editor.exe!0x00000000D4201C47
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: KERNEL32.DLL!0x0000000027801FE4
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: ntdll.dll!0x0000000029D7F061
+[2018.04.29-12.56.39:387][  0]LogOutputDevice: Error: 
+[2018.04.29-12.56.39:394][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.29-12.56.40:481][  0]LogStats:                    SendNewReport -  1.084 s
+[2018.04.29-12.56.40:481][  0]LogStats:             FDebug::EnsureFailed -  1.094 s
+[2018.04.29-12.56.41:086][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.29-12.56.42:106][  0]SourceControl: Source control is disabled
+[2018.04.29-12.56.42:106][  0]SourceControl: Source control is disabled
+[2018.04.29-12.56.42:239][  0]SourceControl: Source control is disabled
+[2018.04.29-12.56.42:364][  0]SourceControl: Source control is disabled
+[2018.04.29-12.56.43:802][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.29-12.56.44:431][  0]LogOcInput: OculusInput pre-init called
+[2018.04.29-12.56.45:041][  0]LogEngine: Initializing Engine...
+[2018.04.29-12.56.45:044][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.29-12.56.45:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.29-12.56.45:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.29-12.56.45:663][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.29-12.56.45:678][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.29-12.56.45:759][  0]LogInit: FAudioDevice initialized.
+[2018.04.29-12.56.45:886][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/1503395/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.29-12.56.45:894][  0]LogInit: Texture streaming: Enabled
+[2018.04.29-12.56.46:169][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.29-12.56.46:630][  0]LogInit: Transaction tracking system initialized
+[2018.04.29-12.56.47:251][  0]BlueprintLog: New page: Editor Load
+[2018.04.29-12.56.48:784][  0]LocalizationService: Localization service is disabled
+[2018.04.29-12.56.49:868][  0]LogConsoleResponse: Display: 
+[2018.04.29-12.56.50:095][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.29-12.56.50:095][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.29-12.56.50:095][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.29-12.56.51:137][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' took 0.02s
+[2018.04.29-12.56.51:770][  0]SourceControl: Source control is disabled
+[2018.04.29-12.56.51:770][  0]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.29-12.56.51:774][  0]LightingResults: New page: Lighting Build
+[2018.04.29-12.56.51:837][  0]MapCheck: New page: Map Check
+[2018.04.29-12.56.51:837][  0]LightingResults: New page: Lighting Build
+[2018.04.29-12.56.52:056][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.29-12.56.52:057][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.04.29-12.56.52:057][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.04.29-12.56.52:608][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.29-12.56.52:609][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading //StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarterContent/Maps/Minimal_Default.umap.
+[2018.04.29-12.56.52:609][  0]LoadErrors: Error: /Game/StarterContent/Maps/Minimal_Default : Can't find file for asset. /Game/StarterContent/Maps/Minimal_Default_BuiltData
+[2018.04.29-12.56.52:775][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.29-12.56.52:775][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.29-12.56.52:776][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.29-12.56.52:776][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.29-12.56.52:784][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Maps/Minimal_Default_BuiltData'
+[2018.04.29-12.56.52:784][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.04.29-12.56.52:784][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Maps/Minimal_Default_BuiltData' while loading NULL.
+[2018.04.29-12.56.52:784][  0]LoadErrors: Failed to load /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData Referenced by PersistentLevel
+[2018.04.29-12.56.52:870][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2018.04.29-12.56.52:871][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2018.04.29-12.56.53:145][  0]LogMaterial: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2018.04.29-12.56.53:298][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.29-12.56.53:353][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.29-12.56.53:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.29-12.56.53:524][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 157.632ms to complete.
+[2018.04.29-12.56.53:525][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.750
+[2018.04.29-12.56.53:732][  0]LogCollectionManager: Loaded 0 collections in 0.006887 seconds
+[2018.04.29-12.56.53:884][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' took 0.01s
+[2018.04.29-12.56.53:884][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' took 0.01s
+[2018.04.29-12.56.53:884][  0]LogFileCache: Scanning file cache for directory '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' took 0.01s
+[2018.04.29-12.56.53:884][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.29-12.56.53:900][  0]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2396 classes and 502 folders.
+[2018.04.29-12.56.54:069][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0041 seconds. Added 0 classes and 0 folders.
+[2018.04.29-12.56.54:209][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0041 seconds. Added 0 classes and 0 folders.
+[2018.04.29-12.56.54:339][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0037 seconds. Added 1 classes and 2 folders.
+[2018.04.29-12.56.54:383][  0]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.29-12.56.54:385][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.29-12.56.54:393][  0]LogSlate: Took 0.001719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.29-12.56.54:527][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.29-12.56.55:033][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2018.04.29-12.56.55:033][  0]LogLoad: (Engine Initialization) Total time: 36.39 seconds
+[2018.04.29-12.56.55:033][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.29-12.56.55:034][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.29-12.56.55:390][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:393][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/', and we were unable to create a new request.
+[2018.04.29-12.56.55:393][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:393][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:393][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:393][  0]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:396][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.29-12.56.55:715][  1]LogAssetRegistry: Asset discovery search completed in 25.4064 seconds
+[2018.04.29-12.56.55:717][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.29-12.56.55:717][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.04.29-12.56.55:717][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:719][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Saved/Collections/', and we were unable to create a new request.
+[2018.04.29-12.56.55:719][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:719][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Binaries/Win64', and we were unable to create a new request.
+[2018.04.29-12.56.55:719][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:726][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Developers/1503395/Collections/', and we were unable to create a new request.
+[2018.04.29-12.56.55:726][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.04.29-12.56.55:727][  1]LogDirectoryWatcher: A directory notification failed for '//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/Collections/', and we were unable to create a new request.
+[2018.04.29-12.56.56:388][  3]LogSlate: Took 0.008224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.29-12.56.59:735][ 13]LogSlate: Took 0.000568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.29-12.57.56:369][647]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.29-12.57.57:023][647]LogTexture: Display: Building textures: D-7C_2 (AutoDXT, 512X512)
+[2018.04.29-12.57.57:023][647]LogTexture: Display: Building textures: gradientMiddle (BGRA8, 225X225)
+[2018.04.29-12.57.57:023][647]LogMaterial: Missing cached shader map for material ShieldCircleMaterial, compiling. 
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: D-7C_5 (AutoDXT, 1024X1024)
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: Circle (AutoDXT, 1024X1024)
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: 57d0488a295555b9425252a5755880e9 (AutoDXT, 420X420)
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: D-7C_1 (AutoDXT, 512X512)
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: klingon (AutoDXT, 512X512)
+[2018.04.29-12.57.57:259][647]LogTexture: Display: Building textures: shield (AutoDXT, 512X512)
+[2018.04.29-12.57.57:259][647]LogMaterial: Missing cached shader map for material d_7c_6, compiling. 
+[2018.04.29-12.57.57:309][647]LogTexture: Display: Building textures: D-7C_4 (AutoDXT, 512X512)
+[2018.04.29-12.57.57:310][647]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.29-12.57.57:324][647]LogMaterial: Missing cached shader map for material d_7c_7, compiling. 
+[2018.04.29-12.57.57:370][647]LogTexture: Display: Building textures: D-7C_6 (AutoDXT, 1024X1024)
+[2018.04.29-12.57.57:370][647]LogMaterial: Missing cached shader map for material ShieldCircleMaterial, compiling. 
+[2018.04.29-12.57.57:787][647]LogTexture: Display: Building textures: D-7C_3 (AutoDXT, 1024X320)
+[2018.04.29-12.57.57:795][647]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.04.29-12.57.57:847][647]LogMaterial: Missing cached shader map for material d_7c_9, compiling. 
+[2018.04.29-12.58.00:243][647]LogTexture: Display: Building textures: SpaceCubeMap2048 (BGRA8, 2048X2048)
+[2018.04.29-12.58.00:332][647]LogMaterial: Missing cached shader map for material SkyboxMaterial, compiling. 
+[2018.04.29-12.58.00:369][647]LogMaterial: Missing cached shader map for material d_7c_5, compiling. 
+[2018.04.29-12.58.00:417][647]LogMaterial: Missing cached shader map for material d_7c_10, compiling. 
+[2018.04.29-12.58.00:475][647]LogMaterial: Missing cached shader map for material d_7c_12, compiling. 
+[2018.04.29-12.58.00:524][647]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.29-12.58.00:557][647]Cmd: MAP LOAD FILE="//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/Content/StarTrekMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.29-12.58.00:557][647]LightingResults: New page: Lighting Build
+[2018.04.29-12.58.00:558][647]LoadErrors: New page: Loading map: StarTrekMap.umap
+[2018.04.29-12.58.00:560][647]MapCheck: New page: Map Check
+[2018.04.29-12.58.00:560][647]LightingResults: New page: Lighting Build
+[2018.04.29-12.58.00:585][647]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.29-12.58.00:639][647]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.29-12.58.00:826][647]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 186.573ms to complete.
+[2018.04.29-12.58.00:827][647]LogFileHelpers: Loading map 'StarTrekMap' took 0.272
+[2018.04.29-13.03.37:163][697]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.29-13.03.38:499][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-13.03.38:500][697]PIE: New page: PIE session: StarTrekMap (29 Apr 2018 15:03:38)
+[2018.04.29-13.03.38:500][697]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.29-13.03.38:502][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002634s)
+[2018.04.29-13.03.38:503][697]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.29-13.03.38:503][697]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.04.29-13.03.38:504][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003911s)
+[2018.04.29-13.03.38:517][697]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.29-13.03.38:568][697]LogInit: FAudioDevice initialized.
+[2018.04.29-13.03.38:614][697]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.29-13.03.38:619][697]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.29-14.03.38
+[2018.04.29-13.03.38:619][697]LogWorld: Bringing up level for play took: 0.003458
+[2018.04.29-13.03.38:742][697]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0136 seconds. Added 11 classes and 0 folders.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.29-13.03.38:743][697]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.29-13.03.38:745][697]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.125
+[2018.04.29-13.03.38:758][697]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.03.38:758][697]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.03.38:758][697]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.03.38:758][697]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.03.38:758][697]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.03.38:784][698]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.03.38:784][698]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.03.38:784][698]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.03.38:784][698]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.03.38:784][698]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.03.38:794][699]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.03.38:794][699]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.03.38:795][699]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.03.38:795][699]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.03.38:795][699]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.03.38:803][700]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.03.38:803][700]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.SpaceUI_C_0
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.03.46:658][624]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.03.47:332][705]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.03.52:036][269]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.03.52:552][331]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.04.02:365][801]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.04.03:122][890]LogTemp: Warning: Hit Actor: IKS_Bortas.
+[2018.04.29-13.04.03:122][890]LogTemp: Warning: Targeted Actor: IKS_Bortas.
+[2018.04.29-13.05.46:679][603]LogTemp: Warning: Hit Actor: IKS_Bortas.
+[2018.04.29-13.05.46:679][603]LogTemp: Warning: Targeted Actor: IKS_Bortas.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Angle of Fire =: 12.281449.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Angle of Fire =: 12.281449.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Angle of Fire =: 12.281449.
+[2018.04.29-13.05.46:878][627]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.47:881][747]LogTemp: Warning: invisible
+[2018.04.29-13.05.47:881][747]LogTemp: Warning: invisible
+[2018.04.29-13.05.47:881][747]LogTemp: Warning: invisible
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Angle of Fire =: 4.194336.
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Angle of Fire =: 4.194336.
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Angle of Fire =: 4.194336.
+[2018.04.29-13.05.49:215][907]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.50:216][ 27]LogTemp: Warning: invisible
+[2018.04.29-13.05.50:216][ 27]LogTemp: Warning: invisible
+[2018.04.29-13.05.50:216][ 27]LogTemp: Warning: invisible
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Angle of Fire =: 322.576255.
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Angle of Fire =: 322.576255.
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Angle of Fire =: 322.576255.
+[2018.04.29-13.05.51:140][138]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.52:144][258]LogTemp: Warning: invisible
+[2018.04.29-13.05.52:144][258]LogTemp: Warning: invisible
+[2018.04.29-13.05.52:144][258]LogTemp: Warning: invisible
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Angle of Fire =: 289.076018.
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Angle of Fire =: 289.076018.
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Angle of Fire =: 289.076018.
+[2018.04.29-13.05.52:444][294]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.53:444][414]LogTemp: Warning: invisible
+[2018.04.29-13.05.53:444][414]LogTemp: Warning: invisible
+[2018.04.29-13.05.53:444][414]LogTemp: Warning: invisible
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Angle of Fire =: 228.438393.
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Angle of Fire =: 228.438393.
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Angle of Fire =: 228.438393.
+[2018.04.29-13.05.54:403][529]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.55:403][649]LogTemp: Warning: invisible
+[2018.04.29-13.05.55:403][649]LogTemp: Warning: invisible
+[2018.04.29-13.05.55:403][649]LogTemp: Warning: invisible
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Angle of Fire =: 199.062621.
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Angle of Fire =: 199.062621.
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Angle of Fire =: 199.062621.
+[2018.04.29-13.05.55:578][670]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Angle of Fire =: 185.505568.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Angle of Fire =: 185.505568.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Angle of Fire =: 185.505568.
+[2018.04.29-13.05.56:144][738]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:578][790]LogTemp: Warning: invisible
+[2018.04.29-13.05.56:578][790]LogTemp: Warning: invisible
+[2018.04.29-13.05.56:578][790]LogTemp: Warning: invisible
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Angle of Fire =: 175.879245.
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Angle of Fire =: 175.879245.
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Angle of Fire =: 175.879245.
+[2018.04.29-13.05.56:752][811]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.57:752][931]LogTemp: Warning: invisible
+[2018.04.29-13.05.57:752][931]LogTemp: Warning: invisible
+[2018.04.29-13.05.57:752][931]LogTemp: Warning: invisible
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Angle of Fire =: 267.094314.
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Angle of Fire =: 267.094314.
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Angle of Fire =: 267.094314.
+[2018.04.29-13.05.58:236][989]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.05.59:211][106]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.05.59:236][109]LogTemp: Warning: invisible
+[2018.04.29-13.05.59:236][109]LogTemp: Warning: invisible
+[2018.04.29-13.05.59:236][109]LogTemp: Warning: invisible
+[2018.04.29-13.06.00:136][217]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.06.00:871][305]LogTemp: Warning: Hit Actor: IKS_Bortas.
+[2018.04.29-13.06.00:871][305]LogTemp: Warning: Targeted Actor: IKS_Bortas.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Angle of Fire =: 355.726767.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Angle of Fire =: 355.726767.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Angle of Fire =: 355.726767.
+[2018.04.29-13.06.01:070][329]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.02:071][449]LogTemp: Warning: invisible
+[2018.04.29-13.06.02:071][449]LogTemp: Warning: invisible
+[2018.04.29-13.06.02:071][449]LogTemp: Warning: invisible
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Angle of Fire =: 55.949042.
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Angle of Fire =: 55.949042.
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Angle of Fire =: 55.949042.
+[2018.04.29-13.06.02:612][514]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Angle of Fire =: 89.542128.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Angle of Fire =: 89.542128.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Angle of Fire =: 89.542128.
+[2018.04.29-13.06.03:304][597]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.03:612][634]LogTemp: Warning: invisible
+[2018.04.29-13.06.03:612][634]LogTemp: Warning: invisible
+[2018.04.29-13.06.03:612][634]LogTemp: Warning: invisible
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Angle of Fire =: 155.991208.
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Angle of Fire =: 155.991208.
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Angle of Fire =: 155.991208.
+[2018.04.29-13.06.04:470][737]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.05:470][857]LogTemp: Warning: invisible
+[2018.04.29-13.06.05:470][857]LogTemp: Warning: invisible
+[2018.04.29-13.06.05:470][857]LogTemp: Warning: invisible
+[2018.04.29-13.06.17:503][301]LogTemp: Warning: Hit Actor: IKS_Groth.
+[2018.04.29-13.06.17:503][301]LogTemp: Warning: Targeted Actor: IKS_Groth.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Angle of Fire =: 102.442877.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Angle of Fire =: 102.442877.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Angle of Fire =: 102.442877.
+[2018.04.29-13.06.17:819][339]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.18:819][459]LogTemp: Warning: invisible
+[2018.04.29-13.06.18:819][459]LogTemp: Warning: invisible
+[2018.04.29-13.06.18:819][459]LogTemp: Warning: invisible
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Angle of Fire =: 75.448496.
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Angle of Fire =: 75.448496.
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Angle of Fire =: 75.448496.
+[2018.04.29-13.06.19:544][546]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.20:544][666]LogTemp: Warning: invisible
+[2018.04.29-13.06.20:544][666]LogTemp: Warning: invisible
+[2018.04.29-13.06.20:544][666]LogTemp: Warning: invisible
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Angle of Fire =: 89.823907.
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Angle of Fire =: 89.823907.
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Angle of Fire =: 89.823907.
+[2018.04.29-13.06.21:627][796]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.22:628][916]LogTemp: Warning: invisible
+[2018.04.29-13.06.22:628][916]LogTemp: Warning: invisible
+[2018.04.29-13.06.22:628][916]LogTemp: Warning: invisible
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Angle of Fire =: 154.611493.
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Angle of Fire =: 154.611493.
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Angle of Fire =: 154.611493.
+[2018.04.29-13.06.23:485][ 19]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.24:485][139]LogTemp: Warning: invisible
+[2018.04.29-13.06.24:485][139]LogTemp: Warning: invisible
+[2018.04.29-13.06.24:485][139]LogTemp: Warning: invisible
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Angle of Fire =: 196.250750.
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Angle of Fire =: 196.250750.
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Angle of Fire =: 196.250750.
+[2018.04.29-13.06.24:686][163]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.25:687][283]LogTemp: Warning: invisible
+[2018.04.29-13.06.25:687][283]LogTemp: Warning: invisible
+[2018.04.29-13.06.25:687][283]LogTemp: Warning: invisible
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Angle of Fire =: 239.676637.
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Angle of Fire =: 239.676637.
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Angle of Fire =: 239.676637.
+[2018.04.29-13.06.26:145][338]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.27:145][458]LogTemp: Warning: invisible
+[2018.04.29-13.06.27:145][458]LogTemp: Warning: invisible
+[2018.04.29-13.06.27:145][458]LogTemp: Warning: invisible
+[2018.04.29-13.06.27:594][512]LogTemp: Warning: Angle of Fire =: 276.704132.
+[2018.04.29-13.06.27:595][512]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.27:595][512]LogTemp: Warning: Angle of Fire =: 276.704132.
+[2018.04.29-13.06.27:595][512]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.27:595][512]LogTemp: Warning: Angle of Fire =: 276.704132.
+[2018.04.29-13.06.27:595][512]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.28:595][632]LogTemp: Warning: invisible
+[2018.04.29-13.06.28:595][632]LogTemp: Warning: invisible
+[2018.04.29-13.06.28:595][632]LogTemp: Warning: invisible
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Angle of Fire =: 307.564054.
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Angle of Fire =: 307.564054.
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Angle of Fire =: 307.564054.
+[2018.04.29-13.06.28:895][668]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Angle of Fire =: 329.930749.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Angle of Fire =: 329.930749.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Angle of Fire =: 329.930749.
+[2018.04.29-13.06.29:578][750]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.29:895][788]LogTemp: Warning: invisible
+[2018.04.29-13.06.29:895][788]LogTemp: Warning: invisible
+[2018.04.29-13.06.29:895][788]LogTemp: Warning: invisible
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Angle of Fire =: 16.204101.
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Angle of Fire =: 16.204101.
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Angle of Fire =: 16.204101.
+[2018.04.29-13.06.30:519][863]LogTemp: Warning: Clamped Rotation =: P=0.000000 Y=0.000000 R=0.000000.
+[2018.04.29-13.06.31:519][983]LogTemp: Warning: invisible
+[2018.04.29-13.06.31:520][983]LogTemp: Warning: invisible
+[2018.04.29-13.06.31:520][983]LogTemp: Warning: invisible
+[2018.04.29-13.08.39:283][914]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.29-13.08.39:302][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-13.08.39:302][914]PIE: New page: PIE session: StarTrekMap (29 Apr 2018 15:08:39)
+[2018.04.29-13.08.39:302][914]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.29-13.08.39:305][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002900s)
+[2018.04.29-13.08.39:306][914]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.29-13.08.39:306][914]LogPlayLevel: PIE: World Init took: (0.001099s)
+[2018.04.29-13.08.39:307][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.004294s)
+[2018.04.29-13.08.39:318][914]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.29-13.08.39:364][914]LogInit: FAudioDevice initialized.
+[2018.04.29-13.08.39:404][914]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.29-13.08.39:414][914]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.29-14.08.39
+[2018.04.29-13.08.39:415][914]LogWorld: Bringing up level for play took: 0.007981
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.29-13.08.39:417][914]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.29-13.08.39:418][914]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.29-13.08.39:418][914]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.29-13.08.39:420][914]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.85
+[2018.04.29-13.08.39:435][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.08.39:435][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.08.39:435][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.08.39:435][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.08.39:435][914]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.08.39:455][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.08.39:455][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.08.39:455][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.08.39:455][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.08.39:455][915]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.08.39:464][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.08.39:465][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.08.39:465][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.08.39:465][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.08.39:465][916]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.08.39:474][917]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.08.39:474][917]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.SpaceUI_C_1
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.08.45:623][594]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0032 seconds. Added 113 classes and 0 folders.
+[2018.04.29-13.08.46:242][594]LogSlate: Took 0.001867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.29-13.08.46:300][595]LogSlate: Took 0.002218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.29-13.09.00:140][899]BlueprintLog: New page: Compile SpaceUI
+[2018.04.29-13.09.02:770][104]BlueprintLog: New page: Compile SpaceUI
+[2018.04.29-13.09.05:113][272]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.29-13.09.05:149][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-13.09.05:150][272]PIE: New page: PIE session: StarTrekMap (29 Apr 2018 15:09:05)
+[2018.04.29-13.09.05:150][272]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.29-13.09.05:152][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2018.04.29-13.09.05:152][272]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.29-13.09.05:153][272]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.04.29-13.09.05:153][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.003474s)
+[2018.04.29-13.09.05:171][272]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.29-13.09.05:214][272]LogInit: FAudioDevice initialized.
+[2018.04.29-13.09.05:244][272]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.29-13.09.05:250][272]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.29-14.09.05
+[2018.04.29-13.09.05:251][272]LogWorld: Bringing up level for play took: 0.005111
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.29-13.09.05:252][272]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.29-13.09.05:253][272]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.29-13.09.05:255][272]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.689
+[2018.04.29-13.09.05:272][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.09.05:272][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.09.05:272][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.09.05:272][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.09.05:272][272]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.09.05:286][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.09.05:286][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.09.05:286][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.09.05:286][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.09.05:286][273]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.09.05:294][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.09.05:294][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.09.05:294][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.09.05:294][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.09.05:294][274]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.09.05:302][275]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.09.05:302][275]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SpaceUI_C_3
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.09.08:875][692]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2018.04.29-13.09.08:880][692]Candidate modules for hot reload:
+[2018.04.29-13.09.08:880][692]  PropNavigationGame
+[2018.04.29-13.09.08:881][692]Launching UnrealBuildTool... [C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe PropNavigationGame -ModuleWithSuffix PropNavigationGame 5535 Win64 Development -editorrecompile -canskiplink "//StuHome/HomeDrive5$/1503395/GitHub/Gameplay-Mechanics/PropNavigationGame/PropNavigationGame.uproject" ]
+[2018.04.29-13.09.08:883][692]Warning: Starting HotReload took  0.0s.
+[2018.04.29-13.09.41:361][  0]CompilerResultsLog: New page: Compilation - 29 Apr 2018 15:09:41
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog: Parsing headers for PropNavigationGameEditor
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog:   Running UnrealHeaderTool "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\PropNavigationGame.uproject" "\\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor\Development\PropNavigationGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog: Reflection code generated for PropNavigationGameEditor in 8.2018306 seconds
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog: Performing 24 actions (4 in parallel)
+[2018.04.29-13.09.41:362][  0]CompilerResultsLog: PropNavigationGame.init.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: PlayerShip.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: Bullet.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: ShieldComponent.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: PhaserComponent.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: HomingRocket.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: HealthComponent.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: FiringComponent.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: EnemyShip.gen.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: SpaceHUD.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: SpaceGameMode.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: ShieldComponent.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: PropNavigationGame.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: PlayerShip.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: PhaserComponent.cpp
+[2018.04.29-13.09.41:363][  0]CompilerResultsLog: HomingRocket.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\HomingRocket.cpp(28) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: HealthComponent.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: FiringComponent.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: EnemyShip.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: Bullet.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: Error: \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Source\PropNavigationGame\Bullet.cpp(26) : warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(612): note: see declaration of 'USceneComponent::AttachTo'
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: SpaceGameMode.gen.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: SpaceHUD.gen.cpp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: [23/24] Link UE4Editor-PropNavigationGame-5535.dll
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog: [24/24] Link UE4Editor-PropNavigationGame-5535.lib
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5535.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5535.exp
+[2018.04.29-13.09.41:364][  0]CompilerResultsLog:    Creating library \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5535.suppressed.lib and object \\StuHome\HomeDrive5$\1503395\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropNavigationGame-5535.suppressed.exp
+[2018.04.29-13.09.41:365][  0]CompilerResultsLog: Failed to write dependency cache: Access to the path 'C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor' is denied.
+[2018.04.29-13.09.41:365][  0]CompilerResultsLog: Failed to write FlatCPPIncludeDependencyCache: Access to the path 'C:\Users\Liam Maclean\Documents\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\PropNavigationGameEditor' is denied.
+[2018.04.29-13.09.41:365][  0]CompilerResultsLog: Total build time: 31.95 seconds (Local executor: 12.35 seconds)
+[2018.04.29-13.09.41:365][  0]LogMainFrame: MainFrame: Module compiling took 32.494 seconds
+[2018.04.29-13.09.41:717][  0]LogClass: Could not find existing class EnemyShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.29-13.09.41:717][  0]LogClass: Function OnOverlapBegin is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Could not find existing class PlayerShip in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetImpulseSpeed is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetShieldPercentage is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetTargetActor is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetTargetHealthStrength is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetTargetName is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetTargetShieldPercentage is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetTargetShieldStrength is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Could not find existing class ShieldComponent in package /Script/PropNavigationGame for HotReload, assuming new class
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetFrontShieldStrength is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetLeftShieldStrength is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetReerShieldStrength is new.
+[2018.04.29-13.09.41:722][  0]LogClass: Function GetRightShieldStrength is new.
+[2018.04.29-13.09.41:730][  0]LogHotReload: Re-instancing EnemyShip after hot-reload.
+[2018.04.29-13.09.41:739][  0]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Engine/Transient.REINST_TestBlueprintEnemy_C_43:Default__TestBlueprintEnemy_C.Shield Component
+[2018.04.29-13.09.41:740][  0]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_0.Shield Component
+[2018.04.29-13.09.41:741][  0]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_2.Shield Component
+[2018.04.29-13.09.41:742][  0]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_4.Shield Component
+[2018.04.29-13.09.41:743][  0]LogProperty: Warning: Serialized Class /Engine/Transient.HOTRELOADED_ShieldComponent_2 for a property of Class /Script/PropNavigationGame.ShieldComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/PropNavigationGame.EnemyShip:shieldComponent
+    Item = HOTRELOADED_ShieldComponent_2 /Game/StarTrekMap.StarTrekMap:PersistentLevel.REINST_TestBlueprintEnemy_C_6.Shield Component
+[2018.04.29-13.09.42:157][  0]LogHotReload: Re-instancing PlayerShip after hot-reload.
+[2018.04.29-13.09.42:191][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:191][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:193][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:193][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:194][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:194][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:194][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:194][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:195][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:195][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:195][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:195][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:196][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  As Star Trek Player Ship  and  Target : Star Trek Player Ship Object Reference is not compatible with Player Ship Object Reference.
+[2018.04.29-13.09.42:196][  0]LogBlueprint: Error: [Compiler SpaceUI] Can't connect pins  Target  and  As Star Trek Player Ship : Player Ship Object Reference is not compatible with Star Trek Player Ship Object Reference.
+[2018.04.29-13.09.42:198][  0]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseQuarter ': Binding: 'Get_ImpulseQuarter_BrushColor_0' : 'Get_ImpulseQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.29-13.09.42:199][  0]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseHalf ': Binding: 'Get_ImpulseHalf_BrushColor_0' : 'Get_ImpulseHalf_BrushColor_0' was not found on 'Space UI'.
+[2018.04.29-13.09.42:199][  0]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseThreeQuarter ': Binding: 'Get_ImpulseThreeQuarter_BrushColor_0' : 'Get_ImpulseThreeQuarter_BrushColor_0' was not found on 'Space UI'.
+[2018.04.29-13.09.42:199][  0]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' BrushColorDelegate ' on Widget ' ImpulseFull ': Binding: 'Get_ImpulseFull_BrushColor_0' : 'Get_ImpulseFull_BrushColor_0' was not found on 'Space UI'.
+[2018.04.29-13.09.42:199][  0]LogBlueprint: Error: [Compiler SpaceUI] Binding: Property ' ColorAndOpacityDelegate ' on Widget ' Image_437 ': Binding: 'GetColorAndOpacity_0' : 'GetColorAndOpacity_0' was not found on 'Space UI'.
+[2018.04.29-13.09.42:255][  0]LogBlueprint: Warning: [Compiler SpaceUI] [0803.58] Compile of SpaceUI failed. 19 Fatal Issue(s) 0 Warning(s) [in 96 ms] (/Game/UIAndWidgets/SpaceUI.SpaceUI)
+[2018.04.29-13.09.42:480][  0]LogHotReload: Re-instancing ShieldComponent after hot-reload.
+[2018.04.29-13.09.42:563][  0]LogContentBrowser: Native class hierarchy updated for 'PropNavigationGame' in 0.0029 seconds. Added 10 classes and 2 folders.
+[2018.04.29-13.09.42:565][  0]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.29-13.09.42:873][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2398 classes and 506 folders.
+[2018.04.29-13.09.42:874][  0]Display: HotReload took 34.0s.
+[2018.04.29-13.09.53:255][149]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.29-13.09.53:285][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-13.09.59:386][335]BlueprintLog: New page: Compile SpaceUI
+[2018.04.29-13.10.02:808][572]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.29-13.10.02:842][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-13.10.02:842][572]PIE: New page: PIE session: StarTrekMap (29 Apr 2018 15:10:02)
+[2018.04.29-13.10.02:842][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StarTrekMap
+[2018.04.29-13.10.02:846][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003698s)
+[2018.04.29-13.10.02:847][572]LogAIModule: Creating AISystem for world StarTrekMap
+[2018.04.29-13.10.02:847][572]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2018.04.29-13.10.02:847][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarTrekMap.StarTrekMap to /Game/UEDPIE_0_StarTrekMap.StarTrekMap (0.005016s)
+[2018.04.29-13.10.02:869][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.29-13.10.02:926][572]LogInit: FAudioDevice initialized.
+[2018.04.29-13.10.02:965][572]LogLoad: Game class is 'MySpaceGameMode_C'
+[2018.04.29-13.10.02:976][572]LogWorld: Bringing World /Game/UEDPIE_0_StarTrekMap.StarTrekMap up for play (max tick rate 0) at 2018.04.29-14.10.02
+[2018.04.29-13.10.02:977][572]LogWorld: Bringing up level for play took: 0.009393
+[2018.04.29-13.10.02:979][572]LogTemp: Warning: Doesn't Contain: 0.000000.
+[2018.04.29-13.10.02:979][572]LogTemp: Warning: Doesn't Contain: FiringSocketLeft.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Targeted Actor: Phaser.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Doesn't Contain: EngineLeftSocket.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Doesn't Contain: EngineRightSocket.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Targeted Actor: Phaser_0.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Targeted Actor: Phaser_1.
+[2018.04.29-13.10.02:980][572]LogTemp: Warning: Doesn't Contain: ImpTop1.
+[2018.04.29-13.10.02:984][572]PIE: Play in editor start time for /Game/UEDPIE_0_StarTrekMap 0.424
+[2018.04.29-13.10.03:002][572]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.10.03:002][572]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.10.03:002][572]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.10.03:002][572]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.10.03:002][572]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.10.03:021][573]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.10.03:021][573]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.10.03:021][573]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.10.03:021][573]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.10.03:021][573]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.10.03:028][574]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.10.03:028][574]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.10.03:028][574]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0139
+[2018.04.29-13.10.03:028][574]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:016B
+[2018.04.29-13.10.03:028][574]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:019D
+[2018.04.29-13.10.03:036][575]LogScript: Warning: Accessed None trying to read property CallFunc_GetTargetActor_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:00CC
+[2018.04.29-13.10.03:036][575]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	SpaceUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.SpaceUI_C_6
+	Function /Game/UIAndWidgets/SpaceUI.SpaceUI_C:ExecuteUbergraph_SpaceUI:0107
+[2018.04.29-13.10.12:858][753]LogTemp: Warning: Didn't hit actor:
+[2018.04.29-13.10.13:150][788]LogTemp: Warning: Hit Actor: IKS_Vorn.
+[2018.04.29-13.10.13:150][788]LogTemp: Warning: Targeted Actor: IKS_Vorn.

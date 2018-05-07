@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Components/SphereComponent.h"
 #include "ShieldComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "HealthComponent.h"
 #include "EnemyShip.generated.h"
 
@@ -22,18 +23,27 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	//private functions 
+	//function to set in combat 
+	void SetInCombat(bool inCombat);
+
+	//function to increment combat timer and check state of combat
+	void IncrementInCombatTimer();
+
+	float m_timer;
+	bool m_InCombat;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	float timer;
-	bool InCombat;
-
 	UFUNCTION()
 	void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit);
-	void ApplyDamageTaken(int value);
-	void SetInCombat(bool inCombat);
-	void IncrementInCombatTimer();
+
+
+	void ApplyDamageTaken(int value, FVector location);
+
+	UPROPERTY(EditAnywhere)
+	USkeletalMeshComponent* skeleMesh;
 
 	UPROPERTY(EditAnywhere)
 	USphereComponent* sphereMesh;

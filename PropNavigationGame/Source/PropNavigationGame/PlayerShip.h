@@ -7,6 +7,7 @@
 #include "FiringComponent.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "PhaserComponent.h"
+#include "ShieldComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerShip.generated.h"
 
@@ -28,6 +29,71 @@ public:
 
 	// Sets default values for this pawn's properties
 	APlayerShip();
+private:
+
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		int GetTargetShieldStrength();
+
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		int GetTargetHealthStrength();
+
+	UFUNCTION(BlueprintPure, Category = "Personal Attributes")
+		float GetShieldPercentage();
+
+	UFUNCTION(BlueprintPure, Category = "Personal Attributes")
+		float GetTargetShieldPercentage();
+
+	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
+		float timeBetweenShots = 0.5f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
+		float maxTurningAngle = 40.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Movement|Acceleration and deceleration")
+		float maxForwardSpeed;
+
+	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
+		float maxTurningSpeed;
+
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+		float minCameraZoom;
+
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+		float maxCameraZoom;
+
+	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
+		float zoomSensitivity;
+
+
+	FVector2D mouseInput;
+	float currentMaxImpulseSpeed;
+	float newForwardVelocity;
+	float turningSpeed;
+	float turningSpeedUpDown;
+
+	TArray<FName> names;
+
+	//impulse speed, initialise as none so we're not moving
+	ImpulseSpeed impulseSpeed = None;
+	AEnemyShip* TargetedActor;
+
+	void IncreaseImpulseSpeed();
+	void DecreaseImpulseSpeed();
+	void ImpulseForwardBack(float axis);
+	void TurnRightLeft(float axis);
+	void MousePitch(float axis);
+	void MouseYaw(float axis);
+	void FirePhasers();
+	void FireMissile();
+	void ZoomCameraOut();
+	void ZoomCameraIn();
+	void CalculateCameraTurningWithMouse();
+	void CalculateShipMovement();
+	void CalculateShipTurningAngles();
+	void TurnShipUpDown(float axis);
+	void SendSocketsToFireComponents();
+
+	void TargetActorWithMouse();
 
 protected:
 	// Called when the game starts or when spawned
@@ -40,81 +106,26 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void IncreaseImpulseSpeed();
-	void DecreaseImpulseSpeed();
-	void ImpulseForwardBack(float axis);
-	void TurnRightLeft(float axis);
-	void MousePitch(float axis);
-	void MouseYaw(float axis);
-	void FirePhasers();
-	void FireMissile();
-	void ZoomCameraOut();
-	void ZoomCameraIn();
-
-	void CalculateCameraTurningWithMouse();
-	void CalculateShipMovement();
-	void CalculateShipTurningAngles();
-	void TurnShipUpDown(float axis);
-	void SendSocketsToFireComponents();
-
-	void TargetActorWithMouse();
-
-	//impulse speed, initialise as none so we're not moving
-	ImpulseSpeed impulseSpeed = None;
-
-
 	UFUNCTION(BlueprintPure, Category = "Target functions")
-	int GetTargetShieldStrength();
+	AActor* GetTargetActor()
+	{
+		return TargetedActor;
+	}
 
-	UFUNCTION(BlueprintPure, Category = "Target functions")
-	int GetTargetHealthStrength();
-
-	UFUNCTION(BlueprintPure, Category = "Target functions")
-	FName GetTargetName();
-
-	UFUNCTION(BlueprintPure, Category = "Target functions")
-	FName GetImpulseSpeed();
-
-
-	AEnemyShip* TargetedActor;
-
-	UPROPERTY(EditAnywhere, Category = "Shooting|Shooting Speed")
-	float timeBetweenShots = 0.5f;
-
-	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
-	float maxTurningAngle = 40.0f;
-
-	UPROPERTY(EditAnywhere, Category = "Movement|Acceleration and deceleration")
-	float maxForwardSpeed;
-
-	UPROPERTY(EditAnywhere, Category = "Movement|Rotation and turning")
-	float maxTurningSpeed;
-
-	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
-	float minCameraZoom;
-
-	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
-	float maxCameraZoom;
-
-	UPROPERTY(EditAnywhere, category = "Camera|Zoom")
-	float zoomSensitivity;
-
-	float currentMaxImpulseSpeed;
-	float newForwardVelocity;
-	float turningSpeed;
-	float turningSpeedUpDown;
 	
-	TArray<FName> names;
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		FName GetTargetName();
 
-
-	FVector2D mouseInput;
-
+	UFUNCTION(BlueprintPure, Category = "Target functions")
+		FName GetImpulseSpeed();
 	USceneComponent* sceneRoot;
 
 	UPROPERTY(EditAnywhere)
 	USpringArmComponent* springArm;
 
 	UCameraComponent* camera;
+
+	UShieldComponent* shieldComponent;
 
 	UPROPERTY(EditAnywhere)
 	TArray<UPhaserComponent*> phaserComponent;

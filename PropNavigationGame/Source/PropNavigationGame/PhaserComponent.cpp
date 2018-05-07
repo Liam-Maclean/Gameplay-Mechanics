@@ -31,7 +31,7 @@ void UPhaserComponent::InitialiseComponent(float damageOverDurationValue, float 
 {
 	m_damageOverDurationValue = damageOverDurationValue;
 	m_coolDownInSeconds = coolDownInSeconds;
-	socketName = name;
+	m_socketName = name;
 	//skele_mesh = skelMesh;
 }
 
@@ -48,7 +48,7 @@ void UPhaserComponent::BeginPlay()
 	if (mesh.Num() > 0)
 	{
 		skele_mesh = mesh[0];
-		names = skele_mesh->GetAllSocketNames();
+		m_names = skele_mesh->GetAllSocketNames();
 	}
 }
 
@@ -59,10 +59,10 @@ void UPhaserComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	FRotator rotation;
-	skele_mesh->GetSocketWorldLocationAndRotation(socketName, spawningLocation, rotation);
-	phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
+	skele_mesh->GetSocketWorldLocationAndRotation(m_socketName, m_spawningLocation, rotation);
+	phaserEffect->SetBeamSourcePoint(0, m_spawningLocation, 0);
 
-	if (bPhaserActive)
+	if (m_bPhaserActive)
 	{
 		ToggleForSeconds(120);
 	}
@@ -79,22 +79,22 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 
 		//store the world location and rotation of the socket
 		FRotator rotation;
-		skele_mesh->GetSocketWorldLocationAndRotation(socketName, spawningLocation, rotation);
+		skele_mesh->GetSocketWorldLocationAndRotation(m_socketName, m_spawningLocation, rotation);
 		
 		//make the source point the socket 
-		phaserEffect->SetBeamSourcePoint(0, spawningLocation, 0);
-		phaserEffect->SetBeamSourcePoint(1, spawningLocation, 0);
+		phaserEffect->SetBeamSourcePoint(0, m_spawningLocation, 0);
+		phaserEffect->SetBeamSourcePoint(1, m_spawningLocation, 0);
 
 		//make the target point the target object and store latest target location
-		lastKnownTarget = target;
+		m_lastKnownTarget = target;
 		phaserEffect->SetBeamTargetPoint(0, target->GetActorLocation(), 0);
 		phaserEffect->SetBeamTargetPoint(1, target->GetActorLocation(), 0);
 
 		//Enable phasers
-		bPhaserActive = true;
+		m_bPhaserActive = true;
 
 		//cast to enemy ship
-		target->ApplyDamageTaken(m_damageOverDurationValue);
+		target->ApplyDamageTaken(m_damageOverDurationValue, skele_mesh->GetComponentLocation());
 	}
 }
 
@@ -103,18 +103,18 @@ void UPhaserComponent::FirePhasers(AEnemyShip* target)
 void UPhaserComponent::ToggleForSeconds(float seconds)
 {
 	//if the time hasn't elasped 
-	if (timerSeconds < seconds)
+	if (m_timerSeconds < seconds)
 	{
 		//turn on the phaser effect
 		phaserEffect->SetVisibility(true);
 
 		//Set the beams target point to the last known target selected
-		phaserEffect->SetBeamTargetPoint(0, lastKnownTarget->GetActorLocation(), 0);
+		phaserEffect->SetBeamTargetPoint(0, m_lastKnownTarget->GetActorLocation(), 0);
 	
 		//increment timer
-		timerSeconds++;
-		UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
-		UE_LOG(LogTemp, Warning, TEXT("Visibible"));
+		m_timerSeconds++;
+		//UE_LOG(LogTemp, Warning, TEXT("last Known Target location=: %s."), *lastKnownTarget->GetActorLocation().ToString());
+		//UE_LOG(LogTemp, Warning, TEXT("Visibible"));
 	
 	}
 	//if the time has elapsed
@@ -124,10 +124,10 @@ void UPhaserComponent::ToggleForSeconds(float seconds)
 		phaserEffect->SetVisibility(false);
 
 		//Reset timer for the next phaser fired
-		timerSeconds = 0.0f;
+		m_timerSeconds = 0.0f;
 
 		//set the phaser active to false
-		bPhaserActive = false;
+		m_bPhaserActive = false;
 
 		UE_LOG(LogTemp, Warning, TEXT("invisible"));
 	}

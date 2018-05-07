@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\PropNavigationGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{9EDFF1D7-838E-4664-A4CA-8616FC03F6B4}</UniqueIdentifier>
+			<UniqueIdentifier>{B0D6312E-F0E3-4612-A2A1-F776E742854A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\PropNavigationGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{DE250CE5-9FE0-42A3-9703-B194A6FFA418}</UniqueIdentifier>
+			<UniqueIdentifier>{F63D6D51-E261-4BB1-B88B-BE95D5FCD3E1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -28,8 +28,20 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\PropNavigationGame">
-			<UniqueIdentifier>{F00B9DF4-E476-484D-AB39-3B783B5BDE8A}</UniqueIdentifier>
+			<UniqueIdentifier>{51E6214F-BAF5-4B01-8771-B9D80F1E3DAB}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\PropNavigationGame\BaseShip.cpp">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PropNavigationGame\BaseShip.h">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PropNavigationGame\BaseWeaponComponent.cpp">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PropNavigationGame\BaseWeaponComponent.h">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\PropNavigationGame\Bullet.cpp">
 			<Filter>Source\PropNavigationGame</Filter>
 		</ClCompile >
@@ -97,6 +109,12 @@
 			<Filter>Source\PropNavigationGame</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\PropNavigationGame\SpaceHUD.h">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PropNavigationGame\WeaponSlotComponent.cpp">
+			<Filter>Source\PropNavigationGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PropNavigationGame\WeaponSlotComponent.h">
 			<Filter>Source\PropNavigationGame</Filter>
 		</ClInclude >
 	</ItemGroup>

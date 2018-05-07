@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PropNavigationGame-8993-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\BaseShip.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\BaseWeaponComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\Bullet.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\EnemyShip.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\FiringComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\HealthComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\HomingRocket.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\PhaserComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\PlayerShip.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\PropNavigationGame.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\ShieldComponent.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\SpaceGameMode.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\SpaceHUD.cpp.obj"
+"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\PropNavigationGame\WeaponSlotComponent.cpp.obj"
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\PropNavigationGame\PCLaunch.rc.res"
+"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"M:\GitHub\Gameplay-Mechanics\PropNavigationGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-PropNavigationGame-8993-Win64-DebugGame.lib"

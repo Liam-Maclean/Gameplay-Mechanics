@@ -2,14 +2,14 @@
 	"TargetName" : "PropNavigationGameEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "a87d5014-aacc-4b22-afd5-865cf459e7fc",
+	"BuildId" : "7d5229ac-d3e2-4191-ac6f-9a43d8706aee",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
 		"MinorVersion" : 17,
-		"PatchVersion" : 0,
-		"Changelist" : 3573198,
-		"CompatibleChangelist" : 0,
+		"PatchVersion" : 2,
+		"Changelist" : 3658906,
+		"CompatibleChangelist" : 3573198,
 		"IsLicenseeVersion" : 0,
 		"IsPromotedBuild" : 1,
 		"BranchName" : "++UE4+Release-4.17"
@@ -7902,6 +7902,13 @@
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3CookingPROFILE_x64.pdb",
 			"Type" : "DebugNonUFS"
+		}
+	],
+	"AdditionalProperties" :
+	[
+		{
+			"Name" : "SDK",
+			"Value" : "Not Applicable"
 		}
 	]
 }
